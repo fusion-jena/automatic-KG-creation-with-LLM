@@ -1,0 +1,113 @@
+
+
+@prefix dlprov: <https://w3id.org/dlprovenance#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+dlprov:DeepLearningPipeline\_1 rdf:type dlprov:DeepLearningPipeline.
+
+dlprov:DeepLearningPipeline\_1 dlprov:hasDataFormat dlprov:DataFormat\_1.
+dlprov:DeepLearningPipeline\_1 dlprov:hasDataFormat dlprov:DataFormat\_2.
+
+dlprov:DataFormat\_1 rdf:type dlprov:DataFormat.
+dlprov:DataFormat\_1 rdfs:label 'raw data'.
+
+dlprov:DataFormat\_2 rdf:type dlprov:DataFormat.
+dlprov:DataFormat\_2 rdfs:label 'preprocessed data'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:provides dlprov:Source\_1.
+
+dlprov:Source\_1 rdf:type dlprov:Source.
+dlprov:Source\_1 rdfs:label 'Macaulay Library'.
+
+dlprov:Source\_1 dlprov:provides dlprov:InputData\_1.
+dlprov:Source\_1 dlprov:provides dlprov:InputData\_2.
+
+dlprov:InputData\_1 rdf:type dlprov:InputData.
+dlprov:InputData\_1 rdfs:label '20 recognized species of Platymantis'.
+
+dlprov:InputData\_2 rdf:type dlprov:InputData.
+dlprov:InputData\_2 rdfs:label '400 spectrograms'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:usesMethodTool dlprov:Method\_1.
+dlprov:DeepLearningPipeline\_1 dlprov:usesMethodTool dlprov:Tool\_1.
+
+dlprov:Method\_1 rdf:type dlprov:Method.
+dlprov:Method\_1 rdfs:label 'collection of Philippine frog advertisement calls'.
+
+dlprov:Tool\_1 rdf:type dlprov:Tool.
+dlprov:Tool\_1 rdfs:label 'large collection'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:hasRepositoryLink dlprov:RepositoryLink\_1.
+
+dlprov:RepositoryLink\_1 rdf:type dlprov:RepositoryLink.
+dlprov:RepositoryLink\_1 rdfs:label 'https://github.com/username/repository'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:involves dlprov:PreprocessingStep\_1.
+
+dlprov:PreprocessingStep\_1 rdf:type dlprov:PreprocessingStep.
+dlprov:PreprocessingStep\_1 rdfs:label 'preprocessing steps'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:discusses dlprov:Bias\_1.
+
+dlprov:Bias\_1 rdf:type dlprov:Bias.
+dlprov:Bias\_1 rdfs:label 'data bias'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:hasArchitecture dlprov:Architecture\_1.
+
+dlprov:Architecture\_1 rdf:type dlprov:Architecture.
+dlprov:Architecture\_1 rdfs:label 'Inception v3, a CNN implemented in TensorFlow with 48 layers'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:selectedBy dlprov:ModelSelectionProcess\_1.
+
+dlprov:ModelSelectionProcess\_1 rdf:type dlprov:ModelSelectionProcess.
+dlprov:ModelSelectionProcess\_1 dlprov:hasConsideration dlprov:Consideration\_1.
+
+dlprov:Consideration\_1 rdf:type dlprov:Consideration.
+dlprov:Consideration\_1 rdfs:label 'number of images per class assigned to a species present in the reference library'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:selectedBy dlprov:ModelSelectionProcess\_2.
+
+dlprov:ModelSelectionProcess\_2 rdf:type dlprov:ModelSelectionProcess.
+dlprov:ModelSelectionProcess\_2 dlprov:hasConsideration dlprov:Consideration\_2.
+
+dlprov:Consideration\_2 rdf:type dlprov:Consideration.
+dlprov:Consideration\_2 rdfs:label 'average certainty rate associated with those identifications'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:hasHyperparameter dlprov:Hyperparameter\_1.
+
+dlprov:Hyperparameter\_1 rdf:type dlprov:Hyperparameter.
+dlprov:Hyperparameter\_1 rdfs:label 'number of training steps'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:capturesUncertainty dlprov:UncertaintyConfidence\_1.
+
+dlprov:UncertaintyConfidence\_1 rdf:type dlprov:UncertaintyConfidence.
+dlprov:UncertaintyConfidence\_1 rdfs:label 'TensorFlow through the use of certainty rates'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:hasPostProcessing dlprov:PostProcessing\_1.
+
+dlprov:PostProcessing\_1 rdf:type dlprov:PostProcessing.
+dlprov:PostProcessing\_1 rdfs:label 'threshold and rounding to the nearest integer'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:updatedByRetraining dlprov:UpdateFrequency\_1.
+
+dlprov:UpdateFrequency\_1 rdf:type dlprov:UpdateFrequency.
+dlprov:UpdateFrequency\_1 rdfs:label 'every time the model is retrained with new data'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:takesIntoAccount dlprov:SensitiveData\_1.
+
+dlprov:SensitiveData\_1 rdf:type dlprov:SensitiveData.
+dlprov:SensitiveData\_1 rdfs:label 'potential for misidentification, impact on the privacy of individuals, and potential for misuse of the technology'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:addresses dlprov:BiasAddressing\_1.
+
+dlprov:BiasAddressing\_1 rdf:type dlprov:BiasAddressing.
+dlprov:BiasAddressing\_1 rdfs:label 'distributional data to create subsets of species'.
+
+dlprov:DeepLearningPipeline\_1 dlprov:hasTransparency dlprov:Transparency\_1.
+
+dlprov:Transparency\_1 rdf:type dlprov:Transparency.
+dlprov:Transparency\_1 rdfs:label 'testing the system extensively to minimize the risk of misidentification, anonymizing the data used to train the system to protect individual privacy, and implementing measures to prevent unauthorized access and use of the technology'.

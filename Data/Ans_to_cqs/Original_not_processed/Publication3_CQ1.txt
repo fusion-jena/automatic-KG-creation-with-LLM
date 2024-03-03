@@ -1,0 +1,17 @@
+ The deep learning pipeline typically involves the use of various data formats, including:  1. Raw
+data: This is the initial data format, which can be in various forms such as images, audio files,
+text files, etc. 2. Preprocessed data: This is the data format obtained after preprocessing the raw
+data. Preprocessing can involve various steps such as data cleaning, data augmentation,
+normalization, etc. 3. Training data: This is the data format used to train the deep learning model.
+It is typically a subset of the preprocessed data, and is used to train the model by adjusting the
+model's parameters to minimize the error between the predicted and actual values. 4. Validation
+data: This is the data format used to validate the deep learning model during the training process.
+It is a subset of the preprocessed data that is separate from the training data, and is used to
+evaluate the model's performance on unseen data. 5. Test data: This is the data format used to
+evaluate the final performance of the deep learning model. It is a subset of the preprocessed data
+that is separate from the training and validation data, and is used to assess the model's ability to
+generalize to new, unseen data. 6. Model data: This is the data format used to store the trained
+deep learning model. It typically includes the model's architecture, weights, and other parameters
+that have been learned during the training process. 7. Prediction data: This is the data format used
+to make predictions using the trained deep learning model. It can be in various forms such as
+images, audio files, text files, etc., and is used as input to the model to generate predictions.

@@ -1,0 +1,1 @@
+Raw data was collected using various methods and tools, such as audio and image sensors, GPS tracking devices, and high-definition imagery. The collected data was then processed and analyzed using software tools for data exploration, labeling, and auditing.

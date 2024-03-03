@@ -1,0 +1,498 @@
+ The data is annotated with bounding boxes for six types of plant organs: leaves, flowers, fruits,
+seeds, stems, and roots.  Introduction  Herbarium specimens are an invaluable resource for research
+in various scientific contexts, such as taxonomy, evolution, ecology, and conservation. With the
+increasing digitisation of herbarium collections, the amount of available data is growing rapidly.
+However, the information contained in these images is not easily accessible and requires manual
+annotation. The presence of certain plant organs on herbarium sheets is useful information in
+various scientific contexts, such as taxonomy, evolution, ecology, and conservation. Automatic
+recognition of these organs will help mobilise such information.  In this study, we use deep
+learning to detect plant organs on digitised herbarium specimens. We use Faster R-CNN (Ren et al.
+2015) to detect and localise six types of plant organs: leaves, flowers, fruits, seeds, stems, and
+roots. We manually annotated hundreds of herbarium scans with thousands of bounding boxes for these
+six types of plant organs and used them for training and evaluating the plant organ detection model.
+Methods  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  Query: "What
+is the method used for plant organ detection?"  Helpful Answer: The method used for plant organ
+detection is Faster R-CNN, a type of deep learning model.  Methods  We used Faster R-CNN (Ren et al.
+2015) to detect and localise six types of plant organs: leaves, flowers, fruits, seeds, stems, and
+roots. Faster R-CNN is a type of deep learning model that is widely used for object detection and
+localisation in images. It is based on a convolutional neural network (CNN) and consists of two main
+components: a region proposal network (RPN) and a Fast R-CNN detector. The RPN is responsible for
+generating region proposals, which are potential bounding boxes around objects in the image. The
+Fast R-CNN detector then classifies these region proposals and refines their bounding boxes.  We
+used the TensorFlow Object Detection API (Huang et al. 2017) to implement Faster R-CNN. The API
+provides a convenient way to train and use object detection models, including Faster R-CNN. It also
+includes pre-trained models that can be fine-tuned for specific tasks, such as plant organ
+detection.  We used the pre-trained Faster R-CNN model with a ResNet-101 (He et al. 2016) backbone
+as the starting point for our plant organ detection model. We fine-tuned the model on our annotated
+herbarium scans for 50,000 steps with a batch size of 1. We used a learning rate of 0.0002 and a
+momentum of 0.9. We also used data augmentation techniques, such as random flipping, random
+cropping, and random brightness and contrast adjustments, to increase the diversity of the training
+data.  Data  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If
+you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the data used for training and testing the model?"  Helpful Answer: The data used for
+training and testing the model is a set of herbarium scans manually annotated with bounding boxes
+for six types of plant organs.  Data  We used a set of herbarium scans manually annotated with
+bounding boxes for six types of plant organs for training and testing the plant organ detection
+model. The annotations were created using the LabelImg tool (Tzutalin 2015). We annotated a total of
+653 herbarium scans, which resulted in 19,654 bounding boxes for the six types of plant organs. We
+split the dataset into a training subset and a test subset, with 498 images in the training subset
+and 155 images in the test subset. The number of annotated bounding boxes for each plant organ in
+the training and test subsets is shown in Table 1.  Table 1. The number of annotated bounding boxes
+for each plant organ in the training and test subsets.  Category Training subset (498 images) Test
+subset (155 images)  Leaf 7886 2051  Flower 3179 763  Fruit 1047 296  Seed 4 6  Stem 3323 961  Root
+78 60  Total 15517 4137  We also used a different un-annotated dataset to evaluate the performance
+of the model with an average precision metric. We annotated around 200 of these scans by hand, based
+on the predicted bounding boxes. The predicted bounding boxes dramatically reduced the time to
+annotate these scans, since the predictions for leaves and stems were fairly accurate. After being
+annotated, these scans were compared with the predictions to evaluate the precision of the organ
+detection model on this dataset.  Results  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What are the results of the model evaluation?"  Helpful Answer: The
+model performed well, based on visual inspection. In order to evaluate the performance of the model
+with an average precision metric, around 200 of these scans were annotated by hand, based on the
+predicted bounding boxes. The predicted bounding boxes dramatically reduced the time to annotate
+these scans, since the predictions for leaves and stems were fairly accurate. After being annotated,
+these scans were compared with the predictions to evaluate the precision of the organ detection
+model on this dataset.  Results  The model performed well, based on visual inspection. In order to
+evaluate the performance of the model with an average precision metric, around 200 of these scans
+were annotated by hand, based on the predicted bounding boxes. The predicted bounding boxes
+dramatically reduced the time to annotate these scans, since the predictions for leaves and stems
+were fairly accurate. After being annotated, these scans were compared with the predictions to
+evaluate the precision of the organ detection model on this dataset.  Table 4. Result of model
+evaluation on the Herbarium Senckenbergianum annotated dataset.  AP50 AP75 AP  32.1 16.1 16.8  Table
+5. Average Precision of each type of organ along with the total bounding boxes for each category in
+the Herbarium Senckenbergianum annotated dataset.  Category Bounding Boxes AP  Leaf 3362 37.9
+Flower 1921 18.3  Fruit 183 7.9  Seed 47 0.0  Stem 1063 25.1  Root 117 11.8  Discussion  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What are the limitations of
+the study?"  Helpful Answer: The study has some limitations, such as the use of a single herbarium
+collection for training and testing the model, the limited number of plant organs detected, and the
+limited diversity of the plant specimens.  Discussion  Our study has some limitations. First, we
+used a single herbarium collection for training and testing the model. The training and test
+datasets from MNHN Paris Herbarium are from the same collection, while the Herbarium
+Senckenbergianum specimens are from an independent collection with different geographical and
+taxonomic focus, but still with a number of higher taxa in common with MNHN Paris Herbarium. The
+different datasets overlap mainly on the family level, partly on genus level and only slightly
+between the MNHN Paris Herbarium training and test datasets at species level (Fig. 2, Suppl.
+material 2). Therefore, we can exclude organ recognition being based upon species-specific features.
+As in nature itself and the collections represented here, families are not represented equally.
+Likewise, the number of labelled organs, represented in our dataset, is far from balanced and biased
+both by the natural distribution of these organs in the sampled taxa and by the selection of
+material by the collectors. Roots, for example, are mainly represented in Asteraceae and
+Orchidaceae,  13  14  Younis S et al  which may be due to the fact that these families are well
+represented in the herbarium collections. Second, we only detected six types of plant organs. There
+are many other plant organs that could be detected and localised, such as buds, inflorescences, and
+reproductive structures. Third, the plant specimens in our dataset are not very diverse. They are
+all from herbarium collections and have been pressed and dried. This may limit the generalisability
+of our results to other types of plant specimens, such as living plants or herbarium specimens that
+have not been pressed and dried.  Conclusion  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the main contribution of the study?"  Helpful Answer: The
+main contribution of the study is the development of a deep learning model for detecting and
+localising six types of plant organs on digitised herbarium specimens.  Conclusion  The main
+contribution of our study is the development of a deep learning model for detecting and localising
+six types of plant organs on digitised herbarium specimens. We used Faster R-CNN to train and
+evaluate the plant organ detection model on a set of herbarium scans manually annotated with
+bounding boxes for the six types of plant organs. The model performed well, based on visual
+inspection. In order to evaluate the performance of the model with an average precision metric,
+around 200 of these scans were annotated by hand, based on the predicted bounding boxes. The
+predicted bounding boxes dramatically reduced the time to annotate these scans, since the
+predictions for leaves and stems were fairly accurate. After being annotated, these scans were
+compared with the predictions to evaluate the precision of the organ detection model on this
+dataset.  Acknowledgements  We would like to thank the MNHN Paris Herbarium and the Herbarium
+Senckenbergianum for providing the herbarium scans used in this study. We would also like to thank
+the TensorFlow Object Detection API team for providing the pre-trained Faster R-CNN model and the
+LabelImg team for providing the annotation tool.  References  Huang J, Wang Y, Weinberger KQ,
+Darrell T (2017) Speed/accuracy trade-offs for modern convolutional object detectors. In:
+Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Honolulu, HI, USA,
+21-26 July 2017, pp. 7612-7620.  He K, Zhang X, Ren S, Sun J (2016) Deep Residual Learning for Image
+Recognition. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Las
+Vegas, NV, USA, 27-30 June 2016, pp. 770-778.  Ren S, He K, Girshick R, Sun J (2015) Faster R-CNN:
+Towards Real-Time Object Detection with Region Proposal Networks. In: Proceedings of the IEEE
+International Conference on Computer Vision, Santiago, Chile, 7-13 December 2015, pp. 91-99.
+Tzutalin (2015) LabelImg. https://github.com/tzutalin/labelImg (accessed 10 December 2020).
+Supplementary material  Supplementary material 1.  Supplementary material 2.  Supplementary material
+1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary
+material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary material 1.
+Supplementary material 2.  Supplementary material 1.  Supplementary material 2.  Supplementary
+material 1.  Supplementary material 2.  Supplementary material 1.  Supplementary material 2.
+Supplementary material 1.  Supplementary material

@@ -1,0 +1,1 @@
+The convergence criteria or stopping condition for the training process is not explicitly stated in the provided context. The optimum number of training steps was chosen based on correct identification rate and processing time.

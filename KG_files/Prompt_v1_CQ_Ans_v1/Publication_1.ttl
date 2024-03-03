@@ -1,0 +1,167 @@
+combined_prompt = f"""
+%INSTRUCTIONS:
+ Your task is to construct a knowledge graph based on the provided competency question answers and ontology.
+Focus on extracting key entities, relationships, and concepts from the answers and mapping them to the ontology.
+Do not create additional entities or make up answers.
+
+%Example knowledge graph format:
+@prefix dlprov: <https://w3id.org/dlprovenance#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+dlprov:DeepLearningPipeline_1 rdf:type dlprov:DeepLearningPipeline .
+dlprov:DeepLearningPipeline_1 dlprov:hasDataFormat dlprov:DataFormat_1 .
+dlprov:DataFormat_1 rdf:type dlprov:DataFormat .
+dlprov:DataFormat_1 rdfs:label '...' .
+
+Below are the competency questions and answers:
+"""
+
+
+
+@prefix dlprov: <https://w3id.org/dlprovenance#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+dlprov:DeepLearningPipeline_1 rdf:type dlprov:DeepLearningPipeline ;
+    dlprov:hasDataFormat dlprov:DataFormat_1 ;
+    dlprov:hasSource dlprov:Source_1 ;
+    dlprov:provides dlprov:InputData_1 ;
+    dlprov:usesMethodTool dlprov:Method_1 ;
+    dlprov:usesMethodTool dlprov:Method_2 ;
+    dlprov:hasRepositoryLink dlprov:RepositoryLink_1 ;
+    dlprov:involves dlprov:PreprocessingStep_1 ;
+    dlprov:hasTransformationAugmentation dlprov:TransformationAugmentation_1 ;
+    dlprov:discusses dlprov:Bias_1 ;
+    dlprov:hasArchitecture dlprov:Architecture_1 ;
+    dlprov:selectedBy dlprov:ModelSelectionProcess_1 ;
+    dlprov:hasConsideration dlprov:Consideration_1 ;
+    dlprov:hasNumberOfModels dlprov:NumberOfModels_1 ;
+    dlprov:isStateOfTheArt dlprov:StateOfTheArt_1 ;
+    dlprov:isInitializedWith dlprov:Hyperparameter_1 ;
+    dlprov:hasWeightConfiguration dlprov:WeightConfiguration_1 ;
+    dlprov:usesOptimizationAlgorithm dlprov:OptimizationAlgorithm_1 ;
+    dlprov:hasLearningRateSchedule dlprov:LearningRateSchedule_1 ;
+    dlprov:hasConvergenceCriteria dlprov:ConvergenceCriteria_1 ;
+    dlprov:builtWith dlprov:SoftwareFrameworkLibrary_1 ;
+    dlprov:runsOn dlprov:HardwareInfrastructure_1 ;
+    dlprov:hasHyperparameter dlprov:Hyperparameter_1 ;
+    dlprov:isFineTunedWith dlprov:FineTuning_1 ;
+    dlprov:usedFor dlprov:PredictionClassification_1 ;
+    dlprov:usedDifferently dlprov:UncertaintyConfidence_1 ;
+    dlprov:sufficientToReproduce dlprov:Reproducibility_1 ;
+    dlprov:explains dlprov:Explanation_1 ;
+    dlprov:hasVersioningStrategy dlprov:VersioningStrategy_1 ;
+    dlprov:managesDatasetVersion dlprov:DatasetVersion_1 ;
+    dlprov:documentsUpdates dlprov:UpdateFrequency_1 ;
+    dlprov:hasAnnotationLabel dlprov:EthicalImplication_1 ;
+    dlprov:usedInModel dlprov:Hyperparameter_1 ;
+    dlprov:generates dlprov:Model_1 ;
+    dlprov:capturesUncertainty dlprov:UncertaintyConfidence_1 ;
+    dlprov:hasPostProcessing dlprov:PostProcessing_1 ;
+    dlprov:deployedOn dlprov:Deployment_1 ;
+    dlprov:updatedByRetraining dlprov:UpdateFrequency_1 ;
+    dlprov:takesIntoAccount dlprov:SensitiveData_1 ;
+    dlprov:addresses dlprov:BiasAddressing_1 ;
+    dlprov:hasTransparency dlprov:Transparency_1 ;
+    dlprov:implements dlprov:Method_1 ;
+    dlprov:handlesSensitively dlprov:PrivacySecurityMeasure_1.
+
+dlprov:DataFormat_1 rdf:type dlprov:DataFormat ;
+    rdfs:label 'audio spectrogram and image data'.
+
+dlprov:Source_1 rdf:type dlprov:Source ;
+    dlprov:provides dlprov:InputData_1.
+
+dlprov:InputData_1 rdf:type dlprov:InputData ;
+    rdfs:label 'audio and image data'.
+
+dlprov:Method_1 rdf:type dlprov:Method ;
+    rdfs:label 'audio and image sensors'.
+
+dlprov:Method_2 rdf:type dlprov:Method ;
+    rdfs:label 'GPS tracking devices and high-definition imagery'.
+
+dlprov:RepositoryLink_1 rdf:type dlprov:RepositoryLink ;
+    rdfs:label '<https://www.conservationmetrics.com/platform>'.
+
+dlprov:PreprocessingStep_1 rdf:type dlprov:PreprocessingStep ;
+    rdfs:label 'data cleaning, data normalization, data augmentation, splitting the data, feature extraction, model selection, and hyperparameter tuning'.
+
+dlprov:TransformationAugmentation_1 rdf:type dlprov:TransformationAugmentation ;
+    rdfs:label 't-SNE data clustering, image cropping around the object of interest, contrast enhancement, consecutive frame differences, and 2D spectrograms of an appropriate duration'.
+
+dlprov:Bias_1 rdf:type dlprov:Bias ;
+    rdfs:label 'data bias'.
+
+dlprov:Architecture_1 rdf:type dlprov:Architecture ;
+    rdfs:label 'deep convolutional neural networks (CNNs) and deep feed forward neural networks (DNNs)'.
+
+dlprov:ModelSelectionProcess_1 rdf:type dlprov:ModelSelectionProcess ;
+    dlprov:selectedBy dlprov:Model_1 ;
+    dlprov:hasConsideration dlprov:Consideration_1 ;
+    dlprov:hasNumberOfModels dlprov:NumberOfModels_1 ;
+    dlprov:isStateOfTheArt dlprov:StateOfTheArt_1.
+
+dlprov:Consideration_1 rdf:type dlprov:Consideration ;
+    rdfs:label 'large volumes of data, variety of data types and sources, complexity of the data, temporal and spatial aspects of the data, relationships between the different variables in the data, uncertainty in the data, variability in the data, bias in the data, stochastic nature of natural systems, variable skills and biases of different field workers, costs associated with traditional surveys, ecological impacts associated with traditional surveys, under sampling of space and time in traditional surveys, inconclusiveness of many conservation monitoring efforts, scale of global conservation needs, labor required to process and analyze the data, technology infrastructure required to handle big data, complexity of the algorithms used for analysis, uncertainty in the output of the algorithms used for analysis, variability in the output of the algorithms used for analysis, bias in the output of the algorithms used for analysis, stochastic nature of the output of the algorithms used for analysis, variable skills and biases of different analysts, costs associated with the algorithms used for analysis, ecological impacts associated with the algorithms used for analysis, under sampling of space and time in the algorithms used for analysis, inconclusiveness of many conservation monitoring efforts using the algorithms, scale of global conservation needs using the algorithms, labor required to process and analyze the data using the algorithms, technology infrastructure required to handle big data using the algorithms, complexity of the algorithms used for analysis in a way that is transparent and understandable to analysts, complexity of the algorithms used for analysis in a way that is efficient and scalable, complexity of the algorithms used for analysis in a way that is robust and reliable, complexity of the algorithms used for analysis in a way that is flexible and adaptable, complexity of the algorithms used for analysis in a way that is interpretable and explainable, complexity of the algorithms used for analysis in a way that is actionable and useful for conservation, complexity of the algorithms used for analysis in a way that is accessible and usable by a wide range of analysts, complexity of the algorithms used for analysis in a way that is sustainable and maintainable over time, complexity of the algorithms used for analysis in a way that is ethical and responsible, complexity of the algorithms used for analysis in a way that is transparent and accountable, complexity of the algorithms used for analysis in a way that is equitable and just, complexity of the algorithms used for analysis in a way that is efficient and effective in terms of conservation outcomes, complexity of the algorithms used for analysis in a way that is efficient and effective in terms of resource use, complexity of the algorithms used for analysis in a way that is efficient and effective in terms of both conservation outcomes and resource use, while also being transparent and accountable, equitable and just, sustainable and maintainable, ethical and responsible, and actionable and useful for conservation'.
+
+dlprov:Model_1 rdf:type dlprov:Model ;
+    rdfs:label 'deep convolutional neural networks (CNNs) and deep feed forward neural networks (DNNs)'.
+
+dlprov:Hyperparameter_1 rdf:type dlprov:Hyperparameter ;
+    rdfs:label 'learning rate, batch size, number of hidden layers'.
+
+dlprov:OptimizationAlgorithm_1 rdf:type dlprov:OptimizationAlgorithm ;
+    rdfs:label'stochastic gradient descent (SGD), Adam, or RMSprop'.
+
+dlprov:LearningRateSchedule_1 rdf:type dlprov:LearningRateSchedule ;
+    rdfs:label 'fixed number of iterations, threshold for the loss function, or maximum time limit'.
+
+dlprov:ConvergenceCriteria_1 rdf:type dlprov:ConvergenceCriteria ;
+    rdfs:label 'fixed number of iterations, threshold for the loss function, or maximum time limit'.
+
+dlprov:SoftwareFrameworkLibrary_1 rdf:type dlprov:SoftwareFrameworkLibrary ;
+    rdfs:label 'TensorFlow or PyTorch'.
+
+dlprov:HardwareInfrastructure_1 rdf:type dlprov:HardwareInfrastructure ;
+    rdfs:label 'off-the-shelf computers, co-located data center, Amazon Web Services (AWS)'.
+
+dlprov:UncertaintyConfidence_1 rdf:type dlprov:UncertaintyConfidence ;
+    rdfs:label'relative probability that an event is from a specific data class'.
+
+dlprov:Reproducibility_1 rdf:type dlprov:Reproducibility ;
+    rdfs:label'sufficient information to reproduce the deep learning pipeline'.
+
+dlprov:Explanation_1 rdf:type dlprov:Explanation ;
+    rdfs:label'measures taken to explain model predictions'.
+
+dlprov:VersioningStrategy_1 rdf:type dlprov:VersioningStrategy ;
+    rdfs:label'versioning strategy for trained models'.
+
+dlprov:DatasetVersion_1 rdf:type dlprov:DatasetVersion ;
+    rdfs:label 'different versions of datasets'.
+
+dlprov:UpdateFrequency_1 rdf:type dlprov:UpdateFrequency ;
+    rdfs:label 'how often model weights are updated by retraining with new data'.
+
+dlprov:PredictionClassification_1 rdf:type dlprov:PredictionClassification ;
+    rdfs:label 'what predictions or classifications are generated by the deep learning model'.
+
+dlprov:EthicalImplication_1 rdf:type dlprov:EthicalImplication ;
+    rdfs:label'minimizing the negative ecological impacts of repeated visits to sensitive habitats by human observers, reducing the costs of transporting and sustaining field crews in remote locations, and ensuring the privacy and security of any data collected'.
+
+dlprov:BiasAddressing_1 rdf:type dlprov:BiasAddressing ;
+    rdfs:label 'how bias in the data is addressed'.
+
+dlprov:Transparency_1 rdf:type dlprov:Transparency ;
+    rdfs:label 'transparency in the decision-making process regarding bias'.
+
+dlprov:PrivacySecurityMeasure_1 rdf:type dlprov:PrivacySecurityMeasure ;
+    rdfs:label 'how privacy and security measures are implemented in handling sensitive data'.

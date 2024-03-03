@@ -1,0 +1,1 @@
+The input data for the deep learning pipeline comes from the Macaulay Library, which is a library of natural sounds. The data includes 20 recognized species of Platymantis, with 20 recordings per species used to generate 400 spectrograms for the identification challenge.

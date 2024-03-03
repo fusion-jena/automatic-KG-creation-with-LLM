@@ -1,0 +1,8 @@
+ The deep learning model generates predictions of potential plant species richness for the Korean
+Peninsula, including North Korea, which has limited survey data. It does this by combining the
+suitability predictions of 1574 species using species distribution models and multitemporal remote
+sensing data. The model is able to estimate potential plant species richness over the entire Korean
+Peninsula at a higher resolution than in previous efforts and identify which variables at which time
+periods are more important for estimating plant species richness. The deep learning model used in
+this study is a pixel-wise multilayer perceptron (MLP) which is a type of feedforward neural network
+that is effective for solving regression problems.

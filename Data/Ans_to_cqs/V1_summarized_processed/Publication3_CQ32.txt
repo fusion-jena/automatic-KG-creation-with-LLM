@@ -1,0 +1,1 @@
+Uncertainty or confidence in model predictions is captured by TensorFlow through the use of certainty rates, which measures the model's confidence in its predictions.

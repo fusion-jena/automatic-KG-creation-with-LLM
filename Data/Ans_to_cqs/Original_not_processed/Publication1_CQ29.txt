@@ -1,0 +1,43 @@
+ The data is annotated or labeled with the relative probability that an event is from a specific
+data class (usually corresponding to a species or event).  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the purpose of the data exploration
+tools?"  Helpful Answer: The purpose of the data exploration tools is to sort and filter the data
+according to date ranges, time of day, or site location, and to apply conditionals regarding the
+elemental attributes of the signals. For example, for audio signals, analysts can sort the data
+frequency ranges, click-like or whistle-like sounds, rising tones or falling tones, repetitive
+pulses, and so on. Visually, one can specify fast or slow moving objects, large or small objects,
+the presence of eye-shine, and certain colors. Modalities are combined as well. For example, images
+can be selected according to time periods when a specified sound occurs. These exploration tools
+have proven critical for rapidly building datasets to train DL models for new species, and for
+finding novelty in the data for which no models yet exist.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the purpose of the data clustering
+techniques such as t-SNE?"  Helpful Answer: The purpose of data clustering techniques such as t-SNE
+is to view and select data samples according similarity to other data samples. Viewing data
+according to such similarity clusters can help alert analysts to the recurring and distinct entities
+or events in the data.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the purpose of the auditing process?"  Helpful Answer: The purpose of the auditing
+process is to manually review the output of existing DL models trained to classify events of
+interest in the survey data. Analysts are presented with ranked data containing a large number of
+panels, where each panel contains a visualization of an individual data sample. Using keyboard
+shortcuts, the panels are efficiently labeled. For images, the visualization consists of image
+cropping around the object of interest, contrast enhancement, and consecutive frame differences. For
+audio, 2D spectrograms of an appropriate duration (e.g., 2 seconds) are displayed per panel. This
+gives a visual representation of the sound clip; distinct sounds have different spectrograms,
+enabling analysts to quickly learn to visually spot sounds of interest when presented with many
+sounds simultaneously on a page. They also have the ability to play the audio corresponding to each
+spectrogram, and view more temporal context around it in order to help with their auditing decision.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+purpose of the deep learning algorithms in the biodiversity monitoring application?"  Helpful
+Answer: The purpose of the deep learning algorithms in the biodiversity monitoring application is to
+classify the presence or absence and activity rates of a number of different endangered species, or
+in some cases, the sounds of birds colliding with energy infrastructure. The algorithms are applied
+to audio spectrogram and image data, and have experienced a 100x to 1000x reduction in the amount of
+data required to be manually reviewed, when integrated with the auditing UI and the back-end power
+analysis. The long-term goal is to scale up the number of species that can be classified and to
+leverage various desirable properties of DL algorithms, such as transfer learning and joint
+embedding space, to improve the results and the natural language interface to the auditing and
+exploration UI.

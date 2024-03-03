@@ -1,0 +1,2 @@
+ The input data for the deep learning pipeline comes from unlabelled coral mosaics of three sites of
+the Abrolhos Islands coral reef from two years.

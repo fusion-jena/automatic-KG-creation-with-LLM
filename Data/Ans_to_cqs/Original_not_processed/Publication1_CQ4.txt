@@ -1,0 +1,4 @@
+ The source code is not openly accessible, as it is proprietary to Conservation Metrics, Inc.
+However, the company does offer a cloud-based platform for conservationists to process and analyze
+their data. You can learn more about this platform and request access at
+<https://www.conservationmetrics.com/platform>.

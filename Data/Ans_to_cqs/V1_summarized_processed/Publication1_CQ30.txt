@@ -1,0 +1,1 @@
+The annotations or labels are used to train and refine deep learning models by creating labeled datasets, manually reviewing and auditing the output of existing models, and sorting data based on the relative probability of an event from a specific data class. The models can also be improved through techniques such as transfer learning and joint embedding space.

@@ -1,0 +1,1 @@
+The different versions of datasets are managed by using a reference library, which is used to train a model that is applied to a test dataset. The model's performance is evaluated by comparing the predicted species to the actual species, and it is then refined and retrained using a larger reference library and a more limited set of candidate species.

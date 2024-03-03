@@ -1,0 +1,1 @@
+The model was selected based on the highest accuracy achieved during the training and testing process. It was trained using TensorFlow Inception v3, implemented in the Linux environment (Ubuntu, version 18. 04) and re-trained with a new calibrating dataset to improve identification rates at lower computational cost.

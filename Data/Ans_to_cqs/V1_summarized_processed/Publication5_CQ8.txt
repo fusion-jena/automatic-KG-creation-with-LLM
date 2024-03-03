@@ -1,0 +1,1 @@
+The deep learning model used in the pipeline is a multilayer perceptron (MLP) architecture. The network architecture of MLP used in this study is illustrated in Figure 3 of the document.

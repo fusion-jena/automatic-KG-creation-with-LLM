@@ -1,0 +1,15 @@
+%INSTRUCTIONS:
+Your task is summarize the provided 'answer' in to 2 sentences based on the given 'question'. Remove all the recommendation part from the 'answer' if it is not needed to answer the given 'question'. Use only the provided 'question' and 'answer' for summarizing the answer. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+
+Provide your answer as follows:
+
+Answer:::
+summarized answer: (your summarized answer)
+explaination: (your explaination)
+
+Here are the "question" and "answer"
+question: "{question}"
+answer: "{answer}"
+
+Answer:::
+"""

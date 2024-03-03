@@ -1,0 +1,1 @@
+The data is annotated or labeled with the relative probability that an event is from a specific data class.

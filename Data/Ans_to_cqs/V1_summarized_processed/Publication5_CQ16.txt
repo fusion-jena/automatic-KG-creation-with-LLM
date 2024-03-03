@@ -1,0 +1,1 @@
+The convergence criteria or stopping condition for the training process is not specified in the given context.

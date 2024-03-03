@@ -1,0 +1,1 @@
+The models used in the study are not explicitly stated to be state-of-the-art. The study uses Random Forest, Support Vector Machine, and Deep Learning models, which are commonly used methods in species distribution modeling. However, the study does not mention any specific innovations or improvements in these methods that would make them state-of-the-art. 

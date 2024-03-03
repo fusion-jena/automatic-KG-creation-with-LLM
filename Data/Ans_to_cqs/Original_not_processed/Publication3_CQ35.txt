@@ -1,0 +1,2 @@
+ The model is deployed using TensorFlow Inception v3, implemented in the Linux environment (Ubuntu,
+version 18.04).

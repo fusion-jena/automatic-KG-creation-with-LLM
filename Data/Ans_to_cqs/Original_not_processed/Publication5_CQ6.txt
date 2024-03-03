@@ -1,0 +1,2 @@
+  The provided context does not mention any transformations or augmentations applied to the input
+data.

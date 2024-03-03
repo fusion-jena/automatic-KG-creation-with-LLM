@@ -1,0 +1,4 @@
+ The stopping condition for the training process is not explicitly stated in the provided context.
+However, it is mentioned that the model was trained for 9000 iterations on a training subset of 498
+images and for 18000 iterations on all 653 annotated images. Therefore, the stopping condition could
+be a fixed number of iterations or epochs.

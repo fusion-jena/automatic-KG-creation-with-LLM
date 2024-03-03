@@ -1,0 +1,7 @@
+ The provided context does not explicitly mention the data formats used in the deep learning
+pipeline. However, it is mentioned that square patches were extracted with the labelled pixel at
+their centre and there is no restriction on the size of these patches. It can be inferred that the
+data format used for these patches is likely to be image files such as JPEG or PNG. Additionally,
+the classiﬁcation process uses a 2-layered neural network, which typically takes ﬂat arrays of
+numerical data as input. Therefore, it can be inferred that the image patches are likely to be
+converted into ﬂat arrays of numerical data before being fed into the neural network.

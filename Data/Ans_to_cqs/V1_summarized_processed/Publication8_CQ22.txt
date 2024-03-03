@@ -1,0 +1,1 @@
+uated using the COCO evaluation metric, which calculates average precision for the entire predictions and each class of organs at different levels of Intersection over Union (IoU). The COCO method considers all predictions as positive that have IoU of at least 0.5 and calculates the precision metrics for the predicted organs on the test subset.  

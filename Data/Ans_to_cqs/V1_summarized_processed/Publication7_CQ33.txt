@@ -1,0 +1,1 @@
+Yes, the classifier's output is post-processed to generate coral maps for the Abrolhos Islands, and then used to quantify the coral population automatically.

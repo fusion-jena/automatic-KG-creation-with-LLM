@@ -1,0 +1,1 @@
+The data formats used in the deep learning pipeline are images and bounding boxes. The images are the input to the model and the bounding boxes are the annotations used for training and evaluating the model.

@@ -1,0 +1,5 @@
+ The model selection process was not explicitly described in the text. However, the authors
+mentioned that they used a deep learning model for organ detection. They also mentioned that they
+used a subset of the annotated scans for training of the model and the rest for testing. The model
+was then used to predict the type and location of plant organs on the test subset. The authors did
+not provide any information about the model selection process or the comparison with other models.

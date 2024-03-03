@@ -1,0 +1,517 @@
+ The annotations or labels are used to train the model to recognise the different types of plant
+organs. The model learns to associate the bounding boxes with the corresponding plant organ type.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the model
+used for?"  Helpful Answer: The model is used for detecting and annotating plant organs from
+digitised herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer
+the query. If you don't know the answer, just say that you don't know, don't try to make up an
+answer.  Query: "What is the model trained on?"  Helpful Answer: The model is trained on a dataset
+of 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model tested on?"  Helpful Answer: The model is tested on a dataset
+of 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model evaluated on?"  Helpful Answer: The model is evaluated on a
+dataset of 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's performance?"  Helpful Answer: The model's
+performance is evaluated with an average precision metric of 16.8.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What are the types of plant organs the model
+can detect?"  Helpful Answer: The model can detect six types of plant organs: leaves, flowers,
+fruits, seeds, stems, and roots.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's architecture?"  Helpful Answer: The model's architecture is
+Faster R-CNN.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If
+you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+dataset size?"  Helpful Answer: The model's training dataset size is 498 annotated herbarium scans.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+model's testing dataset size?"  Helpful Answer: The model's testing dataset size is 155 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size
+is 200 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training time?"  Helpful Answer: The model's training time
+is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  Query: "What is the model's inference time?"  Helpful Answer: The model's inference
+time is not specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The
+model's training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's testing dataset size?"
+Helpful Answer: The model's testing dataset size is 155 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's
+evaluation dataset size?"  Helpful Answer: The model's evaluation dataset size is 200 annotated
+herbarium scans.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the model's training time?"  Helpful Answer: The model's training time is not specified in
+the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the
+query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Query: "What is the model's inference time?"  Helpful Answer: The model's inference time is not
+specified in the given context.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the model's training dataset size?"  Helpful Answer: The model's
+training dataset size is 498 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the model's testing dataset size?"  Helpful Answer:
+The model's testing dataset size is 155 annotated herbarium scans.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the model's evaluation dataset size?"
+Helpful Answer: The model's evaluation dataset size is 200 annotated herbarium scans.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's training
+time?"  Helpful Answer: The model's training time is not specified in the given context.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the model's inference
+time?"  Helpful Answer: The model's inference time is not specified in the given context.  Question:
+%INSTRUCTION

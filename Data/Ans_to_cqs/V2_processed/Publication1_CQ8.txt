@@ -1,0 +1,1 @@
+The architecture of the deep learning model in the pipeline is not specified in the given text. It only mentions that deep convolutional neural networks (CNNs) and deep feed forward neural networks (DNNs) are employed to audio spectrogram and image data. However, the specific architecture is not provided. 

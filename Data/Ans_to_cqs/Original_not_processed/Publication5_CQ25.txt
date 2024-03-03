@@ -1,0 +1,4 @@
+ To explain model predictions, a statistical feature importance test (SFIT) is performed. In this
+test, a single feature is randomly shuffled, while all the other features are kept constant. The
+feature importance shows the extent to which the model performance decreases with random shuffling.
+In this study, the root mean square error (RMSE) is used as the performance metric.

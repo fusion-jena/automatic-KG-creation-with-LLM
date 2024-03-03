@@ -1,0 +1,215 @@
+
+
+@prefix dlprov: <https://w3id.org/dlprovenance#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+dlprov:DeepLearningPipeline_1 rdf:type dlprov:DeepLearningPipeline.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasDataFormat dlprov:DataFormat_1.
+dlprov:DeepLearningPipeline_1 dlprov:hasDataFormat dlprov:DataFormat_2.
+
+dlprov:DataFormat_1 rdf:type dlprov:DataFormat.
+dlprov:DataFormat_1 rdfs:label 'Image files such as JPEG or PNG'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasSource dlprov:Source_1.
+
+dlprov:Source_1 rdf:type dlprov:Source.
+dlprov:Source_1 dlprov:provides dlprov:InputData_1.
+
+dlprov:InputData_1 rdf:type dlprov:InputData.
+dlprov:InputData_1 rdfs:label 'Unlabelled coral mosaics of three sites of the Abrolhos Islands coral reef from two years'.
+
+dlprov:DeepLearningPipeline_1 dlprov:usesMethodTool dlprov:Method_1.
+
+dlprov:Method_1 rdf:type dlprov:Method.
+dlprov:Method_1 rdfs:label 'Autonomous Underwater Vehicle (AUV) equipped with a high-resolution camera'.
+
+dlprov:DeepLearningPipeline_1 dlprov:usesMethodTool dlprov:Tool_1.
+
+dlprov:Tool_1 rdf:type dlprov:Tool.
+dlprov:Tool_1 rdfs:label 'Image patches are likely to be converted into ﬂat arrays of numerical data before being fed into the neural network'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasRepositoryLink dlprov:RepositoryLink_1.
+
+dlprov:RepositoryLink_1 rdf:type dlprov:RepositoryLink.
+dlprov:RepositoryLink_1 rdfs:label 'Not openly accessible'.
+
+dlprov:DeepLearningPipeline_1 dlprov:involves dlprov:PreprocessingStep_1.
+
+dlprov:PreprocessingStep_1 rdf:type dlprov:PreprocessingStep.
+dlprov:PreprocessingStep_1 rdfs:label 'Square patches were extracted with the labelled pixel at their centre, and there is no restriction on the size of these patches. Instead of using the whole image for training, patches at multiple scales centred around the given labelled pixels were extracted. This technique is termed as spatial pyramid pooling (SPP).'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasTransformationAugmentation dlprov:TransformationAugmentation_1.
+
+dlprov:TransformationAugmentation_1 rdf:type dlprov:TransformationAugmentation.
+dlprov:TransformationAugmentation_1 rdfs:label 'Color channel stretch on each image in the dataset'.
+
+dlprov:DeepLearningPipeline_1 dlprov:discusses dlprov:Bias_1.
+
+dlprov:Bias_1 rdf:type dlprov:Bias.
+dlprov:Bias_1 rdfs:label 'Not discussed'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasArchitecture dlprov:Architecture_1.
+
+dlprov:Architecture_1 rdf:type dlprov:Architecture.
+dlprov:Architecture_1 rdfs:label '2-layered neural network used to classify corals from non-corals'.
+
+dlprov:DeepLearningPipeline_1 dlprov:selectedBy dlprov:ModelSelectionProcess_1.
+
+dlprov:ModelSelectionProcess_1 rdf:type dlprov:ModelSelectionProcess.
+dlprov:ModelSelectionProcess_1 dlprov:selectedBy dlprov:Model_1.
+
+dlprov:Model_1 rdf:type dlprov:Model.
+dlprov:Model_1 rdfs:label 'Not specified'.
+
+dlprov:ModelSelectionProcess_1 dlprov:hasConsideration dlprov:Consideration_1.
+
+dlprov:Consideration_1 rdf:type dlprov:Consideration.
+dlprov:Consideration_1 rdfs:label 'Not specified'.
+
+dlprov:ModelSelectionProcess_1 dlprov:hasNumberOfModels dlprov:NumberOfModels_1.
+
+dlprov:NumberOfModels_1 rdf:type dlprov:NumberOfModels.
+dlprov:NumberOfModels_1 rdfs:label 'Not specified'.
+
+dlprov:ModelSelectionProcess_1 dlprov:isStateOfTheArt dlprov:StateOfTheArt_1.
+
+dlprov:StateOfTheArt_1 rdf:type dlprov:StateOfTheArt.
+dlprov:StateOfTheArt_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:isInitializedWith dlprov:Initialization_1.
+
+dlprov:Initialization_1 rdf:type dlprov:Initialization.
+dlprov:Initialization_1 dlprov:usedInModel dlprov:Hyperparameter_1.
+
+dlprov:Hyperparameter_1 rdf:type dlprov:Hyperparameter.
+dlprov:Hyperparameter_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasWeightConfiguration dlprov:WeightConfiguration_1.
+
+dlprov:WeightConfiguration_1 rdf:type dlprov:WeightConfiguration.
+dlprov:WeightConfiguration_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:usesOptimizationAlgorithm dlprov:OptimizationAlgorithm_1.
+
+dlprov:OptimizationAlgorithm_1 rdf:type dlprov:OptimizationAlgorithm.
+dlprov:OptimizationAlgorithm_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasLearningRateSchedule dlprov:LearningRateSchedule_1.
+
+dlprov:LearningRateSchedule_1 rdf:type dlprov:LearningRateSchedule.
+dlprov:LearningRateSchedule_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasConvergenceCriteria dlprov:ConvergenceCriteria_1.
+
+dlprov:ConvergenceCriteria_1 rdf:type dlprov:ConvergenceCriteria.
+dlprov:ConvergenceCriteria_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:builtWith dlprov:SoftwareFrameworkLibrary_1.
+
+dlprov:SoftwareFrameworkLibrary_1 rdf:type dlprov:SoftwareFrameworkLibrary.
+dlprov:SoftwareFrameworkLibrary_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:runsOn dlprov:HardwareInfrastructure_1.
+
+dlprov:HardwareInfrastructure_1 rdf:type dlprov:HardwareInfrastructure.
+dlprov:HardwareInfrastructure_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasHyperparameter dlprov:Hyperparameter_2.
+
+dlprov:Hyperparameter_2 rdf:type dlprov:Hyperparameter.
+dlprov:Hyperparameter_2 rdfs:label 'Number of neurons in the hidden layers were optimized for maximum performance'.
+
+dlprov:DeepLearningPipeline_1 dlprov:isFineTunedWith dlprov:FineTuning_1.
+
+dlprov:FineTuning_1 rdf:type dlprov:FineTuning.
+dlprov:FineTuning_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:usedFor dlprov:PredictionClassification_1.
+
+dlprov:PredictionClassification_1 rdf:type dlprov:PredictionClassification.
+dlprov:PredictionClassification_1 rdfs:label 'Corals from non-corals'.
+
+dlprov:DeepLearningPipeline_1 dlprov:usedDifferently dlprov:UncertaintyConfidence_1.
+
+dlprov:UncertaintyConfidence_1 rdf:type dlprov:UncertaintyConfidence.
+dlprov:UncertaintyConfidence_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:sufficientToReproduce dlprov:Reproducibility_1.
+
+dlprov:Reproducibility_1 rdf:type dlprov:Reproducibility.
+dlprov:Reproducibility_1 rdfs:label 'No'.
+
+dlprov:DeepLearningPipeline_1 dlprov:explains dlprov:Explanation_1.
+
+dlprov:Explanation_1 rdf:type dlprov:Explanation.
+dlprov:Explanation_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasVersioningStrategy dlprov:VersioningStrategy_1.
+
+dlprov:VersioningStrategy_1 rdf:type dlprov:VersioningStrategy.
+dlprov:VersioningStrategy_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:managesDatasetVersion dlprov:DatasetVersion_1.
+
+dlprov:DatasetVersion_1 rdf:type dlprov:DatasetVersion.
+dlprov:DatasetVersion_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:documentsUpdates dlprov:UpdateFrequency_1.
+
+dlprov:UpdateFrequency_1 rdf:type dlprov:UpdateFrequency.
+dlprov:UpdateFrequency_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasAnnotationLabel dlprov:EthicalImplication_1.
+
+dlprov:EthicalImplication_1 rdf:type dlprov:EthicalImplication.
+dlprov:EthicalImplication_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:capturesUncertainty dlprov:UncertaintyConfidence_2.
+
+dlprov:UncertaintyConfidence_2 rdf:type dlprov:UncertaintyConfidence.
+dlprov:UncertaintyConfidence_2 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasPostProcessing dlprov:PostProcessing_1.
+
+dlprov:PostProcessing_1 rdf:type dlprov:PostProcessing.
+dlprov:PostProcessing_1 rdfs:label 'Threshold is determined based on the classifier’s performance on the Benthoz15 dataset'.
+
+dlprov:DeepLearningPipeline_1 dlprov:deployedOn dlprov:Deployment_1.
+
+dlprov:Deployment_1 rdf:type dlprov:Deployment.
+dlprov:Deployment_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:updatedByRetraining dlprov:UpdateFrequency_2.
+
+dlprov:UpdateFrequency_2 rdf:type dlprov:UpdateFrequency.
+dlprov:UpdateFrequency_2 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:takesIntoAccount dlprov:SensitiveData_1.
+
+dlprov:SensitiveData_1 rdf:type dlprov:SensitiveData.
+dlprov:SensitiveData_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:addresses dlprov:BiasAddressing_1.
+
+dlprov:BiasAddressing_1 rdf:type dlprov:BiasAddressing.
+dlprov:BiasAddressing_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:hasTransparency dlprov:Transparency_1.
+
+dlprov:Transparency_1 rdf:type dlprov:Transparency.
+dlprov:Transparency_1 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:implements dlprov:Method_2.
+
+dlprov:Method_2 rdf:type dlprov:Method.
+dlprov:Method_2 rdfs:label 'Not specified'.
+
+dlprov:DeepLearningPipeline_1 dlprov:handlesSensitively dlprov:PrivacySecurityMeasure_1.
+
+dlprov:PrivacySecurityMeasure_1 rdf:type dlprov:PrivacySecurityMeasure.
+dlprov:PrivacySecurityMeasure_1 rdfs:label 'Not specified'.

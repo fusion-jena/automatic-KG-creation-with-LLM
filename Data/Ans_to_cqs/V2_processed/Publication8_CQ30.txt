@@ -1,0 +1,1 @@
+The annotations or labels are used to train the model to recognise the different types of plant organs. The model learns to associate the bounding boxes with the corresponding plant organ type. 

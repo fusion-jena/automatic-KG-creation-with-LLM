@@ -1,0 +1,2 @@
+ Yes, the source code is openly accessible. You can find it in the following repository:
+<https://github.com/AliKhalighifar/Automated-Species-Identification-of-Philippine-Frogs>.

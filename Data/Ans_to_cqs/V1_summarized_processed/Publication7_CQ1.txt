@@ -1,0 +1,1 @@
+The data formats used in the deep learning pipeline are likely to be image files such as JPEG or PNG, which are converted into flat arrays of numerical data before being fed into the neural network.

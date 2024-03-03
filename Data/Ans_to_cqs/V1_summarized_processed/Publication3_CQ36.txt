@@ -1,0 +1,1 @@
+are updated every time the model is retrained with new data. The model weights are updated every time the model is retrained with new data, regardless of whether the new data is used to train a subset of species or all species. 

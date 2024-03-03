@@ -1,0 +1,3 @@
+ The models used in the study are not explicitly stated to be state-of-the-art. The study uses
+TensorFlow, a widely-used machine learning framework, to develop the models. However, the study does
+not mention if the models are the most recent or advanced in the field.

@@ -1,0 +1,1 @@
+The deep learning model predicts potential plant species richness for the Korean Peninsula, including North Korea, by combining the suitability predictions of 1574 species using species distribution models and multitemporal remote sensing data. It identifies which variables at which time periods are more important for estimating plant species richness.

@@ -1,0 +1,1 @@
+The study used a method called "stacking species distribution models" to estimate species richness, which produced unbiased richness. However, the study does not explicitly discuss transparency in the decision-making process regarding bias.

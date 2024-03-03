@@ -1,0 +1,22 @@
+"""
+%INSTRUCTIONS:
+Your task is to create a knowledge graph based on the provided competency questions, answers, and ontology (is in OWL format). Only by using the provided context, create a complete knowledge graph in ttl format based on provided ontology. If you don't know the answer, just say that you don't know, don't try to make up an answer. The text of the concept and rdfs:label should be taken only from the competency question answers.
+
+%Example knowledge graph format:
+Follow the exact format for the knowledge graph in ttl:
+@prefix dlprov: https://w3id.org/dlprovenance# .
+@prefix owl: http://www.w3.org/2002/07/owl# .
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# .
+@prefix xml: http://www.w3.org/XML/1998/namespace .
+@prefix xsd: http://www.w3.org/2001/XMLSchema# .
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema# .
+
+dlprov:DeepLearningPipeline_1 rdf:type dlprov:DeepLearningPipeline .
+dlprov:DeepLearningPipeline_1 dlprov:hasDataFormat dlprov:DataFormat_1 .
+dlprov:DeepLearningPipeline_1 dlprov:hasDataFormat dlprov:DataFormat_2 .
+dlprov:DataFormat_1 rdf:type dlprov:DataFormat .
+dlprov:DataFormat_1 rdfs:label '...' .
+
+Below are the competency questions and answers:
+
+"""

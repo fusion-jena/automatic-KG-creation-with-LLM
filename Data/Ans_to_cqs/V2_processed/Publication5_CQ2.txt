@@ -1,0 +1,1 @@
+The sources of input data for the deep learning pipeline are MODIS products, including the normalized difference vegetation index (NDVI) and leaf area index (LAI). 

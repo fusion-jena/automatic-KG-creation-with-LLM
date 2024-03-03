@@ -1,0 +1,6 @@
+  The text does not provide explicit information about whether privacy and security measures are
+implemented in handling sensitive data. However, it does mention that the study used the Global
+Biodiversity Information Facility (GBIF) dataset, which is a public database that provides open
+access to biodiversity data. Therefore, it can be inferred that the study followed the data handling
+and privacy policies of GBIF. However, the text does not provide any specific information about the
+measures taken to ensure data privacy and security.

@@ -1,0 +1,508 @@
+ No, the provided hyperparameters are not fine-tuned. The hyperparameters used in this study are the
+default values of the TensorFlow library.  Query: "What is the overall correct identification rate
+for 41 species in Challenge 3?"  Helpful Answer: The overall correct identification rate for 41
+species in Challenge 3 is 94.1%.  Query: "What is the lowest correct identification rate for a
+species in Challenge 3?"  Helpful Answer: The lowest correct identification rate for a species in
+Challenge 3 is 70%, which was for P. isarog and P. sp. 3.  Query: "What is the average certainty
+rate for P. sp. 12 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp. 12 in
+Challenge 2 is 38.4%.  Query: "What is the most frequently suggested species in Challenge 2?"
+Helpful Answer: The most frequently suggested species in Challenge 2 is P. guentheri, which was
+suggested for 15 of 22 species in the test dataset.  Query: "What is the overall correct
+identification rate for 20 species in Challenge 1?"  Helpful Answer: The overall correct
+identification rate for 20 species in Challenge 1 is 94.3%.  Query: "What is the lowest certainty
+rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate yielded by
+TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average certainty
+rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp. 4 in
+Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species in
+Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in Challenge 1
+is 94.3%.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"  Helpful
+Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is the
+overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer: The average certainty rate for P. sp.
+4 in Challenge 2 is 87.8%.  Query: "What is the overall correct identification rate for 20 species
+in Challenge 1?"  Helpful Answer: The overall correct identification rate for 20 species in
+Challenge 1 is 94.3%.  Query: "What is the lowest certainty rate yielded by TensorFlow in Challenge
+2?"  Helpful Answer: The lowest certainty rate yielded by TensorFlow in Challenge 2 is 38.4%, which
+was for P. sp. 12.  Query: "What is the average certainty rate for P. sp. 44 in Challenge 2?"
+Helpful Answer: The average certainty rate for P. sp. 44 in Challenge 2 is 50.1%.  Query: "What is
+the overall correct identification rate for 41 species in Challenge 3?"  Helpful Answer: The overall
+correct identification rate for 41 species in Challenge 3 is 94.1%.  Query: "What is the lowest
+certainty rate yielded by TensorFlow in Challenge 2?"  Helpful Answer: The lowest certainty rate
+yielded by TensorFlow in Challenge 2 is 38.4%, which was for P. sp. 12.  Query: "What is the average
+certainty rate for P. sp. 4 in Challenge 2?"  Helpful Answer:

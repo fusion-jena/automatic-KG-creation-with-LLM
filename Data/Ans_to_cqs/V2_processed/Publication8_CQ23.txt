@@ -1,0 +1,1 @@
+Yes, the authors used different metrics for different problems. For the problem of organ detection, they used average precision (AP) and intersection over union (IoU). For the problem of taxon classification, they used accuracy. 

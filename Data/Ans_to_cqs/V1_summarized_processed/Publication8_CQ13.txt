@@ -1,0 +1,1 @@
+The model is initialized using a pre-trained model on the COCO dataset and then fine-tuned on the annotated herbarium dataset.

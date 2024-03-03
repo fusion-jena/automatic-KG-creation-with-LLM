@@ -1,0 +1,91 @@
+ The model selection process considered the following:  1. The model should be able to handle large
+volumes of data. 2. The model should be able to handle the variety of data types and sources. 3. The
+model should be able to handle the complexity of the data, including the presence of noise and
+missing values. 4. The model should be able to handle the temporal and spatial aspects of the data.
+5. The model should be able to handle the relationships between the different variables in the data.
+6. The model should be able to handle the uncertainty in the data. 7. The model should be able to
+handle the variability in the data. 8. The model should be able to handle the bias in the data. 9.
+The model should be able to handle the stochastic nature of the natural systems. 10. The model
+should be able to handle the variable skills and biases of different field workers. 11. The model
+should be able to handle the costs associated with traditional surveys. 12. The model should be able
+to handle the ecological impacts associated with traditional surveys. 13. The model should be able
+to handle the under sampling of space and time in traditional surveys. 14. The model should be able
+to handle the inconclusiveness of many conservation monitoring efforts. 15. The model should be able
+to handle the scale of global conservation needs. 16. The model should be able to handle the labor
+required to process and analyze the data. 17. The model should be able to handle the technology
+infrastructure required to handle big data. 18. The model should be able to handle the complexity of
+the algorithms used for analysis. 19. The model should be able to handle the uncertainty in the
+output of the algorithms used for analysis. 20. The model should be able to handle the variability
+in the output of the algorithms used for analysis. 21. The model should be able to handle the bias
+in the output of the algorithms used for analysis. 22. The model should be able to handle the
+stochastic nature of the output of the algorithms used for analysis. 23. The model should be able to
+handle the variable skills and biases of different analysts. 24. The model should be able to handle
+the costs associated with the algorithms used for analysis. 25. The model should be able to handle
+the ecological impacts associated with the algorithms used for analysis. 26. The model should be
+able to handle the under sampling of space and time in the algorithms used for analysis. 27. The
+model should be able to handle the inconclusiveness of many conservation monitoring efforts using
+the algorithms. 28. The model should be able to handle the scale of global conservation needs using
+the algorithms. 29. The model should be able to handle the labor required to process and analyze the
+data using the algorithms. 30. The model should be able to handle the technology infrastructure
+required to handle big data using the algorithms. 31. The model should be able to handle the
+complexity of the algorithms used for analysis in a way that is transparent and understandable to
+analysts. 32. The model should be able to handle the complexity of the algorithms used for analysis
+in a way that is efficient and scalable. 33. The model should be able to handle the complexity of
+the algorithms used for analysis in a way that is robust and reliable. 34. The model should be able
+to handle the complexity of the algorithms used for analysis in a way that is flexible and
+adaptable. 35. The model should be able to handle the complexity of the algorithms used for analysis
+in a way that is interpretable and explainable. 36. The model should be able to handle the
+complexity of the algorithms used for analysis in a way that is actionable and useful for
+conservation. 37. The model should be able to handle the complexity of the algorithms used for
+analysis in a way that is accessible and usable by a wide range of analysts. 38. The model should be
+able to handle the complexity of the algorithms used for analysis in a way that is sustainable and
+maintainable over time. 39. The model should be able to handle the complexity of the algorithms used
+for analysis in a way that is ethical and responsible. 40. The model should be able to handle the
+complexity of the algorithms used for analysis in a way that is transparent and accountable. 41. The
+model should be able to handle the complexity of the algorithms used for analysis in a way that is
+equitable and just. 42. The model should be able to handle the complexity of the algorithms used for
+analysis in a way that is efficient and effective in terms of conservation outcomes. 43. The model
+should be able to handle the complexity of the algorithms used for analysis in a way that is
+efficient and effective in terms of resource use. 44. The model should be able to handle the
+complexity of the algorithms used for analysis in a way that is efficient and effective in terms of
+both conservation outcomes and resource use. 45. The model should be able to handle the complexity
+of the algorithms used for analysis in a way that is efficient and effective in terms of both
+conservation outcomes and resource use, while also being transparent and accountable, equitable and
+just, sustainable and maintainable, ethical and responsible, and actionable and useful for
+conservation.  Answer: The model selection process considered the following: the model should be
+able to handle large volumes of data, the variety of data types and sources, the complexity of the
+data, the temporal and spatial aspects of the data, the relationships between the different
+variables in the data, the uncertainty in the data, the variability in the data, the bias in the
+data, the stochastic nature of the natural systems, the variable skills and biases of different
+field workers, the costs associated with traditional surveys, the ecological impacts associated with
+traditional surveys, the under sampling of space and time in traditional surveys, the
+inconclusiveness of many conservation monitoring efforts, the scale of global conservation needs,
+the labor required to process and analyze the data, the technology infrastructure required to handle
+big data, the complexity of the algorithms used for analysis, the uncertainty in the output of the
+algorithms used for analysis, the variability in the output of the algorithms used for analysis, the
+bias in the output of the algorithms used for analysis, the stochastic nature of the output of the
+algorithms used for analysis, the variable skills and biases of different analysts, the costs
+associated with the algorithms used for analysis, the ecological impacts associated with the
+algorithms used for analysis, the under sampling of space and time in the algorithms used for
+analysis, the inconclusiveness of many conservation monitoring efforts using the algorithms, the
+scale of global conservation needs using the algorithms, the labor required to process and analyze
+the data using the algorithms, the technology infrastructure required to handle big data using the
+algorithms, the complexity of the algorithms used for analysis in a way that is transparent and
+understandable to analysts, the complexity of the algorithms used for analysis in a way that is
+efficient and scalable, the complexity of the algorithms used for analysis in a way that is robust
+and reliable, the complexity of the algorithms used for analysis in a way that is flexible and
+adaptable, the complexity of the algorithms used for analysis in a way that is interpretable and
+explainable, the complexity of the algorithms used for analysis in a way that is actionable and
+useful for conservation, the complexity of the algorithms used for analysis in a way that is
+accessible and usable by a wide range of analysts, the complexity of the algorithms used for
+analysis in a way that is sustainable and maintainable over time, the complexity of the algorithms
+used for analysis in a way that is ethical and responsible, the complexity of the algorithms used
+for analysis in a way that is transparent and accountable, the complexity of the algorithms used for
+analysis in a way that is equitable and just, the complexity of the algorithms used for analysis in
+a way that is efficient and effective in terms of conservation outcomes, the complexity of the
+algorithms used for analysis in a way that is efficient and effective in terms of resource use, the
+complexity of the algorithms used for analysis in a way that is efficient and effective in terms of
+both conservation outcomes and resource use, the complexity of the algorithms used for analysis in a
+way that is efficient and effective in terms of both conservation outcomes and resource use, while
+also being transparent and accountable, equitable and just, sustainable and maintainable, ethical
+and responsible, and actionable and useful for conservation.

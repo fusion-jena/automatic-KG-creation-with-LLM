@@ -1,0 +1,2 @@
+ The sources of input data for the deep learning pipeline are electronic sensors that collect audio
+and image data.

@@ -1,0 +1,2 @@
+ The hyperparameters used in the model are the number of training steps, which is 4000 for all
+challenges except Challenge 3, where it is 8000.

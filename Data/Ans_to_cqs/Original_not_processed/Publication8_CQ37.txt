@@ -1,0 +1,2 @@
+ The study does not provide information on ethical considerations taken into account during
+development and deployment.

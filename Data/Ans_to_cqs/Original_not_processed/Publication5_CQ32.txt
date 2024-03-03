@@ -1,0 +1,8 @@
+  The uncertainty or confidence in model predictions is not explicitly mentioned in the provided
+context. However, the authors do mention that they used k-fold cross-validation with k = 5 to fit
+the models and averaged the 5 results for the final suitability result for each species. This
+approach can help to reduce uncertainty and increase the robustness of the model predictions.
+Additionally, the authors mention that they used probability-based stacking to combine the
+predictions of each species’ SDM to estimate species richness, which can also help to capture
+uncertainty in the model predictions. However, the specific methods used to capture uncertainty or
+confidence in the model predictions are not provided in the context.

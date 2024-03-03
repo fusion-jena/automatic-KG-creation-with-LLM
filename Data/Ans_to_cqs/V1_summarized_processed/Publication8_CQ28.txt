@@ -1,0 +1,1 @@
+The context does not directly mention how updates to datasets are documented, but it can be inferred that updates are likely documented through the version control system on GitHub.

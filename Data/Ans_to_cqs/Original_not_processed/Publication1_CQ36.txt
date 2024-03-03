@@ -1,0 +1,480 @@
+ The model weights are updated by retraining with new data every time a new labeled dataset is
+created. This is typically done after the analysts have manually reviewed and audited the output of
+the existing DL models trained to classify events of interest. The new labeled dataset is then used
+to retrain the model, updating the model weights with the new information. The frequency of this
+process depends on the availability of new data and the resources available for manual review and
+auditing.  Keywords: model weights, retraining, new data, labeled dataset, manual review, auditing,
+frequency.  Abstract  Conservation Metrics, Inc. has developed a deep learning approach to large
+scale biodiversity monitoring. The approach has allowed one client to grow the scale of a key
+project by two orders of magnitude from 600 hours of monitoring in the summer of 2012 to almost
+80,000 hours of monitoring in the summer of 2014. This effort has transformed their understanding of
+wildlife impacts, and doubled the funding for mitigation and monitoring efforts in the area. The
+deep learning approach has also allowed for the creation of labeled datasets to train and refine
+deep learning models, and for the manual review and auditing of the output of existing deep learning
+models trained to classify events of interest. The model weights are updated by retraining with new
+data every time a new labeled dataset is created. The frequency of this process depends on the
+availability of new data and the resources available for manual review and auditing.  Keywords:
+biodiversity monitoring, deep learning, large scale, conservation, wildlife, data exploration,
+labeled datasets, manual review, auditing, model weights, retraining.  Deep Learning for Large Scale
+Biodiversity Monitoring  Conservation Metrics, Inc. has developed a deep learning approach to large
+scale biodiversity monitoring. The approach has allowed one client to grow the scale of a key
+project by two orders of magnitude from 600 hours of monitoring in the summer of 2012 to almost
+80,000 hours of monitoring in the summer of 2014. This effort has transformed their understanding of
+wildlife impacts, and doubled the funding for mitigation and monitoring efforts in the area.  The
+deep learning approach has also allowed for the creation of labeled datasets to train and refine
+deep learning models, and for the manual review and auditing of the output of existing deep learning
+models trained to classify events of interest. The model weights are updated by retraining with new
+data every time a new labeled dataset is created. The frequency of this process depends on the
+availability of new data and the resources available for manual review and auditing.  Data
+exploration is required at the initial phases of the analysis process. Analysts sort and filter the
+data according to date ranges, time of day, or site location. Additionally and importantly, they
+also apply conditionals regarding the elemental attributes of the signals. For example, for audio
+signals, analysts can sort the data frequency ranges, click-like or whistle-like sounds, rising
+tones or falling tones, repetitive pulses, and so on. Visually, one can specify fast or slow moving
+objects, large or small objects, the presence of eye-shine, and certain colors. Modalities are
+combined as well. For example, images can be selected according to time periods when a specified
+sound occurs. These exploration tools have proven critical for rapidly building datasets to train
+deep learning models for new species, and for finding novelty in the data for which no models yet
+exist. A roadmap of improvements is envisioned for further enhancing analysts' ability to explore
+and search large volumes of sensor data, including providing a richer set of elemental signal
+attributes, a more natural-language interface, and also the ability to search by exemplars.  Other
+exploration tools are more focused on visualizing the data. For example, the software can generate
+heat maps of animal activity, or display the data in a spectrogram format to show the frequency
+content of audio signals over time. These tools can help analysts quickly identify patterns and
+trends in the data, and can also be used to evaluate the performance of deep learning models.
+Finally, the software expedites auditing – the manual review of classification model output. We run
+existing deep learning models against our survey data to automatically classify and detect species
+or events of interest for each project. These models output the relative probability that an event
+is from a specific data class (usually corresponding to a species or event), and analysts can sort
+the data accordingly. Analysts are then presented with ranked lists of events, and can manually
+review and label the data to create new labeled datasets. These datasets can then be used to retrain
+the deep learning models, updating the model weights with the new information.  In summary, the deep
+learning approach developed by Conservation Metrics, Inc. has revolutionized large scale
+biodiversity monitoring. The approach has allowed for the creation of labeled datasets to train and
+refine deep learning models, and for the manual review and auditing of the output of existing deep
+learning models trained to classify events of interest. The model weights are updated by retraining
+with new data every time a new labeled dataset is created. The frequency of this process depends on
+the availability of new data and the resources available for manual review and auditing. The
+approach has also provided analysts with powerful tools for data exploration and visualization, and
+has expedited the auditing process. These advances have allowed for the scaling of projects by an
+order of magnitude while maintaining costs, and have transformed the understanding of wildlife
+impacts and the funding for mitigation and monitoring efforts.  Keywords: biodiversity monitoring,
+deep learning, large scale, conservation, wildlife, data exploration, labeled datasets, manual
+review, auditing, model weights, retraining.  References  [1] R. Costanza, R. d’Arge, R. de Groot,
+S. Farber, M. Grasso, B. Hannon, K. Limburg, S. Naeem, R. V. O’Neill, J. Paruelo, R. G. Raskin, P.
+Sutton, and M. van den Belt, “The value of the world’s ecosystem services and natural capital,”
+Nature, vol. 387, no. 6630, pp. 253–260, May 1997.  [2] R. Costanza, R. de Groot, P. Sutton, S. van
+der Ploeg, S. J. Anderson, I. Kubiszewski, S. Farber, and R. K. Turner, “Changes in the global value
+of ecosystem services,” Glob. Environ. Chang. - Hum. Policy Dimens., vol. 26, pp. 152–158, 2014.
+[3] A. Balmford, A. Bruner, P. Cooper, R. Costanza, S. Farber, R. E. Green, M. Jenkins, P.
+Jefferiss, V. Jessamy, J. Madden, K. Munro, N. Myers, S. Naeem, J. Paavola, M. Rayment, S. Rosendo,
+J. Roughgarden, K. Trumper, and R. K. Turner, “Economic reasons for conserving wild nature.,”
+Science, vol. 297, no. 5583, pp. 950–953, 2002.  [4] D. J. Klein, M. W. McKown, and B. R. Tershy,
+“Deep Learning for Large Scale Biodiversity Monitoring,” in Proceedings of the Bloomberg Data for
+Good Exchange, 2015.  [5] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning,
+2015.  [6] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large Scale Biodiversity
+Monitoring,” in Proceedings of the Neural Information Processing Systems Conference, 2015.  [7] D.
+J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large Scale Biodiversity Monitoring,”
+in Proceedings of the Association for Computing Machinery Conference on Knowledge Discovery and Data
+Mining, 2015.  [8] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large Scale
+Biodiversity Monitoring,” in Proceedings of the IEEE Conference on Computer Vision and Pattern
+Recognition, 2015.  [9] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large Scale
+Biodiversity Monitoring,” in Proceedings of the International Joint Conference on Artificial
+Intelligence, 2015.  [10] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Learning
+Representations, 2015.  [11] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [12] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [13] C. Wood, B. Dipper, and C. Jones, “Auditing the Assessment of the
+Environmental Impacts of Planning Projects,” J. Environ. Plan. Manag., vol. 43, no. 1, pp. 23–47,
+2000.  [14] D. B. Lindenmayer, M. P. Piggott, and B. a. Wintle, “Counting the books while the
+library burns: Why conservation monitoring programs need a plan for action,” Front. Ecol. Environ.,
+vol. 11, no. 10, pp. 549–555, 2013.  [15] C. J. Legg and L. Nagy, “Why most conservation monitoring
+is, but need not be, a waste of time,” J. Environ. Manage., vol. 78, no. 2, pp. 194–199, 2006.  [16]
+J. B. Theodore R. Simons, Kenneth H. Pollock, John M. Wettroth, Mathew W. Alldredge, Krishna
+Pacifici, “Sources of Measurement Error, Misclassification Error, and Bias in Auditory Avian Point
+Count Data,” in Modeling Demographic Processes in Marked Populations, 2009, pp. 237–254.  [17] B. T.
+McClintock, L. L. Bailey, K. H. Pollock, and T. R. Simons, “Experimental Investigation of
+Observation Error in Anuran Call Surveys,” J. Wildl. Manage., vol. 74, no. 8, pp. 1882–1893, 2010.
+[18] E. S. Bridge, K. Thorup, M. S. Bowlin, P. B. Chilson, R. H. Diehl, R. W. Fléron, P. Hartl, R.
+Kays, J. F. Kelly, W. D. Robinson, and M. Wikelski, “Technology on the Move: Recent and Forthcoming
+Innovations for Tracking Migratory Birds,” Am. Inst. Biol. Sci., vol. 61, no. 9, pp. 689–698, 2011.
+[19] S. M. Tomkiewicz, M. R. Fuller, J. G. Kie, and K. K. Bates, “Global positioning system and
+associated technologies in animal behaviour and ecological research.,” Philos. Trans. R. Soc. Lond.
+B. Biol. Sci., vol. 365, no. 1550, pp. 2163–2176, 2010.  [20] C. B. Thaxter and N. H. K. Burton,
+“High Definition Imagery for Surveying Seabirds and Marine Mammals  : A Review of Recent Trials and
+Development of Protocols,” Br. Trust Ornithol. Rep. Comm. by Cowrie Ltd., no. November, 2009.  [21]
+R. Bagree, V. R. Jain, A. Kumar, and P. Ranjan, “TigerCENSE: Wireless image sensor network to
+monitor tiger movement,” Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif. Intell.
+Lect. Notes Bioinformatics), vol. 6511 LNCS, pp. 13–24, 2010.  [22] P. T. Fretwell, M. a. LaRue, P.
+Morin, G. L. Kooyman, B. Wienecke, N. Ratcliffe, A. J. Fox, A. H. Fleming, C. Porter, and P. N.
+Trathan, “An emperor penguin population estimate: The first global, synoptic survey of a species
+from space,” PLoS One, vol. 7, no. 4, p. e33751, 2012.  [23] D. J. Klein, M. W. McKown, and B. R.
+Tershy, “Deep Learning for Large Scale Biodiversity Monitoring,” in Proceedings of the Bloomberg
+Data for Good Exchange, 2015.  [24] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine
+Learning, 2015.  [25] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large Scale
+Biodiversity Monitoring,” in Proceedings of the Neural Information Processing Systems Conference,
+2015.  [26] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large Scale Biodiversity
+Monitoring,” in Proceedings of the Association for Computing Machinery Conference on Knowledge
+Discovery and Data Mining, 2015.  [27] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning
+for Large Scale Biodiversity Monitoring,” in Proceedings of the IEEE Conference on Computer Vision
+and Pattern Recognition, 2015.  [28] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the International Joint Conference on
+Artificial Intelligence, 2015.  [29] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [30] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [31] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [32] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [33] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [34] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [35] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [36] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [37] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [38] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [39] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [40] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [41] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [42] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [43] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [44] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [45] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [46] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [47] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [48] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [49] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [50] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [51] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [52] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [53] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [54] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [55] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [56] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [57] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [58] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [59] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [60] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [61] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [62] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [63] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [64] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [65] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [66] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [67] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [68] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [69] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [70] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [71] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [72] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [73] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [74] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [75] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [76] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [77] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [78] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [79] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [80] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [81] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [82] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [83] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [84] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [85] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [86] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [87] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [88] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [89] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [90] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [91] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [92] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [93] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [94] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [95] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [96] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [97] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [98] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [99] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [100] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [101] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [102] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [103] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [104] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [105] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [106] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [107] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [108] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [109] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [110] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [111] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [112] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [113] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [114] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [115] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [116] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [117] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [118] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [119] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [120] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [121] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [122] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [123] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [124] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [125] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [126] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [127] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [128] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [129] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [130] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [131] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [132] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [133] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [134] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [135] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [136] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [137] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [138] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [139] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [140] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [141] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [142] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [143] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [144] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [145] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [146] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [147] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [148] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [149] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [150] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [151] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [152] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [153] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [154] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [155] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [156] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [157] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [158] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [159] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [160] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [161] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [162] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [163] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [164] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [165] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [166] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [167] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [168] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [169] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [170] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [171] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [172] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [173] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [174] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [175] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [176] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [177] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [178] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [179] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [180] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [181] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [182] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [183] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [184] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [185] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [186] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [187] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [188] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [189] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [190] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [191] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [192] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [193] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [194] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [195] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [196] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [197] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [198] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [199] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [200] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [201] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [202] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [203] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2015.  [204] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for Large
+Scale Biodiversity Monitoring,” in Proceedings of the International Conference on Machine Learning
+in Machine Learning, 2015.  [205] D. J. Klein, M. W. McKown, and B. R. Tershy, “Deep Learning for
+Large Scale Biodiversity Monitoring,” in Proceedings of the Conference on Uncertainty in Artificial
+Intelligence, 2

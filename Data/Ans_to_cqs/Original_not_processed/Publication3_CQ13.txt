@@ -1,0 +1,2 @@
+ The model is initialized by using TensorFlow's Inception v3, which is a sophisticated network given
+the number of layers (48), and is already trained on more than a million images.

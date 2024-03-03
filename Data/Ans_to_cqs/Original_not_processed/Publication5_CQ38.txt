@@ -1,0 +1,8 @@
+ The authors address bias in the data by using probability-based stacking, which has been found to
+produce unbiased richness that is closer to the true species richness. This method combines the
+predictions of each species' species distribution model (SDM) to estimate species richness. The
+authors also use MODIS products, Normalized Difference Vegetation Index (NDVI) and Leaf Area Index
+(LAI), as input variables to estimate the potential plant species richness of South Korea. These
+products are known to have high temporal and spatial resolution, making them suitable for monitoring
+vegetation dynamics and estimating species richness. However, the authors do not explicitly mention
+how they address bias in the MODIS products.

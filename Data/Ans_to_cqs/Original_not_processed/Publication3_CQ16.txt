@@ -1,0 +1,5 @@
+ The convergence criteria or stopping condition for the training process is not explicitly stated in
+the provided context. However, it is mentioned that the training process was calibrated using
+different numbers of training steps, and the optimum number of training steps was chosen based on
+correct identification rate and processing time. The optimum number of training steps was 4000 for
+all challenges except Challenge 3, where it was 8000.

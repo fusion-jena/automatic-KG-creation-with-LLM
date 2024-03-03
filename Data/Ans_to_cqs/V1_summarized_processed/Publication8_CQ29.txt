@@ -1,0 +1,1 @@
+ted with bounding boxes for six types of plant organs: leaves, flowers, fruits, seeds, stems, and roots. These annotations were made manually on hundreds of herbarium scans, with thousands of bounding boxes used for training and evaluating the plant organ detection model. 

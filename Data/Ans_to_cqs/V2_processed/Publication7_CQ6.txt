@@ -1,0 +1,1 @@
+Yes, the authors applied color channel stretch on each image in the dataset. They calculated the 1% and 99% intensity percentiles for each color channel, subtracted the lower intensity from all the intensities in each respective channel, and divided these intensities by the upper percentile. This resulted in better performance compared to the original intensities. 

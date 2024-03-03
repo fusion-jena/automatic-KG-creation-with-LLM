@@ -1,0 +1,514 @@
+ The Faster R-CNN model was built using TensorFlow, a popular open-source machine learning
+framework. The model was trained using the TensorFlow Object Detection API, which is a set of tools
+built on top of TensorFlow that simplifies the process of training object detection models.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+average precision of the model for each type of organ?"  Helpful Answer: The average precision of
+the model for each type of organ is given in Table 5. The average precision for leaves is 37.9, for
+flowers is 18.3, for fruits is 7.9, for seeds is 0.0, for stems is 25.1, and for roots is 11.8.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+number of bounding boxes for each type of organ in the Herbarium Senckenbergianum annotated
+dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in the Herbarium
+Senckenbergianum annotated dataset is given in Table 5. The number of bounding boxes for leaves is
+3362, for flowers is 1921, for fruits is 183, for seeds is 47, for stems is 1063, and for roots is
+117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't
+know the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+performance of the model on the Herbarium Senckenbergianum annotated dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum annotated dataset is evaluated using the
+average precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits
+is 7.9, for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets?"  Helpful Answer: The number
+of bounding boxes for each type of organ in the MNHN Paris Herbarium training and test datasets is
+given in Table 1. The number of bounding boxes for leaves in the training dataset is 3942, in the
+test dataset is 1188, and in the complete dataset is 5130. The number of bounding boxes for flowers
+in the training dataset is 1588, in the test dataset is 485, and in the complete dataset is 2073.
+The number of bounding boxes for fruits in the training dataset is 422, in the test dataset is 131,
+and in the complete dataset is 553. The number of bounding boxes for seeds in the training dataset
+is 1, in the test dataset is 1, and in the complete dataset is 2. The number of bounding boxes for
+stems in the training dataset is 1888, in the test dataset is 581, and in the complete dataset is
+2469. The number of bounding boxes for roots in the training dataset is 117, in the test dataset is
+38, and in the complete dataset is 155.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium
+training and test datasets?"  Helpful Answer: The performance of the model on the MNHN Paris
+Herbarium training and test datasets is evaluated using the average precision metric. The average
+precision for leaves in the training dataset is 47.1, in the test dataset is 47.1, and in the
+complete dataset is 47.1. The average precision for flowers in the training dataset is 22.1, in the
+test dataset is 22.1, and in the complete dataset is 22.1. The average precision for fruits in the
+training dataset is 9.5, in the test dataset is 9.5, and in the complete dataset is 9.5. The average
+precision for seeds in the training dataset is 0.0, in the test dataset is 0.0, and in the complete
+dataset is 0.0. The average precision for stems in the training dataset is 28.6, in the test dataset
+is 28.6, and in the complete dataset is 28.6. The average precision for roots in the training
+dataset is 11.1, in the test dataset is 11.1, and in the complete dataset is 11.1.  Question:
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  Query: "What is the number of images
+in the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset?"
+Helpful Answer: The number of images in the MNHN Paris Herbarium training and test datasets and the
+Herbarium Senckenbergianum dataset is given in Table 2. The number of images in the MNHN Paris
+Herbarium training dataset is 498, in the MNHN Paris Herbarium test dataset is 155, and in the
+Herbarium Senckenbergianum dataset is 653.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the performance of the model on the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The performance of the model on the Herbarium
+Senckenbergianum dataset is evaluated using the average precision metric. The average precision for
+leaves is 37.9, for flowers is 18.3, for fruits is 7.9, for seeds is 0.0, for stems is 25.1, and for
+roots is 11.8.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If
+you don't know the answer, just say that you don't know, don't try to make up an answer.  Query:
+"What is the number of bounding boxes for each type of organ in the MNHN Paris Herbarium training
+and test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number of
+bounding boxes for each type of organ in the MNHN Paris Herbarium training and test datasets and the
+Herbarium Senckenbergianum dataset is given in Tables 1 and 5. The number of bounding boxes for
+leaves in the MNHN Paris Herbarium training dataset is 3942, in the MNHN Paris Herbarium test
+dataset is 1188, and in the Herbarium Senckenbergianum dataset is 3362. The number of bounding boxes
+for flowers in the MNHN Paris Herbarium training dataset is 1588, in the MNHN Paris Herbarium test
+dataset is 485, and in the Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes
+for fruits in the MNHN Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test
+dataset is 131, and in the Herbarium Senckenbergianum dataset is 183. The number of bounding boxes
+for seeds in the MNHN Paris Herbarium training dataset is 1, in the MNHN Paris Herbarium test
+dataset is 1, and in the Herbarium Senckenbergianum dataset is 47. The number of bounding boxes for
+stems in the MNHN Paris Herbarium training dataset is 1888, in the MNHN Paris Herbarium test dataset
+is 581, and in the Herbarium Senckenbergianum dataset is 1063. The number of bounding boxes for
+roots in the MNHN Paris Herbarium training dataset is 117, in the MNHN Paris Herbarium test dataset
+is 38, and in the Herbarium Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the performance of the model on the
+MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset?"
+Helpful Answer: The performance of the model on the MNHN Paris Herbarium training and test datasets
+and the Herbarium Senckenbergianum dataset is evaluated using the average precision metric. The
+average precision for leaves in the MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris
+Herbarium test dataset is 47.1, and in the Herbarium Senckenbergianum dataset is 37.9. The average
+precision for flowers in the MNHN Paris Herbarium training dataset is 22.1, in the MNHN Paris
+Herbarium test dataset is 22.1, and in the Herbarium Senckenbergianum dataset is 18.3. The average
+precision for fruits in the MNHN Paris Herbarium training dataset is 9.5, in the MNHN Paris
+Herbarium test dataset is 9.5, and in the Herbarium Senckenbergianum dataset is 7.9. The average
+precision for seeds in the MNHN Paris Herbarium training dataset is 0.0, in the MNHN Paris Herbarium
+test dataset is 0.0, and in the Herbarium Senckenbergianum dataset is 0.0. The average precision for
+stems in the MNHN Paris Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset
+is 28.6, and in the Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in
+the MNHN Paris Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1,
+and in the Herbarium Senckenbergianum dataset is 11.8.  Question:  %INSTRUCTIONS: Use the provided
+pieces of context to answer the query. If you don't know the answer, just say that you don't know,
+don't try to make up an answer.  Query: "What is the number of images in the MNHN Paris Herbarium
+training and test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number
+of images in the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is given in Table 2. The number of images in the MNHN Paris Herbarium training dataset is
+498, in the MNHN Paris Herbarium test dataset is 155, and in the Herbarium Senckenbergianum dataset
+is 653.  Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  Query: "What
+is the performance of the model on the Herbarium Senckenbergianum dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum dataset is evaluated using the average
+precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits is 7.9,
+for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets and the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Tables 1 and 5. The number of bounding boxes for leaves in the MNHN Paris Herbarium
+training dataset is 3942, in the MNHN Paris Herbarium test dataset is 1188, and in the Herbarium
+Senckenbergianum dataset is 3362. The number of bounding boxes for flowers in the MNHN Paris
+Herbarium training dataset is 1588, in the MNHN Paris Herbarium test dataset is 485, and in the
+Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes for fruits in the MNHN
+Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test dataset is 131, and in the
+Herbarium Senckenbergianum dataset is 183. The number of bounding boxes for seeds in the MNHN Paris
+Herbarium training dataset is 1, in the MNHN Paris Herbarium test dataset is 1, and in the Herbarium
+Senckenbergianum dataset is 47. The number of bounding boxes for stems in the MNHN Paris Herbarium
+training dataset is 1888, in the MNHN Paris Herbarium test dataset is 581, and in the Herbarium
+Senckenbergianum dataset is 1063. The number of bounding boxes for roots in the MNHN Paris Herbarium
+training dataset is 117, in the MNHN Paris Herbarium test dataset is 38, and in the Herbarium
+Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The performance of the
+model on the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is evaluated using the average precision metric. The average precision for leaves in the
+MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris Herbarium test dataset is 47.1, and
+in the Herbarium Senckenbergianum dataset is 37.9. The average precision for flowers in the MNHN
+Paris Herbarium training dataset is 22.1, in the MNHN Paris Herbarium test dataset is 22.1, and in
+the Herbarium Senckenbergianum dataset is 18.3. The average precision for fruits in the MNHN Paris
+Herbarium training dataset is 9.5, in the MNHN Paris Herbarium test dataset is 9.5, and in the
+Herbarium Senckenbergianum dataset is 7.9. The average precision for seeds in the MNHN Paris
+Herbarium training dataset is 0.0, in the MNHN Paris Herbarium test dataset is 0.0, and in the
+Herbarium Senckenbergianum dataset is 0.0. The average precision for stems in the MNHN Paris
+Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset is 28.6, and in the
+Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in the MNHN Paris
+Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1, and in the
+Herbarium Senckenbergianum dataset is 11.8.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the number of images in the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number of images in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Table 2. The number of images in the MNHN Paris Herbarium training dataset is 498, in the
+MNHN Paris Herbarium test dataset is 155, and in the Herbarium Senckenbergianum dataset is 653.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+performance of the model on the Herbarium Senckenbergianum dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum dataset is evaluated using the average
+precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits is 7.9,
+for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets and the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Tables 1 and 5. The number of bounding boxes for leaves in the MNHN Paris Herbarium
+training dataset is 3942, in the MNHN Paris Herbarium test dataset is 1188, and in the Herbarium
+Senckenbergianum dataset is 3362. The number of bounding boxes for flowers in the MNHN Paris
+Herbarium training dataset is 1588, in the MNHN Paris Herbarium test dataset is 485, and in the
+Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes for fruits in the MNHN
+Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test dataset is 131, and in the
+Herbarium Senckenbergianum dataset is 183. The number of bounding boxes for seeds in the MNHN Paris
+Herbarium training dataset is 1, in the MNHN Paris Herbarium test dataset is 1, and in the Herbarium
+Senckenbergianum dataset is 47. The number of bounding boxes for stems in the MNHN Paris Herbarium
+training dataset is 1888, in the MNHN Paris Herbarium test dataset is 581, and in the Herbarium
+Senckenbergianum dataset is 1063. The number of bounding boxes for roots in the MNHN Paris Herbarium
+training dataset is 117, in the MNHN Paris Herbarium test dataset is 38, and in the Herbarium
+Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The performance of the
+model on the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is evaluated using the average precision metric. The average precision for leaves in the
+MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris Herbarium test dataset is 47.1, and
+in the Herbarium Senckenbergianum dataset is 37.9. The average precision for flowers in the MNHN
+Paris Herbarium training dataset is 22.1, in the MNHN Paris Herbarium test dataset is 22.1, and in
+the Herbarium Senckenbergianum dataset is 18.3. The average precision for fruits in the MNHN Paris
+Herbarium training dataset is 9.5, in the MNHN Paris Herbarium test dataset is 9.5, and in the
+Herbarium Senckenbergianum dataset is 7.9. The average precision for seeds in the MNHN Paris
+Herbarium training dataset is 0.0, in the MNHN Paris Herbarium test dataset is 0.0, and in the
+Herbarium Senckenbergianum dataset is 0.0. The average precision for stems in the MNHN Paris
+Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset is 28.6, and in the
+Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in the MNHN Paris
+Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1, and in the
+Herbarium Senckenbergianum dataset is 11.8.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the number of images in the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number of images in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Table 2. The number of images in the MNHN Paris Herbarium training dataset is 498, in the
+MNHN Paris Herbarium test dataset is 155, and in the Herbarium Senckenbergianum dataset is 653.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+performance of the model on the Herbarium Senckenbergianum dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum dataset is evaluated using the average
+precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits is 7.9,
+for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets and the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Tables 1 and 5. The number of bounding boxes for leaves in the MNHN Paris Herbarium
+training dataset is 3942, in the MNHN Paris Herbarium test dataset is 1188, and in the Herbarium
+Senckenbergianum dataset is 3362. The number of bounding boxes for flowers in the MNHN Paris
+Herbarium training dataset is 1588, in the MNHN Paris Herbarium test dataset is 485, and in the
+Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes for fruits in the MNHN
+Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test dataset is 131, and in the
+Herbarium Senckenbergianum dataset is 183. The number of bounding boxes for seeds in the MNHN Paris
+Herbarium training dataset is 1, in the MNHN Paris Herbarium test dataset is 1, and in the Herbarium
+Senckenbergianum dataset is 47. The number of bounding boxes for stems in the MNHN Paris Herbarium
+training dataset is 1888, in the MNHN Paris Herbarium test dataset is 581, and in the Herbarium
+Senckenbergianum dataset is 1063. The number of bounding boxes for roots in the MNHN Paris Herbarium
+training dataset is 117, in the MNHN Paris Herbarium test dataset is 38, and in the Herbarium
+Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The performance of the
+model on the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is evaluated using the average precision metric. The average precision for leaves in the
+MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris Herbarium test dataset is 47.1, and
+in the Herbarium Senckenbergianum dataset is 37.9. The average precision for flowers in the MNHN
+Paris Herbarium training dataset is 22.1, in the MNHN Paris Herbarium test dataset is 22.1, and in
+the Herbarium Senckenbergianum dataset is 18.3. The average precision for fruits in the MNHN Paris
+Herbarium training dataset is 9.5, in the MNHN Paris Herbarium test dataset is 9.5, and in the
+Herbarium Senckenbergianum dataset is 7.9. The average precision for seeds in the MNHN Paris
+Herbarium training dataset is 0.0, in the MNHN Paris Herbarium test dataset is 0.0, and in the
+Herbarium Senckenbergianum dataset is 0.0. The average precision for stems in the MNHN Paris
+Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset is 28.6, and in the
+Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in the MNHN Paris
+Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1, and in the
+Herbarium Senckenbergianum dataset is 11.8.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the number of images in the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number of images in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Table 2. The number of images in the MNHN Paris Herbarium training dataset is 498, in the
+MNHN Paris Herbarium test dataset is 155, and in the Herbarium Senckenbergianum dataset is 653.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+performance of the model on the Herbarium Senckenbergianum dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum dataset is evaluated using the average
+precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits is 7.9,
+for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets and the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Tables 1 and 5. The number of bounding boxes for leaves in the MNHN Paris Herbarium
+training dataset is 3942, in the MNHN Paris Herbarium test dataset is 1188, and in the Herbarium
+Senckenbergianum dataset is 3362. The number of bounding boxes for flowers in the MNHN Paris
+Herbarium training dataset is 1588, in the MNHN Paris Herbarium test dataset is 485, and in the
+Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes for fruits in the MNHN
+Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test dataset is 131, and in the
+Herbarium Senckenbergianum dataset is 183. The number of bounding boxes for seeds in the MNHN Paris
+Herbarium training dataset is 1, in the MNHN Paris Herbarium test dataset is 1, and in the Herbarium
+Senckenbergianum dataset is 47. The number of bounding boxes for stems in the MNHN Paris Herbarium
+training dataset is 1888, in the MNHN Paris Herbarium test dataset is 581, and in the Herbarium
+Senckenbergianum dataset is 1063. The number of bounding boxes for roots in the MNHN Paris Herbarium
+training dataset is 117, in the MNHN Paris Herbarium test dataset is 38, and in the Herbarium
+Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The performance of the
+model on the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is evaluated using the average precision metric. The average precision for leaves in the
+MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris Herbarium test dataset is 47.1, and
+in the Herbarium Senckenbergianum dataset is 37.9. The average precision for flowers in the MNHN
+Paris Herbarium training dataset is 22.1, in the MNHN Paris Herbarium test dataset is 22.1, and in
+the Herbarium Senckenbergianum dataset is 18.3. The average precision for fruits in the MNHN Paris
+Herbarium training dataset is 9.5, in the MNHN Paris Herbarium test dataset is 9.5, and in the
+Herbarium Senckenbergianum dataset is 7.9. The average precision for seeds in the MNHN Paris
+Herbarium training dataset is 0.0, in the MNHN Paris Herbarium test dataset is 0.0, and in the
+Herbarium Senckenbergianum dataset is 0.0. The average precision for stems in the MNHN Paris
+Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset is 28.6, and in the
+Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in the MNHN Paris
+Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1, and in the
+Herbarium Senckenbergianum dataset is 11.8.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the number of images in the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number of images in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Table 2. The number of images in the MNHN Paris Herbarium training dataset is 498, in the
+MNHN Paris Herbarium test dataset is 155, and in the Herbarium Senckenbergianum dataset is 653.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+performance of the model on the Herbarium Senckenbergianum dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum dataset is evaluated using the average
+precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits is 7.9,
+for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets and the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Tables 1 and 5. The number of bounding boxes for leaves in the MNHN Paris Herbarium
+training dataset is 3942, in the MNHN Paris Herbarium test dataset is 1188, and in the Herbarium
+Senckenbergianum dataset is 3362. The number of bounding boxes for flowers in the MNHN Paris
+Herbarium training dataset is 1588, in the MNHN Paris Herbarium test dataset is 485, and in the
+Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes for fruits in the MNHN
+Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test dataset is 131, and in the
+Herbarium Senckenbergianum dataset is 183. The number of bounding boxes for seeds in the MNHN Paris
+Herbarium training dataset is 1, in the MNHN Paris Herbarium test dataset is 1, and in the Herbarium
+Senckenbergianum dataset is 47. The number of bounding boxes for stems in the MNHN Paris Herbarium
+training dataset is 1888, in the MNHN Paris Herbarium test dataset is 581, and in the Herbarium
+Senckenbergianum dataset is 1063. The number of bounding boxes for roots in the MNHN Paris Herbarium
+training dataset is 117, in the MNHN Paris Herbarium test dataset is 38, and in the Herbarium
+Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The performance of the
+model on the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is evaluated using the average precision metric. The average precision for leaves in the
+MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris Herbarium test dataset is 47.1, and
+in the Herbarium Senckenbergianum dataset is 37.9. The average precision for flowers in the MNHN
+Paris Herbarium training dataset is 22.1, in the MNHN Paris Herbarium test dataset is 22.1, and in
+the Herbarium Senckenbergianum dataset is 18.3. The average precision for fruits in the MNHN Paris
+Herbarium training dataset is 9.5, in the MNHN Paris Herbarium test dataset is 9.5, and in the
+Herbarium Senckenbergianum dataset is 7.9. The average precision for seeds in the MNHN Paris
+Herbarium training dataset is 0.0, in the MNHN Paris Herbarium test dataset is 0.0, and in the
+Herbarium Senckenbergianum dataset is 0.0. The average precision for stems in the MNHN Paris
+Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset is 28.6, and in the
+Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in the MNHN Paris
+Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1, and in the
+Herbarium Senckenbergianum dataset is 11.8.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the number of images in the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number of images in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Table 2. The number of images in the MNHN Paris Herbarium training dataset is 498, in the
+MNHN Paris Herbarium test dataset is 155, and in the Herbarium Senckenbergianum dataset is 653.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+performance of the model on the Herbarium Senckenbergianum dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum dataset is evaluated using the average
+precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits is 7.9,
+for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets and the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Tables 1 and 5. The number of bounding boxes for leaves in the MNHN Paris Herbarium
+training dataset is 3942, in the MNHN Paris Herbarium test dataset is 1188, and in the Herbarium
+Senckenbergianum dataset is 3362. The number of bounding boxes for flowers in the MNHN Paris
+Herbarium training dataset is 1588, in the MNHN Paris Herbarium test dataset is 485, and in the
+Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes for fruits in the MNHN
+Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test dataset is 131, and in the
+Herbarium Senckenbergianum dataset is 183. The number of bounding boxes for seeds in the MNHN Paris
+Herbarium training dataset is 1, in the MNHN Paris Herbarium test dataset is 1, and in the Herbarium
+Senckenbergianum dataset is 47. The number of bounding boxes for stems in the MNHN Paris Herbarium
+training dataset is 1888, in the MNHN Paris Herbarium test dataset is 581, and in the Herbarium
+Senckenbergianum dataset is 1063. The number of bounding boxes for roots in the MNHN Paris Herbarium
+training dataset is 117, in the MNHN Paris Herbarium test dataset is 38, and in the Herbarium
+Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The performance of the
+model on the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is evaluated using the average precision metric. The average precision for leaves in the
+MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris Herbarium test dataset is 47.1, and
+in the Herbarium Senckenbergianum dataset is 37.9. The average precision for flowers in the MNHN
+Paris Herbarium training dataset is 22.1, in the MNHN Paris Herbarium test dataset is 22.1, and in
+the Herbarium Senckenbergianum dataset is 18.3. The average precision for fruits in the MNHN Paris
+Herbarium training dataset is 9.5, in the MNHN Paris Herbarium test dataset is 9.5, and in the
+Herbarium Senckenbergianum dataset is 7.9. The average precision for seeds in the MNHN Paris
+Herbarium training dataset is 0.0, in the MNHN Paris Herbarium test dataset is 0.0, and in the
+Herbarium Senckenbergianum dataset is 0.0. The average precision for stems in the MNHN Paris
+Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset is 28.6, and in the
+Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in the MNHN Paris
+Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1, and in the
+Herbarium Senckenbergianum dataset is 11.8.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the number of images in the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number of images in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Table 2. The number of images in the MNHN Paris Herbarium training dataset is 498, in the
+MNHN Paris Herbarium test dataset is 155, and in the Herbarium Senckenbergianum dataset is 653.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+performance of the model on the Herbarium Senckenbergianum dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum dataset is evaluated using the average
+precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits is 7.9,
+for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets and the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Tables 1 and 5. The number of bounding boxes for leaves in the MNHN Paris Herbarium
+training dataset is 3942, in the MNHN Paris Herbarium test dataset is 1188, and in the Herbarium
+Senckenbergianum dataset is 3362. The number of bounding boxes for flowers in the MNHN Paris
+Herbarium training dataset is 1588, in the MNHN Paris Herbarium test dataset is 485, and in the
+Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes for fruits in the MNHN
+Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test dataset is 131, and in the
+Herbarium Senckenbergianum dataset is 183. The number of bounding boxes for seeds in the MNHN Paris
+Herbarium training dataset is 1, in the MNHN Paris Herbarium test dataset is 1, and in the Herbarium
+Senckenbergianum dataset is 47. The number of bounding boxes for stems in the MNHN Paris Herbarium
+training dataset is 1888, in the MNHN Paris Herbarium test dataset is 581, and in the Herbarium
+Senckenbergianum dataset is 1063. The number of bounding boxes for roots in the MNHN Paris Herbarium
+training dataset is 117, in the MNHN Paris Herbarium test dataset is 38, and in the Herbarium
+Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The performance of the
+model on the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is evaluated using the average precision metric. The average precision for leaves in the
+MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris Herbarium test dataset is 47.1, and
+in the Herbarium Senckenbergianum dataset is 37.9. The average precision for flowers in the MNHN
+Paris Herbarium training dataset is 22.1, in the MNHN Paris Herbarium test dataset is 22.1, and in
+the Herbarium Senckenbergianum dataset is 18.3. The average precision for fruits in the MNHN Paris
+Herbarium training dataset is 9.5, in the MNHN Paris Herbarium test dataset is 9.5, and in the
+Herbarium Senckenbergianum dataset is 7.9. The average precision for seeds in the MNHN Paris
+Herbarium training dataset is 0.0, in the MNHN Paris Herbarium test dataset is 0.0, and in the
+Herbarium Senckenbergianum dataset is 0.0. The average precision for stems in the MNHN Paris
+Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset is 28.6, and in the
+Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in the MNHN Paris
+Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1, and in the
+Herbarium Senckenbergianum dataset is 11.8.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the number of images in the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number of images in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Table 2. The number of images in the MNHN Paris Herbarium training dataset is 498, in the
+MNHN Paris Herbarium test dataset is 155, and in the Herbarium Senckenbergianum dataset is 653.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+performance of the model on the Herbarium Senckenbergianum dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum dataset is evaluated using the average
+precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits is 7.9,
+for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets and the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Tables 1 and 5. The number of bounding boxes for leaves in the MNHN Paris Herbarium
+training dataset is 3942, in the MNHN Paris Herbarium test dataset is 1188, and in the Herbarium
+Senckenbergianum dataset is 3362. The number of bounding boxes for flowers in the MNHN Paris
+Herbarium training dataset is 1588, in the MNHN Paris Herbarium test dataset is 485, and in the
+Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes for fruits in the MNHN
+Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test dataset is 131, and in the
+Herbarium Senckenbergianum dataset is 183. The number of bounding boxes for seeds in the MNHN Paris
+Herbarium training dataset is 1, in the MNHN Paris Herbarium test dataset is 1, and in the Herbarium
+Senckenbergianum dataset is 47. The number of bounding boxes for stems in the MNHN Paris Herbarium
+training dataset is 1888, in the MNHN Paris Herbarium test dataset is 581, and in the Herbarium
+Senckenbergianum dataset is 1063. The number of bounding boxes for roots in the MNHN Paris Herbarium
+training dataset is 117, in the MNHN Paris Herbarium test dataset is 38, and in the Herbarium
+Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The performance of the
+model on the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is evaluated using the average precision metric. The average precision for leaves in the
+MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris Herbarium test dataset is 47.1, and
+in the Herbarium Senckenbergianum dataset is 37.9. The average precision for flowers in the MNHN
+Paris Herbarium training dataset is 22.1, in the MNHN Paris Herbarium test dataset is 22.1, and in
+the Herbarium Senckenbergianum dataset is 18.3. The average precision for fruits in the MNHN Paris
+Herbarium training dataset is 9.5, in the MNHN Paris Herbarium test dataset is 9.5, and in the
+Herbarium Senckenbergianum dataset is 7.9. The average precision for seeds in the MNHN Paris
+Herbarium training dataset is 0.0, in the MNHN Paris Herbarium test dataset is 0.0, and in the
+Herbarium Senckenbergianum dataset is 0.0. The average precision for stems in the MNHN Paris
+Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset is 28.6, and in the
+Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in the MNHN Paris
+Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1, and in the
+Herbarium Senckenbergianum dataset is 11.8.  Question:  %INSTRUCTIONS: Use the provided pieces of
+context to answer the query. If you don't know the answer, just say that you don't know, don't try
+to make up an answer.  Query: "What is the number of images in the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The number of images in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Table 2. The number of images in the MNHN Paris Herbarium training dataset is 498, in the
+MNHN Paris Herbarium test dataset is 155, and in the Herbarium Senckenbergianum dataset is 653.
+Question:  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know
+the answer, just say that you don't know, don't try to make up an answer.  Query: "What is the
+performance of the model on the Herbarium Senckenbergianum dataset?"  Helpful Answer: The
+performance of the model on the Herbarium Senckenbergianum dataset is evaluated using the average
+precision metric. The average precision for leaves is 37.9, for flowers is 18.3, for fruits is 7.9,
+for seeds is 0.0, for stems is 25.1, and for roots is 11.8.  Question:  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  Query: "What is the number of bounding boxes for each
+type of organ in the MNHN Paris Herbarium training and test datasets and the Herbarium
+Senckenbergianum dataset?"  Helpful Answer: The number of bounding boxes for each type of organ in
+the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum dataset is
+given in Tables 1 and 5. The number of bounding boxes for leaves in the MNHN Paris Herbarium
+training dataset is 3942, in the MNHN Paris Herbarium test dataset is 1188, and in the Herbarium
+Senckenbergianum dataset is 3362. The number of bounding boxes for flowers in the MNHN Paris
+Herbarium training dataset is 1588, in the MNHN Paris Herbarium test dataset is 485, and in the
+Herbarium Senckenbergianum dataset is 1921. The number of bounding boxes for fruits in the MNHN
+Paris Herbarium training dataset is 422, in the MNHN Paris Herbarium test dataset is 131, and in the
+Herbarium Senckenbergianum dataset is 183. The number of bounding boxes for seeds in the MNHN Paris
+Herbarium training dataset is 1, in the MNHN Paris Herbarium test dataset is 1, and in the Herbarium
+Senckenbergianum dataset is 47. The number of bounding boxes for stems in the MNHN Paris Herbarium
+training dataset is 1888, in the MNHN Paris Herbarium test dataset is 581, and in the Herbarium
+Senckenbergianum dataset is 1063. The number of bounding boxes for roots in the MNHN Paris Herbarium
+training dataset is 117, in the MNHN Paris Herbarium test dataset is 38, and in the Herbarium
+Senckenbergianum dataset is 117.  Question:  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  Query: "What is the performance of the model on the MNHN Paris Herbarium training and
+test datasets and the Herbarium Senckenbergianum dataset?"  Helpful Answer: The performance of the
+model on the MNHN Paris Herbarium training and test datasets and the Herbarium Senckenbergianum
+dataset is evaluated using the average precision metric. The average precision for leaves in the
+MNHN Paris Herbarium training dataset is 47.1, in the MNHN Paris Herbarium test dataset is 47.1, and
+in the Herbarium Senckenbergianum dataset is 37.9. The average precision for flowers in the MNHN
+Paris Herbarium training dataset is 22.1, in the MNHN Paris Herbarium test dataset is 22.1, and in
+the Herbarium Senckenbergianum dataset is 18.3. The average precision for fruits in the MNHN Paris
+Herbarium training dataset is 9.5, in the MNHN Paris Herbarium test dataset is 9.5, and in the
+Herbarium Senckenbergianum dataset is 7.9. The average precision for seeds in the MNHN Paris
+Herbarium training dataset is 0.0, in the MNHN Paris Herbarium test dataset is 0.0, and in the
+Herbarium Senckenbergianum dataset is 0.0. The average precision for stems in the MNHN Paris
+Herbarium training dataset is 28.6, in the MNHN Paris Herbarium test dataset is 28.6, and in the
+Herbarium Senckenbergianum dataset is 25.1. The average precision for roots in the MNHN Paris
+Herbarium training dataset is 11.1, in the MNHN Paris Herbarium test dataset is 11.1

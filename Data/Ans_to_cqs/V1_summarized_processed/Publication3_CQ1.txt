@@ -1,0 +1,1 @@
+The deep learning pipeline uses various data formats such as raw data, preprocessed data, training data, validation data, test data, model data, and prediction data. Raw data is the initial data format, which can be in various forms such as images, audio files, text files, etc. Model data is the data format used to store the trained deep learning model.

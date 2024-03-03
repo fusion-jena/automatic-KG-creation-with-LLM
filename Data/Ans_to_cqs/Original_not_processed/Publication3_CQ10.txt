@@ -1,0 +1,711 @@
+ The model selection process considered two factors: (1) the number of images per class assigned to
+a species present in the reference library, and (2) the average certainty rate associated with those
+identifications.  Query: "What was the overall certainty rate for the 21 species new to the
+library?"  Helpful Answer: The overall certainty rate for the 21 species new to the library was
+65.5%.  Query: "What was the overall certainty rate for the 20 species present in the reference
+library?"  Helpful Answer: The overall certainty rate for the 20 species present in the reference
+library was 83.6%.  Query: "Was there a significant difference in certainty rates between the 20
+species present in the reference library and the 21 species new to the library?"  Helpful Answer:
+Yes, there was a significant difference in certainty rates between the 20 species present in the
+reference library and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P =
+1.09e–19).  Query: "What was the average certainty rate for species identifications for the 21
+species new to the library?"  Helpful Answer: The average certainty rate for species identifications
+for the 21 species new to the library was 65.5%.  Query: "What was the average certainty rate for
+species identifications for the 20 species present in the reference library?"  Helpful Answer: The
+average certainty rate for species identifications for the 20 species present in the reference
+library was 83.6%.  Query: "What was the number of images per class assigned to a species present in
+the reference library for the 21 species new to the library?"  Helpful Answer: It is not possible
+for TensorFlow to provide a correct answer for the other 21 species, as they were new to the
+training set.  Query: "What was the number of images per class assigned to a species present in the
+reference library for the 20 species present in the reference library?"  Helpful Answer: The number
+of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context.  Query: "What was the average
+certainty rate for species identifications for the 20 species present in the reference library and
+the 21 species new to the library?"  Helpful Answer: The average certainty rate for species
+identifications for the 20 species present in the reference library was 83.6%, and for the 21
+species new to the library it was 65.5%.  Query: "What was the number of images per class assigned
+to a species present in the reference library for the 21 species new to the library?"  Helpful
+Answer: It is not possible for TensorFlow to provide a correct answer for the other 21 species, as
+they were new to the training set.  Query: "What was the number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library?"
+Helpful Answer: The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+Query: "What was the average certainty rate for species identifications for the 21 species new to
+the library and the 20 species present in the reference library?"  Helpful Answer: The average
+certainty rate for species identifications for the 21 species new to the library was 65.5%, and for
+the 20 species present in the reference library it was 83.6%.  Query: "What was the number of images
+per class assigned to a species present in the reference library for the 21 species new to the
+library and the 20 species present in the reference library?"  Helpful Answer: It is not possible
+for TensorFlow to provide a correct answer for the other 21 species, as they were new to the
+training set. The number of images per class assigned to a species present in the reference library
+for the 20 species present in the reference library is not provided in the given context.  Query:
+"What was the average certainty rate for species identifications for the 21 species new to the
+library and the 20 species present in the reference library, and how did they compare?"  Helpful
+Answer: The average certainty rate for species identifications for the 21 species new to the library
+was 65.5%, and for the 20 species present in the reference library it was 83.6%. There was a
+significant difference in certainty rates between the 20 species present in the reference library
+and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P = 1.09e–19).  Query:
+"What was the number of images per class assigned to a species present in the reference library for
+the 21 species new to the library and the 20 species present in the reference library?"  Helpful
+Answer: It is not possible for TensorFlow to provide a correct answer for the other 21 species, as
+they were new to the training set. The number of images per class assigned to a species present in
+the reference library for the 20 species present in the reference library is not provided in the
+given context.  Query: "What was the average certainty rate for species identifications for the 21
+species new to the library and the 20 species present in the reference library, and how did they
+compare? Also, what was the number of images per class assigned to a species present in the
+reference library for the 21 species new to the library and the 20 species present in the reference
+library?"  Helpful Answer: The average certainty rate for species identifications for the 21 species
+new to the library was 65.5%, and for the 20 species present in the reference library it was 83.6%.
+There was a significant difference in certainty rates between the 20 species present in the
+reference library and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P =
+1.09e–19). It is not possible for TensorFlow to provide a correct answer for the other 21 species,
+as they were new to the training set. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context.  Query: "What was the average certainty rate for species identifications for the 21
+species new to the library and the 20 species present in the reference library, and how did they
+compare? Also, what was the number of images per class assigned to a species present in the
+reference library for the 21 species new to the library?"  Helpful Answer: The average certainty
+rate for species identifications for the 21 species new to the library was 65.5%, and for the 20
+species present in the reference library it was 83.6%. There was a significant difference in
+certainty rates between the 20 species present in the reference library and the 21 species new to
+the library (Mann–Whitney U test, U = 56379.5, P = 1.09e–19). It is not possible for TensorFlow to
+provide a correct answer for the other 21 species, as they were new to the training set.  Query:
+"What was the average certainty rate for species identifications for the 21 species new to the
+library and the 20 species present in the reference library, and how did they compare? Also, what
+was the number of images per class assigned to a species present in the reference library for the 21
+species new to the library?"  Helpful Answer: The average certainty rate for species identifications
+for the 21 species new to the library was 65.5%, and for the 20 species present in the reference
+library it was 83.6%. There was a significant difference in certainty rates between the 20 species
+present in the reference library and the 21 species new to the library (Mann–Whitney U test, U =
+56379.5, P = 1.09e–19). It is not possible for TensorFlow to provide a correct answer for the other
+21 species, as they were new to the training set. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context.  Query: "What was the average certainty rate for species identifications for the
+21 species new to the library and the 20 species present in the reference library, and how did they
+compare? Also, what was the number of images per class assigned to a species present in the
+reference library for the 21 species new to the library and the 20 species present in the reference
+library?"  Helpful Answer: The average certainty rate for species identifications for the 21 species
+new to the library was 65.5%, and for the 20 species present in the reference library it was 83.6%.
+There was a significant difference in certainty rates between the 20 species present in the
+reference library and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P =
+1.09e–19). It is not possible for TensorFlow to provide a correct answer for the other 21 species,
+as they were new to the training set. The number of images per class assigned to a species present
+in the reference library for the 21 species new to the library and the 20 species present in the
+reference library is not provided in the given context.  Query: "What was the average certainty rate
+for species identifications for the 21 species new to the library and the 20 species present in the
+reference library, and how did they compare? Also, what was the number of images per class assigned
+to a species present in the reference library for the 21 species new to the library?"  Helpful
+Answer: The average certainty rate for species identifications for the 21 species new to the library
+was 65.5%, and for the 20 species present in the reference library it was 83.6%. There was a
+significant difference in certainty rates between the 20 species present in the reference library
+and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P = 1.09e–19). It is not
+possible for TensorFlow to provide a correct answer for the other 21 species, as they were new to
+the training set. The number of images per class assigned to a species present in the reference
+library for the 21 species new to the library is not provided in the given context.  Query: "What
+was the average certainty rate for species identifications for the 21 species new to the library and
+the 20 species present in the reference library, and how did they compare? Also, what was the number
+of images per class assigned to a species present in the reference library for the 21 species new to
+the library and the 20 species present in the reference library, and how did they compare?"  Helpful
+Answer: The average certainty rate for species identifications for the 21 species new to the library
+was 65.5%, and for the 20 species present in the reference library it was 83.6%. There was a
+significant difference in certainty rates between the 20 species present in the reference library
+and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P = 1.09e–19). It is not
+possible for TensorFlow to provide a correct answer for the other 21 species, as they were new to
+the training set. The number of images per class assigned to a species present in the reference
+library for the 21 species new to the library and the 20 species present in the reference library is
+not provided in the given context.  Query: "What was the average certainty rate for species
+identifications for the 21 species new to the library and the 20 species present in the reference
+library, and how did they compare? Also, what was the number of images per class assigned to a
+species present in the reference library for the 21 species new to the library and the 20 species
+present in the reference library, and how did they compare? Also, what was the number of images per
+class assigned to a species present in the reference library for the 21 species new to the library?"
+Helpful Answer: The average certainty rate for species identifications for the 21 species new to the
+library was 65.5%, and for the 20 species present in the reference library it was 83.6%. There was a
+significant difference in certainty rates between the 20 species present in the reference library
+and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P = 1.09e–19). It is not
+possible for TensorFlow to provide a correct answer for the other 21 species, as they were new to
+the training set. The number of images per class assigned to a species present in the reference
+library for the 21 species new to the library and the 20 species present in the reference library is
+not provided in the given context. The number of images per class assigned to a species present in
+the reference library for the 21 species new to the library is not provided in the given context.
+Query: "What was the average certainty rate for species identifications for the 21 species new to
+the library and the 20 species present in the reference library, and how did they compare? Also,
+what was the number of images per class assigned to a species present in the reference library for
+the 21 species new to the library and the 20 species present in the reference library, and how did
+they compare? Also, what was the number of images per class assigned to a species present in the
+reference library for the 21 species new to the library, and how did it compare to the 20 species
+present in the reference library?"  Helpful Answer: The average certainty rate for species
+identifications for the 21 species new to the library was 65.5%, and for the 20 species present in
+the reference library it was 83.6%. There was a significant difference in certainty rates between
+the 20 species present in the reference library and the 21 species new to the library (Mann–Whitney
+U test, U = 56379.5, P = 1.09e–19). It is not possible for TensorFlow to provide a correct answer
+for the other 21 species, as they were new to the training set. The number of images per class
+assigned to a species present in the reference library for the 21 species new to the library and the
+20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context.  Query: "What was the average certainty rate for species
+identifications for the 21 species new to the library and the 20 species present in the reference
+library, and how did they compare? Also, what was the number of images per class assigned to a
+species present in the reference library for the 21 species new to the library and the 20 species
+present in the reference library, and how did they compare? Also, what was the number of images per
+class assigned to a species present in the reference library for the 21 species new to the library,
+and how did it compare to the 20 species present in the reference library? Also, what was the number
+of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library?"  Helpful Answer: The average certainty rate for species
+identifications for the 21 species new to the library was 65.5%, and for the 20 species present in
+the reference library it was 83.6%. There was a significant difference in certainty rates between
+the 20 species present in the reference library and the 21 species new to the library (Mann–Whitney
+U test, U = 56379.5, P = 1.09e–19). It is not possible for TensorFlow to provide a correct answer
+for the other 21 species, as they were new to the training set. The number of images per class
+assigned to a species present in the reference library for the 21 species new to the library and the
+20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library and the 20 species present in the reference
+library is not provided in the given context.  Query: "What was the average certainty rate for
+species identifications for the 21 species new to the library and the 20 species present in the
+reference library, and how did they compare? Also, what was the number of images per class assigned
+to a species present in the reference library for the 21 species new to the library and the 20
+species present in the reference library, and how did they compare? Also, what was the number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library, and how did it compare to the 20 species present in the reference library? Also, what
+was the number of images per class assigned to a species present in the reference library for the 20
+species present in the reference library, and how did it compare to the 21 species new to the
+library?"  Helpful Answer: The average certainty rate for species identifications for the 21 species
+new to the library was 65.5%, and for the 20 species present in the reference library it was 83.6%.
+There was a significant difference in certainty rates between the 20 species present in the
+reference library and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P =
+1.09e–19). It is not possible for TensorFlow to provide a correct answer for the other 21 species,
+as they were new to the training set. The number of images per class assigned to a species present
+in the reference library for the 21 species new to the library and the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library and the 20 species present in the reference library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 21 species new to the library is not provided in the given context.  Query: "What
+was the average certainty rate for species identifications for the 21 species new to the library and
+the 20 species present in the reference library, and how did they compare? Also, what was the number
+of images per class assigned to a species present in the reference library for the 21 species new to
+the library and the 20 species present in the reference library, and how did they compare? Also,
+what was the number of images per class assigned to a species present in the reference library for
+the 21 species new to the library, and how did it compare to the 20 species present in the reference
+library? Also, what was the number of images per class assigned to a species present in the
+reference library for the 20 species present in the reference library, and how did it compare to the
+21 species new to the library? Also, what was the number of images per class assigned to a species
+present in the reference library for the 21 species new to the library, and how did it compare to
+the 20 species present in the reference library?"  Helpful Answer: The average certainty rate for
+species identifications for the 21 species new to the library was 65.5%, and for the 20 species
+present in the reference library it was 83.6%. There was a significant difference in certainty rates
+between the 20 species present in the reference library and the 21 species new to the library
+(Mann–Whitney U test, U = 56379.5, P = 1.09e–19). It is not possible for TensorFlow to provide a
+correct answer for the other 21 species, as they were new to the training set. The number of images
+per class assigned to a species present in the reference library for the 21 species new to the
+library and the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library and the 20 species present in
+the reference library is not provided in the given context. The number of images per class assigned
+to a species present in the reference library for the 21 species new to the library is not provided
+in the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+Query: "What was the average certainty rate for species identifications for the 21 species new to
+the library and the 20 species present in the reference library, and how did they compare? Also,
+what was the number of images per class assigned to a species present in the reference library for
+the 21 species new to the library and the 20 species present in the reference library, and how did
+they compare? Also, what was the number of images per class assigned to a species present in the
+reference library for the 21 species new to the library, and how did it compare to the 20 species
+present in the reference library? Also, what was the number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library, and
+how did it compare to the 21 species new to the library? Also, what was the number of images per
+class assigned to a species present in the reference library for the 21 species new to the library,
+and how did it compare to the 20 species present in the reference library? Also, what was the number
+of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library, and how did it compare to the 21 species new to the library?"
+Helpful Answer: The average certainty rate for species identifications for the 21 species new to the
+library was 65.5%, and for the 20 species present in the reference library it was 83.6%. There was a
+significant difference in certainty rates between the 20 species present in the reference library
+and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P = 1.09e–19). It is not
+possible for TensorFlow to provide a correct answer for the other 21 species, as they were new to
+the training set. The number of images per class assigned to a species present in the reference
+library for the 21 species new to the library and the 20 species present in the reference library is
+not provided in the given context. The number of images per class assigned to a species present in
+the reference library for the 21 species new to the library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 20
+species present in the reference library is not provided in the given context. The number of images
+per class assigned to a species present in the reference library for the 21 species new to the
+library and the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context.  Query: "What
+was the average certainty rate for species identifications for the 21 species new to the library and
+the 20 species present in the reference library, and how did they compare? Also, what was the number
+of images per class assigned to a species present in the reference library for the 21 species new to
+the library and the 20 species present in the reference library, and how did they compare? Also,
+what was the number of images per class assigned to a species present in the reference library for
+the 21 species new to the library, and how did it compare to the 20 species present in the reference
+library? Also, what was the number of images per class assigned to a species present in the
+reference library for the 20 species present in the reference library, and how did it compare to the
+21 species new to the library? Also, what was the number of images per class assigned to a species
+present in the reference library for the 21 species new to the library, and how did it compare to
+the 20 species present in the reference library? Also, what was the number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library, and how did it compare to the 21 species new to the library? Also, what was the number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library, and how did it compare to the 20 species present in the reference library, and how did
+it compare to the 20 species present in the reference library?"  Helpful Answer: The average
+certainty rate for species identifications for the 21 species new to the library was 65.5%, and for
+the 20 species present in the reference library it was 83.6%. There was a significant difference in
+certainty rates between the 20 species present in the reference library and the 21 species new to
+the library (Mann–Whitney U test, U = 56379.5, P = 1.09e–19). It is not possible for TensorFlow to
+provide a correct answer for the other 21 species, as they were new to the training set. The number
+of images per class assigned to a species present in the reference library for the 21 species new to
+the library and the 20 species present in the reference library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library and the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+Query: "What was the average certainty rate for species identifications for the 21 species new to
+the library and the 20 species present in the reference library, and how did they compare? Also,
+what was the number of images per class assigned to a species present in the reference library for
+the 21 species new to the library and the 20 species present in the reference library, and how did
+they compare? Also, what was the number of images per class assigned to a species present in the
+reference library for the 21 species new to the library, and how did it compare to the 20 species
+present in the reference library? Also, what was the number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library, and
+how did it compare to the 21 species new to the library? Also, what was the number of images per
+class assigned to a species present in the reference library for the 21 species new to the library,
+and how did it compare to the 20 species present in the reference library? Also, what was the number
+of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library, and how did it compare to the 21 species new to the library? Also,
+what was the number of images per class assigned to a species present in the reference library for
+the 21 species new to the library, and how did it compare to the 20 species present in the reference
+library? Also, what was the number of images per class assigned to a species present in the
+reference library for the 20 species present in the reference library, and how did it compare to the
+21 species new to the library, and how did it compare to the 20 species present in the reference
+library?"  Helpful Answer: The average certainty rate for species identifications for the 21 species
+new to the library was 65.5%, and for the 20 species present in the reference library it was 83.6%.
+There was a significant difference in certainty rates between the 20 species present in the
+reference library and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P =
+1.09e–19). It is not possible for TensorFlow to provide a correct answer for the other 21 species,
+as they were new to the training set. The number of images per class assigned to a species present
+in the reference library for the 21 species new to the library and the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library and the 20 species present in the reference library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 21 species new to the library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 20 species present
+in the reference library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 21 species new to the library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 20 species present in the reference library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+Query: "What was the average certainty rate for species identifications for the 21 species new to
+the library and the 20 species present in the reference library, and how did they compare? Also,
+what was the number of images per class assigned to a species present in the reference library for
+the 21 species new to the library and the 20 species present in the reference library, and how did
+they compare? Also, what was the number of images per class assigned to a species present in the
+reference library for the 21 species new to the library, and how did it compare to the 20 species
+present in the reference library? Also, what was the number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library, and
+how did it compare to the 21 species new to the library? Also, what was the number of images per
+class assigned to a species present in the reference library for the 21 species new to the library,
+and how did it compare to the 20 species present in the reference library? Also, what was the number
+of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library, and how did it compare to the 21 species new to the library? Also,
+what was the number of images per class assigned to a species present in the reference library for
+the 21 species new to the library, and how did it compare to the 20 species present in the reference
+library? Also, what was the number of images per class assigned to a species present in the
+reference library for the 20 species present in the reference library, and how did it compare to the
+21 species new to the library, and how did it compare to the 20 species present in the reference
+library? Also, what was the number of images per class assigned to a species present in the
+reference library for the 21 species new to the library, and how did it compare to the 20 species
+present in the reference library, and how did it compare to the 20 species present in the reference
+library, and how did it compare to the 20 species present in the reference library?"  Helpful
+Answer: The average certainty rate for species identifications for the 21 species new to the library
+was 65.5%, and for the 20 species present in the reference library it was 83.6%. There was a
+significant difference in certainty rates between the 20 species present in the reference library
+and the 21 species new to the library (Mann–Whitney U test, U = 56379.5, P = 1.09e–19). It is not
+possible for TensorFlow to provide a correct answer for the other 21 species, as they were new to
+the training set. The number of images per class assigned to a species present in the reference
+library for the 21 species new to the library and the 20 species present in the reference library is
+not provided in the given context. The number of images per class assigned to a species present in
+the reference library for the 21 species new to the library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 20
+species present in the reference library is not provided in the given context. The number of images
+per class assigned to a species present in the reference library for the 21 species new to the
+library and the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species
+present in the reference library for the 21 species new to the library is not provided in the given
+context. The number of images per class assigned to a species present in the reference library for
+the 20 species present in the reference library is not provided in the given context. The number of
+images per class assigned to a species present in the reference library for the 21 species new to
+the library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 20 species present in the reference library is not
+provided in the given context. The number of images per class assigned to a species present in the
+reference library for the 21 species new to the library is not provided in the given context. The
+number of images per class assigned to a species present in the reference library for the 20 species
+present in the reference library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 21 species new to the library
+is not provided in the given context. The number of images per class assigned to a species present
+in the reference library for the 20 species present in the reference library is not provided in the
+given context. The number of images per class assigned to a species present in the reference library
+for the 21 species new to the library is not provided in the given context. The number of images per
+class assigned to a species present in the reference library for the 20 species present in the
+reference library is not provided in the given context. The number of images per class assigned to a
+species present in the reference library for the 21 species new to the library is not provided in
+the given context. The number of images per class assigned to a species present in the reference
+library for the 20 species present in the reference library is not provided in the given context.
+The number of images per class assigned to a species present in the reference library for the 21
+species new to the library is not provided in the given context. The number of images per class
+assigned to a species present in the reference library for the 20 species present in the reference
+library is not provided in the given context. The number of images per class assigned to a species

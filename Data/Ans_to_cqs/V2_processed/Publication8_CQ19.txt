@@ -1,0 +1,1 @@
+The hyperparameters used in the model are: * Stochastic Gradient Descent optimiser with a learning rate of 0. 0025 and momentum of 0. 9. * Anchor generator in the Region Proposal Network with six anchor scales and three aspect ratios. * Thresholds for non-maximum suppression (NMS) of 0. 6 for training and 0. 25 for testing. * Minibatch size of four images per GPU. 

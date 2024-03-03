@@ -1,0 +1,4 @@
+ The model weights are updated by retraining with new data every time the model is trained. In this
+study, the model was trained on the MNHN Paris Herbarium dataset and then retrained on the Herbarium
+Senckenbergianum dataset. The model weights were updated during the retraining process with the new
+data from the Herbarium Senckenbergianum dataset.

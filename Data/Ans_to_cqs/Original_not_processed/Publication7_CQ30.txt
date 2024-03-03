@@ -1,0 +1,4 @@
+ The annotations or labels are used to train a deep network which then classifies unlabelled images
+and mosaics. Marine experts are included in this pipeline to give feedback on the classiﬁcation
+accuracy. The best performing classiﬁer is then used to generate coral maps from the mosaics of the
+Abrolhos Islands.

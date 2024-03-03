@@ -1,0 +1,1 @@
+The paper does not explicitly mention any measures taken to explain model predictions, but the model was manually verified and corrected to evaluate the predictions on the Herbarium Senckenbergianum dataset, and the annotations for the Herbarium Senckenbergianum dataset were done based on the predictions of organs on scans.

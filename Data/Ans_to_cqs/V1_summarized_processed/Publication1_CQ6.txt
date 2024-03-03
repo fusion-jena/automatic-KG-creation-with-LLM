@@ -1,0 +1,1 @@
+Yes, the input data undergoes t-SNE data clustering, image cropping, contrast enhancement, consecutive frame differences, and spectrogram transformation.

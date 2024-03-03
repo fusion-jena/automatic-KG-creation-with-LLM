@@ -1,0 +1,1 @@
+el was trained on a desktop computer with an NVIDIA GeForce GTX 1080 Ti GPU, and was used to identify species not in the reference library with an overall correct identification rate of 50.0%. The model was able to identify 50% of the species not in the reference library, indicating a promising result.  

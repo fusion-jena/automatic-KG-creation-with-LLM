@@ -1,0 +1,16 @@
+ The preprocessing steps involved before training the deep learning model include the following:  1.
+Data cleaning: This involves removing any irrelevant or noisy data points that may negatively impact
+the model's performance. 2. Data normalization: This involves scaling the data to a common range to
+ensure that all features are given equal importance during training. 3. Data augmentation: This
+involves creating new training examples by applying various transformations to the existing data.
+This helps to increase the size of the training dataset and improve the model's ability to
+generalize. 4. Splitting the data: This involves dividing the dataset into training, validation, and
+testing sets to evaluate the model's performance and prevent overfitting. 5. Feature extraction:
+This involves extracting relevant features from the data that can be used to train the model. In the
+case of audio and image data, this may involve extracting spectrograms or other visual
+representations of the data. 6. Model selection: This involves selecting the appropriate deep
+learning architecture for the task at hand, such as a convolutional neural network (CNN) or a
+recurrent neural network (RNN). 7. Hyperparameter tuning: This involves adjusting the parameters of
+the model, such as the learning rate, batch size, and number of hidden layers, to optimize its
+performance.  These preprocessing steps are critical for ensuring that the deep learning model is
+trained effectively and can accurately classify the data.

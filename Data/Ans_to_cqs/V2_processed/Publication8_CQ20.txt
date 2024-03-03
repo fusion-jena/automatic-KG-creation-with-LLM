@@ -1,0 +1,1 @@
+The specific hyperparameters were selected based on the results of a grid search, which was performed to optimize the model's performance. The best hyperparameters were chosen based on the highest average precision score achieved during the grid search. 

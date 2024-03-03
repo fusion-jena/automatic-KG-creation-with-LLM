@@ -1,0 +1,1 @@
+The pipeline uses a single model for organ detection. Explanation: The pipeline uses a single model for organ detection. This is stated in the text, "The organ detection model was successfully able to detect almost all plant organs in the majority of scans, as shown by the images in Fig. 6. " Confidence: 90% 3 Younis S et al 

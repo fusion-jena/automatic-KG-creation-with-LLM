@@ -1,0 +1,1 @@
+The Faster R-CNN model was built using TensorFlow, a popular open-source machine learning framework. The model was trained using the TensorFlow Object Detection API, which is a set of tools built on top of TensorFlow that simplifies the process of training object detection models. 

@@ -1,0 +1,5 @@
+ The bias in the data is addressed by using distributional data to create subsets of species, with
+the goal of generating separate classification tasks with lower numbers of classes (species) per
+task (local species pools, reflecting documented patterns of co-distributed species from the
+archipelago’s faunal regions). This helps to reduce bias by limiting the possible universe of a
+species’ identification to the biogeographically-relevant species pools.

@@ -1,0 +1,1 @@
+The provided context does not contain information about whether the trained model is deployed or not, and it does not provide any information about the reason why it might not be deployed. Therefore, it is not possible to answer this question without additional information. 

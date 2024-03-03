@@ -1,0 +1,1 @@
+The deep learning model generates bounding boxes around the detected plant organs and classifies them into one of the six categories. 

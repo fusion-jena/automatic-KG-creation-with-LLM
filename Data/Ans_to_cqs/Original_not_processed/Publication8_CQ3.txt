@@ -1,0 +1,6 @@
+ The raw data was collected by manually localizing and labeling plant organs from herbarium
+specimens. This process encountered difficulties such as distinguishing between buds, flowers, and
+fruits, separating different plant organs in some taxa, and differentiating between roots and
+stolons or other stem structures. In all of these cases, labeled boxes were placed in a way to best
+characterize the respective plant organ, sometimes including parts of other organs and, at other
+times, leaving out difficult parts if sufficient clearly assignable material were available.

@@ -1,0 +1,1 @@
+The deep learning model generates predictions or classifications of Platymantis species based on frequency distributions of individual call notes of each species. It is trained on single-note spectrograms and is capable of identifying Platymantis species with an overall identification rate of 94.3%.

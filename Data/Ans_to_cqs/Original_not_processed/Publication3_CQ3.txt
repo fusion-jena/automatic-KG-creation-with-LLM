@@ -1,0 +1,14 @@
+ The raw data was collected from two sources: (1) a large collection of Philippine frog
+advertisement calls collected, archived, and made publicly available via Cornell University’s
+Laboratory of Ornithology and Macaulay Library of Natural Sounds, and (2) recent collections of
+numerous undescribed species to augment sample sizes of previously described species and add
+distinctive new candidate species identified with genetic and phenotypic characters. The majority of
+species were characterized as unconfirmed but likely to eventually be recognized as new species, if
+they are demonstrably diagnosable via at least three out of four independent data streams: discrete
+phenotypic differences, discrete spectral or structural bioacoustic traits, genetically divergent
+monophyletic haplotype clades, and allopatry on different Philippine Pleistocene Aggregate Island
+Complexes. The behavioral context of calls and qualitative descriptions of calls were available in
+original descriptions. Additional collection-associated natural history information, frog
+microhabitats, community composition, recording methodology, and metadata were available via the
+Macaulay Library portal and the KU Herpetology online Specify database, as well as via GBIF,
+iDigBio, and other aggregators.

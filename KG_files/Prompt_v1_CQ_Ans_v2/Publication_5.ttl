@@ -1,0 +1,202 @@
+
+
+@prefix dlprov: <https://w3id.org/dlprovenance#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xml: <http://www.w3.org/XML/1998/namespace>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+dlprov:DeepLearningPipeline_1 rdf:type dlprov:DeepLearningPipeline ;
+    dlprov:hasDataFormat dlprov:DataFormat_1 ;
+    dlprov:hasDataFormat dlprov:DataFormat_2 ;
+    dlprov:hasSource dlprov:Source_1 ;
+    dlprov:provides dlprov:InputData_1 ;
+    dlprov:provides dlprov:InputData_2 ;
+    dlprov:usesMethodTool dlprov:Method_1 ;
+    dlprov:usesMethodTool dlprov:Tool_1 ;
+    dlprov:hasRepositoryLink dlprov:RepositoryLink_1 ;
+    dlprov:involves dlprov:PreprocessingStep_1 ;
+    dlprov:involves dlprov:PreprocessingStep_2 ;
+    dlprov:involves dlprov:PreprocessingStep_3 ;
+    dlprov:discusses dlprov:Bias_1 ;
+    dlprov:hasArchitecture dlprov:Architecture_1 ;
+    dlprov:selectedBy dlprov:ModelSelectionProcess_1 ;
+    dlprov:hasConsideration dlprov:Consideration_1 ;
+    dlprov:hasConsideration dlprov:Consideration_2 ;
+    dlprov:hasConsideration dlprov:Consideration_3 ;
+    dlprov:hasNumberOfModels dlprov:NumberOfModels_1 ;
+    dlprov:isStateOfTheArt dlprov:StateOfTheArt_1 ;
+    dlprov:isInitializedWith dlprov:Hyperparameter_1 ;
+    dlprov:hasWeightConfiguration dlprov:WeightConfiguration_1 ;
+    dlprov:hasWeightConfiguration dlprov:WeightConfiguration_2 ;
+    dlprov:usesOptimizationAlgorithm dlprov:OptimizationAlgorithm_1 ;
+    dlprov:hasLearningRateSchedule dlprov:LearningRateSchedule_1 ;
+    dlprov:hasConvergenceCriteria dlprov:ConvergenceCriteria_1 ;
+    dlprov:builtWith dlprov:SoftwareFrameworkLibrary_1 ;
+    dlprov:runsOn dlprov:HardwareInfrastructure_1 ;
+    dlprov:hasHyperparameter dlprov:Hyperparameter_2 ;
+    dlprov:isFineTunedWith dlprov:FineTuning_1 ;
+    dlprov:usedFor dlprov:PredictionClassification_1 ;
+    dlprov:usedDifferently dlprov:UncertaintyConfidence_1 ;
+    dlprov:sufficientToReproduce dlprov:Reproducibility_1 ;
+    dlprov:explains dlprov:Explanation_1 ;
+    dlprov:hasVersioningStrategy dlprov:VersioningStrategy_1 ;
+    dlprov:managesDatasetVersion dlprov:DatasetVersion_1 ;
+    dlprov:documentsUpdates dlprov:UpdateFrequency_1 ;
+    dlprov:hasAnnotationLabel dlprov:EthicalImplication_1 ;
+    dlprov:usedInModel dlprov:Hyperparameter_3 ;
+    dlprov:generates dlprov:Model_1 ;
+    dlprov:capturesUncertainty dlprov:UncertaintyConfidence_2 ;
+    dlprov:hasPostProcessing dlprov:PostProcessing_1 ;
+    dlprov:deployedOn dlprov:Deployment_1 ;
+    dlprov:updatedByRetraining dlprov:UpdateFrequency_2 ;
+    dlprov:takesIntoAccount dlprov:SensitiveData_1 ;
+    dlprov:addresses dlprov:BiasAddressing_1 ;
+    dlprov:hasTransparency dlprov:Transparency_1 ;
+    dlprov:implements dlprov:Method_2 ;
+    dlprov:handlesSensitively dlprov:PrivacySecurityMeasure_1.
+
+dlprov:DataFormat_1 rdf:type dlprov:DataFormat ;
+    rdfs:label "multitemporal remote sensing data".
+
+dlprov:DataFormat_2 rdf:type dlprov:DataFormat ;
+    rdfs:label "plant species richness data from South Korea".
+
+dlprov:Source_1 rdf:type dlprov:Source ;
+    rdfs:label "MODIS products".
+
+dlprov:InputData_1 rdf:type dlprov:InputData ;
+    rdfs:label "Normalized Difference Vegetation Index (NDVI)".
+
+dlprov:InputData_2 rdf:type dlprov:InputData ;
+    rdfs:label "Leaf Area Index (LAI)".
+
+dlprov:Method_1 rdf:type dlprov:Method ;
+    rdfs:label "remote sensing data".
+
+dlprov:Tool_1 rdf:type dlprov:Tool ;
+    rdfs:label "Google Earth Engine platform".
+
+dlprov:RepositoryLink_1 rdf:type dlprov:RepositoryLink ;
+    rdfs:label "not openly accessible".
+
+dlprov:PreprocessingStep_1 rdf:type dlprov:PreprocessingStep ;
+    rdfs:label "co-registered and resampled to 30-arcseconds".
+
+dlprov:PreprocessingStep_2 rdf:type dlprov:PreprocessingStep ;
+    rdfs:label "estimated potential plant species richness patterns for North Korea using a state-of-the-art DL approach".
+
+dlprov:PreprocessingStep_3 rdf:type dlprov:PreprocessingStep ;
+    rdfs:label "estimated the potential plant species richness for the Korean Peninsula, including North Korea, which has limited survey data".
+
+dlprov:Bias_1 rdf:type dlprov:Bias ;
+    rdfs:label "not discussed".
+
+dlprov:Architecture_1 rdf:type dlprov:Architecture ;
+    rdfs:label "multilayer perception (MLP)".
+
+dlprov:ModelSelectionProcess_1 rdf:type dlprov:ModelSelectionProcess ;
+    rdfs:label "Random Forest, Support Vector Machine, and Deep Learning models".
+
+dlprov:Consideration_1 rdf:type dlprov:Consideration ;
+    rdfs:label "macro-ecological models and stacking species distribution models (S-SDMs) to estimate species richness".
+
+dlprov:Consideration_2 rdf:type dlprov:Consideration ;
+    rdfs:label "probability-based stacking produced unbiased richness that is closer to the true species richness".
+
+dlprov:Consideration_3 rdf:type dlprov:Consideration ;
+    rdfs:label "validated using independent tree plot datasets from the Korea Forest Service".
+
+dlprov:NumberOfModels_1 rdf:type dlprov:NumberOfModels ;
+    rdfs:label "two models: a deep learning (DL) model and a species distribution model (SDM)".
+
+dlprov:StateOfTheArt_1 rdf:type dlprov:StateOfTheArt ;
+    rdfs:label "not explicitly stated".
+
+dlprov:Hyperparameter_1 rdf:type dlprov:Hyperparameter ;
+    rdfs:label "first 10% of the data for training and the remaining 90% for testing".
+
+dlprov:WeightConfiguration_1 rdf:type dlprov:WeightConfiguration ;
+    rdfs:label "not specified".
+
+dlprov:WeightConfiguration_2 rdf:type dlprov:WeightConfiguration ;
+    rdfs:label "not specified".
+
+dlprov:OptimizationAlgorithm_1 rdf:type dlprov:OptimizationAlgorithm ;
+    rdfs:label "not specified".
+
+dlprov:LearningRateSchedule_1 rdf:type dlprov:LearningRateSchedule ;
+    rdfs:label "not specified".
+
+dlprov:ConvergenceCriteria_1 rdf:type dlprov:ConvergenceCriteria ;
+    rdfs:label "not specified".
+
+dlprov:SoftwareFrameworkLibrary_1 rdf:type dlprov:SoftwareFrameworkLibrary ;
+    rdfs:label "Python".
+
+dlprov:HardwareInfrastructure_1 rdf:type dlprov:HardwareInfrastructure ;
+    rdfs:label "not specified".
+
+dlprov:Hyperparameter_2 rdf:type dlprov:Hyperparameter ;
+    rdfs:label "root mean square error (RMSE)".
+
+dlprov:FineTuning_1 rdf:type dlprov:FineTuning ;
+    rdfs:label "not specified".
+
+dlprov:PredictionClassification_1 rdf:type dlprov:PredictionClassification ;
+    rdfs:label "potential plant species richness for the Korean Peninsula, including North Korea".
+
+dlprov:UncertaintyConfidence_1 rdf:type dlprov:UncertaintyConfidence ;
+    rdfs:label "not specified".
+
+dlprov:Reproducibility_1 rdf:type dlprov:Reproducibility ;
+    rdfs:label "not sufficient information to reproduce the deep learning pipeline".
+
+dlprov:Explanation_1 rdf:type dlprov:Explanation ;
+    rdfs:label "statistical feature importance test (SFIT)".
+
+dlprov:VersioningStrategy_1 rdf:type dlprov:VersioningStrategy ;
+    rdfs:label "not specified".
+
+dlprov:DatasetVersion_1 rdf:type dlprov:DatasetVersion ;
+    rdfs:label "not specified".
+
+dlprov:UpdateFrequency_1 rdf:type dlprov:UpdateFrequency ;
+    rdfs:label "not specified".
+
+dlprov:EthicalImplication_1 rdf:type dlprov:EthicalImplication ;
+    rdfs:label "not discussed".
+
+dlprov:Hyperparameter_3 rdf:type dlprov:Hyperparameter ;
+    rdfs:label "not specified".
+
+dlprov:Model_1 rdf:type dlprov:Model ;
+    rdfs:label "multilayer perceptron (MLP)".
+
+dlprov:UncertaintyConfidence_2 rdf:type dlprov:UncertaintyConfidence ;
+    rdfs:label "not specified".
+
+dlprov:PostProcessing_1 rdf:type dlprov:PostProcessing ;
+    rdfs:label "not specified".
+
+dlprov:Deployment_1 rdf:type dlprov:Deployment ;
+    rdfs:label "not specified".
+
+dlprov:UpdateFrequency_2 rdf:type dlprov:UpdateFrequency ;
+    rdfs:label "not specified".
+
+dlprov:SensitiveData_1 rdf:type dlprov:SensitiveData ;
+    rdfs:label "not specified".
+
+dlprov:BiasAddressing_1 rdf:type dlprov:BiasAddressing ;
+    rdfs:label "not specified".
+
+dlprov:Transparency_1 rdf:type dlprov:Transparency ;
+    rdfs:label "not specified".
+
+dlprov:Method_2 rdf:type dlprov:Method ;
+    rdfs:label "not specified".
+
+dlprov:PrivacySecurityMeasure_1 rdf:type dlprov:PrivacySecurityMeasure ;
+    rdfs:label "not specified".

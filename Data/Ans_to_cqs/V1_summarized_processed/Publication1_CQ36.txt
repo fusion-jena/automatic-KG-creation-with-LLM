@@ -1,0 +1,1 @@
+are updated by retraining with new data every time a new labeled dataset is created, which is typically done after the analysts have manually reviewed and audited the output of the existing DL models trained to classify events of interest. The frequency of this process depends on the availability of new data and the resources available for manual review and auditing.  
