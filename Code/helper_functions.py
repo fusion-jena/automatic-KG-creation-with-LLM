@@ -29,8 +29,8 @@ def load_llm(model_id,embedding_model_id):
     pipe = pipeline(model=model, tokenizer=tokenizer,
         #return_full_text=True,  # langchain expects the full text
         task='text-generation',
-        temperature=0.00001, 
-        max_new_tokens=500,  # max number of tokens to generate in the output
+        temperature=0.00001,
+        max_new_tokens=25000,  # max number of tokens to generate in the output
         #repetition_penalty=1.1,  # without this output begins repeating
         device_map = "auto"
     )

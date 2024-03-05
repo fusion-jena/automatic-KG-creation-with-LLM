@@ -17,4 +17,8 @@ The repository encompasses various components including code for data preprocess
 * KG_files/: Contains the results obtained from the experiments, including generated KGs.
 * Evaluation: Contains the evaluation results, including evaluation of competency questions and KGs.
 
+## Usage
+Add the Hugging face access token in the helper_functions.py in the following line:
+access_token_read = os.getenv('access_token_read_hf')
+
 

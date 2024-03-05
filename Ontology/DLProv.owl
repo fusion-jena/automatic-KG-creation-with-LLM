@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/dlprovenance#"
+     xml:base="https://w3id.org/dlprovenance"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:kulturarena="http://example.org/kulturarena/">
+    <owl:Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/dlprovenance#addresses -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#addresses">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#BiasAddressing"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Bias"/>
+        <rdfs:comment>A relation between a bias addressing strategy and the bias it addresses.</rdfs:comment>
+        <rdfs:label>addresses</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#builtWith -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#builtWith">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#SoftwareFrameworkLibrary"/>
+        <rdfs:comment>A relation between a model and the software framework library it was built with.</rdfs:comment>
+        <rdfs:label>builtWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#capturesUncertainty -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#capturesUncertainty">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#UncertaintyConfidence"/>
+        <rdfs:comment>A relation between a model and its uncertainty or confidence level.</rdfs:comment>
+        <rdfs:label>capturesUncertainty</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#deployedOn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#deployedOn">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Deployment"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:comment>A relation between a deployment and the model it deploys.</rdfs:comment>
+        <rdfs:label>deployedOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#discusses -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#discusses">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Bias"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its potential biases.</rdfs:comment>
+        <rdfs:label>discusses</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#documentsUpdates -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#documentsUpdates">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#UpdateFrequency"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its update frequency.</rdfs:comment>
+        <rdfs:label>documentsUpdates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#explains -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#explains">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Explanation"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:comment>A relation between an explanation and the model it explains.</rdfs:comment>
+        <rdfs:label>explains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#generates -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#generates">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:comment>A relation between a deep learning pipeline and the model(s) it generates.</rdfs:comment>
+        <rdfs:label>generates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#handlesSensitively -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#handlesSensitively">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#SensitiveData"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PrivacySecurityMeasure"/>
+        <rdfs:comment>A relation between sensitive data and the privacy or security measures used to handle it.</rdfs:comment>
+        <rdfs:label>handlesSensitively</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasAnnotationLabel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasAnnotationLabel">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PredictionClassification"/>
+        <rdfs:comment>A relation between a model and its annotation label(s), if applicable.</rdfs:comment>
+        <rdfs:label>hasAnnotationLabel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasArchitecture -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasArchitecture">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelSelectionProcess"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Architecture"/>
+        <rdfs:comment>A relation between a model selection process and the architecture it chooses.</rdfs:comment>
+        <rdfs:label>hasArchitecture</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasConsideration -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasConsideration">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelSelectionProcess"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Consideration"/>
+        <rdfs:comment>A relation between a model selection process and the considerations it takes into account.</rdfs:comment>
+        <rdfs:label>hasConsideration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasConvergenceCriteria -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasConvergenceCriteria">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#TrainingProcedure"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#ConvergenceCriteria"/>
+        <rdfs:comment>A relation between a training procedure and its convergence criteria.</rdfs:comment>
+        <rdfs:label>hasConvergenceCriteria</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasDataFormat -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataFormat">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataFormat"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its data format.</rdfs:comment>
+        <rdfs:label>hasDataFormat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasHyperparameter -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasHyperparameter">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Hyperparameter"/>
+        <rdfs:comment>A relation between a model and its hyperparameters.</rdfs:comment>
+        <rdfs:label>hasHyperparameter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasLearningRateSchedule -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasLearningRateSchedule">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#TrainingProcedure"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#LearningRateSchedule"/>
+        <rdfs:comment>A relation between a training procedure and its learning rate schedule.</rdfs:comment>
+        <rdfs:label>hasLearningRateSchedule</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasNumberOfModels -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasNumberOfModels">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelSelectionProcess"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#NumberOfModels"/>
+        <rdfs:comment>A relation between a model selection process and the number of models it generates.</rdfs:comment>
+        <rdfs:label>hasNumberOfModels</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasPostProcessing -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasPostProcessing">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PostProcessing"/>
+        <rdfs:comment>A relation between a model and its post-processing steps.</rdfs:comment>
+        <rdfs:label>hasPostProcessing</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasRepositoryLink -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasRepositoryLink">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#RepositoryLink"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its repository link(s).</rdfs:comment>
+        <rdfs:label>hasRepositoryLink</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasSource -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasSource">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Source"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its source dataset(s).</rdfs:comment>
+        <rdfs:label>hasSource</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasTransformationAugmentation -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasTransformationAugmentation">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#PreprocessingStep"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#TransformationAugmentation"/>
+        <rdfs:comment>A relation between a preprocessing step and its transformation or augmentation technique(s).</rdfs:comment>
+        <rdfs:label>hasTransformationAugmentation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasTransparency -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasTransparency">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Transparency"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its transparency level.</rdfs:comment>
+        <rdfs:label>hasTransparency</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasVersioningStrategy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasVersioningStrategy">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#VersioningStrategy"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its versioning strategy.</rdfs:comment>
+        <rdfs:label>hasVersioningStrategy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#hasWeightConfiguration -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasWeightConfiguration">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#WeightConfiguration"/>
+        <rdfs:comment>A relation between a model and its weight configuration.</rdfs:comment>
+        <rdfs:label>hasWeightConfiguration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#implements -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#implements">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Architecture"/>
+        <rdfs:comment>A relation between a model and the architecture it implements.</rdfs:comment>
+        <rdfs:label>implements</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#involves -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#involves">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#TransformationAugmentation"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its transformation or augmentation techniques.</rdfs:comment>
+        <rdfs:label>involves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#isFineTunedWith -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isFineTunedWith">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#FineTuning"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:comment>A relation between a fine-tuning procedure and the model it fine-tunes.</rdfs:comment>
+        <rdfs:label>isFineTunedWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#isInitializedWith -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isInitializedWith">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Initialization"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#WeightConfiguration"/>
+        <rdfs:comment>A relation between an initialization and the weight configuration it uses.</rdfs:comment>
+        <rdfs:label>isInitializedWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#isStateOfTheArt -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isStateOfTheArt">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#StateOfTheArt"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its state-of-the-art status.</rdfs:comment>
+        <rdfs:label>isStateOfTheArt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#managesDatasetVersion -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#managesDatasetVersion">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DatasetVersion"/>
+        <rdfs:comment>A relation between a deep learning pipeline and the dataset version(s) it manages.</rdfs:comment>
+        <rdfs:label>managesDatasetVersion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#provides -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#provides">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:comment>A relation between a deep learning pipeline and the model it generates.</rdfs:comment>
+        <rdfs:label>provides</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#runsOn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#runsOn">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#TrainingProcedure"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#HardwareInfrastructure"/>
+        <rdfs:comment>A relation between a training procedure and the hardware infrastructure it runs on.</rdfs:comment>
+        <rdfs:label>runsOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#selectedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#selectedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Architecture"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#ModelSelectionProcess"/>
+        <rdfs:comment>A relation between an architecture and the model selection process that chose it.</rdfs:comment>
+        <rdfs:label>selectedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#sufficientToReproduce -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#sufficientToReproduce">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Reproducibility"/>
+        <rdfs:comment>A relation between a deep learning pipeline and its reproducibility, indicating whether enough information is provided to reproduce the results.</rdfs:comment>
+        <rdfs:label>sufficientToReproduce</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#takesIntoAccount -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#takesIntoAccount">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelSelectionProcess"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Consideration"/>
+        <rdfs:comment>A relation between a model selection process and the considerations it takes into account.</rdfs:comment>
+        <rdfs:label>takesIntoAccount</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#updatedByRetraining -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#updatedByRetraining">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningPipeline"/>
+        <rdfs:comment>A relation between a model and the deep learning pipeline used to update it.</rdfs:comment>
+        <rdfs:label>updatedByRetraining</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#usedDifferently -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usedDifferently">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#EthicalImplication"/>
+        <rdfs:comment>A relation between a model and its ethical implications depending on how it is used.</rdfs:comment>
+        <rdfs:label>usedDifferently</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#usedFor -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usedFor">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PredictionClassification"/>
+        <rdfs:comment>A relation between a model and its prediction or classification output.</rdfs:comment>
+        <rdfs:label>usedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#usedInModel -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usedInModel">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Hyperparameter"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:comment>A relation between a hyperparameter and the model(s) it is used in.</rdfs:comment>
+        <rdfs:label>usedInModel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#usesMethodTool -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesMethodTool">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#PreprocessingStep"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Method"/>
+        <rdfs:comment>A relation between a preprocessing step and the method or tool it uses.</rdfs:comment>
+        <rdfs:label>usesMethodTool</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#usesOptimizationAlgorithm -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesOptimizationAlgorithm">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#TrainingProcedure"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#OptimizationAlgorithm"/>
+        <rdfs:comment>A relation between a training procedure and the optimization algorithm it uses.</rdfs:comment>
+        <rdfs:label>usesOptimizationAlgorithm</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Activity -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Activity"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Entity -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Process -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Process"/>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Architecture -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Architecture">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Architecture is the structure of a neural network used in a deep learning pipeline, including the number and type of layers, the activation functions, and the connectivity patterns.</rdfs:comment>
+        <rdfs:label xml:lang="en">Architecture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Bias -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Bias">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Bias is a systematic error introduced by the data, algorithms, or developers involved in a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#BiasAddressing -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#BiasAddressing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">BiasAddressing is any action or strategy taken to identify, mitigate, or eliminate bias in a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">BiasAddressing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Consideration -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Consideration">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Consideration is a factor taken into account during the model selection process, such as accuracy, interpretability, or fairness.</rdfs:comment>
+        <rdfs:label xml:lang="en">Consideration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#ConvergenceCriteria -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ConvergenceCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">ConvergenceCriteria is the condition used to determine when training should stop, such as reaching a certain number of epochs or achieving a target loss value.</rdfs:comment>
+        <rdfs:label xml:lang="en">ConvergenceCriteria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#DataFormat -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataFormat">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">DataFormat is a format used to represent input or output data in a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">DataFormat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#DatasetVersion -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DatasetVersion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">DatasetVersion is a specific release or snapshot of a dataset used in a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">DatasetVersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#DecisionMakingProcess -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DecisionMakingProcess">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">DecisionMakingProcess is the series of actions, choices, or judgments leading to the deployment of a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">DecisionMakingProcess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#DeepLearningPipeline -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DeepLearningPipeline">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Process"/>
+        <rdfs:comment xml:lang="en">DeepLearningPipeline is a sequence of preprocessing steps, model selection processes, and training procedures applied on input data to generate a model.</rdfs:comment>
+        <rdfs:label xml:lang="en">DeepLearningPipeline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Deployment -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Deployment">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:comment xml:lang="en">Deployment is the process of integrating a model into a production environment or application.</rdfs:comment>
+        <rdfs:label xml:lang="en">Deployment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#EthicalImplication -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#EthicalImplication">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">EthicalImplication is a consequence of the use of a deep learning pipeline that may have moral, legal, or social implications.</rdfs:comment>
+        <rdfs:label xml:lang="en">EthicalImplication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Explanation -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Explanation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Explanation is a description of how a model makes predictions or decisions.</rdfs:comment>
+        <rdfs:label xml:lang="en">Explanation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#FineTuning -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#FineTuning">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:comment xml:lang="en">FineTuning is the process of adapting a pre-trained model to a new task or domain by continuing its training with new data.</rdfs:comment>
+        <rdfs:label xml:lang="en">FineTuning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#HardwareInfrastructure -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#HardwareInfrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">HardwareInfrastructure is the hardware platform used during the training stage of a deep learning pipeline, such as a GPU or TPU.</rdfs:comment>
+        <rdfs:label xml:lang="en">HardwareInfrastructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Hyperparameter -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Hyperparameter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Hyperparameter is a prior parameter of a deep learning pipeline, i.e., a parameter which is set before its execution (e.g. batch size, number of hidden layers, etc.).</rdfs:comment>
+        <rdfs:label xml:lang="en">Hyperparameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Initialization -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Initialization">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Initialization is the process of setting the initial weights or biases of a neural network before training.</rdfs:comment>
+        <rdfs:label xml:lang="en">Initialization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#InputData -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#InputData">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">InputData is a single instance of a source dataset used as input for a specific preprocessing step in a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">InputData</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#LearningRateSchedule -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#LearningRateSchedule">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">LearningRateSchedule is the strategy used to adjust the learning rate during training, such as step decay or exponential decay.</rdfs:comment>
+        <rdfs:label xml:lang="en">LearningRateSchedule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Method -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Method">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Method is a technique or approach used during the preprocessing, model selection, or training stages of a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">Method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Metric -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Metric">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Metric is a quantitative measure used to evaluate the performance of a model during training or testing.</rdfs:comment>
+        <rdfs:label xml:lang="en">Metric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Model -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Model">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#ModelSelectionProcess -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelSelectionProcess">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:comment xml:lang="en">ModelSelectionProcess is the procedure used to choose a model among several candidates based on performance metrics, computational resources, or other criteria.</rdfs:comment>
+        <rdfs:label xml:lang="en">ModelSelectionProcess</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#NumberOfModels -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#NumberOfModels">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">NumberOfModels is the quantity of models generated during the model selection process.</rdfs:comment>
+        <rdfs:label xml:lang="en">NumberOfModels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#OptimizationAlgorithm -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#OptimizationAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">OptimizationAlgorithm is the method used to update the parameters of a neural network during training, such as stochastic gradient descent or Adam.</rdfs:comment>
+        <rdfs:label xml:lang="en">OptimizationAlgorithm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#PostProcessing -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PostProcessing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:comment xml:lang="en">PostProcessing is any operation performed on the output of a model to refine, transform, or interpret its predictions or classifications.</rdfs:comment>
+        <rdfs:label xml:lang="en">PostProcessing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#PredictionClassification -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PredictionClassification">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">PredictionClassification is the output of a model in terms of predicted classes or labels for a given input.</rdfs:comment>
+        <rdfs:label xml:lang="en">PredictionClassification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#PreprocessingStep -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PreprocessingStep">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:comment xml:lang="en">PreprocessingStep is a specific operation performed on input data during the preprocessing stage of a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">PreprocessingStep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#PrivacySecurityMeasure -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PrivacySecurityMeasure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">PrivacySecurityMeasure is a technique or technology used to protect sensitive data during processing, storage, or transmission.</rdfs:comment>
+        <rdfs:label xml:lang="en">PrivacySecurityMeasure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#RepositoryLink -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#RepositoryLink">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">RepositoryLink is a link to a repository where the code, data, or models used in a deep learning pipeline can be found.</rdfs:comment>
+        <rdfs:label xml:lang="en">RepositoryLink</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Reproducibility -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Reproducibility">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Reproducibility is the ability to obtain consistent results using the same data, methods, and settings.</rdfs:comment>
+        <rdfs:label xml:lang="en">Reproducibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#SensitiveData -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#SensitiveData">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">SensitiveData is any data that requires special protection due to privacy, security, ethical, or legal concerns.</rdfs:comment>
+        <rdfs:label xml:lang="en">SensitiveData</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#SoftwareFrameworkLibrary -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#SoftwareFrameworkLibrary">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">SoftwareFrameworkLibrary is a software library or framework used during the training stage of a deep learning pipeline, such as TensorFlow or PyTorch.</rdfs:comment>
+        <rdfs:label xml:lang="en">SoftwareFrameworkLibrary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Source -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Source">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Source is a dataset or a collection of datasets used as input for a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">Source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#StateOfTheArt -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#StateOfTheArt">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">StateOfTheArt is a reference to the current best practices or benchmarks in the field of deep learning relevant to the pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">StateOfTheArt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Tool -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Tool">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Tool is a software library or framework used during the preprocessing, model selection, or training stages of a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">Tool</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#TrainingProcedure -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#TrainingProcedure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#TransformationAugmentation -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#TransformationAugmentation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">TransformationAugmentation is a modification applied to input data during the preprocessing stage of a deep learning pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">TransformationAugmentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#Transparency -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Transparency">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">Transparency is the degree to which the operations, decisions, and outcomes of a deep learning pipeline are understandable, explainable, or interpretable to humans.</rdfs:comment>
+        <rdfs:label xml:lang="en">Transparency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#UncertaintyConfidence -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#UncertaintyConfidence">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">UncertaintyConfidence is a measure of the reliability or certainty associated with a prediction or classification made by a model.</rdfs:comment>
+        <rdfs:label xml:lang="en">UncertaintyConfidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#UpdateFrequency -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#UpdateFrequency">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">UpdateFrequency is the frequency at which a dataset is updated or refreshed.</rdfs:comment>
+        <rdfs:label xml:lang="en">UpdateFrequency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#VersioningStrategy -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#VersioningStrategy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">VersioningStrategy is a policy or practice used to manage different versions of a model, dataset, or pipeline.</rdfs:comment>
+        <rdfs:label xml:lang="en">VersioningStrategy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/dlprovenance#WeightConfiguration -->
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#WeightConfiguration">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:comment xml:lang="en">WeightConfiguration is the specific configuration of weights or biases used during initialization.</rdfs:comment>
+        <rdfs:label xml:lang="en">WeightConfiguration</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
