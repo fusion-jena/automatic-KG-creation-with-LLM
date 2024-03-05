@@ -10,7 +10,7 @@ from LLM_loader import llm
 
 def RAG_CQ_answering(config):
     CQs = load_cqs(config.get('Paths', 'CQs_path'))
-
+    embedding_model_id = config.get('Models', 'embedding_model_id')
     template = read_txt(config.get('Paths', 'RAG_question_answering_prompt'))
     prompt_template = PromptTemplate(input_variables=["query"], template=template)
 
