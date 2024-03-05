@@ -1,13 +1,11 @@
-from helper_functions import load_llm, load_cqs, read_txt
+from helper_functions import load_llm, read_txt, load_cqs
 from langchain.prompts import PromptTemplate
+from LLM_loader import llm
 
-model_id = 'mistralai/Mixtral-8x7B-Instruct-v0.1'
-embedding_model_id = "sentence-transformers/all-MiniLM-L12-v2"
-llm = load_llm(model_id, embedding_model_id)
+def Concepts_relations_generate(config):
+    template = read_txt(config.get('Paths', 'Concepts_and_relationships_prompt_path'))
+    prompt_template = PromptTemplate(input_variables=["CQs"], template=template)
+    prompt = prompt_template.format(CQs=load_cqs(config.get('Paths', 'CQs_path')))
 
-template = read_txt("../Prompts/Concepts_and_relationships_extraction.txt")
-prompt_template = PromptTemplate(input_variables=["CQs"], template=template)
-prompt = prompt_template.format(CQs=load_cqs(path))
-
-with open("../Concepts_relations/Concepts_and_relationships.txt","w") as f:
-    f.write(llm(prompt_n))
+    with open(config.get('Paths', 'Concepts_and_relationships_save_path'),"w") as f:
+        f.write(llm.invoke(prompt))
