@@ -1,4 +1,5 @@
 import os
+import re
 import transformers
 from langchain.embeddings import HuggingFaceEmbeddings
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
