@@ -4,7 +4,7 @@ import pandas as pd
 import os
 from LLM_loader import llm
 
-def Evaluate_KG_with_LLM():
+def Evaluate_KG_with_LLM(config):
     KG_individual_Eval_path = config.get('Paths', 'KG_individual_Eval_path')
     prompt_cq_ans_version = config.get('Paths', 'prompt_cq_ans_version')
     folder_path = os.path.join(KG_individual_Eval_path, prompt_cq_ans_version)
