@@ -25,9 +25,6 @@ access_token_read = os.getenv('access_token_read_hf')
 
 Install the prerequisite using the requirements.txt file. 
 
-
+To run the whole pipeline, submit (execute) your job using main.py and use config.ini to customise the variables and paths 
 ## License
 The repository is licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
-
-
-
