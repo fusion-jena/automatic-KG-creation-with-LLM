@@ -19,7 +19,7 @@ click==8.1.7
 coloredlogs==15.0.1
 comm==0.2.1
 contourpy==1.2.0
-cryptography==41.0.7
+cryptography==42.0.4
 cupy-cuda12x==12.1.0
 cycler==0.12.1
 dataclasses-json==0.6.3
