@@ -1,0 +1,6 @@
+Named Entities:
+DataFormat(image)
+Dataset(ImageNet 2012)
+DeepLearningModel(Inception V3)
+Framework(TensorFlow)
+HardwareResource(CPU)

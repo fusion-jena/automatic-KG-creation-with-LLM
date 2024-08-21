@@ -1,0 +1,6 @@
+ The strategy implemented to monitor the model performance during training is to use both the test
+and validation data. The loss of the model using both the test and validation data during model
+training is presented in Figure 9. The figure shows that there was no overfitting during training
+and that the dropout layers helped with model regularisation. Although model convergence was
+achieved early in the training session, the loss shows continuing decreases throughout the specified
+epochs.

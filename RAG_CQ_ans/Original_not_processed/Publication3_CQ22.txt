@@ -1,0 +1,3 @@
+ The metrics used to evaluate the performance of the deep learning model are the number of images
+per class assigned to a species present in the reference library and the average certainty rate
+associated with those identifications.

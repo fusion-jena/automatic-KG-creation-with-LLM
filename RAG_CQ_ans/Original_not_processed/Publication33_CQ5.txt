@@ -1,0 +1,5 @@
+ The datasets used in the deep learning pipeline are T0, T1, and T2. T0 is the training dataset
+composed of 691,690 images, T1 is the dataset used to tune the thresholds containing 6,320 images,
+and T2 is the test dataset containing 13,232 images. These datasets are not standard datasets like
+MNIST, CIFAR, or ImageNet, but are specifically created for this study case to identify 20 fish
+species from underwater images on coral reefs.

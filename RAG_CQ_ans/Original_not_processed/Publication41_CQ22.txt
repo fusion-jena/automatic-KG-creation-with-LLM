@@ -1,0 +1,2 @@
+ The following metrics were evaluated in our work: Precision, Recall, Accuracy, F-Beta Score, and
+Categorical Cross Entropy.

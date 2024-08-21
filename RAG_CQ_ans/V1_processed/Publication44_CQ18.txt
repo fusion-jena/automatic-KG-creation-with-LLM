@@ -1,0 +1,1 @@
+The strategy implemented to monitor the model performance during training is to save the best performing model based on the validation loss. This is done for both Faster R-CNN and YOLOv5s networks. 

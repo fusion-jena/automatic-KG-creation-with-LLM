@@ -1,0 +1,1 @@
+The postprocessing steps involved after the model training are not explicitly mentioned in the provided context. However, common postprocessing steps in machine learning models include generating saliency maps, calculating metrics such as accuracy, precision, recall, and F1-score, and creating confusion matrices to evaluate the performance of the model. 

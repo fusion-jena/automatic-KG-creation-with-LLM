@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The context does not provide information on the methods utilized for collecting raw data in the deep learning pipeline. However, it does mention that the data used for training the models consists of 33,984 images taken during day and night with 6 animal classes.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The data format used in the deep learning pipeline is images.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The context does not provide information on the data annotation techniques used in the deep learning pipeline.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The paper does not provide information on the specific data augmentation techniques applied in the deep learning pipeline.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are not explicitly mentioned in the provided context. However, it is mentioned that Inception-V3, MobileNet-V2, ResNet-18, and DenseNet-121 were trained on data consisting of 33,984 images taken during day and night with 6 animal classes. It is also mentioned that all architectures were pre-initialized to ImageNet weights. Therefore, it can be inferred that the dataset used for training the models is a custom dataset consisting of 33,984 images of 6 animal classes, and that ImageNet was used for pre-initialization of the models.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information about the preprocessing steps involved before training the deep learning models. However, common preprocessing steps for deep learning models include normalization, scaling, cleaning, and data augmentation. Normalization and scaling help to bring the data to a similar scale, while cleaning involves removing or correcting erroneous data. Data augmentation is a technique used to increase the amount of training data by applying transformations such as rotation, scaling, and flipping.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training. Therefore, I don't know the answer to this query.
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The paper does not provide information on the code repository of the deep learning pipeline.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The context does not provide information on the data repository of the deep learning pipeline.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include the code repository link of the deep learning pipeline.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, the provided context does not mention the data repository link of the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a Convolutional Neural Network (CNN) model.
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The hyperparameters used in the deep learning model are as follows: - Optimizer: Stochastic Gradient Descent (SGD) - Batch size: varies depending on the model (48 for Inception-V3, 32 for MobileNet-V2, 32 for ResNet-18, and 16 for DenseNet-121) - Learning rate: varies depending on the model (0. 05 for Inception-V3, 0. 01 for MobileNet-V2, 0. 005 for ResNet-18, and 0. 001 for DenseNet-121) - Number of epochs: varies depending on the model (75 for Inception-V3, 100 for MobileNet-V2, 150 for ResNet-18, and 100 for DenseNet-121) - Input image size: varies depending on the model (299x299x3 for Inception-V3, 224x224x3 for MobileNet-V2, ResNet-18, and DenseNet-121) The models were implemented using Keras and the hyperparameters were determined using grid search.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The hyperparameters of the model are optimized using grid search.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The optimization technique applied in the deep learning pipeline is Stochastic Gradient Descent (SGD). Other hyperparameters like batch size, learning rate, and number of epochs were obtained using the grid search.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The criteria used to determine when training is complete is when the validation loss plateaus. This is shown in Fig. 6, where the Inception-V3 model converged only in 60 epochs and the trend of the validation loss strongly suggests that there was little overfitting.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The context does not provide information on the regularization methods used to prevent overfitting in the deep learning pipeline. Therefore, I don't know the answer.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training was to use a validation set. The validation set was used to evaluate the model performance after each epoch. The validation loss and accuracy were plotted to monitor the model performance during training. %Query
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The models were implemented using Keras (https://keras. io/).
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: After the model training, the postprocessing steps involved include metrics calculation, confusion matrix, and ROC curves. The metrics calculated include accuracy, macro-F1 averages, and model size. The confusion matrix is used to evaluate the performance of the model, and ROC curves are used to visualize the performance of the model for each class. Additionally, the mean %CPU utilization and latency between capturing the image and doing the classification are also calculated.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning models was evaluated using metrics such as accuracy, macro-F1 averages, and Area Under the ROC Curve (AUC). The best performing model was Inception-V3 with a macro Average F1 score of 0. 93 and the smallest size of 175 MB. The ROC curves for the Inception-V3 model showed that it performed well for all classes, with the lowest AUC being for the "other" class (AUC=0. 98). The confusion matrix for the Inception-V3 model showed that most large errors occurred due to the model not being able to classify the ghost images accurately. The classes with labels (e. g. , Fox, Donkey, Goat, and Sheep) were classified quite accurately.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The context does not provide information on the specific measures taken to ensure the generalizability of the deep learning model. However, it does mention that the models were trained using Stochastic Gradient Descent (SGD) as the optimizer and that other hyperparameters like batch size, learning rate, and number of epochs were obtained using the grid search. Additionally, the models were implemented using Keras. The resulting hyperparameters for each model are shown in Table II. The models were evaluated based on their performance on a test set, as shown in Table III and Figures 6 and 7. The context also mentions that the data is highly unbalanced, and therefore, using SMOTE or similar data balancing techniques may help improve the results further.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The context does not provide information on strategies employed to handle randomness in the deep learning pipeline, such as random seed values. Therefore, I cannot provide a helpful answer to this query based on the given context.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to automatically classify images retrieved from camera traps and send the species information instantly to the concerned authorities. %Explanation The context states that the purpose of the research is to "automatically classify images retrieved from camera traps and to send the species information instantly to the concerned authorities using deep learning and edge analytics. " Therefore, the purpose of the deep learning model is to classify images. %Query
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The context does not provide information on the techniques used to address data bias during preprocessing of the deep learning pipeline. However, it does mention that the data is highly unbalanced and suggests using SMOTE or similar data balancing techniques to improve the results further. This implies that oversampling techniques like SMOTE could be used to address data bias in this case.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The trained deep learning model was deployed using TensorFlow Lite, which is a lightweight version of TensorFlow designed for mobile and edge devices. The model was serialized into a. tflite file and then deployed on a Raspberry Pi Model 4B. The Raspberry Pi was chosen as the platform because it is a low-cost, low-power device that is well-suited for edge computing applications. The Raspberry Pi was able to sustain a rate of processing 1 image every 2 seconds with an average latency of 1. 8 second/image. After capture and pre-processing, each inference took an average of 0. 2 Millisecond/image on the Raspberry Pi.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on which platform was used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

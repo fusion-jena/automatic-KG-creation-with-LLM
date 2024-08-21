@@ -1,0 +1,38 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:256_nodes a dlprov:Hyperparameter .
+
+dlprov:64GB_of_RAM a dlprov:HardwareResource .
+
+dlprov:Adam a dlprov:HyperparameterOptimization .
+
+dlprov:Backpropagation a dlprov:HyperparameterOptimization .
+
+dlprov:F1_Score a dlprov:PerformanceMetric .
+
+dlprov:Intel_Xeon_E5-1630v3_CPU a dlprov:HardwareResource .
+
+dlprov:Multilayer_Perceptron a dlprov:DeepLearningModel .
+
+dlprov:NVidia_Quadro_RTX_8000_GPU a dlprov:HardwareResource .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Sensitivity a dlprov:PerformanceMetric .
+
+dlprov:Specificity a dlprov:PerformanceMetric .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:audio a dlprov:DataFormat .
+
+dlprov:classification a dlprov:ModelPurpose .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:dropout_value_of_50%25 a dlprov:Hyperparameter .
+
+dlprov:filter_size_of_2 a dlprov:Hyperparameter .
+
+dlprov:logging_the_predicted_vector_to_the_site_for_review a dlprov:PostprocessingStep .
+

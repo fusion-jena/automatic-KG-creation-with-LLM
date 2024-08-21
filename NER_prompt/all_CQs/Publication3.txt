@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The methods utilized for collecting raw data in the deep learning pipeline are not explicitly mentioned in the provided context. However, it can be inferred that field surveys and recordings are used to collect data for the study. The context mentions that the study uses distributional data and recent field surveys by RMB to generate a new dataset. Additionally, the study uses spectrograms, which are visual representations of the spectrum of frequencies of a signal as it varies with time, to train and test the classifier.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline uses image data formats, specifically spectrograms, for the classification challenges.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The context does not provide information on the specific data annotation techniques used in the deep learning pipeline. However, it does mention that the study uses spectrograms, which are visual representations of audio signals, for species identification. Therefore, it can be inferred that the data annotation technique used in this study is likely related to audio signal processing and analysis.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. Therefore, I cannot provide a helpful answer to this query.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are not explicitly mentioned in the provided context. However, it is mentioned that TensorFlow was trained on all images (i. e. , 400 spectrograms) from Challenge 1 as an image reference library. Additionally, it is mentioned that Inception v3 was trained on > 1 M images from the ImageNet database. Therefore, the datasets used in the deep learning pipeline are spectrograms and ImageNet.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information on the preprocessing steps involved before training a deep learning model. However, common preprocessing steps for deep learning models include normalization, scaling, and cleaning of the data. Normalization is the process of adjusting the values of numeric columns in the dataset to a common scale, without distorting the ranges of values or losing information. Scaling is the process of rescaling the values of numeric columns in the dataset to a standard range, such as 0 to 1 or -1 to 1. Cleaning is the process of removing or correcting errors, inconsistencies, and missing values in the dataset. These preprocessing steps can help improve the performance and accuracy of the deep learning model.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The criteria used to split the data for deep learning model training are not explicitly mentioned in the provided context. However, it is mentioned that a leave-one-out cross-validation technique was used for model evaluation in Challenges 1, 3, and 4. This technique involves using a single observation from the original sample as the validation set and the remaining observations as the training set. This is repeated such that each observation in the sample is used once as the validation set. Additionally, it is mentioned that the validation parameter was increased to 20% due to the limited number of images per species.
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is not mentioned in the provided context. Therefore, I don't know where it is available.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The data repository of the deep learning pipeline is not mentioned in the provided context.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: The code repository link of the deep learning pipeline is not provided in the given context.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, but the provided context does not include information about the data repository link of the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a Convolutional Neural Network (CNN) model, specifically Inception v3, implemented in TensorFlow.
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The context does not provide information on the hyperparameters used in the deep learning model, such as learning rate or optimizer.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The hyperparameters of the model are optimized by considering two factors: correct identification rate and processing time. The optimum number of training steps was chosen as 4000 for all challenges except Challenge 3, where 8000 training steps proved to be the optimum number due to the higher number of species (41 species). The details of the results associated with each classification task are provided in the paper. However, the specific method used for hyperparameter optimization, such as grid search or random search, is not explicitly mentioned in the provided context.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The context does not provide information on the specific optimization techniques applied in the deep learning pipeline.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The criteria used to determine when training is complete are correct identification rate and processing time. For all challenges except Challenge 3, 4000 training steps were chosen as the optimum number. For Challenge 3, 8000 training steps proved to be the optimum number.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The provided context does not mention any specific regularization methods used to prevent overfitting in the deep learning pipeline, such as dropout or L2 regularization. Therefore, I cannot provide an answer to this query based on the given context.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is to calibrate models for classification challenges using different numbers of training steps and considering two factors: correct identification rate and processing time. For all challenges except Challenge 3, 4000 training steps were chosen as the optimum number. For Challenge 3, 8000 training steps proved to be the optimum number.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The deep learning model is built using TensorFlow.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: After the model training, the postprocessing steps involved are creating a confusion matrix to depict TensorFlow's results, calculating the overall correct identification rate, and achieving 100% correct identification rate for some species. The lowest identification rates were for closely- related species, and no systematic errors were detected in TensorFlow classification.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The metrics used to evaluate the performance of the deep learning model are the number of images per class assigned to a species present in the reference library and the average certainty rate associated with those identifications.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: To ensure the generalizability of the deep learning model, several measures were taken. These include using a diverse dataset, employing a leave-one-out cross-validation technique, and increasing the validation parameter to 20%. The leave-one-out cross-validation technique was used to evaluate model performance in Challenges 1, 3, and 4. Additionally, the validation parameter was increased to 20% due to the limited number of images per species (n = 20).
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The context does not provide information on strategies employed to handle randomness in the deep learning pipeline, such as random seed values.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to classify species of Philippine forest frogs based on their frequency distributions of individual call notes.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The context does not provide information on the techniques used to address data bias during preprocessing of the deep learning pipeline.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The process followed to deploy the trained deep learning model was not explicitly mentioned in the provided context. However, it is mentioned that TensorFlow's flexible architecture allows easy adaptation and deployment on different platforms including desktops, clusters of servers, edge devices, and mobile phones. This suggests that the trained model could be deployed on any of these platforms, but the specific process for deployment is not provided.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

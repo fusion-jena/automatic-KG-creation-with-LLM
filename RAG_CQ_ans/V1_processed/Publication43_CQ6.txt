@@ -1,0 +1,1 @@
+The context does not provide information on the specific preprocessing steps involved before training a deep learning model. However, in general, preprocessing steps can include normalization, scaling, cleaning, and data augmentation techniques such as random scale, random crop, flip horizontally, and random brightness. 

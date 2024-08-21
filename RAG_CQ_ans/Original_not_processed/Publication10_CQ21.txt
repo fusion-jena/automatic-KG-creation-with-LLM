@@ -1,0 +1,7 @@
+ After the model training, the postprocessing steps involved are not explicitly mentioned in the
+provided context. However, based on common practices in deep learning, postprocessing steps could
+include evaluating the model's performance using metrics such as accuracy, precision, recall, and
+F1-score. Additionally, creating a confusion matrix to visualize the performance of the model on
+each class is also a common practice. Saliency maps might also be used to understand which parts of
+the input data are most important for the model's predictions. But without specific information,
+these are just possibilities and not definitive answers.

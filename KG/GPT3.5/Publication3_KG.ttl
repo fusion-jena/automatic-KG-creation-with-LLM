@@ -1,0 +1,20 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:Inception_v3 a dlprov:DeepLearningModel .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:average_certainty_rate_associated_with_those_identifications a dlprov:PerformanceMetric .
+
+dlprov:classify_species_of_Philippine_forest_frogs_based_on_their_frequency_distributions_of_individual_call_notes a dlprov:ModelPurpose .
+
+dlprov:number_of_images_per_class_assigned_to_a_species_present_in_the_reference_library a dlprov:PerformanceMetric .
+
+dlprov:spectrograms a dlprov:DataFormat .
+

@@ -1,0 +1,6 @@
+ The performance of the deep learning model is evaluated using the mean rate of correct
+classification of fish images in T2 by the raw CNN, which was found to be 78.0%. The rates of
+correct classifications per species ranged from 54.4% to 99.1% (sd = 15.16). These results serve as
+the baseline for further experiments. Additionally, images obtained softmax scores between 41 and
+100, with 80% of images classified with a score between 60 and 100. The distribution of correct
+classifications and misclassifications among scores was highly variable among species.

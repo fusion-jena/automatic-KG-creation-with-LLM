@@ -1,0 +1,11 @@
+Named Entities:
+DataFormat(audio)
+PreprocessingStep(segmenting audio into 15-second windows, MFCC feature extraction)
+DeepLearningModel(Multilayer Perceptron, MLP)
+Hyperparameter(filter size of 2, Backpropagation, Adam optimizer, dropout value of 50%, 256 nodes in first three layers)
+OptimizationTechnique(Backpropagation, Adam)
+RegularizationMethod(dropout)
+Framework(TensorFlow 2.2)
+HardwareResource(Intel Xeon E5-1630v3 CPU, 64GB RAM, NVidia Quadro RTX 8000 GPU)
+PerformanceMetric(Sensitivity, Specificity, F1 Score, Precision)
+ModelPurpose(classification)

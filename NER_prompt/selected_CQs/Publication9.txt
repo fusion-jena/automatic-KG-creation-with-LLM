@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The data format used in the deep learning pipeline is images.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The data augmentation technique applied in the deep learning pipeline is flipping 50% of the images in the left-right orientation to increase the robustness of the neural network.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The dataset used in the deep learning pipeline is the 328,000 image COCO dataset (Lin et al. , 2014).
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information on the preprocessing steps involved before training a deep learning model. However, common preprocessing steps for deep learning models include normalization, scaling, and cleaning. Normalization involves scaling the input data to a specific range, typically between 0 and 1. Scaling involves adjusting the range of the input data to improve the performance of the model. Cleaning involves removing or correcting any errors or inconsistencies in the input data.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: The code repository link of the deep learning pipeline is <https://github. com/ShawnTylerSchwartz/sashimi>.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a Mask R-CNN model, which is a type of deep learning model that is an extension of the Faster R-CNN algorithm for generating regions of interest. Mask R-CNN not only detects a target object in an image but also rapidly detects the pixel-level target region of interest, outputting a high-resolution segmentation contour reflecting the specific boundaries of the location of the target object within the image.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The deep learning model used a learning rate of 0. 001 for stages 1 and 2, and a learning rate of 0. 0001 for stage 3. The model also used a weight decay of 0. 0001, learning momentum of 0. 9, and image augmentation by flipping 50% of the images in the left-right orientation. The model was trained for 160 epochs over three stages.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The deep learning pipeline applies optimization techniques such as stochastic gradient descent with backpropagation to iteratively minimize the error between model output and expected output by optimally adjusting model weights and reaching model convergence. %Explanation Explanation: The context mentions that the deep learning pipeline applies optimization techniques such as stochastic gradient descent with backpropagation to iteratively minimize the error between model output and expected output by optimally adjusting model weights and reaching model convergence. %Final Answer Final
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The context does not provide information on the regularization methods used to prevent overfitting in the deep learning pipeline. %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer, just say that you don't know, don't try to make up an answer. %Query
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The Sashimi toolkit is built using the Matterport's open-source implementation of Mask R-CNN, which is based on the TensorFlow framework.
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The deep learning model is trained using a desktop computer equipped with a GeForce RTX 2080 GPU.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The metrics used to evaluate the performance of the deep learning model are frequency-weighted IoU, pixel accuracy, mean accuracy, and mean IoU.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to automate image segmentation, which involves detecting the pixel-level target region of interest and outputting a high-resolution segmentation contour reflecting the specific boundaries of the location of the target object within the image.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

@@ -1,0 +1,79 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5BNot_specified%5D> a dlprov:Framework,
+        dlprov:HardwareResource .
+
+dlprov:000_images_after_augmentation a dlprov:Dataset .
+
+dlprov:20%25_for_validation a dlprov:Dataset .
+
+dlprov:32_for_first_layer a dlprov:Hyperparameter .
+
+dlprov:3_%C3%97_3_for_last_layer a dlprov:Hyperparameter .
+
+dlprov:512 a dlprov:Hyperparameter .
+
+dlprov:5_%C3%97_5_for_first_layer a dlprov:Hyperparameter .
+
+dlprov:64_for_last_layer a dlprov:Hyperparameter .
+
+dlprov:80%25_used_for_training a dlprov:Dataset .
+
+dlprov:92.75%25 a dlprov:PerformanceMetric .
+
+dlprov:93%25 a dlprov:PerformanceMetric .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:Adam_or_SGD a dlprov:Hyperparameter .
+
+dlprov:F1-score a dlprov:PerformanceMetric .
+
+dlprov:Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:Rotating a dlprov:DataAugmentationTechnique .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:Shearing a dlprov:DataAugmentationTechnique .
+
+dlprov:annotated_with_bounding_boxes a dlprov:Dataset .
+
+dlprov:convolutional_depth a dlprov:Hyperparameter .
+
+dlprov:customized_CNN_model_for_moth_species_classification a dlprov:DeepLearningModel .
+
+dlprov:dataset_created_from_images_of_different_individual_insects a dlprov:Dataset .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:fully_connected_size a dlprov:Hyperparameter .
+
+dlprov:image_resizing_to_128_%C3%97_128_pixels a dlprov:PreprocessingStep .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:input_size_128_%C3%97_128_%C3%97_3 a dlprov:DeepLearningModel .
+
+dlprov:kernel_size a dlprov:Hyperparameter .
+
+dlprov:optimizer a dlprov:Hyperparameter .
+
+dlprov:pixel_value_scaling_to_range_0-1 a dlprov:PreprocessingStep .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:probability_of_0.3_after_second_to_last_hidden_layer a dlprov:RegularizationMethod .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:removal_of_images_with_no_insects a dlprov:PreprocessingStep .
+
+dlprov:scaled_to_72 a dlprov:Dataset .
+
+dlprov:species_classification a dlprov:ModelPurpose .
+
+dlprov:trained_on_2000_images a dlprov:DeepLearningModel .
+

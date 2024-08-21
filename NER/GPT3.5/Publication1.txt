@@ -1,0 +1,5 @@
+Named Entities:
+DataFormat(audio, image)
+Dataset(large amounts of labeled data produced by analysts using the UI)
+DeepLearningModel(deep convolutional neural networks (CNNs), deep feed forward neural networks (DNNs))
+ModelPurpose(classify presence or absence and activity rates of endangered species, classify sounds of birds colliding with energy infrastructure)

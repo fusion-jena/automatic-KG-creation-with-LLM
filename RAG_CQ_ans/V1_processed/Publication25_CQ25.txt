@@ -1,0 +1,1 @@
+The purpose of the deep learning model is to perform tree delineation in new RGB imagery without the need for co-registered LIDAR data. This provides the potential for expanding the use of deep learning in remote sensing applications with limited labeled data. 

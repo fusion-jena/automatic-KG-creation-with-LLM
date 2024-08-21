@@ -1,0 +1,8 @@
+ The evaluation metrics used to evaluate the performance of the deep learning model are Average
+Precision (AP) and Average Recall (AR). AP is a numeric metric to compare precision-recall curves
+from different detectors, while AR is averaged over different IoU thresholds. The AP for COCO
+datasets is calculated as the average precision for different recall levels of the same detector,
+while the AR is calculated as the average recall for different IoU thresholds. The AR is also
+averaged over all classes and is denoted as AR. The ARmax=1 and ARmax=10 are considered, which are
+calculated for 1 detection and a maximum of 10 detections in one image, respectively. Both ARs are
+averaged over the described 10 IoU thresholds.

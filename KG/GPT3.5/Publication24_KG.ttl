@@ -1,0 +1,38 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CitySounds2017_dataset a dlprov:Dataset .
+
+dlprov:Lasagne_v._2_for_machine_learning a dlprov:Framework .
+
+dlprov:Librosa_v._4.2_for_audio_processing a dlprov:Framework .
+
+dlprov:Mel_spectrogram_representation_with_32_frequency_bins a dlprov:DataFormat .
+
+dlprov:Theano_v._0.9.0 a dlprov:Framework .
+
+dlprov:UK a dlprov:Dataset .
+
+dlprov:audio_data a dlprov:DataFormat .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:expert-annotated_dataset_of_urban_sounds_from_Greater_London a dlprov:Dataset .
+
+dlprov:false_negatives a dlprov:PerformanceMetric .
+
+dlprov:false_positives a dlprov:PerformanceMetric .
+
+dlprov:fraction_of_true_positives a dlprov:PerformanceMetric .
+
+dlprov:measuring_biotic_and_anthropogenic_acoustic_activity a dlprov:ModelPurpose .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:true_negatives a dlprov:PerformanceMetric .
+

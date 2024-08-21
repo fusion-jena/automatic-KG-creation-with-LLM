@@ -1,0 +1,11 @@
+Named Entities:
+DataAugmentationTechnique(scaling, rotations, translations, different illumination conditions, cropping parts of the image)
+Dataset(no specific datasets mentioned)
+PreprocessingStep(normalization, scaling, cleaning)
+DeepLearningModel(Convolutional Neural Network (CNN))
+OptimizationTechnique(not specified)
+RegularizationMethod(not specified)
+Framework(TensorFlow)
+HardwareResource(not specified)
+PerformanceMetric(F1-measure)
+ModelPurpose(detection of whale presence in marine mammal hotspots for whale watching)

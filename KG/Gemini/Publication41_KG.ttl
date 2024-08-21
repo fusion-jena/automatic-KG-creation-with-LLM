@@ -1,0 +1,44 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:Batch_size a dlprov:Hyperparameter .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Categorical_Cross_Entropy a dlprov:PerformanceMetric .
+
+dlprov:Chip a dlprov:DataFormat .
+
+dlprov:Epochs a dlprov:Hyperparameter .
+
+dlprov:F1-Score a dlprov:PerformanceMetric .
+
+dlprov:Image_Data_Format a dlprov:DataFormat .
+
+dlprov:Learning_rate a dlprov:Hyperparameter .
+
+dlprov:Multi-class_image_classification a dlprov:ModelPurpose .
+
+dlprov:NVIDIA_Tesla_K80_GPU a dlprov:HardwareResource .
+
+dlprov:Planets_full-frame_analytic_scene_products a dlprov:Dataset .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Resizing_images_to_128x128_pixels a dlprov:PreprocessingStep .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:VGG16 a dlprov:DeepLearningModel .
+
+dlprov:and_scaling_could_be_potentially_applied a dlprov:DataAugmentationTechnique .
+
+dlprov:but_flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:rotation a dlprov:DataAugmentationTechnique .
+

@@ -1,0 +1,5 @@
+ The strategy implemented to monitor the model performance during training is not explicitly
+mentioned in the provided context. However, it is mentioned that the code to train and evaluate the
+detection algorithms is available on the GitHub page (https://github.com/macaodha/batdetect). This
+suggests that the model performance during training might be monitored using standard evaluation
+metrics, but the specific strategy is not provided in the context.

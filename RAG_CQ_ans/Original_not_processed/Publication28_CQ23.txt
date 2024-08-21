@@ -1,0 +1,7 @@
+ The paper does not provide explicit information on the measures taken to ensure the
+generalizability of the deep learning model. However, it can be inferred that the model was trained
+and tested on a diverse dataset, as the UCM dataset comprises a set of 100 images with 21 class
+labels, and the AID multi-label dataset has 3000 RS images from the AID dataset. Additionally, the
+paper mentions that the performance of the PTDLEN-VAE model is examined against these datasets,
+which suggests that some form of cross-validation or stratified splitting may have been used to
+evaluate the model's performance.

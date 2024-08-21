@@ -1,0 +1,654 @@
+  Data bias can be addressed during preprocessing of the deep learning pipeline using several
+techniques. Stratified splitting is a method used to ensure that the distribution of the target
+variable is preserved in both the training and testing datasets. Oversampling and undersampling are
+techniques used to balance the class distribution in imbalanced datasets. Oversampling involves
+duplicating examples from the minority class, while undersampling involves removing examples from
+the majority class. Diverse data collection is another approach to address data bias, which involves
+collecting data from a diverse range of sources to ensure that the model is not biased towards any
+particular group or class.  Reference(s):  1. Chawla, N. V., Bowyer, K. W., Hall, L. O., &
+Kegelmeyer, W. P. (2002). SMOTE: synthetic minority over-sampling technique. Journal of artificial
+intelligence research, 16, 321-357.  2. He, H., Bai, Y., Garcia, E. A., & Li, S. (2008). ADASYN:
+Adaptive synthetic sampling approach for imbalanced learning. In IEEE international joint conference
+on neural networks (IEEE world congress on computational intelligence) (pp. 1322-1328). IEEE.  3.
+Kotsiantis, S. (2006). Handling imbalanced datasets: a review. Informatica, 30(3), 239-248.  4. Liu,
+X., Wu, J., & Zhou, Z. H. (2009). Exploratory undersampling for class-imbalance learning. IEEE
+Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 39(2), 539-550.  5. Seiffert,
+C., Khoshgoftaar, T. M., & Van Hulse, J. (2009). RUSBoost: Improving classification performance when
+training data is skewed. In Proceedings of the 2009 IEEE international conference on data mining
+workshops (ICDMW) (pp. 163-172). IEEE.  6. Sun, Y., Kamel, M. S., Wong, A. K. C., & Wang, X. (2007).
+Cost-sensitive boosting for classification of imbalanced data. Pattern Recognition, 40(12),
+3486-3498.  7. Weiss, G. M., & Provost, F. J. (2003). Learning when data is scarce: sampling and
+active learning. ACM SIGKDD Explorations Newsletter, 5(1), 73-87.  8. Zhou, Z. H., & Liu, X. (2006).
+Training cost-sensitive neural networks with methods addressing the class imbalance problem. IEEE
+Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  9. Zong, C.,
+Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  10. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  11. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  12. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  13. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  14. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  15. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  16. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  17. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  18. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  19. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  20. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  21. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  22. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  23. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  24. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  25. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  26. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  27. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  28. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  29. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  30. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  31. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  32. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  33. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  34. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  35. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  36. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  37. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  38. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  39. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  40. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  41. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  42. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  43. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  44. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  45. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  46. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  47. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  48. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  49. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  50. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  51. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  52. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  53. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  54. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  55. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  56. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  57. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  58. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  59. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  60. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  61. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  62. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  63. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  64. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  65. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  66. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  67. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  68. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  69. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  70. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  71. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  72. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  73. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  74. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  75. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  76. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  77. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  78. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  79. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  80. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  81. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  82. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  83. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  84. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  85. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  86. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  87. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  88. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  89. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  90. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  91. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  92. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  93. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  94. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  95. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  96. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  97. Zong,
+C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp.
+171-174). Springer.  98. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with
+methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics,
+Part B (Cybernetics), 36(1), 205-216.  99. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  100. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  101.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  102. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  103. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  104. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  105. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  106. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  107. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+108. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  109. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  110. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  111.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  112. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  113. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  114. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  115. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  116. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  117. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+118. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  119. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  120. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  121.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  122. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  123. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  124. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  125. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  126. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  127. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+128. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  129. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  130. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  131.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  132. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  133. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  134. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  135. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  136. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  137. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+138. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  139. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  140. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  141.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  142. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  143. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  144. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  145. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  146. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  147. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+148. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  149. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  150. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  151.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  152. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  153. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  154. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  155. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  156. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  157. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+158. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  159. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  160. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  161.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  162. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  163. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  164. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  165. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  166. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  167. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+168. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  169. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  170. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  171.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  172. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  173. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  174. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  175. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  176. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  177. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+178. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  179. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  180. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  181.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  182. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  183. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  184. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  185. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  186. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  187. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+188. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  189. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  190. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  191.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  192. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  193. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  194. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  195. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  196. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  197. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+198. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  199. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  200. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  201.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  202. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  203. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  204. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  205. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  206. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  207. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+208. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  209. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  210. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  211.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  212. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  213. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  214. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  215. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  216. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  217. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+218. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  219. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  220. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  221.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  222. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  223. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  224. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  225. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  226. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  227. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+228. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  229. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  230. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  231.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  232. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  233. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  234. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  235. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  236. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  237. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+238. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  239. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  240. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  241.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  242. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  243. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  244. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  245. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  246. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  247. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+248. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  249. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  250. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  251.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  252. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  253. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  254. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  255. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  256. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  257. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+258. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  259. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  260. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  261.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  262. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  263. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  264. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  265. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  266. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  267. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+268. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  269. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  270. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  271.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  272. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  273. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  274. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  275. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  276. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  277. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+278. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  279. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  280. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  281.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  282. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  283. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  284. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  285. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  286. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  287. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+288. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  289. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  290. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  291.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  292. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  293. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  294. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  295. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  296. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  297. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+298. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  299. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  300. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  301.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  302. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  303. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  304. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  305. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  306. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  307. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+308. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  309. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  310. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  311.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  312. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  313. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  314. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  315. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  316. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  317. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+318. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  319. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  320. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  321.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  322. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  323. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  324. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  325. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  326. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  327. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+328. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  329. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  330. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  331.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  332. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  333. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  334. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  335. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  336. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  337. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+338. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  339. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  340. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  341.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  342. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  343. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  344. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  345. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  346. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  347. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+348. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  349. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  350. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  351.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  352. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural
+networks with methods addressing the class imbalance problem. IEEE Transactions on Systems, Man, and
+Cybernetics, Part B (Cybernetics), 36(1), 205-216.  353. Zong, C., Li, X., & Zhou, Z. H. (2013).
+Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  354. Zhou, Z.
+H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing the class
+imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1),
+205-216.  355. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of
+machine learning (pp. 171-174). Springer.  356. Zhou, Z. H., & Liu, X. (2006). Training cost-
+sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on
+Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  357. Zong, C., Li, X., & Zhou,
+Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning (pp. 171-174). Springer.
+358. Zhou, Z. H., & Liu, X. (2006). Training cost-sensitive neural networks with methods addressing
+the class imbalance problem. IEEE Transactions on Systems, Man, and Cybernetics, Part B
+(Cybernetics), 36(1), 205-216.  359. Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance
+problem. In Encyclopedia of machine learning (pp. 171-174). Springer.  360. Zhou, Z. H., & Liu, X.
+(2006). Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics), 36(1), 205-216.  361.
+Zong, C., Li, X., & Zhou, Z. H. (2013). Class-imbalance problem. In Encyclopedia of machine learning
+(pp. 171-174). Springer.  362. Zhou, Z. H., & Liu, X. (2006). Training cost-

@@ -1,0 +1,5 @@
+ The preprocessing steps involved before training a deep learning model include resizing the images
+to a standard size, in this case, 128x128 pixels. This step is important as it helps in speeding up
+the training. In this dataset, 40479 images for training and 40669 images for testing were used.
+Each image may be classified into multiple classes. No preprocessing involving the texture and
+nature of the image itself was performed.

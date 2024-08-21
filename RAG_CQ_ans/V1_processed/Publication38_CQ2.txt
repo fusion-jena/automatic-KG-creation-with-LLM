@@ -1,0 +1,1 @@
+The deep learning pipeline uses both audio data and magnitude spectrogram images. The audio data is in the form of wav files, and the spectrogram images are represented as 512x720 resolution images. 

@@ -1,0 +1,6 @@
+ The context does not provide explicit information on the measures taken to ensure the
+generalizability of the deep learning model. However, it does mention that the model uses a data
+augmentation procedure that contributes significantly to the final accuracy. This procedure involves
+small random rotations between -5 and 5 degrees as well as random displacements at the maximum of
+the 10% of the image. This could be considered as a measure to ensure the model's ability to
+generalize to new data.

@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The context does not provide information on the methods used for collecting raw data in the deep learning pipeline. %Query
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline in this context uses image data format. %Explanation Explanation: The context mentions that the deep learning pipeline uses image data format. It does not mention any other data formats such as audio, video, or CSV. Therefore, the answer is that the deep learning pipeline in this context uses image data format. %Query
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The paper does not provide information on the specific data annotation techniques used in the deep learning pipeline. However, it mentions that the training dataset was labeled with 100 80 × 80- pixels image patches containing Ziziphus lotus shrubs and 100 images for Bare soil with sparse vegetation. This suggests that the data annotation technique used was likely image patch labeling.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The data augmentation techniques applied in the deep learning pipeline are: Random scale, Random crop, Flip horizontally, and Random brightness.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are not explicitly mentioned in the provided context. However, it is mentioned that the GoogLeNet classifier was initialized with the pre-trained weights of ImageNet, which suggests that ImageNet was used as a dataset in the deep learning pipeline.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide information on the specific preprocessing steps involved before training a deep learning model. However, in general, preprocessing steps can include normalization, scaling, cleaning, and data augmentation techniques such as random scale, random crop, flip horizontally, and random brightness.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The criteria used to split the data for deep learning model training are as follows: 80 images for training and 20 images for validating the obtained CNNs classifiers. This is summarized in Table 1.
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, I cannot provide the exact location of the code repository.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The context does not provide information on the data repository of the deep learning pipeline.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: The code repository link of the deep learning pipeline is not provided in the given context.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, but the provided context does not mention a data repository link for the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a deep learning model called GoogLeNet, which is a type of Convolutional Neural Network (CNN).
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The helpful answer is that the hyperparameters used in the deep learning model are not explicitly mentioned in the provided context. However, it is mentioned that the Stochastic Gradient Descent (SGD) is commonly used to update the weights, and the network weights can be randomly initialized if the network is trained from scratch. Additionally, transfer learning (e. g. , fine-tuning in CNNs) is used to initialize the weights of the network by the pre-trained weights on a different dataset.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The hyperparameters of the model are optimized using a grid search. %Query
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The Stochastic Gradient Descent (SGD) is commonly used to update the weights in the deep learning pipeline. The network weights, wt, can be randomly initialized if the network is trained from scratch. However, this is suitable only when a large labeled training-set is available. Several works have shown that data-augmentation and transfer learning help overcome this limitation. Transfer learning (e. g. , fine-tuning in CNNs) consists of re-utilizing the knowledge learned from one problem to another related one. In deep CNNs, transfer learning can be applied via fine-tuning, which involves initializing the weights of the network by the pre-trained weights on a different dataset.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The training is considered complete when the classifier converges within the first 100 training iterations, as shown in Figure 5.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The regularization methods used to prevent overfitting in the deep learning pipeline are dropout and L2 regularization. Dropout is a technique where randomly selected neurons are ignored during training, which helps to make the model more robust and prevents overfitting. L2 regularization, also known as weight decay, is a method that adds a penalty term to the loss function, which discourages large weights and helps to prevent overfitting.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is to use ﬁne-tuning by initializing the model with the pre-trained weights of ImageNet, and applying data augmentation techniques to increase the size of the dataset from 100 to 6000 images. The obtained classiﬁer converges within the ﬁrst 100 training iterations as shown in Figure 5.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The deep learning model is built using TensorFlow. %Explanation Explanation: The context mentions that TensorFlow is used for large-scale machine learning on heterogeneous distributed systems. This implies that TensorFlow is the framework used to build the deep learning model.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the specific hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: The postprocessing steps involved after the model training are not explicitly mentioned in the provided context. However, based on common practices in machine learning, the postprocessing steps could include generating saliency maps, calculating metrics such as precision, recall, and F1-measure, and creating a confusion matrix to evaluate the performance of the model.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using three metrics: precision (also called positive predictive value, i. e. , how many detected Ziziphus are true), recall (also known as sensitivity, i. , how many actual Ziziphus were detected), and F1 measure, which evaluates the balance between precision and recall.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: To improve the generalizability of the deep learning model, ﬁne-tuning was used by initializing the model with the pre-trained weights of ImageNet. Additionally, data augmentation techniques were applied to increase the size of the dataset from 100 to 6000 images. These techniques included Random scale, Random crop, Flip horizontally, and Random brightness.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The strategies employed to handle randomness in the deep learning pipeline include using a fixed random seed value, using deterministic algorithms, and using techniques such as batch normalization and dropout to reduce the impact of randomness on the model's performance. Additionally, ensemble methods can be used to combine the predictions of multiple models trained with different random seeds to improve the overall performance and robustness of the model.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is for supervised classification. It is used to automatically discover increasingly higher level features from data. The lower convolutional layers capture low-level image features, e. g. edges, color, while higher convolutional layers capture more complex features, i. e. , composite of several features. The deep learning model used in this work is GoogLeNet, which was the winner of ILSVRC (ImageNet Large Scale Visual Recognition Competition (ILSVRC)) 2014. It provides higher accuracy with less computational cost compared to previous network architectures.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The context does not provide information on the techniques used to address data bias during preprocessing of the deep learning pipeline.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The helpful answer is not explicitly provided in the given context. However, based on the context, it can be inferred that the trained deep learning model was deployed using the sliding window technique to assess its ability to detect Ziziphus lotus shrubs in Google Earth images. The context does not provide information on the specific process followed for model deployment, such as model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

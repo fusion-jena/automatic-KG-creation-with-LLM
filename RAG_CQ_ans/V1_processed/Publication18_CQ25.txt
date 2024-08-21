@@ -1,0 +1,1 @@
+The purpose of the deep learning model is to detect whale presence in marine mammal hotspots for whale watching. Assistant: The purpose of the deep learning model is to detect whale presence in marine mammal hotspots for whale watching. 

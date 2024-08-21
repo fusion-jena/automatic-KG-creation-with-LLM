@@ -1,0 +1,6 @@
+ The deep learning model uses a constant learning rate of 0.01 and applies dropout to the input of
+the last two layers with probability 0.5. L2-regularization is applied to the weights of the last
+two layers with a penalty factor of 0.001. The model is trained for 100 epochs and is checkpointed
+after each epoch. A validation set is used to identify the parameter setting (epoch) achieving the
+highest classification accuracy. The model optimizes cross-entropy loss via mini-batch stochastic
+gradient descent.

@@ -1,0 +1,12 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CPU a dlprov:HardwareResource .
+
+dlprov:ImageNet_2012 a dlprov:Dataset .
+
+dlprov:Inception_V3 a dlprov:DeepLearningModel .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:image a dlprov:DataFormat .
+

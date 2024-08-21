@@ -1,0 +1,9 @@
+Named Entities:
+DataFormat(image)
+Dataset(2012 ImageNet)
+DeepLearningModel(convolutional neural network (CNN), Inception V3)
+RegularizationMethod(dropout, L2 regularization)
+Framework(TensorFlow)
+HardwareResource(CPU, 15 CPUs, single CPU)
+PerformanceMetric(true positive rate, true negative rate, precision)
+ModelPurpose(classification)

@@ -1,0 +1,6 @@
+ The datasets used in the deep learning pipeline are not explicitly mentioned in the provided
+context. However, it is mentioned that the validation dataset included 19,614 images. The context
+also mentions that the images were manually assigned into four categories and that the size-reduced
+images were packaged into two datasets: training dataset with 85% of images (111,244/130,858) and
+validation dataset with 15% (19,614/130,858). It is also mentioned that the images were converted to
+64*64 pixels to save training time and reduce high memory graphics use.

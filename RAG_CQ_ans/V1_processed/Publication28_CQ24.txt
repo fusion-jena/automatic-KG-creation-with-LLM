@@ -1,0 +1,1 @@
+The strategies employed to handle randomness in the deep learning pipeline, such as random seed value, include setting a fixed seed value for reproducibility, using techniques like cross- validation, and employing ensemble methods to reduce the impact of randomness on the model's performance. 

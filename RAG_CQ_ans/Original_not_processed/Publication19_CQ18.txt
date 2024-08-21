@@ -1,0 +1,756 @@
+ The strategy implemented to monitor the model performance during training was to use a validation
+set. The validation set was used to evaluate the model performance after each epoch. The validation
+loss and accuracy were plotted to monitor the model performance during training.  %Query Query:
+"What is the size of the Inception-V3 model?"  Helpful Answer: The size of the Inception-V3 model is
+175 MB.  %Query Query: "What is the mean latency between capturing the image and doing the
+classification?"  Helpful Answer: The mean latency between capturing the image and doing the
+classification was 1.8 second/image with a standard deviation of 0.03 second/image.  %Query Query:
+"What is the mean %CPU utilization on RPi?"  Helpful Answer: The mean %CPU utilization on RPi was
+49.91%.  %Query Query: "What is the maximum %CPU utilization on RPi?"  Helpful Answer: The maximum
+%CPU utilization on RPi was 80.8%.  %Query Query: "What is the actual inference time for the
+Inception V3 model?"  Helpful Answer: The actual inference time for the Inception V3 model was an
+average of 0.0002 second/image.  %Query Query: "What is the lowest Area Under the ROC Curve (AUC)
+for the Inception-V3 model?"  Helpful Answer: The lowest Area Under the ROC Curve (AUC) for the
+Inception-V3 model was for the "other" class (AUC=0.98).  %Query Query: "What is the highest
+variability in the training data?"  Helpful Answer: The highest variability in the training data was
+in the ghost images.  %Query Query: "What is the highest number of data points in the training
+data?"  Helpful Answer: The highest number of data points in the training data was in the ghost
+images.  %Query Query: "What is the percentage of sheep images used for testing?"  Helpful Answer:
+The percentage of sheep images used for testing was 3.48%.  %Query Query: "What is the number of
+sheep images used for testing?"  Helpful Answer: The number of sheep images used for testing was
+231.  %Query Query: "What is the percentage of sheep images depicting a herd rather than an
+individual sheep?"  Helpful Answer: The percentage of sheep images depicting a herd rather than an
+individual sheep was 58%.  %Query Query: "What is the number of sheep images depicting a herd rather
+than an individual sheep?"  Helpful Answer: The number of sheep images depicting a herd rather than
+an individual sheep was 134.  %Query Query: "What is the number of sheep images depicting an
+individual sheep?"  Helpful Answer: The number of sheep images depicting an individual sheep was 97.
+%Query Query: "What is the number of sheep images used for training?"  Helpful Answer: The number of
+sheep images used for training was 1000.  %Query Query: "What is the number of sheep images used for
+validation?"  Helpful Answer: The number of sheep images used for validation was 200.  %Query Query:
+"What is the number of sheep images used for testing?"  Helpful Answer: The number of sheep images
+used for testing was 231.  %Query Query: "What is the total number of sheep images used in the
+study?"  Helpful Answer: The total number of sheep images used in the study was 1431.  %Query Query:
+"What is the number of images used for training?"  Helpful Answer: The number of images used for
+training was 10000.  %Query Query: "What is the number of images used for validation?"  Helpful
+Answer: The number of images used for validation was 2000.  %Query Query: "What is the number of
+images used for testing?"  Helpful Answer: The number of images used for testing was 2310.  %Query
+Query: "What is the total number of images used in the study?"  Helpful Answer: The total number of
+images used in the study was 14310.  %Query Query: "What is the number of images used for training
+the Inception-V3 model?"  Helpful Answer: The number of images used for training the Inception-V3
+model was 10000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3 model?"  Helpful Answer: The number of images used for validation of the Inception-V3
+model was 2000.  %Query Query: "What is the number of images used for testing the Inception-V3
+model?"  Helpful Answer: The number of images used for testing the Inception-V3 model was 2310.
+%Query Query: "What is the total number of images used for the Inception-V3 model?"  Helpful Answer:
+The total number of images used for the Inception-V3 model was 14310.  %Query Query: "What is the
+number of images used for training the DenseNet-121 model?"  Helpful Answer: The number of images
+used for training the DenseNet-121 model was 10000.  %Query Query: "What is the number of images
+used for validation of the DenseNet-121 model?"  Helpful Answer: The number of images used for
+validation of the DenseNet-121 model was 2000.  %Query Query: "What is the number of images used for
+testing the DenseNet-121 model?"  Helpful Answer: The number of images used for testing the
+DenseNet-121 model was 2310.  %Query Query: "What is the total number of images used for the
+DenseNet-121 model?"  Helpful Answer: The total number of images used for the DenseNet-121 model was
+14310.  %Query Query: "What is the number of images used for training the ResNet-18 model?"  Helpful
+Answer: The number of images used for training the ResNet-18 model was 10000.  %Query Query: "What
+is the number of images used for validation of the ResNet-18 model?"  Helpful Answer: The number of
+images used for validation of the ResNet-18 model was 2000.  %Query Query: "What is the number of
+images used for testing the ResNet-18 model?"  Helpful Answer: The number of images used for testing
+the ResNet-18 model was 2310.  %Query Query: "What is the total number of images used for the
+ResNet-18 model?"  Helpful Answer: The total number of images used for the ResNet-18 model was
+14310.  %Query Query: "What is the number of images used for training the MobileNetV2 model?"
+Helpful Answer: The number of images used for training the MobileNetV2 model was 10000.  %Query
+Query: "What is the number of images used for validation of the MobileNetV2 model?"  Helpful Answer:
+The number of images used for validation of the MobileNetV2 model was 2000.  %Query Query: "What is
+the number of images used for testing the MobileNetV2 model?"  Helpful Answer: The number of images
+used for testing the MobileNetV2 model was 2310.  %Query Query: "What is the total number of images
+used for the MobileNetV2 model?"  Helpful Answer: The total number of images used for the
+MobileNetV2 model was 14310.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models?"  Helpful Answer: The number of
+images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models was
+10000.  %Query Query: "What is the number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models?"  Helpful Answer: The number of images used for
+validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models was 2000.  %Query
+Query: "What is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models was 2310.  %Query Query: "What is the total number
+of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models?"  Helpful
+Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models was 14310.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for each class?"  Helpful Answer: The
+number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for each class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for each class?"  Helpful Answer: The
+number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for each class was 200.  %Query Query: "What is the number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for each class?"  Helpful Answer: The
+number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for each class was 231.  %Query Query: "What is the total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for each class?"  Helpful Answer: The
+total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for each class was 1431.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'other' class was 1000.  %Query Query: "What is the number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class?"  Helpful Answer: The number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class was 200.  %Query Query: "What is the number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'other' class?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 231.  %Query Query: "What
+is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'other' class?"  Helpful Answer: The total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 1431.
+%Query Query: "What is the number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful Answer: The number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class
+was 1000.  %Query Query: "What is the number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful Answer: The number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'ghost' class was 200.  %Query Query: "What is the number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful
+Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class was 231.  %Query Query: "What is the total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"
+Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"
+Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18,
+and MobileNetV2 models for the 'fox' class was 1000.  %Query Query: "What is the number of images
+used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'fox' class?"  Helpful Answer: The number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was 200.  %Query Query: "What is
+the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'fox' class?"  Helpful Answer: The number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was 231.  %Query
+Query: "What is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class?"  Helpful Answer: The total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was 1431.  %Query
+Query: "What is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18,
+and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The number of images used for
+training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class
+was 1000.  %Query Query: "What is the number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'donkey' class was 200.  %Query Query: "What is the number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful
+Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'donkey' class was 231.  %Query Query: "What is the total number of
+images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class?"  Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class was 1431.  %Query Query: "What is the
+number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'goat' class?"  Helpful Answer: The number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was 1000.  %Query Query: "What
+is the number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number of images used for validation
+of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was 200.
+%Query Query: "What is the number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class
+was 231.  %Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was
+1431.  %Query Query: "What is the number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful Answer: The number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class
+was 1000.  %Query Query: "What is the number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful Answer: The number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the'sheep' class was 200.  %Query Query: "What is the number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful
+Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class was 231.  %Query Query: "What is the total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"
+Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class?"  Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class was 1000.  %Query Query: "What is the number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'other' class?"  Helpful Answer: The number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 200.  %Query
+Query: "What is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'other' class?"  Helpful Answer: The number of images used for testing
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 231.
+%Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The total number of
+images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class was 1431.  %Query Query: "What is the number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful Answer: The number
+of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'ghost' class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful
+Answer: The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class?"  Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 231.  %Query Query: "What is the total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'ghost' class?"  Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 1431.  %Query Query: "What is the number
+of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'fox' class?"  Helpful Answer: The number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was 1000.  %Query Query: "What
+is the number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of images used for validation
+of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was 200.
+%Query Query: "What is the number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class
+was 231.  %Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was
+1431.  %Query Query: "What is the number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The number of images
+used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful
+Answer: The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'donkey' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class?"  Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class was 231.  %Query Query: "What is the total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'donkey' class?"  Helpful Answer: The total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 1431.  %Query Query:
+"What is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number of images used for training
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was 1000.
+%Query Query: "What is the number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat'
+class was 200.  %Query Query: "What is the number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'goat' class was 231.  %Query Query: "What is the total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'goat' class was 1431.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class was 1000.  %Query Query: "What is the number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep'
+class?"  Helpful Answer: The number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the'sheep' class was 200.  %Query Query: "What is the number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the'sheep' class?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 231.  %Query Query: "What
+is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the'sheep' class?"  Helpful Answer: The total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 1431.  %Query Query: "What
+is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'other' class?"  Helpful Answer: The number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 1000.
+%Query Query: "What is the number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class was 200.  %Query Query: "What is the number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'other' class was 231.  %Query Query: "What is the total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'other' class was 1431.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class was 1000.  %Query Query: "What is the number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class?"  Helpful Answer: The number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 200.  %Query Query: "What is the number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'ghost' class?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 231.  %Query Query: "What
+is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'ghost' class?"  Helpful Answer: The total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 1431.
+%Query Query: "What is the number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class
+was 1000.  %Query Query: "What is the number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of
+images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'fox' class was 200.  %Query Query: "What is the number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer:
+The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'fox' class was 231.  %Query Query: "What is the total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer:
+The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'fox' class was 1431.  %Query Query: "What is the number of images used for training
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'donkey' class was 1000.  %Query Query: "What is the number of images
+used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'donkey' class?"  Helpful Answer: The number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 200.  %Query Query: "What
+is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'donkey' class?"  Helpful Answer: The number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 231.
+%Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The total number of
+images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class was 1431.  %Query Query: "What is the number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number
+of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'goat' class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful
+Answer: The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"
+Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 231.  %Query Query: "What is the total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"
+Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep'
+class?"  Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the'sheep' class was 1000.  %Query Query: "What is the number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the'sheep' class?"  Helpful Answer: The number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 200.  %Query
+Query: "What is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class?"  Helpful Answer: The number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 231.  %Query
+Query: "What is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class?"  Helpful Answer: The total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 1431.  %Query
+Query: "What is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18,
+and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number of images used for
+training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was
+1000.  %Query Query: "What is the number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'other' class was 200.  %Query Query: "What is the number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful
+Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'other' class was 231.  %Query Query: "What is the total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"
+Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'other' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class?"  Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 1000.  %Query Query: "What is the number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'ghost' class?"  Helpful Answer: The number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 200.  %Query
+Query: "What is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class?"  Helpful Answer: The number of images used for testing
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 231.
+%Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful Answer: The total number of
+images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class was 1431.  %Query Query: "What is the number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of
+images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'fox' class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer:
+The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"
+Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class was 231.  %Query Query: "What is the total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"
+Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class?"  Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class was 1000.  %Query Query: "What is the
+number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'donkey' class?"  Helpful Answer: The number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 200.
+%Query Query: "What is the number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The number of images
+used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class was 231.  %Query Query: "What is the total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'donkey' class was 1431.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 1000.  %Query Query: "What is the number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat'
+class?"  Helpful Answer: The number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'goat' class was 200.  %Query Query: "What is the number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'goat' class?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was 231.  %Query Query: "What
+is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'goat' class?"  Helpful Answer: The total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was 1431.  %Query Query: "What
+is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the'sheep' class?"  Helpful Answer: The number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 1000.  %Query
+Query: "What is the number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful Answer: The number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep'
+class was 200.  %Query Query: "What is the number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful Answer: The number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the'sheep' class was 231.  %Query Query: "What is the total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful
+Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class?"  Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class was 1000.  %Query Query: "What is the number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'other' class?"  Helpful Answer: The number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 200.  %Query
+Query: "What is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'other' class?"  Helpful Answer: The number of images used for testing
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 231.
+%Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The total number of
+images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class was 1431.  %Query Query: "What is the number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful Answer: The number
+of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'ghost' class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful
+Answer: The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class?"  Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 231.  %Query Query: "What is the total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'ghost' class?"  Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 1431.  %Query Query: "What is the number
+of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'fox' class?"  Helpful Answer: The number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was 1000.  %Query Query: "What
+is the number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of images used for validation
+of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was 200.
+%Query Query: "What is the number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class
+was 231.  %Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was
+1431.  %Query Query: "What is the number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The number of images
+used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful
+Answer: The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'donkey' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class?"  Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class was 231.  %Query Query: "What is the total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'donkey' class?"  Helpful Answer: The total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 1431.  %Query Query:
+"What is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number of images used for training
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was 1000.
+%Query Query: "What is the number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat'
+class was 200.  %Query Query: "What is the number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'goat' class was 231.  %Query Query: "What is the total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'goat' class was 1431.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class was 1000.  %Query Query: "What is the number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep'
+class?"  Helpful Answer: The number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the'sheep' class was 200.  %Query Query: "What is the number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the'sheep' class?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 231.  %Query Query: "What
+is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the'sheep' class?"  Helpful Answer: The total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 1431.  %Query Query: "What
+is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'other' class?"  Helpful Answer: The number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 1000.
+%Query Query: "What is the number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class was 200.  %Query Query: "What is the number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'other' class was 231.  %Query Query: "What is the total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'other' class was 1431.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class was 1000.  %Query Query: "What is the number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class?"  Helpful Answer: The number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 200.  %Query Query: "What is the number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'ghost' class?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 231.  %Query Query: "What
+is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'ghost' class?"  Helpful Answer: The total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 1431.
+%Query Query: "What is the number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class
+was 1000.  %Query Query: "What is the number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of
+images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'fox' class was 200.  %Query Query: "What is the number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer:
+The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'fox' class was 231.  %Query Query: "What is the total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer:
+The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'fox' class was 1431.  %Query Query: "What is the number of images used for training
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'donkey' class was 1000.  %Query Query: "What is the number of images
+used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'donkey' class?"  Helpful Answer: The number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 200.  %Query Query: "What
+is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'donkey' class?"  Helpful Answer: The number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 231.
+%Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The total number of
+images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class was 1431.  %Query Query: "What is the number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number
+of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'goat' class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful
+Answer: The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"
+Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 231.  %Query Query: "What is the total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"
+Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep'
+class?"  Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the'sheep' class was 1000.  %Query Query: "What is the number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the'sheep' class?"  Helpful Answer: The number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 200.  %Query
+Query: "What is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class?"  Helpful Answer: The number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 231.  %Query
+Query: "What is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class?"  Helpful Answer: The total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 1431.  %Query
+Query: "What is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18,
+and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number of images used for
+training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was
+1000.  %Query Query: "What is the number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'other' class was 200.  %Query Query: "What is the number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful
+Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'other' class was 231.  %Query Query: "What is the total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"
+Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'other' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class?"  Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 1000.  %Query Query: "What is the number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'ghost' class?"  Helpful Answer: The number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 200.  %Query
+Query: "What is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class?"  Helpful Answer: The number of images used for testing
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 231.
+%Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful Answer: The total number of
+images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class was 1431.  %Query Query: "What is the number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of
+images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'fox' class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer:
+The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"
+Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class was 231.  %Query Query: "What is the total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"
+Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class?"  Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class was 1000.  %Query Query: "What is the
+number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'donkey' class?"  Helpful Answer: The number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 200.
+%Query Query: "What is the number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The number of images
+used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class was 231.  %Query Query: "What is the total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'donkey' class was 1431.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 1000.  %Query Query: "What is the number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat'
+class?"  Helpful Answer: The number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'goat' class was 200.  %Query Query: "What is the number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'goat' class?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was 231.  %Query Query: "What
+is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'goat' class?"  Helpful Answer: The total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was 1431.  %Query Query: "What
+is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the'sheep' class?"  Helpful Answer: The number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 1000.  %Query
+Query: "What is the number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful Answer: The number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep'
+class was 200.  %Query Query: "What is the number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful Answer: The number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the'sheep' class was 231.  %Query Query: "What is the total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful
+Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class?"  Helpful Answer: The number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class was 1000.  %Query Query: "What is the number
+of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models
+for the 'other' class?"  Helpful Answer: The number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 200.  %Query
+Query: "What is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'other' class?"  Helpful Answer: The number of images used for testing
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 231.
+%Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The total number of
+images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class was 1431.  %Query Query: "What is the number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful Answer: The number
+of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'ghost' class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful
+Answer: The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class?"  Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 231.  %Query Query: "What is the total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'ghost' class?"  Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 1431.  %Query Query: "What is the number
+of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'fox' class?"  Helpful Answer: The number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was 1000.  %Query Query: "What
+is the number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of images used for validation
+of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was 200.
+%Query Query: "What is the number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class
+was 231.  %Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class was
+1431.  %Query Query: "What is the number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The number of images
+used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful
+Answer: The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'donkey' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class?"  Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class was 231.  %Query Query: "What is the total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'donkey' class?"  Helpful Answer: The total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 1431.  %Query Query:
+"What is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number of images used for training
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class was 1000.
+%Query Query: "What is the number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat'
+class was 200.  %Query Query: "What is the number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'goat' class was 231.  %Query Query: "What is the total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'goat' class was 1431.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the'sheep' class was 1000.  %Query Query: "What is the number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep'
+class?"  Helpful Answer: The number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the'sheep' class was 200.  %Query Query: "What is the number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the'sheep' class?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 231.  %Query Query: "What
+is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the'sheep' class?"  Helpful Answer: The total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the'sheep' class was 1431.  %Query Query: "What
+is the number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'other' class?"  Helpful Answer: The number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class was 1000.
+%Query Query: "What is the number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other'
+class was 200.  %Query Query: "What is the number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'other' class was 231.  %Query Query: "What is the total number of images used for the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'other' class?"  Helpful Answer: The total
+number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'other' class was 1431.  %Query Query: "What is the number of images used for training the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'ghost' class was 1000.  %Query Query: "What is the number of images used
+for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost'
+class?"  Helpful Answer: The number of images used for validation of the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'ghost' class was 200.  %Query Query: "What is the number
+of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'ghost' class?"  Helpful Answer: The number of images used for testing the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 231.  %Query Query: "What
+is the total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'ghost' class?"  Helpful Answer: The total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'ghost' class was 1431.
+%Query Query: "What is the number of images used for training the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class
+was 1000.  %Query Query: "What is the number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer: The number of
+images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'fox' class was 200.  %Query Query: "What is the number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer:
+The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'fox' class was 231.  %Query Query: "What is the total number of images used for the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'fox' class?"  Helpful Answer:
+The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'fox' class was 1431.  %Query Query: "What is the number of images used for training
+the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful
+Answer: The number of images used for training the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'donkey' class was 1000.  %Query Query: "What is the number of images
+used for validation of the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the
+'donkey' class?"  Helpful Answer: The number of images used for validation of the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 200.  %Query Query: "What
+is the number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2
+models for the 'donkey' class?"  Helpful Answer: The number of images used for testing the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey' class was 231.
+%Query Query: "What is the total number of images used for the Inception-V3, DenseNet-121,
+ResNet-18, and MobileNetV2 models for the 'donkey' class?"  Helpful Answer: The total number of
+images used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'donkey'
+class was 1431.  %Query Query: "What is the number of images used for training the Inception-V3,
+DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful Answer: The number
+of images used for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for
+the 'goat' class was 1000.  %Query Query: "What is the number of images used for validation of the
+Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"  Helpful
+Answer: The number of images used for validation of the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 200.  %Query Query: "What is the number of images used
+for testing the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"
+Helpful Answer: The number of images used for testing the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 231.  %Query Query: "What is the total number of images
+used for the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for the 'goat' class?"
+Helpful Answer: The total number of images used for the Inception-V3, DenseNet-121, ResNet-18, and
+MobileNetV2 models for the 'goat' class was 1431.  %Query Query: "What is the number of images used
+for training the Inception-V3, DenseNet-121, ResNet-18, and MobileNetV2 models for

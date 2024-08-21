@@ -1,0 +1,10 @@
+ Named Entities:
+    DataFormat(Image),
+    Dataset(ImageNet),
+    PreprocessingStep(Normalization, Scaling, Cleaning),
+    DeepLearningModel(CNN, Inception V3),
+    Framework(TensorFlow),
+    HardwareResource(CPU),
+    CodeRepository(GitHub),
+    ModelPurpose(Classification)
+

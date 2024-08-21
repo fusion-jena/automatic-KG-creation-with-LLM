@@ -1,0 +1,1 @@
+The context does not provide information on the regularization methods used to prevent overfitting in the deep learning pipeline. Therefore, I don't know the answer to this query. 

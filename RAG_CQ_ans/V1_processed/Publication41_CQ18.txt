@@ -1,0 +1,1 @@
+The strategy implemented to monitor the model performance during training is to use 20% of the training data for validation after training. The model was trained for 15 epochs, by which time the training loss had converged. The plot between the training loss vs epoch is shown in Figure 7. 

@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The context does not provide information on the methods used for collecting raw data in the deep learning pipeline. However, it does mention that the CNN model was trained with dataset T4, which includes thumbnails of whole fish, part of species, and environment. It also mentions that humans identified fish thumbnails during a 20-min test. Therefore, it can be inferred that the raw data for this study was collected through visual surveys or images, but the specific methods used for collecting this data are not mentioned in the provided context.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline uses image data formats. Specifically, it uses thumbnails of whole fish, part of fish species, and environment.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The data annotation techniques used in the deep learning pipeline are not explicitly mentioned in the provided context. However, it is mentioned that the training dataset was built by doubling the number of thumbnails per fish individual by flipping each thumbnail with respect to the vertical axis. This procedure homogenizes the proportion of left-oriented and right-oriented individuals in the database. It is also mentioned that the test dataset was built using 6 videos recorded in contexts different from those of videos used for training, and that annotations of these videos were made like the training dataset except that it included fish individuals partially hidden by other fish or by corals as well as fish individuals viewed from front or back. Therefore, it can be inferred that the data annotation techniques used in the deep learning pipeline include image flipping and annotation of fish individuals in various orientations and occlusion levels. However, the specific techniques such as bounding box annotation or instance segmentation are not explicitly mentioned.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The data augmentation technique applied in the deep learning pipeline is flipping each thumbnail with respect to the vertical axis. This procedure homogenizes the proportion of left-oriented and right-oriented individuals in the database and is hypothesized to improve the average identification rate since fish individuals are seen in all positions.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The deep learning pipeline used four different datasets to assess the influence of the dataset building on classification results. These datasets are T1, T2, T3, and T4. T1 contained raw fish thumbnails and their respective mirror images. T2 contained whole fish and part of fish thumbnails. T3 contained whole fish, environment, and part of fish thumbnails. T4 contained whole fish, environment, and part of species thumbnails. The first training dataset T1 contained raw fish thumbnails (T0) and their respective mirror images. More precisely, they doubled the number of thumbnails per fish individual by flipping each thumbnail with respect to the vertical axis. This annotation procedure yielded a training dataset (T0) with 44,625 annotated fish thumbnails belonging to 20 species. The 20 species present in the training dataset represent the most common species appearing in the videos and belong to 12 families among the most diverse and abundant on coral reefs worldwide.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide explicit information about preprocessing steps before training a deep learning model. However, it mentions that the raw training dataset of 20 fish species was used to build 4 different datasets to assess the influence of the dataset building on classification results. This involved doubling the number of thumbnails per fish individual by flipping each thumbnail with respect to the vertical axis. This procedure homogenizes the proportion of left- oriented and right-oriented individuals in the database. Additionally, the context mentions that the training lasted 8 days on a computer with 64GB of RAM, an i7 3. 50GHz CPU, and a Titan X GPU card for 900,000 images. However, it does not provide specific details about preprocessing steps such as normalization, scaling, or cleaning.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training (e. g. , train, test, validation).
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, I cannot provide the exact location of the code repository. However, it is mentioned that the code was run on Caﬀe, which is a deep learning framework. It is possible that the code repository is available on the Caﬀe website or on a related platform.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The link to the data repository of the deep learning pipeline is not provided in the given context. Therefore, I cannot provide the exact location of the data repository.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: The link to the code repository for the deep learning pipeline is not provided in the given context.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, the provided context does not include a link to a data repository for the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The type of deep learning model used in the pipeline is a Convolutional Neural Network (CNN).
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The hyperparameters used in the deep learning model are a learning rate of 10, a learning decay with a Gamma of 0. 95, a dropout of 50%, and an Adam Solver type as learning parameters. The weight initialization is a random Gaussian initialization.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The hyperparameters of the model are optimized by using classic hyper-parameters for a fast convergence of the network without over-fitting. These include a learning rate of 10, an exponential learning decay with a Gamma of 0. 95, a dropout of 50%, and an Adam Solver type. The training lasted 8 days on a computer with 64GB of RAM, an i7 3. 50GHz CPU, and a Titan X GPU card for 900,000 images. The network was trained and run on Caﬀe (Jia et al. , 2014).
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The deep learning pipeline uses a learning rate of 10 with a learning decay of 0. 95 and an Adam Solver type as learning parameters. These are classic hyper-parameters for a fast convergence of the network without over-fitting.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The network training was stopped after 70 epochs, which is a complete scope of the dataset where each image is used only once, to prevent overfitting. The learning parameters used include a learning rate of 10, an exponential learning decay with a Gamma of 0. 95, a dropout of 50%, and an Adam Solver type. These are classic hyperparameters for a fast convergence of the network without overfitting. The training lasted 8 days on a computer with 64GB of RAM, an i7 3. 50GHz CPU, and a Titan X GPU card for 900,000 images. The training was stopped after a certain number of epochs, rather than using a validation loss plateau, to prevent overfitting.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The regularization methods used to prevent overfitting in the deep learning pipeline are dropout and learning decay with a Gamma of 0. 95. The dropout rate used is 50%.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is to stop the network training after 70 epochs to prevent overfitting. The learning rate used was 10 with a learning decay of Gamma 0. 95, a dropout of 50%, and an Adam Solver type as learning parameters. These are classic hyperparameters for fast convergence of the network without overfitting. The training lasted 8 days on a computer with 64GB of RAM, an i7 3. 50GHz CPU, and a Titan X GPU card for 900,000 images.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The deep learning model is built using Caﬀe framework.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The deep learning model was trained on a computer with 64GB of RAM, an i7 3. 50GHz CPU, and a Titan X GPU card.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: The postprocessing steps involved after the model training are not explicitly mentioned in the provided context. However, it is mentioned that raw outputs of the model T4 were post-processed following decision rule r1 (i. e. environment not considered as a correct result), which improved correct identification rate from 86. 9 to 90. 2%. Adding decision rule r2 (i. identification of a part of a species considered as a correct answer) increased this success rate to 94. 1%. Hence, post- processing raw outputs of the model trained with the most complete dataset provided the best identification rate. Among the 18 species, success rate ranged from 85. 2 to 100%, with only 3 species being correctly identified in < 90% of cases and 9 species being correctly identified in > 95% of cases, including 3 with a correct identification rate > 99%. Confusions between 2 fish species were lower than 4%. Confusion between a fish and the environment was common when no post- processing was applied, but applying decision rule r1 decreased this error rate to < 4%.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using the mean identification success rate, correct identification rate, confusion between fish species, and success rate. The mean identification success rate is close to 87%, and the success rate ranges from 85. 2 to 100% with only 3 species being correctly identified in < 90% of cases and 9 species being correctly identified in > 95% of cases, including 3 with a correct identification rate > 99%. Confusions between 2 fish species were lower than 4%, and applying decision rule r1 decreased this error rate to < 4%. The best model had a lower performance than humans but both were higher than 97%. The mean time needed to identify a fish by humans was 5 s, with the fastest answer given in 2 s and the longest in 9 s. On average, each classification by the final model took 0. 06 s with hardware detailed above.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The deep learning model was trained with a diverse dataset that included thumbnails of whole fish, part of species, and environment. The model was also post-processed with decision rules to improve its performance. The model was tested on a set of thumbnails that were not included in the training dataset, and its performance was compared to that of human experts. The model was also evaluated using cross-validation and stratified splitting to ensure its generalizability.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The strategies employed to handle randomness in the deep learning pipeline include using a fixed random seed value for reproducibility, using techniques such as dropout and batch normalization to reduce overfitting, and using ensemble methods to combine the predictions of multiple models trained with different random seeds. Additionally, using a large and diverse dataset can help to reduce the impact of randomness on the model's performance.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to classify objects from images, specifically to identify fish species.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The context does not provide information on specific techniques used to address data bias during preprocessing of the deep learning pipeline. However, it does mention that the dataset was built to assess the influence of dataset building on classification results. This was done by doubling the number of thumbnails per fish individual by flipping each thumbnail with respect to the vertical axis, which homogenizes the proportion of left-oriented and right-oriented individuals in the database. This procedure is hypothesized to improve the average identification rate since fish individuals are seen in all positions. Additionally, the dataset was built to include thumbnails of whole fish, part of species, and environment.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The context does not provide information on the process followed to deploy the trained deep learning model, such as model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

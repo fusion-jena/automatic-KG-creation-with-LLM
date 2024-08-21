@@ -1,0 +1,1266 @@
+ The context does not provide information on strategies employed to handle randomness in the deep
+learning pipeline, such as random seed values.  %Context Context:  Due to the unique characteristics
+of neural networks, which solve problems by exploiting the hidden relationships inherent in multiple
+input variables, it was difficult to physically quantify the importance of the input variables. As
+an alternative, we performed a statistical feature importance test (SFIT) to explain which feature
+had the greatest significance in the species richness retrievals and to determine the optimized
+features in an operational retrieval system. For the SFIT, a single feature was randomly shuffled,
+while all the other features were kept constant. We iterated this process by changing the test
+variable. The feature importance shows the extent to which the model performance decreased with
+random shuffling. In this study, we used the root mean square error (RMSE) as the performance
+metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two model
+results, S-SDMs and DL species richness, by comparing the species richness obtained from independent
+tree plot datasets from the Korea Forest Service [72]. We calculated species richness using grids
+with a 10 km resolution after sensitivity analysis at different resolutions. We then calculated the
+overall correlation and local correlations between the species richness from the independent
+datasets and the results from the S-SDMs and DL species richness model. For direct comparisons, the
+model  Helpful Answer: The context does not provide information on strategies employed to handle
+randomness in the deep learning pipeline, such as random seed values.  %Query Query: "What
+strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed
+value)?"  Helpful Answer: The context does not provide information on strategies employed to handle
+randomness in the deep learning pipeline, such as random seed values.  %Context Context:  Due to the
+unique characteristics of neural networks, which solve problems by exploiting the hidden
+relationships inherent in multiple input variables, it was difficult to physically quantify the
+importance of the input variables. As an alternative, we performed a statistical feature importance
+test (SFIT) to explain which feature had the greatest significance in the species richness
+retrievals and to determine the optimized features in an operational retrieval system. For the SFIT,
+a single feature was randomly shuffled, while all the other features were kept constant. We iterated
+this process by changing the test variable. The feature importance shows the extent to which the
+model performance decreased with random shuffling. In this study, we used the root mean square error
+(RMSE) as the performance metric.  2.5. Independent Validation of Species Richness  Finally, we
+evaluated our two model results, S-SDMs and DL species richness, by comparing the species richness
+obtained from independent tree plot datasets from the Korea Forest Service [72]. We calculated
+species richness using grids with a 10 km resolution after sensitivity analysis at different
+resolutions. We then calculated the overall correlation and local correlations between the species
+richness from the independent datasets and the results from the S-SDMs and DL species richness
+model. For direct comparisons, the model  Helpful Answer: The context does not provide information
+on strategies employed to handle randomness in the deep learning pipeline, such as random seed
+values.  %Query Query: "What strategies are employed to handle randomness in the deep learning
+pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide information on
+strategies employed to handle randomness in the deep learning pipeline, such as random seed values.
+%Context Context:  Due to the unique characteristics of neural networks, which solve problems by
+exploiting the hidden relationships inherent in multiple input variables, it was difficult to
+physically quantify the importance of the input variables. As an alternative, we performed a
+statistical feature importance test (SFIT) to explain which feature had the greatest significance in
+the species richness retrievals and to determine the optimized features in an operational retrieval
+system. For the SFIT, a single feature was randomly shuffled, while all the other features were kept
+constant. We iterated this process by changing the test variable. The feature importance shows the
+extent to which the model performance decreased with random shuffling. In this study, we used the
+root mean square error (RMSE) as the performance metric.  2.5. Independent Validation of Species
+Richness  Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing
+the species richness obtained from independent tree plot datasets from the Korea Forest Service
+[72]. We calculated species richness using grids with a 10 km resolution after sensitivity analysis
+at different resolutions. We then calculated the overall correlation and local correlations between
+the species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling. In this study, we used the root mean
+square error (RMSE) as the performance metric.  2.5. Independent Validation of Species Richness
+Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the
+species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We
+calculated species richness using grids with a 10 km resolution after sensitivity analysis at
+different resolutions. We then calculated the overall correlation and local correlations between the
+species richness from the independent datasets and the results from the S-SDMs and DL species
+richness model. For direct comparisons, the model  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Query Query: "What strategies are employed to handle randomness in the deep
+learning pipeline (e.g., random seed value)?"  Helpful Answer: The context does not provide
+information on strategies employed to handle randomness in the deep learning pipeline, such as
+random seed values.  %Context Context:  Due to the unique characteristics of neural networks, which
+solve problems by exploiting the hidden relationships inherent in multiple input variables, it was
+difficult to physically quantify the importance of the input variables. As an alternative, we
+performed a statistical feature importance test (SFIT) to explain which feature had the greatest
+significance in the species richness retrievals and to determine the optimized features in an
+operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the
+other features were kept constant. We iterated this process by changing the test variable. The
+feature importance shows the extent to which the model performance decreased with random shuffling.
+In this study, we used the root mean square error (RMSE) as the performance metric.  2.5.
+Independent Validation of Species Richness  Finally, we evaluated our two model results, S-SDMs and
+DL species richness, by comparing the species richness obtained from independent tree plot datasets
+from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km
+resolution after sensitivity analysis at different resolutions. We then calculated the overall
+correlation and local correlations between the species richness from the independent datasets and
+the results from the S-SDMs and DL species richness model. For direct comparisons, the model
+Helpful Answer: The context does not provide information on strategies employed to handle randomness
+in the deep learning pipeline, such as random seed values.  %Query Query: "What strategies are
+employed to handle randomness in the deep learning pipeline (e.g., random seed value)?"  Helpful
+Answer: The context does not provide information on strategies employed to handle randomness in the
+deep learning pipeline, such as random seed values.  %Context Context:  Due to the unique
+characteristics of neural networks, which solve problems by exploiting the hidden relationships
+inherent in multiple input variables, it was difficult to physically quantify the importance of the
+input variables. As an alternative, we performed a statistical feature importance test (SFIT) to
+explain which feature had the greatest significance in the species richness retrievals and to
+determine the optimized features in an operational retrieval system. For the SFIT, a single feature
+was randomly shuffled, while all the other features were kept constant. We iterated this process by
+changing the test variable. The feature importance shows the extent to which the model performance
+decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the
+performance metric.  2.5. Independent Validation of Species Richness  Finally, we evaluated our two
+model results, S-SDMs and DL species richness, by comparing the species richness obtained from
+independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness
+using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then
+calculated the overall correlation and local correlations between the species richness from the
+independent datasets and the results from the S-SDMs and DL species richness model. For direct
+comparisons, the model  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Query
+Query: "What strategies are employed to handle randomness in the deep learning pipeline (e.g.,
+random seed value)?"  Helpful Answer: The context does not provide information on strategies
+employed to handle randomness in the deep learning pipeline, such as random seed values.  %Context
+Context:  Due to the unique characteristics of neural networks, which solve problems by exploiting
+the hidden relationships inherent in multiple input variables, it was difficult to physically
+quantify the importance of the input variables. As an alternative, we performed a statistical
+feature importance test (SFIT) to explain which feature had the greatest significance in the species
+richness retrievals and to determine the optimized features in an operational retrieval system. For
+the SFIT, a single feature was randomly shuffled, while all the other features were kept constant.
+We iterated this process by changing the test variable. The feature importance shows the extent to
+which the model performance decreased with random shuffling

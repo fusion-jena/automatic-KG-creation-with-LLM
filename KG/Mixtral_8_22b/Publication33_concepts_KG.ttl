@@ -1,0 +1,32 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Classification a dlprov:ModelPurpose .
+
+dlprov:Data_Augmentation a dlprov:PreprocessingStep .
+
+dlprov:Decreasing_Contrast a dlprov:DataAugmentationTechnique .
+
+dlprov:Horizontal_Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:Increasing_Contrast a dlprov:DataAugmentationTechnique .
+
+dlprov:Mean_Rate_of_Correct_Classification a dlprov:PerformanceMetric .
+
+dlprov:Rates_of_Correct_Classifications_per_Species a dlprov:PerformanceMetric .
+
+dlprov:Resizing a dlprov:PreprocessingStep .
+
+dlprov:Softmax_Scores a dlprov:PerformanceMetric .
+
+dlprov:T0 a dlprov:Dataset .
+
+dlprov:T1 a dlprov:Dataset .
+
+dlprov:T2 a dlprov:Dataset .
+
+dlprov:TensorFlow a dlprov:Framework .
+

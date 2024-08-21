@@ -1,0 +1,5 @@
+ The datasets used in the deep learning pipeline are not explicitly mentioned in the provided
+context. However, the context does mention that the models are fitted with the package mxnet, which
+is a deep learning framework that can be used with various datasets such as MNIST, CIFAR, and
+ImageNet. Without more specific information, it is not possible to determine which datasets were
+used in this particular case.

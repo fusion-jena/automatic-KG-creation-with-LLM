@@ -1,0 +1,7 @@
+ The criteria used to split the data for deep learning model training are not explicitly mentioned
+in the provided context. However, it is mentioned that a leave-one-out cross-validation technique
+was used for model evaluation in Challenges 1, 3, and 4. This technique involves using a single
+observation from the original sample as the validation set and the remaining observations as the
+training set. This is repeated such that each observation in the sample is used once as the
+validation set. Additionally, it is mentioned that the validation parameter was increased to 20% due
+to the limited number of images per species.

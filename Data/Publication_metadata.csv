@@ -1,0 +1,62 @@
+no,Article_name,DOI,Dataset,Source Code,Open source frameworks or environment,Model architecture,Software and Hardware Specification,Methods,Hyper-parameters,Randomness,Averaging result,Evaluation metrics,Resources Information,Methodological Information,Statistical Information,Randomness Information,Level 1,Level 2,Level 3,Level 4,Level 5
+1,Deep learning for large scale biodiversity monitoring,https://doi.org/10.13140/RG.2.1.1051.7201,n,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n
+3,Deep learning improves acoustic biodiversity monitoring and new candidate forest frog species identification (genus Platymantis) in the Philippines,https://doi.org/10.1007/s10531-020-02107-1,n,n,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+5,"Mapping Potential Plant Species Richness over Large Areas with Deep Learning, MODIS, and Species Distribution Models",https://doi.org/10.3390/rs13132490,n,n,y,y,y,y,y,n,y,y,n,y,y,n,n,n,n,n,n
+7,Automatic annotation of coral reefs using deep learning,https://doi.org/10.1109/OCEANS.2016.7761105,y,n,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+8,Detection and annotation of plant organs from digitised herbarium scans using deep learning,https://doi.org/10.3897/BDJ.8.e57090,y,y,y,y,y,y,y,n,y,y,y,y,y,n,y,y,y,n,n
+9,Sashimi: A toolkit for facilitating high-throughput organismal image segmentation using deep learning,https://doi.org/10.1111/2041-210X.13712,y,y,y,y,y,y,y,n,y,y,y,y,y,n,y,y,y,n,n
+10,Deep learning for detection of bird vocalisations,https://doi.org/10.48550/arXiv.1609.08408,n,n,y,y,n,y,n,n,n,n,n,n,n,n,n,n,n,n,n
+12,Automatic standardized processing and identification of tropical bat calls using deep learning approaches,https://doi.org/10.1016/j.biocon.2019.108269,n,n,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+13,Image-based taxonomic classification of bulk biodiversity samples using deep learning and domain adaptation,https://doi.org/10.1101/2021.12.22.473797,n,n,y,y,n,y,n,n,y,y,n,n,y,n,n,n,n,n,n
+14,Scene-specific convolutional neural networks for video-based biodiversity detection,https://doi.org/10.1111/2041-210X.13011,n,y,y,y,y,y,y,n,n,y,n,y,n,n,n,n,n,n,n
+16,Modelling Animal Biodiversity Using Acoustic Monitoring and Deep Learning,https://doi.org/10.1109/IJCNN52387.2021.9534195,n,n,y,y,y,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+18,Whale counting in satellite and aerial images with deep learning,https://doi.org/10.1038/s41598-019-50795-9,y,n,y,y,y,y,y,n,y,y,n,y,y,n,n,n,n,n,n
+19,Towards an IoT-based Deep Learning Architecture for Camera Trap Image Classification,https://doi.org/10.1109/GCAIoT51063.2020.9345858,n,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+20,A Deep learning method for accurate and fast identification of coral reef fishes in underwater images,https://doi.org/10.1016/j.ecoinf.2018.09.007,n,n,y,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n
+24,CityNet—Deep learning tools for urban ecoacoustic assessment,https://doi.org/10.1111/2041-210X.13114,y,y,y,y,y,y,y,n,n,y,y,y,n,n,y,y,n,n,n
+25,Individual tree-crown detection in RGB imagery using semi-supervised deep learning neural networks,https://doi.org/10.3390/rs11111309,y,y,y,y,y,y,y,n,n,y,y,y,n,n,y,y,n,n,n
+27,BatNet++: A Robust Deep Learning-Based Predicting Models for Calls Recognition,https://doi.org/10.1109/ICSGEA51094.2020.00062,n,n,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+28,An automated deep learning based satellite imagery analysis for ecology management,https://doi.org/10.1016/j.ecoinf.2021.101452,y,n,y,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n
+33,A new method to control error rates in automated species identification with deep learning algorithms,https://doi.org/10.1038/s41598-020-67573-7,n,n,y,y,n,y,n,n,y,y,n,n,y,n,n,n,n,n,n
+34,A deep learning approach to species distribution modelling,https://doi.org/10.1007/978-3-319-76445-0_10,y,n,y,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n
+37,Fusing shallow and deep learning for bioacoustic bird species classification,https://doi.org/10.1109/ICASSP.2017.7952134,y,n,y,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n
+38,Bat detective—Deep learning tools for bat acoustic signal detection,https://doi.org/10.1371/journal.pcbi.1005995,y,y,y,y,y,y,y,n,y,y,y,y,y,n,y,y,y,n,n
+39,Identification of animals and recognition of their actions in wildlife videos using deep learning techniques,https://doi.org/10.1016/j.ecoinf.2021.101215,n,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+41,Identifying land patterns from satellite imagery in amazon rainforest using deep learning,https://doi.org/10.48550/arXiv.1809.00340,n,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+42,An automated light trap to monitor moths (Lepidoptera) using computer vision-based tracking and deep learning,https://doi.org/10.3390/s21020343,n,y,y,y,n,y,y,y,y,y,n,n,y,y,n,n,n,n,n
+43,Deep-learning convolutional neural networks for scattered shrub detection with google earth imagery,https://doi.org/10.48550/arXiv.1706.00917,n,n,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+44,Automated Extraction of Phenotypic Leaf Traits of Individual Intact Herbarium Leaves from Herbarium Specimen Images Using Deep Learning Based Semantic Segmentation,https://doi.org/10.3390/s21134549,n,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+45,Harnessing deep learning in ecology: An example predicting bark beetle outbreaks,https://doi.org/10.3389/fpls.2019.01327,y,y,y,y,y,y,y,n,n,y,y,y,n,n,y,y,n,n,n
+46,Integrating multi-sensors data for species distribution mapping using deep learning and envelope models,https://doi.org/10.3390/rs13163284,n,n,n,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+47,Automated conservation assessment of the orchid family with deep learning,https://doi.org/10.1111/cobi.13616,y,y,y,y,n,y,y,y,n,n,y,n,n,y,y,n,n,n,n
+50,Deep learning for species identification of modern and fossil rodent molars,https://doi.org/10.1101/2020.08.20.259176,n,n,y,y,n,y,n,n,y,n,n,n,n,n,n,n,n,n,n
+52,Extreme deep learning in biosecurity: the case of machine hearing for marine species identification,https://doi.org/10.1080/24751839.2018.1501542,n,n,y,y,n,y,n,n,y,y,n,n,y,n,n,n,n,n,n
+53,"A continental-scale assessment of density, size, distribution and historical trends of farm dams using deep learning convolutional neural networks",https://doi.org/10.3390/rs13020319,y,n,y,y,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n
+54,Recognition of Endemic Bird Species Using Deep Learning Models,https://doi.org/10.1109/ACCESS.2021.3098532,n,n,y,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n
+56,Understanding deep learning in land use classification based on Sentinel-2 time series,https://doi.org/10.1038/s41598-020-74215-5,y,n,n,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+58,Assessment of deep learning techniques for land use land cover classification in southern new Caledonia,https://doi.org/10.3390/rs13122257,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+61,Columnar cactus recognition in aerial images using a deep learning approach,https://doi.org/10.1016/j.ecoinf.2019.05.005,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+62,Applications of deep convolutional neural networks to digitized natural history collections,https://doi.org/10.3897%2FBDJ.5.e21139,n,y,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+63,Deep learning and citizen science enable automated plant trait predictions from photographs,https://doi.org/10.1038/s41598-021-95616-0,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y,y
+64,Large-scale plant classification with deep neural networks,https://doi.org/10.1145/3075564.3075590,n,y,y,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n
+65,Semantic segmentation of tree-canopy in urban environment with pixel-wise deep learning,https://doi.org/10.3390/rs13163054,y,n,y,y,y,y,y,n,n,y,n,y,n,n,n,n,n,n,n
+66,Predicting animal behaviour using deep learning: GPS data alone accurately predict diving in seabirds,https://doi.org/10.1111/2041-210X.12926,y,n,y,y,n,y,n,n,y,y,n,n,y,n,n,n,n,n,n
+67,Tree cover estimation in global drylands from space using deep learning,https://doi.org/10.3390/rs12030343,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+71,Vegetation detection using deep learning and conventional methods,https://doi.org/10.3390/rs12152502,n,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+75,A novel deep learning based approach for seed image classification and retrieval,https://doi.org/10.1016/j.compag.2021.106269,n,n,y,y,n,y,n,n,y,y,n,n,y,n,n,n,n,n,n
+78,Bag of Features (BoF) Based Deep Learning Framework for Bleached Corals Detection,https://doi.org/10.3390/bdcc5040053,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+79,Hierarchical mapping of Brazilian Savanna (Cerrado) physiognomies based on deep learning,https://doi.org/10.1117/1.JRS.15.044504,n,n,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+81,Fish classification using DNA barcode sequences through deep learning method,https://doi.org/10.3390/sym13091599,y,n,y,n,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+82,Using deep learning for image-based plant disease detection,https://doi.org/10.3389/fpls.2016.01419,y,y,y,y,n,y,y,n,n,y,y,n,n,n,y,n,n,n,n
+83,Investigation of different CNN-based models for improved bird sound classification,https://doi.org/10.1109/ACCESS.2019.2957572,y,n,y,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n
+84,Development of spectral-phenological features for deep learning to understand Spartina alterniflora invasion,https://doi.org/10.1016/j.rse.2020.111745,n,n,n,n,n,y,n,n,y,y,n,n,y,n,n,n,n,n,n
+87,Trade-off between deep learning for species identification and inference about predator-prey co-occurrence: Reproducible R workflow integrating models in computer vision and ecological statistics,https://doi.org/10.48550/arXiv.2108.11509,n,y,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+88,Evaluation of Deep Learning Techniques for Deforestation Detection in the Brazilian Amazon and Cerrado Biomes From Remote Sensing Imagery,https://doi.org/10.3390/rs12060910,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+90,Taxonomic classification of ants (Formicidae) from images using deep learning,https://doi.org/10.1101/407452,y,y,y,y,y,y,y,n,n,n,y,y,n,n,y,y,n,n,n
+91,Pollen analysis using multispectral imaging flow cytometry and deep learning,https://doi.org/10.1111/nph.16882,n,n,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+92,Coral reef fish detection and recognition in underwater videos by supervised machine learning: Comparison between Deep Learning and HOG+ SVM methods,https://doi.org/10.1007/978-3-319-48680-2_15,n,n,y,y,n,y,n,n,n,y,n,n,n,n,n,n,n,n,n
+95,Camera Assisted Roadside Monitoring for Invasive Alien Plant Species Using Deep Learning,https://doi.org/10.3390/s21186126,n,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+96,"An alternative approach for mapping burn scars using Landsat imagery, Google Earth Engine, and Deep Learning in the Brazilian Savanna",https://doi.org/10.1016/j.rsase.2021.100472,y,n,y,n,n,y,y,n,n,n,n,n,n,n,n,n,n,n,n
+97,Automatic windthrow detection using very-high-resolution satellite imagery and deep learning,https://doi.org/10.3390/rs12071145,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+99,Reconstruction of damaged herbarium leaves using deep learning techniques for improving classification accuracy,https://doi.org/10.1016/j.ecoinf.2021.101243,y,n,y,y,n,y,y,n,n,y,n,n,n,n,n,n,n,n,n
+100,Country-wide retrieval of forest structure from optical and SAR satellite imagery with Bayesian deep learning,https://doi.org/10.48550/arXiv.2111.13154,n,y,y,y,y,y,y,n,n,y,n,y,n,n,n,n,n,n,n

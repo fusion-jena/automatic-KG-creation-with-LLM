@@ -1,0 +1,8 @@
+ The provided context does not mention any specific regularization methods used to prevent
+overfitting in the deep learning pipeline. However, it does mention that self-supervision, which
+only relies on unlabeled data, can be combined with labeled data in a semi-supervised framework,
+which may improve deep learning on limited training data by providing neural networks the
+opportunity to learn generalized features on a wider array of training examples, followed by
+retraining on a smaller number of high quality annotations. This approach could potentially help
+prevent overfitting, but the context does not provide specific details on the regularization methods
+used.

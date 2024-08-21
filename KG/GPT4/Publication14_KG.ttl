@@ -1,0 +1,32 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:15_CPUs a dlprov:HardwareResource .
+
+dlprov:2012_ImageNet a dlprov:Dataset .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:CPU a dlprov:HardwareResource .
+
+dlprov:Inception_V3 a dlprov:DeepLearningModel .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:classification a dlprov:ModelPurpose .
+
+dlprov:convolutional_neural_network a dlprov:DeepLearningModel .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:single_CPU a dlprov:HardwareResource .
+
+dlprov:true_negative_rate a dlprov:PerformanceMetric .
+
+dlprov:true_positive_rate a dlprov:PerformanceMetric .
+

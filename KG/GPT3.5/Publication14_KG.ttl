@@ -1,0 +1,42 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:15_CPUs a dlprov:HardwareResource .
+
+dlprov:2012_ImageNet_data a dlprov:Dataset .
+
+dlprov:256 a dlprov:Hyperparameter .
+
+dlprov:512 a dlprov:Hyperparameter .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Google%27s_Inception_V3_model a dlprov:DeepLearningModel .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:classification_of_frames_as_containing_hummingbird_or_background_objects a dlprov:ModelPurpose .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:convolutional_neural_network a dlprov:DeepLearningModel .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:dropout_rate a dlprov:Hyperparameter .
+
+dlprov:image_data a dlprov:DataFormat .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:number_of_units_in_FC_layers a dlprov:Hyperparameter .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:single_CPU_for_training a dlprov:HardwareResource .
+
+dlprov:true_negative_rate a dlprov:PerformanceMetric .
+
+dlprov:true_positive_rate a dlprov:PerformanceMetric .
+

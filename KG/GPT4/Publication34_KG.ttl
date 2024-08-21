@@ -1,0 +1,66 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5BNot_explicitly_mentioned> a dlprov:Dataset .
+
+dlprov:0.03 a dlprov:Hyperparameter .
+
+dlprov:A10%25DQ a dlprov:PerformanceMetric .
+
+dlprov:Accuracy_on_10%25_Densest_Quadrats a dlprov:PerformanceMetric .
+
+dlprov:CIFAR a dlprov:Dataset .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:CSV_files a dlprov:DataFormat .
+
+dlprov:Convolutional_neural_network a dlprov:DeepLearningModel .
+
+dlprov:DNN a dlprov:DeepLearningModel .
+
+dlprov:Deep_feedforward_network a dlprov:DeepLearningModel .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:Mean_Loss a dlprov:PerformanceMetric .
+
+dlprov:R a dlprov:Framework .
+
+dlprov:RMSE a dlprov:PerformanceMetric .
+
+dlprov:Root_Mean_Square_Error a dlprov:PerformanceMetric .
+
+dlprov:SGD_with_momentum_of_0.9 a dlprov:OptimizationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:and_ImageNet%5D a dlprov:Dataset .
+
+dlprov:batch-size_of_50 a dlprov:Hyperparameter .
+
+dlprov:but_possibly_using_datasets_such_as_MNIST a dlprov:Dataset .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:estimate_the_abundance_of_the_species a dlprov:ModelPurpose .
+
+dlprov:initial_learning_rate a dlprov:Hyperparameter .
+
+dlprov:momentum_of_0.9 a dlprov:Hyperparameter .
+
+dlprov:mxnet_library a dlprov:Framework .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:related_to_the_fundamental_ecological_niche_of_the_species a dlprov:ModelPurpose .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:stochastic_gradient_descent_algorithm a dlprov:Hyperparameter .
+
+dlprov:uniform_distribution_U a dlprov:Hyperparameter .
+
+dlprov:version_3.3.2 a dlprov:Framework .
+

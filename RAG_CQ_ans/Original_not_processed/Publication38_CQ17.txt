@@ -1,0 +1,3 @@
+ The provided context does not mention any specific regularization methods used to prevent
+overfitting in the deep learning pipeline. Therefore, I don't know the answer to this question based
+on the given context.

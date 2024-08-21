@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: CSV files
+DataAugmentationTechnique: [Not provided]
+Dataset: [Not explicitly mentioned, but possibly using datasets such as MNIST, CIFAR, and ImageNet]
+PreprocessingStep: normalization, scaling, cleaning
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: Deep feedforward network (DNN), Convolutional neural network (CNN)
+Hyperparameter: uniform distribution U(0.03, 0.03), stochastic gradient descent algorithm, momentum of 0.9, batch-size of 50, initial learning rate
+OptimizationTechnique: Stochastic Gradient Descent (SGD) with momentum of 0.9
+RegularizationMethod: dropout, L2 regularization
+Framework: R (version 3.3.2), mxnet library
+HardwareResource: [Not provided]
+PerformanceMetric: Mean Loss, Root Mean Square Error (RMSE), Accuracy on 10% Densest Quadrats (A10%DQ)
+ModelPurpose: estimate the abundance of the species, related to the fundamental ecological niche of the species

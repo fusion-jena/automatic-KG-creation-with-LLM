@@ -1,0 +1,20 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNNs a dlprov:DeepLearningModel .
+
+dlprov:DNNs a dlprov:DeepLearningModel .
+
+dlprov:audio a dlprov:DataFormat .
+
+dlprov:classify_presence_or_absence_and_activity_rates_of_endangered_species a dlprov:ModelPurpose .
+
+dlprov:classify_sounds_of_birds_colliding_with_energy_infrastructure a dlprov:ModelPurpose .
+
+dlprov:deep_convolutional_neural_networks a dlprov:DeepLearningModel .
+
+dlprov:deep_feed_forward_neural_networks a dlprov:DeepLearningModel .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:large_amounts_of_labeled_data_produced_by_analysts_using_the_UI a dlprov:Dataset .
+

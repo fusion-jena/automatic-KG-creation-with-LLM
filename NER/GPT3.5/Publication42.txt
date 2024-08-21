@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: images
+DataAugmentationTechnique: Flipping, Rotating, Scaling, Shearing
+Dataset: dataset created from images of different individual insects, annotated with bounding boxes, scaled to 72,000 images after augmentation, 80% used for training, 20% for validation
+PreprocessingStep: image resizing to 128 × 128 pixels, pixel value scaling to range 0-1, removal of images with no insects
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: customized CNN model for moth species classification, input size 128 × 128 × 3, trained on 2000 images
+Hyperparameter: kernel size (5 × 5 for first layer, 3 × 3 for last layer), convolutional depth (32 for first layer, 64 for last layer), fully connected size (512), optimizer (Adam or SGD)
+OptimizationTechnique: Adam, SGD
+RegularizationMethod: dropout (probability of 0.3 after second to last hidden layer)
+Framework: [Not specified]
+HardwareResource: [Not specified]
+PerformanceMetric: F1-score (92.75%), recall (93%), precision (93%)
+ModelPurpose: species classification

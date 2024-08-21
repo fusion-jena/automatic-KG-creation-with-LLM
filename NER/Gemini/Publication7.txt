@@ -1,0 +1,4 @@
+Named Entities: 
+DataFormat(image)
+Dataset(ImageNet, Benthoz15)
+DeepLearningModel(CNN, VGGnet)

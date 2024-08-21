@@ -1,0 +1,1 @@
+The context does not provide specific information about the datasets used in the deep learning pipeline. However, it mentions that the training set is composed of spectrogram figures of bird recordings as well as recordings void of any bird activity and their corresponding binary masks. 

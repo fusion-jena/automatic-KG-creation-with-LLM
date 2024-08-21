@@ -1,0 +1,7 @@
+ The study used a diverse dataset that included unfiltered audio-files recorded in different
+environments, such as nature habitats and human living areas. The dataset contained signal regions
+full of echos, background noises, and high intra-species acoustic variation. To ensure the
+generalizability of the deep learning model, the study introduced dataset-with-weak and ReChk
+strategy, which greatly reduced the false positive and misidentification rate. Additionally, BNorm
+layers were added to standardize the parameters with batch images, which alleviated the impact of
+high image variability and allowed the model to identify data from wider regions.

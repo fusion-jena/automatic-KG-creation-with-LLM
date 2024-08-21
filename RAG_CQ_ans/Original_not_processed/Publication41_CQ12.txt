@@ -1,0 +1,1 @@
+ The proposed work uses the VGG16 model, which is a type of Convolutional Neural Network (CNN).

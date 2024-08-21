@@ -1,0 +1,87 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:32 a dlprov:Hyperparameter .
+
+dlprov:Adam_optimizer a dlprov:OptimizationTechnique .
+
+dlprov:Batch_size%3A_3 a dlprov:Hyperparameter .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:DeepLabv3%2B a dlprov:DeepLearningModel .
+
+dlprov:Epochs%3A_100 a dlprov:Hyperparameter .
+
+dlprov:F1_score a dlprov:PerformanceMetric .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:Input_dimension%3A_512_%C3%97_512 a dlprov:Hyperparameter .
+
+dlprov:Keras a dlprov:Framework .
+
+dlprov:Learning_rate%3A_1_%C3%97_10%E2%88%924 a dlprov:Hyperparameter .
+
+dlprov:Loss_function%3A_Binary_cross-entropy a dlprov:Hyperparameter .
+
+dlprov:MAE a dlprov:PerformanceMetric .
+
+dlprov:MSE a dlprov:PerformanceMetric .
+
+dlprov:Optimizer%3A_Adam_optimizer a dlprov:Hyperparameter .
+
+dlprov:RMSE a dlprov:PerformanceMetric .
+
+dlprov:ResNet-101 a dlprov:Pre-trained_network .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:VGG16 a dlprov:Pre-trained_network .
+
+dlprov:accuracy a dlprov:PerformanceMetric .
+
+dlprov:brightness_adjustments a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:fine-tuning a dlprov:PreprocessingStep .
+
+dlprov:flipping a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:mAP a dlprov:PerformanceMetric .
+
+dlprov:mask_post-processing a dlprov:PreprocessingStep .
+
+dlprov:mean_absolute_error a dlprov:PerformanceMetric .
+
+dlprov:mean_average_precision a dlprov:PerformanceMetric .
+
+dlprov:mean_square_error a dlprov:PerformanceMetric .
+
+dlprov:pre-training a dlprov:PreprocessingStep .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:resizing a dlprov:PreprocessingStep .
+
+dlprov:root_mean_square_error a dlprov:PerformanceMetric .
+
+dlprov:rotation a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:segmentation_model a dlprov:Hyperparameter,
+        dlprov:Pre-trained_network .
+
+dlprov:semantic_segmentation a dlprov:ModelPurpose .
+
+dlprov:single-leaf_classifier a dlprov:Hyperparameter,
+        dlprov:Pre-trained_network .
+

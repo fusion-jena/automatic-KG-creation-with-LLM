@@ -1,0 +1,85 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Activation_Function a dlprov:Hyperparameter .
+
+dlprov:Adaptive_Moment_Estimation a dlprov:OptimizationTechnique .
+
+dlprov:Batch_Size a dlprov:Hyperparameter .
+
+dlprov:CIFAR a dlprov:Dataset .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Data_Augmentation a dlprov:PreprocessingStep .
+
+dlprov:Data_Cleaning a dlprov:PreprocessingStep .
+
+dlprov:Data_Normalization_or_Standardization a dlprov:PreprocessingStep .
+
+dlprov:Data_Splitting a dlprov:PreprocessingStep .
+
+dlprov:Data_Transformation a dlprov:PreprocessingStep .
+
+dlprov:Deep_Learning_Pipeline a dlprov:Method .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:Dropout_Rate a dlprov:Hyperparameter .
+
+dlprov:Early_Stopping a dlprov:RegularizationMethod .
+
+dlprov:F1_Score a dlprov:PerformanceMetric .
+
+dlprov:Feature_Selection_or_Engineering a dlprov:PreprocessingStep .
+
+dlprov:Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:GitHub a dlprov:CodeRepository .
+
+dlprov:Image a dlprov:DataFormat,
+        dlprov:RawData .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:Image_Classification a dlprov:ModelPurpose .
+
+dlprov:L1_Regularization a dlprov:RegularizationMethod .
+
+dlprov:L2_Regularization a dlprov:RegularizationMethod .
+
+dlprov:Learning_Rate a dlprov:Hyperparameter .
+
+dlprov:Loss_Function a dlprov:Hyperparameter .
+
+dlprov:MNIST a dlprov:Dataset .
+
+dlprov:Metric a dlprov:Hyperparameter .
+
+dlprov:NVIDIA_GeForce_GTX_1080_Ti_GPU a dlprov:HardwareResource .
+
+dlprov:Number_of_Epochs a dlprov:Hyperparameter .
+
+dlprov:Number_of_Hidden_Layers a dlprov:Hyperparameter .
+
+dlprov:Number_of_Neurons_in_Each_Hidden_Layer a dlprov:Hyperparameter .
+
+dlprov:Optimizer a dlprov:Hyperparameter .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Rotating a dlprov:DataAugmentationTechnique .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:Translating a dlprov:DataAugmentationTechnique .
+
+dlprov:Weight_Decay a dlprov:Hyperparameter .
+

@@ -1,0 +1,5 @@
+ The hyperparameters of the model are optimized using a grid search. The grid search is used to find
+the optimal learning rate, batch size, and number of epochs. The learning rate is optimized using a
+range of values from 0.0001 to 0.1. The batch size is optimized using a range of values from 16 to
+128. The number of epochs is optimized using a range of values from 10 to 100. The optimal
+hyperparameters are selected based on the performance of the model on the validation set.

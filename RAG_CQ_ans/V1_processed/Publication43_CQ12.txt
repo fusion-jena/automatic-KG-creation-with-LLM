@@ -1,0 +1,1 @@
+The pipeline uses a deep learning model called GoogLeNet, which is a type of Convolutional Neural Network (CNN). 

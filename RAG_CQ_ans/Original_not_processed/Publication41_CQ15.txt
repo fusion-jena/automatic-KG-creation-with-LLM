@@ -1,0 +1,3 @@
+ The Adam optimizer is applied in the deep learning pipeline.  %Explanation Explanation: The Adam
+optimizer is mentioned in the Methodology section as the optimization technique used to minimize the
+loss, which is measured by binary cross-entropy, with a learning rate of 10^4.

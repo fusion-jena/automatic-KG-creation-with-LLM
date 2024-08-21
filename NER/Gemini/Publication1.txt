@@ -1,0 +1,5 @@
+Named Entities: 
+DataFormat(audio spectrogram, image)
+PreprocessingStep(normalization, scaling, cleaning, augmentation)
+DeepLearningModel(CNN, DNN)
+ModelPurpose(Species Classification, Event Detection)   

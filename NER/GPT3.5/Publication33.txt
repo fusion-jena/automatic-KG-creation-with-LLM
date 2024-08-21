@@ -1,0 +1,8 @@
+Named Entities:
+DataFormat(images, 3 matrices with R, G, B values)
+DataAugmentationTechnique(increasing and decreasing contrast, horizontal flipping)
+Dataset(T0, T1, T2)
+PreprocessingStep(resizing to 64 × 64 pixels)
+DeepLearningModel(100-layer CNN based on TensorFlow ResNet implementation)
+OptimizationTechnique(back-propagation)
+TrainingCompletionCriteria(stopped training to prevent overfitting)

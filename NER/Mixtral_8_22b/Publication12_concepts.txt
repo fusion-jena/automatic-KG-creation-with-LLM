@@ -1,0 +1,12 @@
+ Named Entities:
+    DataFormat(images),
+    Dataset(training dataset, validation dataset),
+    PreprocessingStep(batch normalization),
+    DataAugmentationTechnique(rescaling exponentially, shifting the window slightly either side of the call),
+    DeepLearningModel(BatNet),
+    Hyperparameter(batch size equal to 64, learning rate equal to 0.001),
+    PerformanceMetric(Receiver operating characteristic (ROC) curve, area under the curve (AUC), overall accuracy, sensitivity, specificity, false positive rate),
+    RegularizationMethod(Batch Normalization (BNorm) layers),
+    Framework(TensorFlow),
+    HardwareResource(GPU),
+    ModelPurpose(classification)

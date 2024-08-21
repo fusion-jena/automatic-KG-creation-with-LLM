@@ -1,0 +1,7 @@
+ The trained deep learning model was deployed using TensorFlow Lite, which is a lightweight version
+of TensorFlow designed for mobile and edge devices. The model was serialized into a.tflite file and
+then deployed on a Raspberry Pi Model 4B. The Raspberry Pi was chosen as the platform because it is
+a low-cost, low-power device that is well-suited for edge computing applications. The Raspberry Pi
+was able to sustain a rate of processing 1 image every 2 seconds with an average latency of 1.8
+second/image. After capture and pre-processing, each inference took an average of 0.2
+Millisecond/image on the Raspberry Pi.

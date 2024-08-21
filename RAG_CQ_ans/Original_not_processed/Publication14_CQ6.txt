@@ -1,0 +1,7 @@
+ The context does not provide specific information on the preprocessing steps involved before
+training the deep learning model. However, common preprocessing steps for deep learning models
+include normalization, scaling, and cleaning. Normalization scales the data to a specific range,
+typically between 0 and 1, to ensure that all features have the same scale. Scaling adjusts the
+range of the data, often to a standard range such as -1 to 1 or 0 to 1. Cleaning involves removing
+or correcting any errors or inconsistencies in the data. These steps are important to ensure that
+the model can accurately learn from the data and make accurate predictions.

@@ -1,0 +1,42 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:64%2A64_pixels a dlprov:DataFormat .
+
+dlprov:AUC a dlprov:PerformanceMetric .
+
+dlprov:BNorm_layers a dlprov:PreprocessingStep .
+
+dlprov:BatNet a dlprov:DeepLearningModel .
+
+dlprov:CNNs a dlprov:DeepLearningModel .
+
+dlprov:GPU a dlprov:HardwareResource .
+
+dlprov:ROC_curve a dlprov:PerformanceMetric .
+
+dlprov:Receiver_operating_characteristic a dlprov:PerformanceMetric .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:area_under_the_curve a dlprov:PerformanceMetric .
+
+dlprov:based_on_convolutional_neural_networks a dlprov:DeepLearningModel .
+
+dlprov:batch_normalization a dlprov:PreprocessingStep .
+
+dlprov:classify_bat_species_based_on_acoustic_signals a dlprov:ModelPurpose .
+
+dlprov:false_positive_rate a dlprov:PerformanceMetric .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:overall_accuracy a dlprov:PerformanceMetric .
+
+dlprov:sensitivity a dlprov:PerformanceMetric .
+
+dlprov:specificity a dlprov:PerformanceMetric .
+
+dlprov:training_dataset_with_85%25_of_images a dlprov:DataSplitCriteria .
+
+dlprov:validation_dataset_with_15%25 a dlprov:DataSplitCriteria .
+

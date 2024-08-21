@@ -1,0 +1,5 @@
+ The training process is performed for a number of iterations in which all the training data are
+exposed to the network until the loss function reaches its minimum value. In this case, the model
+score reached its maximum after approximately 5000 iterations with a NVIDIA Titan X GPU (3584 CUDA
+cores). The number of trainable parameters was 85,569 and the computational run-time was
+approximately 4 h with a training batch size of 1024.

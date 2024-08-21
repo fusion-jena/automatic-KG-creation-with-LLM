@@ -1,0 +1,9 @@
+Named Entities:
+DataFormat(images)
+Dataset(custom dataset consisting of 33,984 images of 6 animal classes, pretrained with ImageNet)
+DeepLearningModel(Convolutional Neural Network (CNN))
+Hyperparameter(Optimizer: Stochastic Gradient Descent (SGD), Batch size, Learning rate, Number of epochs, Input image size)
+OptimizationTechnique(Stochastic Gradient Descent (SGD))
+Framework(Keras)
+PerformanceMetric(Accuracy, macro-F1 score, Area Under the ROC Curve (AUC))
+ModelPurpose(classification of images retrieved from camera traps and instant species identification)

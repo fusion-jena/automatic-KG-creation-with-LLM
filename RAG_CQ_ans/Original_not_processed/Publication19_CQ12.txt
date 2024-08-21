@@ -1,0 +1,2 @@
+ The pipeline uses a Convolutional Neural Network (CNN) model.  Answer: The pipeline uses a
+Convolutional Neural Network (CNN) model.

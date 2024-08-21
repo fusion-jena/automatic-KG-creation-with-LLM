@@ -1,0 +1,10 @@
+
+    Named Entities:
+    For each provided Concept(Corresponding Named Entity,..),
+    DataFormat(images),
+    Dataset(Local High Quality (LH), Local Low Quality (LL), Global High Quality (GH)),
+    DeepLearningModel(CNN),
+    Framework(TensorFlow, Keras),
+    PerformanceMetric(accuracy, multiclass recall rate, multiclass precision, F1-score),
+    RegularizationMethod(dropout),
+    ModelPurpose(family-level classification of below-ground bulk samples of Coleoptera from understudied forests of Cyprus)

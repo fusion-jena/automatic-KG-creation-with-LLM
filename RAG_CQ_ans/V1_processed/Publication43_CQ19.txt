@@ -1,0 +1,1 @@
+The deep learning model is built using TensorFlow. %Explanation Explanation: The context mentions that TensorFlow is used for large-scale machine learning on heterogeneous distributed systems. This implies that TensorFlow is the framework used to build the deep learning model. 

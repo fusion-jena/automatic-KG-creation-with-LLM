@@ -1,0 +1,1 @@
+The paper does not explicitly mention the metrics used to evaluate the performance of the deep learning model. However, it does mention that the classifier achieved a classification accuracy greater than 90% in all of the experiments. Therefore, it can be inferred that one of the metrics used to evaluate the performance of the deep learning model is accuracy. 

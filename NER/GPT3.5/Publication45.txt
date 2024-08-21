@@ -1,0 +1,15 @@
+Named Entities:
+DataFormat: image
+DataAnnotationTechnique: [Not specified]
+DataAugmentationTechnique: [Not specified]
+Dataset: [Not specified]
+PreprocessingStep: normalization, scaling, cleaning
+CodeRepository: [Not specified]
+DeepLearningModel: CNN (five convolution layers, five fully connected layers, softmax layer)
+Hyperparameter: [Not specified]
+OptimizationTechnique: SGD (Stochastic Gradient Descent)
+RegularizationMethod: dropout, L2 regularization (not explicitly mentioned but common in CNNs)
+Framework: [Not specified]
+HardwareResource: [Not specified]
+PerformanceMetric: accuracy, precision, recall, F1 score, conditional kappa, true skill statistic
+ModelPurpose: prediction (specifically predicting bark beetle outbreaks)

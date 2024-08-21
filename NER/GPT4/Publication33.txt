@@ -1,0 +1,8 @@
+Named Entities:
+DataFormat(images, 3 matrices with numeric values describing the color component (R, G, B))
+DataAugmentationTechnique(increasing contrast, decreasing contrast, horizontal flipping)
+Dataset(T0, T1, T2)
+PreprocessingStep(resizing to 64 × 64 pixels, data augmentation (increasing contrast, decreasing contrast, horizontal flipping))
+DeepLearningModel(100-layer CNN based on TensorFlow implementation of ResNet)
+OptimizationTechnique(back-propagation)
+TrainingCompletionCriteria(600,000 iterations, batch of 16 images, training stopped to prevent overfitting)

@@ -1,0 +1,1 @@
+The deep learning model used a learning rate of 0. 001 for stages 1 and 2, and a learning rate of 0. 0001 for stage 3. The model also used a weight decay of 0. 0001, learning momentum of 0. 9, and image augmentation by flipping 50% of the images in the left-right orientation. The model was trained for 160 epochs over three stages. 

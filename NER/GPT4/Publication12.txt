@@ -1,0 +1,11 @@
+Named Entities: 
+DataFormat(images)
+DataAugmentationTechnique(rescaling exponentially, shifting the window)
+Dataset(training dataset, validation dataset)
+PreprocessingStep(batch normalization)
+DeepLearningModel(BatNet, CNN)
+Framework(TensorFlow)
+HardwareResource(GPU)
+PerformanceMetric(Receiver operating characteristic (ROC) curve, area under the curve (AUC), overall accuracy, sensitivity, specificity, false positive rate, confusion matrix)
+ModelPurpose(classification)
+RegularizationMethod(Batch Normalization)

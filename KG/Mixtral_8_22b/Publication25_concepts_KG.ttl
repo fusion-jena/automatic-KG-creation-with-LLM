@@ -1,0 +1,46 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Hand-annotated_bounding_boxes a dlprov:DataAnnotationTechnique .
+
+dlprov:Image_data a dlprov:DataFormat .
+
+dlprov:LIDAR_data a dlprov:RawData .
+
+dlprov:Not_explicitly_mentioned a dlprov:CodeRepository,
+        dlprov:CodeRepositoryLink,
+        dlprov:DataBiasTechnique,
+        dlprov:DataRepository,
+        dlprov:DataRepositoryLink,
+        dlprov:DataSplitCriteria,
+        dlprov:Dataset,
+        dlprov:Framework,
+        dlprov:GeneralizabilityMeasure,
+        dlprov:HardwareResource,
+        dlprov:Hyperparameter,
+        dlprov:HyperparameterOptimization,
+        dlprov:ModelDeploymentProcess,
+        dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:OptimizationTechnique,
+        dlprov:PostprocessingStep,
+        dlprov:PreprocessingStep,
+        dlprov:RandomnessStrategy,
+        dlprov:RegularizationMethod,
+        dlprov:TrainingCompletionCriteria .
+
+<https://w3id.org/dlprov#Not_explicitly_mentioned.> a dlprov:DeploymentPlatform .
+
+dlprov:Point_cloud_data a dlprov:DataFormat .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:RGB_data a dlprov:RawData .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Self-supervised_RGB_deep_learning_model a dlprov:DeepLearningModel,
+        dlprov:Method .
+
+dlprov:Stem_recall a dlprov:PerformanceMetric .
+
+dlprov:Tree_delineation a dlprov:ModelPurpose .
+

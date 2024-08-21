@@ -1,0 +1,5 @@
+ The VGG Image Annotator (VIA) Version 2.0.8 (Dutta and Zisserman (2019)) is used for the annotation
+of the segmentation dataset. For each occurring animal in a frame of the training set, a polygonal
+segmentation mask depicting the visible silhouette, a bounding box and a class label, i.e., deer,
+boar, fox, hare, are annotated. The polygonal silhouette of a deer shows typically around 70
+vertices, while the polygonal silhouette of a hare may show only around 35 vertices.

@@ -1,0 +1,46 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:10 a dlprov:Hyperparameter .
+
+dlprov:50%25 a dlprov:Hyperparameter .
+
+dlprov:Adam_Solver a dlprov:Hyperparameter .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Caffe a dlprov:Framework .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Gamma_of_0.95 a dlprov:Hyperparameter .
+
+dlprov:T1 a dlprov:Dataset .
+
+dlprov:T2 a dlprov:Dataset .
+
+dlprov:T3 a dlprov:Dataset .
+
+dlprov:T4 a dlprov:Dataset .
+
+dlprov:an_i7_3.50GHz_CPU a dlprov:HardwareResource .
+
+dlprov:and_a_Titan_X_GPU_card a dlprov:HardwareResource .
+
+dlprov:and_environment a dlprov:DataFormat .
+
+dlprov:computer_with_64GB_of_RAM a dlprov:HardwareResource .
+
+dlprov:dropout a dlprov:Hyperparameter .
+
+dlprov:flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:learning_decay a dlprov:Hyperparameter .
+
+dlprov:learning_rate a dlprov:Hyperparameter .
+
+dlprov:part_of_fish_species a dlprov:DataFormat .
+
+dlprov:thumbnails_of_whole_fish a dlprov:DataFormat .
+

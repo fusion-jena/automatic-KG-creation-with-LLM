@@ -1,0 +1,2 @@
+ The deep learning pipeline in this paper uses audio data for bird species classification from
+flight calls.

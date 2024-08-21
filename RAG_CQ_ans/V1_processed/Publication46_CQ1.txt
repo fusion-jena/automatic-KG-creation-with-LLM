@@ -1,0 +1,1 @@
+The provided context does not explicitly mention the methods utilized for collecting raw data in the deep learning pipeline. However, it does mention the use of satellite-based observations for establishing the probability distribution of Rhododendron arboreum. Therefore, it can be inferred that satellite sensors are used for collecting raw data in this study. 

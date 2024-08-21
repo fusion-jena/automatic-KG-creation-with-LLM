@@ -1,0 +1,2 @@
+ The code repository of the deep learning pipeline is available on GitHub at
+<https://github.com/macaig/batdetect>.

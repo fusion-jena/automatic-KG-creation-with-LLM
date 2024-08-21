@@ -1,0 +1,1 @@
+The pipeline uses a deep learning model called BatNet, which is a cascade of multiple layers of nonlinear processing units for feature extraction from low-level features and syntheses to high- level features. The model is based on convolutional neural networks (CNNs). 

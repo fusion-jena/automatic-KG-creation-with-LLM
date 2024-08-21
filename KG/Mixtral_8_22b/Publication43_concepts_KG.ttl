@@ -1,0 +1,36 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+<https://w3id.org/dlprov#F1_measure.> a dlprov:PerformanceMetric .
+
+dlprov:Flip_horizontally a dlprov:DataAugmentationTechnique .
+
+dlprov:GoogLeNet a dlprov:DeepLearningModel .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Random_brightness a dlprov:DataAugmentationTechnique .
+
+dlprov:Random_crop a dlprov:DataAugmentationTechnique .
+
+dlprov:Random_scale a dlprov:DataAugmentationTechnique .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:Supervised_Classification a dlprov:ModelPurpose .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:Transfer_learning a dlprov:HyperparameterOptimization .
+

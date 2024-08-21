@@ -1,0 +1,5 @@
+ The strategy implemented to monitor the model performance during training is not explicitly
+mentioned in the provided context. However, it is common practice to use metrics such as accuracy,
+precision, recall, F1-score, and F2-score to evaluate the performance of a model during training. In
+this context, the PTDLEN-VAE model is evaluated using these metrics on the UCM and AID datasets. The
+results are presented in Tables 1 and 2, and Figures 6 and 7.

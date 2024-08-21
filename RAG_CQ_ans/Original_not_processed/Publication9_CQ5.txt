@@ -1,0 +1,3 @@
+ The dataset used in the deep learning pipeline is the 328,000 image COCO dataset (Lin et al.,
+2014).  %Explanation Explanation: The context mentions that the deep learning pipeline uses the
+328,000 image COCO dataset (Lin et al., 2014) for training the custom fish segmentation model.

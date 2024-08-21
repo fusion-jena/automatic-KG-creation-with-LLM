@@ -1,0 +1,4 @@
+ The context does not provide specific information on the preprocessing steps involved before
+training the deep learning model. However, common preprocessing steps in deep learning include
+normalization, scaling, cleaning, and data augmentation. These steps help to improve the model's
+performance and convergence during training.

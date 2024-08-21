@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The context does not provide information on the methods utilized for collecting raw data in the deep learning pipeline.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The data formats used in the deep learning pipeline are grey-coloured 1-channel images, specifically audio spectrograms. These images are fed to the input-layer of the U-net. The image fed to the output layer during training is the segmentation of the spectrogram of the input image.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The context does not provide specific information on the data annotation techniques used in the deep learning pipeline. However, it mentions that the training data in [18] are extracted manually, and this manual tagging process would also be possible in audio spectrograms. In this work, a modified version of [6] is used to extract automatically the mask of the spectrogram of a bird recording. The training set is composed of spectrogram figures of bird recordings as well as recordings void of any bird activity and their corresponding binary masks.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The data augmentation techniques applied in the deep learning pipeline are small random rotations between -5 and 5 degrees as well as random displacements at the maximum of the 10% of the image. Although this is a large displacement to apply in order to accommodate within-species vocal variations, it was decided to use it and proved beneficial probably because a global bird detector was made and not one dedicated to a specific species.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The context does not provide specific information about the datasets used in the deep learning pipeline. However, it mentions that the training set is composed of spectrogram figures of bird recordings as well as recordings void of any bird activity and their corresponding binary masks.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information on the preprocessing steps involved before training the deep learning model. However, common preprocessing steps in deep learning include normalization, scaling, cleaning, and data augmentation. These steps help to improve the model's performance and convergence during training.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training (e. g. , train, test, validation).
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The context does not provide information on the code repository of the deep learning pipeline.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The context does not provide information on the data repository of the deep learning pipeline.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: The code repository link of the deep learning pipeline is not provided in the given context.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, the provided context does not include information about the data repository link of the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a U-net deep autoencoder, which is a type of convolutional neural network (CNN).
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The paper does not provide information on the hyperparameters used in the deep learning model, such as the learning rate or the optimizer.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The context does not provide information on how the hyperparameters of the model are optimized. Therefore, I don't know the answer to this question.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The context does not provide information on the optimization techniques applied in the deep learning pipeline.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The training of the detection framework is done in terms of the mean Dice coefficient loss function. The Dice coefficient is used to compare the pixel-wise agreement between a predicted segmentation and its corresponding ground truth. The formula is given by: YXYX*2 Where, X is the predicted set of pixels and Y is the ground truth. The Dice coefficient is the quotient of similarity and ranges between 0 and 1. It can be viewed as a similarity measure over sets. The loss function is just the minus of the Dice coefficient with the additions of a smoothing factor inserted in the denominator. The score in Table I is the mean of the Dice coefficients of images in the evaluation set. The training is complete when the desired level of performance is achieved, which is determined by the mean Dice coefficient loss function. The training is stopped when the loss function reaches a plateau or when the desired level of performance is achieved.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The context does not provide information on the regularization methods used to prevent overfitting in the deep learning pipeline. Therefore, I don't know the answer to this query based on the provided context.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is not explicitly mentioned in the provided context. However, it is mentioned that during training, the binary mask of the spectrograms corresponding to recordings that do not include bird vocalizations are mapped to an empty figure. This suggests that the model's performance is monitored by evaluating its ability to correctly identify and segment bird vocalizations in the spectrograms.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The Keras Deep learning library is used to build the deep learning model. It is used in CUDA-CuDNN GPU mode. Python code in Anaconda Python 2. 7. 11 running in Ubuntu Linux environment and the Linux version of Matlab 2014b are also used.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context mentions that the network is trained using a single TITAN-X GPU.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: After the model training, the postprocessing steps involved are not explicitly mentioned in the provided context. However, based on common practices in deep learning, postprocessing steps could include evaluating the model's performance using metrics such as accuracy, precision, recall, and F1-score. Additionally, creating a confusion matrix to visualize the performance of the model on each class is also a common practice. Saliency maps might also be used to understand which parts of the input data are most important for the model's predictions. But without specific information, these are just possibilities and not definitive answers.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using the mean Dice coefficient loss function. The Dice coefficient is used to compare the pixel-wise agreement between a predicted segmentation and its corresponding ground truth. The formula is given by: YXYX*2 Where, X is the predicted set of pixels and Y is the ground truth. The Dice coefficient is the quotient of similarity and ranges between 0 and 1. It can be viewed as a similarity measure over sets. The loss function is just the minus of the Dice coefficient with the additions of a smoothing factor inserted in the denominator. The score in Table I is the mean of the Dice coefficients of images in the evaluation set.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The context does not provide explicit information on the measures taken to ensure the generalizability of the deep learning model. However, it does mention that the model uses a data augmentation procedure that contributes significantly to the final accuracy. This procedure involves small random rotations between -5 and 5 degrees as well as random displacements at the maximum of the 10% of the image. This could be considered as a measure to ensure the model's ability to generalize to new data.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The provided context does not discuss strategies to handle randomness in the deep learning pipeline, such as random seed values. Therefore, I don't know the answer based on the given context.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is segmentation. It is used to segment bird vocalizations from audio spectrograms without requiring manual, laborious tagging of thousands of audio spectrograms. The model is a modified version of [6] and is trained on spectrogram figures of bird recordings as well as recordings void of any bird activity and their corresponding binary masks. During training, the spectrogram is presented as input, and the mask is presented as output, whereas the network learns the mapping in-between them. The network is forced to learn, by an iterative procedure, the mapping of vocalizations to binary blobs and to suppress everything else.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The provided context does not explicitly mention any techniques used to address data bias during preprocessing of the deep learning pipeline. However, it does discuss data augmentation techniques applied to bird vocalizations, such as small random rotations between -5 and 5 degrees and random displacements at the maximum of the 10% of the image. These techniques are used to accommodate within-species vocal variations and to make a global bird detector. The context does not discuss stratified splitting, oversampling, undersampling, or diverse data collection.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The context does not provide information on the process followed to deploy the trained deep learning model, such as model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the specific platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

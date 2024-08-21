@@ -1,0 +1,4 @@
+ The hyperparameters of the model are optimized using the Adam optimizer with a learning rate of
+10^4. The model is trained for 15 epochs, and the training loss has converged by this time. The
+model was trained using an NVIDIA Tesla K80 GPU, which took around one hour to train. The plot of
+training loss vs epoch is shown in Figure 7.

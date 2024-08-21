@@ -1,0 +1,5 @@
+Named Entities: 
+DataFormat(audio, image, spectrograms, image crops, consecutive frame differences)DataAnnotationTechnique(UI)
+Dataset(labeled data produced by analysts, audio data related to biodiversity monitoring, image data related to biodiversity monitoring)
+DeepLearningModel(CNN, DNN)
+ModelPurpose(classification, classify the presence or absence and activity rates of endangered species, classify sounds of birds colliding with energy infrastructure)

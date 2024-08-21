@@ -1,0 +1,2 @@
+ The context does not provide information on the methods utilized for collecting raw data in the
+deep learning pipeline.

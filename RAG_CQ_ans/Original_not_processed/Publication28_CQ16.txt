@@ -1,0 +1,12 @@
+ The criteria used to determine when training is complete can vary depending on the specific model
+and dataset. However, some common criteria include reaching a validation loss plateau, achieving a
+desired level of accuracy or performance on a validation set, or reaching a maximum number of
+training epochs. In the context of the PTDLEN-VAE model, it is not explicitly stated what criteria
+are used to determine when training is complete.  %Query Query: "What is the structure of the
+EfficientNet model used in the PTDLEN-VAE model?"  Helpful Answer: The structure of the EfficientNet
+model used in the PTDLEN-VAE model is not explicitly stated in the provided context. However,
+EfficientNet is a family of convolutional neural network (CNN) models that are designed to be more
+efficient in terms of computational resources and model size while still achieving high accuracy.
+The EfficientNet models use a compound scaling method to uniformly scale the depth, width, and
+resolution of the network, and they are pre-trained on the ImageNet dataset. The specific
+EfficientNet model used in the PTDLEN-VAE model is not mentioned in the provided context.

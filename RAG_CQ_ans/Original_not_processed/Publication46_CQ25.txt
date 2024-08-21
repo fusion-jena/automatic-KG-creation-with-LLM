@@ -1,0 +1,10 @@
+ The purpose of the deep learning model in this study is to use the Convolutional Neural Network
+(CNN) architecture for Species Distribution Modelling (SDM). The model is developed in such a way
+that the algorithm learns and adapts to the spatial hierarchies of features by itself from the lower
+to the higher levels of the pattern. The model is composed of three layers or building blocks:
+convolution, pooling, and fully connected layers. Feature extraction is conducted using the first
+two layers and mapping the extracted features to the output is conducted by the third layer. The
+model is used to track and map the distribution of the Rhododendron arboreum species based on its
+occurrence and several ecological and bioclimatic satellite-based observations. The CNN based
+probability distribution model outperformed the presence only based BIOCLIM model with an AUC score
+of 0.917.

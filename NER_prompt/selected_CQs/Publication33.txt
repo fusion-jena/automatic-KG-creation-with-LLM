@@ -1,0 +1,31 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The data formats used in the deep learning pipeline are images. The images are extracted from videos and are coded as 3 matrices with numeric values describing the color component (R, G, B) of the pixel.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The data augmentation techniques applied in the deep learning pipeline are increasing and decreasing contrast. Each "natural" image yielded 4 more images: 2 with increased contrast (120% and 140%) and 2 with decreased contrast (80% and 60%). Additionally, all images were horizontally flipped to obtain the final training dataset.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are T0, T1, and T2. T0 is the training dataset composed of 691,690 images, T1 is the dataset used to tune the thresholds containing 6,320 images, and T2 is the test dataset containing 13,232 images. These datasets are not standard datasets like MNIST, CIFAR, or ImageNet, but are specifically created for this study case to identify 20 fish species from underwater images on coral reefs.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: Before training the deep learning model, the images used to build the datasets were resized to 64 × 64 pixels. Additionally, data augmentation was used to improve the model. Each "natural" image yielded 4 more images: 2 with increased contrast (120% and 140%) and 2 with decreased contrast (80% and 60%). All images were then horizontally flipped to obtain the final training dataset.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, but the provided context does not mention the code repository link of the deep learning pipeline.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a 100-layer CNN based on the TensorFlow implementation of ResNet.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The provided context does not mention the specific hyperparameters used in the deep learning model, such as the learning rate or optimizer.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The optimization of the parameters of the CNN is achieved during the training through a process called back-propagation. Back-propagation consists of automatically changing parameters of the CNN through the comparison between its output and the correct class of the training element to eventually improve the final classification rate. Here we used a 100-layer CNN based on the TensorFlow implementation of ResNet. The ResNet architecture achieved the best results on ImageNet Large Scale Visual Recognition Competition (ILSVRC) in 2015, considered as the most challenging image classification competition. It is still one of the best classification algorithms, while being very easy to use and implement. All fish images extracted from the videos to build our datasets were resized to 64 × 64 pixels before being processed by the CNN. Our training procedure lasted 600,000 iterations; each iteration processed a batch of 16 images, which means that the 691,690 images of the training dataset were analyzed 14 times each by the network on average. We then stopped the training to prevent from overfitting, as an overfit model is too restrictive and only able to classify images that were used during the training. The context does not provide specific information on the optimization techniques applied in the deep learning pipeline, such as SGD or Adam. However, it mentions that the optimization of the parameters of the CNN is achieved during the training through a process called back-propagation. The context also mentions the use of a 100-layer CNN based on the TensorFlow implementation of ResNet, which achieved the best results on ImageNet Large Scale Visual Recognition Competition (ILSVRC) in 2015. The training procedure lasted 600,000 iterations, with each iteration processing a batch of 16 images. The training was stopped to prevent overfitting.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

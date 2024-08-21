@@ -1,0 +1,75 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Adam_for_YOLOv5s_and_single-leaf_classifier a dlprov:OptimizationTechnique .
+
+dlprov:Adam_for_segmentation_model a dlprov:OptimizationTechnique .
+
+dlprov:Batch_size a dlprov:Hyperparameter .
+
+dlprov:Brightness_adjustments a dlprov:DataAugmentationTechnique .
+
+dlprov:CNN_for_segmentation a dlprov:DeepLearningModel .
+
+dlprov:CNN_for_single-leaf_classification a dlprov:DeepLearningModel .
+
+dlprov:DeepLabv3%2B a dlprov:DeepLearningModel,
+        dlprov:ModelPurpose .
+
+dlprov:Epochs a dlprov:Hyperparameter .
+
+dlprov:F1_score a dlprov:PerformanceMetric .
+
+dlprov:Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:Keras_with_TensorFlow_backend a dlprov:Framework .
+
+dlprov:Learning_rate a dlprov:Hyperparameter .
+
+dlprov:MAE a dlprov:PerformanceMetric .
+
+dlprov:MSE a dlprov:PerformanceMetric .
+
+dlprov:Mean_Absolute_Error a dlprov:PerformanceMetric .
+
+dlprov:Mean_Average_Precision a dlprov:PerformanceMetric .
+
+dlprov:Mean_Square_Error a dlprov:PerformanceMetric .
+
+dlprov:Optimizer a dlprov:Hyperparameter .
+
+dlprov:Pre-trained_network a dlprov:Hyperparameter .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:RMSE a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:ResNet-101 a dlprov:Hyperparameter .
+
+dlprov:Resizing_images_and_annotations_to_512x512 a dlprov:PreprocessingStep .
+
+dlprov:Root_Mean_Square_Error a dlprov:PerformanceMetric .
+
+dlprov:Rotation a dlprov:DataAugmentationTechnique .
+
+dlprov:SGD_for_Faster_R-CNN a dlprov:OptimizationTechnique .
+
+dlprov:Semantic_segmentation a dlprov:ModelPurpose .
+
+dlprov:Single-leaf_classification a dlprov:ModelPurpose .
+
+dlprov:VGG16 a dlprov:DeepLearningModel,
+        dlprov:Hyperparameter,
+        dlprov:ModelPurpose .
+
+dlprov:for_pre-training a dlprov:Dataset .
+
+dlprov:mAP a dlprov:PerformanceMetric .
+

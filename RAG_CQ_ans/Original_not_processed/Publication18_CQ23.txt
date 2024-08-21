@@ -1,0 +1,8 @@
+ The authors used two techniques to ensure the generalizability of their deep learning model:
+transfer learning and data augmentation. Transfer learning involves using the knowledge acquired in
+problem A to problem B, which was implemented by initializing the weights of the model for problem B
+using the pre-trained weights on problem A. Data augmentation consists of applying specific
+transformations to the training images, such as scaling, rotations, translations, different
+illumination conditions, and cropping parts of the image. These transformations simulate the
+deformations that data could suffer in real-world scenarios, and it was demonstrated in several
+works that data augmentation increases the robustness and generalization capacity of CNNs.

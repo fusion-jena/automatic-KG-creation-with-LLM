@@ -1,0 +1,1 @@
+The purpose of the deep learning model is to classify images into various classes. %Explanation Explanation: The context states that the VGG16 model has been used to classify images into various classes. %Query 

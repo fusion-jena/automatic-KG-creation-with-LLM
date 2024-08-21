@@ -1,0 +1,5 @@
+ To ensure the generalizability of the deep learning model, several measures were taken. These
+include using a diverse dataset, employing a leave-one-out cross-validation technique, and
+increasing the validation parameter to 20%. The leave-one-out cross-validation technique was used to
+evaluate model performance in Challenges 1, 3, and 4. Additionally, the validation parameter was
+increased to 20% due to the limited number of images per species (n = 20).

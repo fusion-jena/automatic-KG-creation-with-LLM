@@ -1,0 +1,1 @@
+The deep learning pipeline uses audio data. The acquired audio files are transmitted over 4G using SMTP. The audio file is segmented into 15 second windows. Each of the sample windows are passed to the feature extractor function where MFCC is used to return the extracted features for the classifier. The predicted vector is processed and logged to the site for review. 

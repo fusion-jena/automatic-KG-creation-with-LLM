@@ -1,0 +1,53 @@
+Analyze the following competency questions and identify all the concepts, relationships, data properties, and inverse properties between concepts mentioned in the text. These elements will be used to build ontology for describing the provenance of a DL Pipeline. 
+
+Below are the examples and follow the same format to answer all the questions:
+CQ1: What hyperparameters are used in the model?
+CQ2: What data formats are used in the deep learning pipeline?
+CQ3: What are the sources of input data for the deep learning pipeline?
+CQ4: Who are the authors of the deep learning model?
+CQ5: When was the model trained?
+CQ6: What is the accuracy of the model?
+
+Concepts: Hyperparameter, Model, Data, DataFormat, DeepLearningPipeline, Source, InputData, Author, TrainingDate, Accuracy
+Relationships: hasHyperparameter, hasModel, hasData, hasDataFormat, hasSource, hasInputData, hasAuthor, hasTrainingDate, hasAccuracy
+DataProperties: authorName, trainingDate, modelAccuracy
+InverseProperties: isHyperparameterOf, isModelOf, isDataOf, isDataFormatOf, isSourceOf, isInputDataOf, isAuthorOf, isTrainingDateOf, isAccuracyOf
+
+Comptency Questions:
+What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)? 
+What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)? 
+What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+What is the strategy implemented to monitor the model performance during training?
+Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+
+
+Provide your answer as follows:
+
+Answer:::
+Concepts: (concepts in comma separated list)
+Relationships: (relationships in comma separated list)
+DataProperties: (data properties in comma separated list)
+InverseProperties: (inverse properties in comma separated list)

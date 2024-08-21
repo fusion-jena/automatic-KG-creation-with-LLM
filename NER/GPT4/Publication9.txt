@@ -1,0 +1,12 @@
+Named Entities: 
+DataFormat(image)
+DataAugmentationTechnique(flipping)
+Dataset(COCO dataset)
+CodeRepositoryLink(https://github.com/ShawnTylerSchwartz/sashimi)
+DeepLearningModel(Mask R-CNN)
+Hyperparameter(learning rate 0.001, learning rate 0.0001, weight decay 0.0001, learning momentum 0.9, image flipping, 160 epochs)
+OptimizationTechnique(Stochastic Gradient Descent, backpropagation)
+Framework(TensorFlow)
+HardwareResource(GeForce RTX 2080 GPU)
+PerformanceMetric(frequency-weighted IoU, pixel accuracy, mean accuracy, mean IoU)
+ModelPurpose(image segmentation)

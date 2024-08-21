@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: wav files, magnitude spectrogram images (512x720 resolution)
+DataAugmentationTechnique: [Not explicitly mentioned]
+Dataset: Subset of full-spectrum time-expanded (TE) ultrasonic acoustic data recorded between 2005-2011 along road-transects by citizen scientists as part of the Indicator Bats Programme (iBats)
+PreprocessingStep: normalization, scaling, cleaning (not explicitly mentioned but inferred from common practices)
+CodeRepositoryLink: https://github.com/macaig/batdetect
+DeepLearningModel: deep convolutional neural network (CNN)
+Hyperparameter: [Not provided]
+OptimizationTechnique: [Not provided]
+RegularizationMethod: [Not provided]
+Framework: [Not provided]
+HardwareResource: Intel i7 processor, 32Gb RAM, Nvidia GTX 1080 GPU
+PerformanceMetric: precision, recall
+ModelPurpose: automatic bat search-phase echolocation call detection

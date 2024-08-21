@@ -1,0 +1,6 @@
+ The context does not provide information on the criteria used to split the data for deep learning
+model training. However, typically, the data is split into three sets: training set, validation set,
+and test set. The training set is used to train the model, the validation set is used to tune the
+model's hyperparameters, and the test set is used to evaluate the model's performance. The data is
+usually split randomly, but the proportion of the split can vary depending on the size of the
+dataset and the specific requirements of the model.

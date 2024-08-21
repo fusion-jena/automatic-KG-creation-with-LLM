@@ -1,0 +1,8 @@
+Named Entities:
+DataFormat(images)
+DataAugmentationTechnique(scaling, rotations, translations, different illumination conditions, cropping parts of the image)
+DeepLearningModel(CNN)
+RegularizationMethod(dropout, L2 regularization, early stopping, batch normalization)
+Framework(TensorFlow)
+PerformanceMetric(F1-score, precision, recall)
+ModelPurpose(detect whale presence)

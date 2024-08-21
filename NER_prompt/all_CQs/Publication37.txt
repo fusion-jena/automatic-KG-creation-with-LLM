@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The paper does not provide information on the methods utilized for collecting raw data in the deep learning pipeline.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline in this paper uses audio data for bird species classification from flight calls.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The paper does not provide information on the data annotation techniques used in the deep learning pipeline.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The data augmentation techniques applied in the deep learning pipeline include adding background noise (from 4 different field recordings), dynamic range compression (using 4 parameterizations: music, film, speech, radio), pitch shifting (by 4 conservative values of -0. 5, -0. 25, 0. 5 semi tones, and 4 less conservative values of -2, -1, 1, 2 semitones), and time stretching (by 4 ratios: 0. 81, 0. 93, 1. 07, 1. 23). The augmentations are applied using the MUDA library [30].
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The dataset used in the deep learning pipeline is the publicly available CLO-43SD dataset, which is comprised of 5428 audio clips of flight calls from 43 different species of North American wood- warblers.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide information on the preprocessing steps involved before training a deep learning model. However, common preprocessing steps for deep learning models include normalization, scaling, and cleaning. Normalization involves scaling the input features to a range between 0 and 1, while scaling involves standardizing the input features to have a mean of 0 and a standard deviation of 1. Cleaning involves removing or correcting any errors or inconsistencies in the data.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The methods compared in this study are evaluated in terms of classification accuracy. We divide the CLO-43SD dataset into 5 folds and perform 5-fold cross validation, and report the results as a box- plot generated from the per-fold accuracies. For identifying the best training epoch for the CNN model we use 1 of the 4 training folds as a validation set, and train on the remaining 3 folds.
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, I don't know where the code repository is available.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The data repository of the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, I cannot provide the specific data repository where the deep learning pipeline is available.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, but the provided context does not include information about the code repository link of the deep learning pipeline.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, but the provided context does not include information about the data repository link of the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a deep convolutional neural network (CNN) model.
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The deep learning model uses a constant learning rate of 0. 01 and applies dropout to the input of the last two layers with probability 0. 5. L2-regularization is applied to the weights of the last two layers with a penalty factor of 0. 001. The model is trained for 100 epochs and is checkpointed after each epoch. A validation set is used to identify the parameter setting (epoch) achieving the highest classification accuracy. The model optimizes cross-entropy loss via mini-batch stochastic gradient descent.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The hyperparameters of the model are optimized by using a constant learning rate of 0. 01 and applying dropout to the input of the last two layers with probability 0. 5. L2-regularization is applied to the weights of the last two layers with a penalty factor of 0. 001. The model is trained for 100 epochs and is checkpointed after each epoch. A validation set is used to identify the parameter setting (epoch) achieving the highest classification accuracy.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The model optimizes cross-entropy loss via mini-batch stochastic gradient descent (SGD) with a constant learning rate of 0. 01. Dropout is applied to the input of the last two layers with probability 0. 5, and L2-regularization is applied to the weights of the last two layers with a penalty factor of 0. 001.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The model is trained for 100 epochs and is checkpointed after each epoch. A validation set is used to identify the parameter setting (epoch) achieving the highest classification accuracy. The best training epoch for the CNN model is identified using 1 of the 4 training folds as a validation set, and training on the remaining 3 folds.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The deep learning pipeline uses dropout and L2 regularization to prevent overfitting. Dropout is applied to the input of the last two layers with probability 0. 5, and L2-regularization is applied to the weights of the last two layers with a penalty factor of 0. 001.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is to use a validation set to identify the parameter setting (epoch) achieving the highest classification accuracy. The model is trained for 100 epochs and is checkpointed after each epoch.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The deep learning model is built using Lasagne, a lightweight library to build and train neural networks in Theano.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: After the model training, the postprocessing steps involved are not explicitly mentioned in the provided context. However, based on common practices in machine learning, the postprocessing steps could include evaluating the model's performance using metrics such as accuracy, precision, recall, and F1-score. Additionally, a confusion matrix could be generated to visualize the performance of the model. Saliency maps might also be used to understand which parts of the input data are most important for the model's predictions.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated in terms of classification accuracy. The methods compared in this study are evaluated using 5-fold cross validation, and the results are reported as a box-plot generated from the per-fold accuracies. For identifying the best training epoch for the CNN model, 1 of the 4 training folds is used as a validation set, and the model is trained on the remaining 3 folds. The mean accuracies are indicated by the red squares in Figure 1.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The generalizability of the deep learning model was ensured by using a diverse dataset, the CLO-43SD dataset, which includes 5428 audio clips of flight calls from 43 different species of North American wood-warblers. The dataset is comprised of recordings from various recording conditions, including clean recordings, noisier field recordings, and recordings from birds in captivity. The model was evaluated using 5-fold cross-validation, where the dataset was divided into 5 folds and the model was trained and tested on different folds. The best training epoch for the CNN model was identified using 1 of the 4 training folds as a validation set, and training on the remaining 3 folds.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The strategies employed to handle randomness in the deep learning pipeline include using a constant learning rate of 0. 01, applying dropout to the input of the last two layers with probability 0. 5, and applying L2-regularization to the weights of the last two layers with a penalty factor of 0. 001. Additionally, the model is trained for 100 epochs and is checkpointed after each epoch, and a validation set is used to identify the parameter setting (epoch) achieving the highest classification accuracy.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is for classification. It is used to classify migrating birds' flight calls into different species. %Context 1. INTRODUCTION Automatic classification of animal vocalizations has great potential to enhance the monitoring of species movements and behaviors. This is particularly true for monitoring nocturnal bird migration, where automated classification of migrants' flight calls could yield new biological insights and conservation applications for birds that vocalize during migration. Among an increasingly important array of bioacoustic tools for conservation science [1] that describe presence, abundance, and behavior of vocal species, there is a significant body of research on automatic species classification from audio (e. g. [2, 3, 4, 5, 6, 7, 8, 9]). See [10] for a detailed survey of automatic birdsong recognition. Recently, a number of approaches have been proposed that employ generalizable machine learning techniques that can be easily adapted to multiple species [7, 11, 12]. However, these studies were focused on bird song (and marine mammals), not flight calls. Flight calls are species- specific vocalizations produced primarily during periods of sustained flight (i. e. , nocturnal migration). Among other differences from vocalizations analyzed in the aforementioned studies, flight calls are primarily single note vocalizations that are less than 200 ms long, whereas most songs contain several types of notes and may vary from seconds to minutes in duration. Studies focusing specifically on automated flight call classification include [13,14,15,16]. Automated classification of organisms to species based on their vocalizations would contribute tremendously to abilities to monitor biodiversity, with a wide range of applications in the field of ecology. In particular, automated classification of migrating birds' flight calls could yield new biological insights and conservation applications for birds that vocalize during migration. In this paper, we explore state-of-the-art classification techniques for large-vocabulary bird species classification from flight calls. In particular, we contrast a "shallow learning" approach based on unsupervised dictionary learning with a deep convolutional neural network combined with data augmentation. We show that the two models perform comparably on a dataset of 5428 flight calls spanning 43 different species, with both significantly outperforming an MFCC baseline. Finally, we show that by combining the models using a simple late-fusion approach, we can further improve the results, obtaining a state-of-the-art classification accuracy of 0. 96. %Query
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The paper does not provide information on techniques used to address data bias during preprocessing of the deep learning pipeline. %Context: [1] Paola Laiolo, "The emerging significance of bioacoustics in animal species conservation," Biological Conservation, vol. 143, no. 12, pp. 2762-2771, 2010. [2] A. Farnsworth, "Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-universal background model framework," The Journal of the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009. [3] A. Farnsworth, "Automatic classification of species-specific bird vocalizations using a Gaussian mixture model- universal background model framework," The Journal of the Acoustical Society of America, vol. [4] A. [5] A. [6] A. [7] A. [8] A. [9] A. [10] A. [11] A. [12] A. [13] A. [14] A. [15] A. [16] A. [17] A. [18] A. [19] A. [20] A. [21] A. [22] A. [23] A. [24] A. [25] A. [26] A. [27] A. [28] A. [29] A. [30] A. [31] A. [32] A. [33] A. [34] A. [35] A. [36] A. [37] A. [38] A. [39] A. [40] A. [41] A. [42] A. [43] A. [44] A. [45] A. [46] A. [47] A. [48] A. [49] A. [50] A. [51] A. [52] A. [53] A. [54] A. [55] A. [56] A. [57] A. [58] A. [59] A. [60] A. [61] A. [62] A. [63] A. [64] A. [65] A. [66] A. [67] A. [68] A. [69] A. [70] A. [71] A. [72] A. [73] A. [74] A. [75] A. [76] A. [77] A. [78] A. [79] A. [80] A. [81] A. [82] A. [83] A. [84] A. [85] A. [86] A. [87] A. [88] A. [89] A. [90] A. [91] A. [92] A. [93] A. [94] A. [95] A. [96] A. [97] A. [98] A. [99] A. [100] A. [101] A. [102] A. [103] A. [104] A. [105] A. [106] A. [107] A. [108] A. [109] A. [110] A. [111] A. [112] A. [113] A. [114] A. [115] A. [116] A. [117] A. [118] A. [119] A. [120] A. [121] A. [122] A. [123] A. [124] A. [125] A. [126] A. [127] A. [128] A. [129] A. [130] A. [131] A. [132] A. [133] A. [134] A. [135] A. [136] A. [137] A. [138] A. [139] A. [140] A. [141] A. [142] A. [143] A. [144] A. [145] A. [146] A. [147] A. [148] A. [149] A. [150] A. [151] A. [152] A. [153] A. [154] A. [155] A. [156] A. [157] A. [158] A. [159] A. [160] A. [161] A. [162] A. [163] A. [164] A. [165] A. [166] A. [167] A. [168] A. [169] A. [170] A. [171] A. [172] A. [173] A. [174] A. [175] A. [176] A. [177] A. [178] A. [179] A. [180] A. [181] A. [182] A. [183] A. [184] A. [185] A. [186] A. [187] A. [188] A. [189] A. [190] A. [191] A. [192] A. [193] A. [194] A. [195] A. [196] A. [197] A. [198] A. [199] A. [200] A. [201] A. [202] A. [203] A. [204] A. [205] A. [206] A. [207] A. [208] A. [209] A. [210] A. [211] A. [212] A. [213] A. [214] A. [215] A. [216] A. [217] A. [218] A. [219] A. [220] A. [221] A. [222] A. [223] A. [224] A. [225] A. [226] A. [227] A. [228] A. [229] A. [230] A. [231] A. [232] A. [233] A. [234] A. [235] A. [236] A. [237] A. [238] A. [239] A. [240] A. [241] A. [242] A. [243] A. [244] A. [245] A. [246] A. [247] A. [248] A. [249] A. [250] A. [251] A. [252] A. [253] A. [254] A. [255] A. [256] A. [257] A. [258] A. [259] A. [260] A. [261] A. [262] A. [263] A. [264] A. [265] A. [266] A. [267] A. [268] A. [269] A. [270] A. [271] A. [272] A. [273] A. [274] A. [275] A. [276] A. [277] A. [278] A. [279] A. [280] A. [281] A. [282] A. [283] A. [284] A. [285] A. [286] A. [287] A. [288] A. [289] A. [290] A. [291] A. [292] A. [293] A. [294] A. [295] A. [296] A. [297] A. [298] A. [299] A. [300] A. [301] A. [302] A. [303] A. [304] A. [305] A. [306] A. [307] A. [308] A. [309] A. [310] A. [311] A. [312] A. [313] A. [314] A. [315] A. [316] A. [317] A. [318] A. 12
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The context does not provide information on the process followed to deploy the trained deep learning model, including details on model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

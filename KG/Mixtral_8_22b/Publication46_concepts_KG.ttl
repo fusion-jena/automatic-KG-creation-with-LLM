@@ -1,0 +1,41 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Area_Under_ROC a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Backpropagation a dlprov:OptimizationTechnique .
+
+dlprov:CNN a dlprov:DeepLearningModel,
+        dlprov:Method .
+
+dlprov:Cleaning a dlprov:PreprocessingStep .
+
+dlprov:Cohen%27s_kappa a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel,
+        dlprov:Method .
+
+dlprov:Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:Normalization a dlprov:PreprocessingStep .
+
+dlprov:Receiver_Operating_Characteristics_Curve a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:SDM a dlprov:ModelPurpose .
+
+dlprov:Scaling a dlprov:PreprocessingStep .
+
+dlprov:Size_and_number_of_kernels a dlprov:Hyperparameter .
+
+dlprov:Species_Distribution_Modelling a dlprov:ModelPurpose .
+
+dlprov:TSS a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:True_Skill_Statistic a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+

@@ -1,0 +1,49 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5BNot_explicitly_provided%5D> a dlprov:Hyperparameter,
+        dlprov:PreprocessingStep .
+
+<https://w3id.org/dlprov#%5BNot_specified%5D> a dlprov:HardwareResource .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:F1_measure a dlprov:PerformanceMetric .
+
+dlprov:Flip_horizontally a dlprov:DataAugmentationTechnique .
+
+dlprov:GoogLeNet a dlprov:DeepLearningModel .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:Random_brightness a dlprov:DataAugmentationTechnique .
+
+dlprov:Random_crop a dlprov:DataAugmentationTechnique .
+
+dlprov:Random_scale a dlprov:DataAugmentationTechnique .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:fine-tuning a dlprov:OptimizationTechnique .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:supervised_classification a dlprov:ModelPurpose .
+
+dlprov:transfer_learning a dlprov:OptimizationTechnique .
+
+dlprov:used_as_pre-trained_weights_for_GoogLeNet a dlprov:Dataset .
+
+dlprov:weight_decay a dlprov:RegularizationMethod .
+

@@ -1,0 +1,82 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The context does not provide information on the methods utilized for collecting raw data in the deep learning pipeline.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline uses image data format. The input images are resized to 300 × 300 resolution for the single-leaf classifier and 512 × 512 resolution for the semantic segmentation model. The segmentation model uses DeepLabv3+ with ResNet-101 as the feature extractor, which is pre-trained on the ImageNet dataset. The single-leaf classifier uses a pre-trained VGG16 network, also trained on the ImageNet dataset. Both models are implemented using Keras with TensorFlow backend.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The context does not provide information on the specific data annotation techniques used in the deep learning pipeline. However, it mentions that all input images together with their annotation were resized to a 512 × 512 resolution. This suggests that some form of annotation was used, but the specific technique is not mentioned. %Query
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The data augmentation techniques applied in the deep learning pipeline are rotation, flipping, and brightness adjustments.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The context does not provide information on the specific datasets used in the deep learning pipeline. However, it does mention that the segmentation model was pre-trained on the ImageNet dataset and fine-tuned on the dataset. Final
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The preprocessing steps involved before training a deep learning model include resizing the input images and their annotations to a 512 × 512 resolution to reduce computational cost during training. Rotation, flipping, and brightness adjustments are applied as augmentation techniques for better network generalization. The model is pre-trained on the ImageNet dataset and fine-tuned on the dataset. An Adam optimizer with a learning rate of 1 × 10−4 and a batch size of 3 is used. The model is trained for 100 epochs with a binary cross-entropy loss function. Mask post-processing is also applied to solve the problem of under-segmentation of closely placed leaves.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training.
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is available on GitHub at <https://github. com/herbarium-botanic-gardens-university-of-malaya/herbarium-leaf-segmentation>.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include the code repository link of the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a deep learning model called DeepLabv3+, which is a type of Convolutional Neural Network (CNN). %Context Context: The pipeline uses a deep learning model called DeepLabv3+, which is a type of Convolutional Neural Network (CNN). DeepLabv3+ is used for semantic segmentation tasks, such as identifying and segmenting individual leaves in herbarium sheet images. The model is pre- trained on the ImageNet dataset and fine-tuned on the dataset. It uses an Adam optimizer with a learning rate of 1 × 10−4 and a batch size of 3. The model is trained for 100 epochs with a binary cross-entropy loss function as it is a binary class problem (leaf or background).
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The hyperparameters used in the deep learning model are as follows: For the segmentation model: - Input dimension: 512 × 512 - Batch size: 3 - Learning rate: 1 × 10−4 - Optimizer: Adam optimizer - Loss function: Binary cross-entropy - Epochs: 100 - Pre-trained network: ResNet-101 For the single- leaf classifier: - Input dimension: Not specified - Batch size: 32 - Learning rate: 1 × 10−4 - Optimizer: Adam optimizer - Loss function: Binary cross-entropy - Epochs: 100 - Pre-trained network: VGG16 The hyperparameters for the Faster R-CNN and YOLOv5s models are not provided in the given context.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The hyperparameters of the model are optimized using a grid search method.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The Faster R-CNN network uses a stochastic gradient descent (SGD) optimizer with a learning rate of 0. 00025. The YOLOv5s network uses an Adam optimizer with an initial image size of 640 × 640 and a batch size of 16. The single-leaf classifier uses an Adam optimizer at a learning rate of 1 × 10−4.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The provided context does not mention any regularization methods used to prevent overfitting in the deep learning pipeline. Therefore, I don't know the answer to this query based on the provided context.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is to save the best performing model based on the validation loss. This is done for both Faster R-CNN and YOLOv5s networks.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The context does not provide information on the specific frameworks used to build the deep learning model.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: The postprocessing steps involved after the model training are not explicitly mentioned in the provided context. However, the context does mention a mask postprocessing step that is applied to solve the problem of under-segmentation of individual leaves that are close together within a single mask. This involves applying simple postprocessing steps such as thresholding and masking operations to generate a new mask that is passed to phase 2. The context does not mention any other postprocessing steps such as saliency maps, metrics calculation, or confusion matrix.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using metrics such as accuracy, precision, recall, F1 score, mean average precision (mAP), mean absolute error (MAE), mean square error (MSE), and root mean square error (RMSE). %Query
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: To ensure the generalizability of the deep learning model, data augmentation techniques such as flipping and rotation were applied to the training images. This helped the model to generalize better as leaves were expected to be in different orientations, sizes, and locations. Additionally, the model was trained with a batch size of 32 images per iteration and applied binary cross-entropy as the loss function. The input images were resized to 300 × 300 resolution and trained for 100 epochs with an Adam optimizer at a learning rate of 1 × 10−4. The trained classifier was then used as a filter to detect whether the detected component was an individual leaf or not.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The context does not provide information on strategies employed to handle randomness in the deep learning pipeline, such as random seed values.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is semantic segmentation. %Explanation Explanation: The context mentions that the model is used for semantic segmentation, specifically for segmenting leaves from the background in herbarium sheet images. %Query
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The provided context does not mention any specific techniques used to address data bias during preprocessing of the deep learning pipeline. However, common techniques used to address data bias include stratified splitting, oversampling, undersampling, and diverse data collection. Stratified splitting involves splitting the data into training and testing sets while maintaining the same distribution of classes in both sets. Oversampling involves increasing the number of instances in the minority class, while undersampling involves decreasing the number of instances in the majority class. Diverse data collection involves collecting data from a variety of sources to ensure that the model is trained on a diverse set of examples.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The context does not provide information on the process followed to deploy the trained deep learning model.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

@@ -1,0 +1,1 @@
+The hyperparameters used in the deep learning model are not explicitly mentioned in the provided context. However, it is common to use hyperparameters such as learning rate, optimizer, batch size, and number of epochs in deep learning models. Without specific information, I cannot provide the exact hyperparameters used in this case. 

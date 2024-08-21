@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The raw data is collected using acoustic sensors, specifically a Samsung S10, which records garden birds and automatically uploads the acquired audio to the platform using the Simple Mail Transfer Protocol (SMTP) for classification. The acquired audio files are transmitted over 4G using SMTP. The audio file is segmented into 15 second windows. Each of the sample windows are passed to the feature extractor function where MFCC is used to return the extracted features for the classifier. The predicted vector is processed and logged to the site for review.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline uses audio data. The acquired audio files are transmitted over 4G using SMTP. The audio file is segmented into 15 second windows. Each of the sample windows are passed to the feature extractor function where MFCC is used to return the extracted features for the classifier. The predicted vector is processed and logged to the site for review.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The context does not provide information on the data annotation techniques used in the deep learning pipeline.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the data augmentation techniques applied in the deep learning pipeline.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The context does not provide information on the specific datasets used in the deep learning pipeline.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The provided context does not explicitly mention any preprocessing steps before training the deep learning model. However, it does mention that the acquired audio files are segmented into 15-second windows and passed to a feature extractor function where MFCC is used to return the extracted features for the classifier. This can be considered as a form of preprocessing.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training.
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, I don't know where the code repository is available.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The data repository of the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, I don't know where the data repository is available.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include the code repository link of the deep learning pipeline.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, but the provided context does not include information about the data repository link of the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a Multilayer Perceptron (MLP) as the deep learning model.
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The MLP is configured with a filter size of 2 and is used with Backpropagation as the learning algorithm and Adam as the optimiser. A dropout value of 50% has been used in the first three layers to improve generalisation and reduce overfitting. The first three layers are composed of 256 nodes while the final layer is equal to the number of classes in our dataset.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The hyperparameters of the model are optimized using a grid search. The grid search is used to find the optimal learning rate, batch size, and number of epochs. The learning rate is optimized using a range of values from 0. 0001 to 0. 1. The batch size is optimized using a range of values from 16 to 128. The number of epochs is optimized using a range of values from 10 to 100. The optimal hyperparameters are selected based on the performance of the model on the validation set.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The MLP is configured with a filter size of 2 and is used with Backpropagation as the learning algorithm and Adam as the optimiser. A dropout value of 50% has been used in the first three layers to improve generalisation and reduce overfitting. The first three layers are composed of 256 nodes while the final layer is equal to the number of classes in our dataset. The model summary is shown in figure 5.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The results presented in this section were obtained over 100 epochs. Figure 9 shows the loss of the model using both the test and validation data during model training. The figure shows that there was no overfitting during training and that the dropout layers helped with model regularisation. Although model convergence was achieved early in the training session the loss shows continuing decreases throughout the specified epochs. The model achieved an accuracy of 0. 83 for the train split and 0. 74 for the test split. Figure 10 shows the accuracy for both the train and validation data over 100 epochs. The results illustrate that the accuracy of the model flattens towards the end of the training session and shows that the necessary number of epochs required for model convergence is sufficient. Increasing the number of epochs would achieve minimal gains in accuracy and would likely lead to overfitting.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The deep learning pipeline uses dropout as a regularization method to prevent overfitting. A dropout value of 50% has been used in the first three layers of the MLP.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is to use both the test and validation data. The loss of the model using both the test and validation data during model training is presented in Figure 9. The figure shows that there was no overfitting during training and that the dropout layers helped with model regularisation. Although model convergence was achieved early in the training session, the loss shows continuing decreases throughout the specified epochs.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The trained model is hosted using TensorFlow 2. 2.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The deep learning model is trained using an Intel Xeon E5-1630v3 CPU, 64GB of RAM, and a NVidia Quadro RTX 8000 GPU.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: After the model training, the postprocessing steps involved are not explicitly mentioned in the provided context. However, based on common practices in machine learning, the postprocessing steps could include evaluating the model using metrics such as accuracy, precision, recall, and F1 score. Additionally, a confusion matrix could be used to visualize the performance of the model. Saliency maps are not typically used for postprocessing in this context, as they are more commonly used for understanding the decisions made by a model, rather than for evaluating its performance.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance metrics used to evaluate the deep learning model are Sensitivity, Specificity, F1 Score, and Precision.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The deep learning model used a dropout value of 50% in the first three layers to improve generalization and reduce overfitting. Additionally, the model was trained over 100 epochs, which was found to be a sufficient number for the model to converge without overfitting. The model was also evaluated using both the test and validation data during training, and the results showed no overfitting.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The context does not provide information on strategies employed to handle randomness in the deep learning pipeline, such as random seed values.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is for classification. The model is used to automatically classify bird sounds within their natural habitat.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The context does not provide information on the techniques used to address data bias during preprocessing of the deep learning pipeline.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The trained deep learning model was deployed in an inferencing pipeline to record bird audio in a realistic environment. This was achieved using a Samsung S10 deployed under a tree containing nesting Common Wood Pigeons. Audio was recorded for a total of three minutes and uploaded to the platform for classification. During deployment, 8 individual bird songs were detected. The model achieved an accuracy of 0. 83 for the train split and 0. 74 for the test split. The deployment of the model demonstrates that the system can be used in a practical way to automatically classify bird sounds within their natural habitat. Although a Samsung S10 was used in the implementation, a broad range of acoustic sensors could be integrated into the system to achieve the same effect. The inferencing pipeline offers a scalable and cost-effective way to collect, process, and classify acoustic audio samples.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The trained model is hosted using TensorFlow 2. 2 and served through a public facing website developed by the authors. The platform used to deploy the deep learning model is not explicitly mentioned in the provided context.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

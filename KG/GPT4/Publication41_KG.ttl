@@ -1,0 +1,76 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:10%5E-4 a dlprov:Hyperparameter .
+
+dlprov:128 a dlprov:Hyperparameter .
+
+dlprov:15 a dlprov:Hyperparameter .
+
+dlprov:4-band_satellites a dlprov:Dataset .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Adam a dlprov:Hyperparameter .
+
+dlprov:Adam_optimizer a dlprov:OptimizationTechnique .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Categorical_Cross_Entropy a dlprov:PerformanceMetric .
+
+dlprov:Chip a dlprov:DataFormat .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:F-Beta_Score a dlprov:PerformanceMetric .
+
+dlprov:ISS_orbit a dlprov:Dataset .
+
+dlprov:Image_Data_Format a dlprov:DataFormat .
+
+dlprov:International_Space_Station a dlprov:Dataset .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:NVIDIA_Tesla_K80_GPU a dlprov:HardwareResource .
+
+dlprov:Planets_full-frame_analytic_scene_products a dlprov:Dataset .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:SSO a dlprov:Dataset .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:VGG16 a dlprov:DeepLearningModel .
+
+dlprov:batch_size a dlprov:Hyperparameter .
+
+dlprov:binary_cross-entropy a dlprov:Hyperparameter .
+
+dlprov:classification_of_images_into_various_classes a dlprov:ModelPurpose .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:epochs a dlprov:Hyperparameter .
+
+dlprov:flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:inferred a dlprov:RegularizationMethod .
+
+dlprov:inferred_from_context a dlprov:DataAugmentationTechnique .
+
+dlprov:learning_rate a dlprov:Hyperparameter .
+
+dlprov:optimizer a dlprov:Hyperparameter .
+
+dlprov:resizing_images_to_128x128_pixels a dlprov:PreprocessingStep .
+
+dlprov:rotation a dlprov:DataAugmentationTechnique .
+
+dlprov:scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:sun-synchronous_orbit a dlprov:Dataset .
+

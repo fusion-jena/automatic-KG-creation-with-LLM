@@ -1,0 +1,56 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:0.001 a dlprov:Hyperparameter .
+
+dlprov:0.01 a dlprov:Hyperparameter .
+
+dlprov:0.5 a dlprov:Hyperparameter .
+
+dlprov:100 a dlprov:Hyperparameter .
+
+dlprov:5428_audio_clips_of_flight_calls_from_43_different_species_of_North_American_wood-warblers a dlprov:Dataset .
+
+dlprov:CLO-43SD_dataset a dlprov:Dataset .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:L2-regularization a dlprov:Hyperparameter,
+        dlprov:RegularizationMethod .
+
+dlprov:Lasagne a dlprov:Framework .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:audio a dlprov:DataFormat .
+
+dlprov:background_noise a dlprov:DataAugmentationTechnique .
+
+dlprov:batch_size a dlprov:Hyperparameter .
+
+dlprov:built_on_Theano a dlprov:Framework .
+
+dlprov:classification_accuracy a dlprov:PerformanceMetric .
+
+dlprov:classification_of_migrating_birds%27_flight_calls_into_different_species a dlprov:ModelPurpose .
+
+dlprov:deep_convolutional_neural_network a dlprov:DeepLearningModel .
+
+dlprov:dropout a dlprov:Hyperparameter,
+        dlprov:RegularizationMethod .
+
+dlprov:dynamic_range_compression a dlprov:DataAugmentationTechnique .
+
+dlprov:epoch a dlprov:Hyperparameter .
+
+dlprov:evaluated_using_5-fold_cross_validation a dlprov:PerformanceMetric .
+
+dlprov:learning_rate a dlprov:Hyperparameter .
+
+dlprov:mini-batch_SGD a dlprov:Hyperparameter .
+
+dlprov:mini-batch_stochastic_gradient_descent a dlprov:OptimizationTechnique .
+
+dlprov:pitch_shifting a dlprov:DataAugmentationTechnique .
+
+dlprov:time_stretching a dlprov:DataAugmentationTechnique .
+

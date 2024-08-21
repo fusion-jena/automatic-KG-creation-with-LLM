@@ -1,0 +1,8 @@
+Named Entities: 
+DataFormat(image, spectrograms)
+Dataset(spectrograms, ImageNet)
+PreprocessingStep(normalization, scaling, cleaning)
+DeepLearningModel(CNN, Inception v3)
+Framework(TensorFlow)
+PerformanceMetric(number of images per class assigned to a species, average certainty rate)
+ModelPurpose(classification, classify species of Philippine forest frogs based on frequency distributions of individual call notes)

@@ -1,0 +1,4 @@
+ The model optimizes cross-entropy loss via mini-batch stochastic gradient descent (SGD) with a
+constant learning rate of 0.01. Dropout is applied to the input of the last two layers with
+probability 0.5, and L2-regularization is applied to the weights of the last two layers with a
+penalty factor of 0.001.

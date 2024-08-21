@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: Chip (Image) Data Format
+DataAugmentationTechnique: flipping, rotation, scaling (inferred from context)
+Dataset: Planets full-frame analytic scene products using 4-band satellites in sun-synchronous orbit (SSO) and International Space Station (ISS) orbit
+PreprocessingStep: image resizing to 128x128 pixels
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: VGG16 (Convolutional Neural Network)
+Hyperparameter: Adam optimizer, learning rate of 10^(-4), batch size 128, trained for 15 epochs
+OptimizationTechnique: Adam optimizer
+RegularizationMethod: [Not explicitly mentioned]
+Framework: TensorFlow
+HardwareResource: NVIDIA Tesla K80 GPU
+PerformanceMetric: Precision, Recall, Accuracy, F-Beta Score, Categorical Cross Entropy
+ModelPurpose: image classification

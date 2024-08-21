@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The study utilizes a combination of surveyed and estimated richness information collected in South Korea and multitemporal remote sensing data. The surveyed data is likely collected through field surveys, while the remote sensing data is collected using satellite sensors. The specific sensors used are not mentioned, but the study does mention using MODIS products, which are collected using the MODIS sensor on board the Terra and Aqua satellites.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline in this study uses MODIS-derived NDVI and LAI images as inputs. Therefore, the data format used in this deep learning pipeline is image data.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The provided context does not mention any specific data annotation techniques used in the deep learning pipeline. Therefore, I cannot provide a helpful answer to this query based on the given context. %Query
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the data augmentation techniques applied in the deep learning pipeline. Therefore, I cannot provide an answer to this query.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are not explicitly mentioned in the provided context. However, it is mentioned that a time-series of MODIS-driven NDVI and LAI were used in the deep learning-based species richness modeling.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: Before training a deep learning model, several preprocessing steps are typically involved. These can include normalization, which scales the input data to a specific range, often between 0 and 1 or -1 and 1. Scaling is another common step, which can involve techniques like standardization or min- max scaling to ensure that all features have a similar scale. Cleaning the data is also important, which can involve handling missing values, removing outliers, or dealing with inconsistent data. Other preprocessing steps can include encoding categorical variables, feature selection, or data augmentation. The specific preprocessing steps used can depend on the nature of the data and the requirements of the deep learning model.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training (e. g. , train, test, validation).
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The article does not provide information on the code repository of the deep learning pipeline.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The data repository of the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, I cannot provide the specific data repository for the deep learning pipeline.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include information about the code repository link of the deep learning pipeline.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, but the provided context does not include information about the data repository link of the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The type of deep learning model used in the pipeline is a multilayer perceptron (MLP).
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The context does not provide information on the hyperparameters used in the deep learning model, such as the learning rate or optimizer.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The context does not provide information on how the hyperparameters of the model are optimized. Therefore, I don't know the answer to this question.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The context does not provide information on the optimization techniques applied in the deep learning pipeline.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The training process is performed for a number of iterations in which all the training data are exposed to the network until the loss function reaches its minimum value. In this case, the model score reached its maximum after approximately 5000 iterations with a NVIDIA Titan X GPU (3584 CUDA cores). The number of trainable parameters was 85,569 and the computational run-time was approximately 4 h with a training batch size of 1024.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The regularization methods used to prevent overfitting in the deep learning pipeline include dropout and L2 regularization. Dropout is a technique where randomly selected neurons are ignored during training, which helps to make the model more robust and prevents overfitting. L2 regularization, also known as weight decay, is a method that adds a penalty term to the loss function, which discourages large weights and encourages smaller, more generalized models. %Query
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is to use a randomly selected 20% of the training samples as validation data. This is done to determine the models’ performance and to minimize overfitting for unseen data.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The context does not provide information on the specific deep learning frameworks used to build the model.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: After the model training, the postprocessing steps involved are not explicitly mentioned in the provided context. However, generally, postprocessing steps can include calculating metrics such as accuracy, precision, recall, and F1 score to evaluate the model's performance. Additionally, creating a confusion matrix can help visualize the performance of the model. Saliency maps can also be used to understand which parts of the input data are most important for the model's predictions. %Query
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The root mean square error (RMSE) is used as the performance metric to evaluate the deep learning model.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: To ensure the generalizability of the deep learning model, the study used a diverse dataset and employed k-fold cross-validation with k = 5 for species with 50 or more occurrence records. The final suitability result for each species was averaged from the 5 results obtained from the k-fold cross-validation.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The context does not provide information on strategies employed to handle randomness in the deep learning pipeline, such as random seed values. %Context Context: Due to the unique characteristics of neural networks, which solve problems by exploiting the hidden relationships inherent in multiple input variables, it was difficult to physically quantify the importance of the input variables. As an alternative, we performed a statistical feature importance test (SFIT) to explain which feature had the greatest significance in the species richness retrievals and to determine the optimized features in an operational retrieval system. For the SFIT, a single feature was randomly shuffled, while all the other features were kept constant. We iterated this process by changing the test variable. The feature importance shows the extent to which the model performance decreased with random shuffling. In this study, we used the root mean square error (RMSE) as the performance metric. 2. 5. Independent Validation of Species Richness Finally, we evaluated our two model results, S-SDMs and DL species richness, by comparing the species richness obtained from independent tree plot datasets from the Korea Forest Service [72]. We calculated species richness using grids with a 10 km resolution after sensitivity analysis at different resolutions. We then calculated the overall correlation and local correlations between the species richness from the independent datasets and the results from the S-SDMs and DL species richness model. For direct comparisons, the model Helpful Answer: The context does not provide information on strategies employed to handle randomness in the deep learning pipeline, such as random seed values. %Query
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to develop a species richness retrieval model by integration of the surveyed and estimated richness information collected in South Korea and multitemporal remote sensing data. The purpose of the deep learning model in this study is to develop a species richness retrieval model by integrating the surveyed and estimated richness information collected in South Korea and multitemporal remote sensing data.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The context does not provide information on techniques used to address data bias during preprocessing of the deep learning pipeline. However, some common techniques used to address data bias include stratified splitting, oversampling, undersampling, and diverse data collection. Stratified splitting involves dividing the data into subsets, or strata, based on certain characteristics and then randomly selecting samples from each stratum. Oversampling involves duplicating examples from the minority class, while undersampling involves removing examples from the majority class. Diverse data collection involves collecting data from a variety of sources to ensure that the data is representative of the population being studied.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The provided context does not contain information on the process followed to deploy the trained deep learning model, such as model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

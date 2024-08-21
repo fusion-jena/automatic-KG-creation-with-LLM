@@ -1,0 +1,8 @@
+Named Entities:
+DataFormat(image (thumbnails of whole fish, part of fish species, and environment))
+DataAugmentationTechnique(flipping)
+Dataset(T1, T2, T3, T4)
+DeepLearningModel(Convolutional Neural Network (CNN))
+Hyperparameter(learning rate(10), learning decay(Gamma of 0.95), dropout(50%), Adam Solver)
+Framework(Caffe)
+HardwareResource(computer with 64GB of RAM, an i7 3.50GHz CPU, and a Titan X GPU card)

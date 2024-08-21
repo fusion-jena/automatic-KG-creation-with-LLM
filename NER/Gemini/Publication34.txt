@@ -1,0 +1,9 @@
+Named Entities:
+DataFormat(CSV)
+Dataset(Not explicitly mentioned, uses mxnet which supports MNIST, CIFAR, ImageNet)
+DeepLearningModel(CNN, DNN)
+Hyperparameter(Learning rate, Batch size, Momentum)
+OptimizationTechnique(Stochastic gradient descent algorithm)
+RegularizationMethod(Dropout, L2 regularization)
+PerformanceMetric(Mean Loss, Root Mean Square Error (RMSE), Accuracy on 10% Densest Quadrats (A10%DQ))
+Framework(R (version 3.3.2))

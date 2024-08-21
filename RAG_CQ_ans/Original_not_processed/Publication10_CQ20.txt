@@ -1,0 +1,1 @@
+ The context mentions that the network is trained using a single TITAN-X GPU.

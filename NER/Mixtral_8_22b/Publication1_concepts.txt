@@ -1,0 +1,14 @@
+
+    Named Entities:
+    For each provided Concept(Corresponding Named Entity,..),
+    Method(Deep Learning Pipeline),
+    RawData(Audio and Image data),
+    DataFormat(Audio, Image),
+    DataAnnotationTechnique(Labeled data produced by analysts using the UI),
+    Dataset(Large amounts of labeled data produced by analysts using the UI),
+    PreprocessingStep(Contrast enhancement, consecutive frame differences),
+    DeepLearningModel(Deep Convolutional Neural Networks (CNNs), Deep Feed Forward Neural Networks (DNNs)),
+    ModelPurpose(Classification of dozens of species signals and event types across ongoing projects),
+    DataBiasTechnique(Not mentioned),
+    ModelDeploymentProcess(Not mentioned),
+    DeploymentPlatform(Not mentioned).

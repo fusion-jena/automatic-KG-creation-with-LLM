@@ -1,0 +1,20 @@
+ The optimization of the parameters of the CNN is achieved during the training through a process
+called back-propagation. Back-propagation consists of automatically changing parameters of the CNN
+through the comparison between its output and the correct class of the training element to
+eventually improve the final classification rate. Here we used a 100-layer CNN based on the
+TensorFlow implementation of ResNet. The ResNet architecture achieved the best results on ImageNet
+Large Scale Visual Recognition Competition (ILSVRC) in 2015, considered as the most challenging
+image classification competition. It is still one of the best classification algorithms, while being
+very easy to use and implement. All fish images extracted from the videos to build our datasets were
+resized to 64 × 64 pixels before being processed by the CNN. Our training procedure lasted 600,000
+iterations; each iteration processed a batch of 16 images, which means that the 691,690 images of
+the training dataset were analyzed 14 times each by the network on average. We then stopped the
+training to prevent from overfitting, as an overfit model is too restrictive and only able to
+classify images that were used during the training.  The context does not provide specific
+information on the optimization techniques applied in the deep learning pipeline, such as SGD or
+Adam. However, it mentions that the optimization of the parameters of the CNN is achieved during the
+training through a process called back-propagation. The context also mentions the use of a 100-layer
+CNN based on the TensorFlow implementation of ResNet, which achieved the best results on ImageNet
+Large Scale Visual Recognition Competition (ILSVRC) in 2015. The training procedure lasted 600,000
+iterations, with each iteration processing a batch of 16 images. The training was stopped to prevent
+overfitting.

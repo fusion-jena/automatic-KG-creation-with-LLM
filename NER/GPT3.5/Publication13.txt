@@ -1,0 +1,9 @@
+Named Entities:
+DataFormat(images)
+Dataset(Local High Quality (LH), Local Low Quality (LL), Global High Quality (GH))
+DeepLearningModel(convolutional neural network (CNN))
+Hyperparameter(number of units in FC layers (512, 256), dropout rate)
+RegularizationMethod(dropout rate)
+Framework(TensorFlow, Keras)
+PerformanceMetric(accuracy, multiclass recall rate, multiclass precision, F1-score)
+ModelPurpose(family-level classification of below-ground bulk samples of Coleoptera from understudied forests of Cyprus)

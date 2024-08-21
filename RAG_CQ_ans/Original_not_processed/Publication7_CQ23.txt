@@ -1,0 +1,6 @@
+ The paper mentions that the weights of the deep network were fine-tuned using the Benthoz15
+dataset, which consists of expert-annotated and geo-referenced marine images from Australian seas.
+This suggests that the model was trained on a diverse dataset. Additionally, the paper describes
+three experiments conducted to evaluate the classifier, including training and testing on different
+subsets of the data, which could be considered a form of cross-validation. However, the paper does
+not explicitly mention stratified splitting.

@@ -1,0 +1,5 @@
+ The datasets used in the deep learning pipeline are not explicitly mentioned in the provided
+context. However, it is mentioned that TensorFlow was trained on all images (i.e., 400 spectrograms)
+from Challenge 1 as an image reference library. Additionally, it is mentioned that Inception v3 was
+trained on > 1 M images from the ImageNet database. Therefore, the datasets used in the deep
+learning pipeline are spectrograms and ImageNet.

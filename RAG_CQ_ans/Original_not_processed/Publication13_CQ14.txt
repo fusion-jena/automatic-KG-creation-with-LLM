@@ -1,0 +1,3 @@
+ The hyperparameters of the model were optimized using five-fold cross-validation with a random 200
+images of the GH dataset. These hyperparameters were then used throughout all classification tasks
+in this study.

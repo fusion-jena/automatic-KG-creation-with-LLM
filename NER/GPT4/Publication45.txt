@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: image
+DataAugmentationTechnique: [Not provided]
+Dataset: [Not provided]
+PreprocessingStep: normalization, scaling, cleaning
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: Convolutional Neural Network (CNN)
+Hyperparameter: [Not provided]
+OptimizationTechnique: Stochastic Gradient Descent (SGD)
+RegularizationMethod: [Not provided]
+Framework: [Not provided]
+HardwareResource: [Not provided]
+PerformanceMetric: accuracy, precision, recall, F1 score, conditional kappa, true skill statistic
+ModelPurpose: prediction (predicting bark beetle outbreaks)

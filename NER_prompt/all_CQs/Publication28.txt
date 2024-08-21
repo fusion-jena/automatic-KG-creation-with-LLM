@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The context does not provide information on the methods utilized for collecting raw data in the deep learning pipeline.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The context does not provide information on the specific data formats used in the deep learning pipeline. However, it can be inferred that the pipeline uses satellite images as input data. %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer, just say that you don't know, don't try to make up an answer. %Query
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The context does not provide information on the data annotation techniques used in the deep learning pipeline.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. Therefore, I cannot provide an answer to this query.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The performance of the PTDLEN-VAE model is examined against UCM dataset and AID dataset. The UCM dataset comprises a set of 100 images with 21 class labels. Each image measures 256 × 256 pixels. The pixel resolution of this public domain imagery is 1 ft. Fig. 1 showcases the sample images from UCM dataset. The AID multi-label dataset has 3000 RS images from the AID dataset.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information on the preprocessing steps involved before training a deep learning model. However, common preprocessing steps in deep learning include normalization, scaling, and cleaning. Normalization scales the data to a specific range, typically between 0 and 1, to ensure that all features have the same scale. Scaling involves rescaling the data to a specific range, such as -1 to 1 or 0 to 1. Cleaning involves removing or correcting any errors or inconsistencies in the data.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training (e. g. , train, test, validation).
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The paper does not provide information on the availability of the code repository for the deep learning pipeline.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The data repository of the deep learning pipeline is not available as no datasets were generated or analyzed during the current study.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include information about the code repository link of the deep learning pipeline.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: The paper does not provide a data repository link for the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses the EfficientNet model, which is a type of convolutional neural network (CNN).
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The context does not provide information on the hyperparameters used in the deep learning model, such as learning rate or optimizer.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The hyperparameters of the model are optimally adjusted by the use of IKHO algorithm. KH (Wei and Wang, 2020) is a SI based approach which is based on the swarming behavior of krills based on a particular environmental and biological process. The KH algorithm contains 3 main processes namely movement influenced by other krills, foraging action, and arbitrary diffusion. The KH algorithm modifies the Lagrangian approach in a d- dimension decision space using Eq. (1): dXi dt = Ni + Fi + Di (1) Where Ni, Fi, and Di denotes the motion supported by other krills, physical diffusion, and the forage motion. In case, the movement gets affected using other kills, the way of movement, α?, is determined using local, and target outcomes. For any krill individuals, the movement can be defined using Eq. (2): i = Nmaxαi + ωnNold Nnew (2) i and Nmax means higher induce speed, ωn specifies inertia weight of the old characterizes last motion encour- motion induced in 0 and 1, and Ni aged. The forage motion is determined using two main components. Primarily, it defines the place of the food source, and then it indicates the earlier knowledge about the place of the food. For ith krill individual, the motion is defined by: F? = Vf βi + ωf Fold Fig. 4. Flowchart of KH algorithm. (3) i where walks. The animal could choose, for starting the exploration walk, some locations are marked with pheromone that fits its sense. Thus, the likelihood of accessing some locations of the search space is null. In the exploration, all krills attains few favors (an objective function solution) and distribute a pheromone in quantity that is related to the quantity of founded favors (the quality of the solution). The pheromone is completely substituted by a novel one afterward every walks. βi = βfood i + βbest (4) i Here, Vf means forage speed, ωf signifies inertia weight of forage old designates last foraging motion. The motion amongst 0 to 1, and Fi arbitrary diffusion of krills can be considered as an arbitrary function. It can be represented based on maximum diffusion speed and randomized direction vector, equated in Eq. (5): VAE model includes a series of operations such as pre-processing, Effi- cientNet based feature extraction, IKHO based parameter optimization, and VAE based classification. Besides, the IKHO algorithm is designed by the integration of KH algorithm with FS operator to avoid the local optimal problem of the KH algorithm. In addition, the PTDLEN based feature extractor by the use of parameter tuned EfficientNet model using IKHO algorithm helps to enhance the prediction outcome of the PTDLEN-VAE model for unseen data. For validating the improved per- formance of the PTDLEN-VAE method, an extensive experimental analysis take place on benchmark aerial image dataset. The resultant experimental values highlighted the supremacy of the proposed PTDLEN-VAE model over the other techniques. In future, the presented PTDLEN-VAE model can be deployed in unmanned aerial vehicles (UAVs) and lightweight cryptographic algorithms can be designed to accomplish secure UAV communication for satellite imagery analysis.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The helpful answer is that the paper does not explicitly mention the use of specific optimization techniques such as Stochastic Gradient Descent (SGD) or Adam in the deep learning pipeline. However, it does mention the use of the Improved Krill Herd Optimization (IKHO) algorithm for parameter optimization of the EfficientNet model.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The criteria used to determine when training is complete can vary depending on the specific model and dataset. However, some common criteria include reaching a validation loss plateau, achieving a desired level of accuracy or performance on a validation set, or reaching a maximum number of training epochs. In the context of the PTDLEN-VAE model, it is not explicitly stated what criteria are used to determine when training is complete. %Query
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The context does not provide information on the regularization methods used to prevent overfitting in the deep learning pipeline. Therefore, I cannot provide an answer to this query.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is not explicitly mentioned in the provided context. However, it is common practice to use metrics such as accuracy, precision, recall, F1-score, and F2-score to evaluate the performance of a model during training. In this context, the PTDLEN-VAE model is evaluated using these metrics on the UCM and AID datasets. The results are presented in Tables 1 and 2, and Figures 6 and 7.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The context does not provide information on the specific frameworks used to build the deep learning model.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: The postprocessing steps involved after the model training are not explicitly mentioned in the provided context. However, common postprocessing steps in machine learning models include generating saliency maps, calculating metrics such as accuracy, precision, recall, and F1-score, and creating confusion matrices to evaluate the performance of the model.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using various metrics such as precision, recall, F1-score, and F2-score. %Query
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The paper does not provide explicit information on the measures taken to ensure the generalizability of the deep learning model. However, it can be inferred that the model was trained and tested on a diverse dataset, as the UCM dataset comprises a set of 100 images with 21 class labels, and the AID multi-label dataset has 3000 RS images from the AID dataset. Additionally, the paper mentions that the performance of the PTDLEN-VAE model is examined against these datasets, which suggests that some form of cross-validation or stratified splitting may have been used to evaluate the model's performance.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The strategies employed to handle randomness in the deep learning pipeline, such as random seed value, include setting a fixed seed value for reproducibility, using techniques like cross- validation, and employing ensemble methods to reduce the impact of randomness on the model's performance.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to generate a useful set of feature vectors of the input satellite images. The deep learning model is used as a feature extraction module.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The techniques used to address data bias during preprocessing of the deep learning pipeline include stratified splitting, oversampling, undersampling, and diverse data collection. Stratified splitting is a method of splitting the dataset into training and testing sets while maintaining the same distribution of classes in both sets. Oversampling is a technique used to increase the number of instances in the minority class by duplicating them, while undersampling is used to decrease the number of instances in the majority class by removing some of them. Diverse data collection involves collecting data from various sources to ensure that the dataset is representative of the population.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The context does not provide information on the process followed to deploy the trained deep learning model, including details on model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

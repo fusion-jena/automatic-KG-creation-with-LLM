@@ -1,0 +1,7 @@
+Named Entities: 
+DataFormat(image)
+Dataset(MODIS-derived NDVI, LAI)
+PreprocessingStep(normalization, scaling, cleaning)
+DeepLearningModel(multilayer perceptron (MLP))
+RegularizationMethod(dropout, L2 regularization)
+PerformanceMetric(root mean square error (RMSE))

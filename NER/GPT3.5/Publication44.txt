@@ -1,0 +1,16 @@
+Named Entities:
+DataFormat: image
+DataAugmentationTechnique: rotation, flipping, brightness adjustments
+Dataset: ImageNet (pre-trained for DeepLabv3+ and VGG16)
+PreprocessingStep: resizing to 512 × 512 resolution, rotation, flipping, brightness adjustments
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: DeepLabv3+ (CNN), VGG16 (CNN)
+Hyperparameter:
+For segmentation model (DeepLabv3+): Input dimension (512 × 512), Batch size (3), Learning rate (1 × 10^-4), Optimizer (Adam), Loss function (Binary cross-entropy), Epochs (100)
+For single-leaf classifier (VGG16): Batch size (32), Learning rate (1 × 10^-4), Optimizer (Adam), Loss function (Binary cross-entropy), Epochs (100)
+OptimizationTechnique: SGD (for Faster R-CNN), Adam (for YOLOv5s and single-leaf classifier)
+RegularizationMethod: [Not specified]
+Framework: Keras with TensorFlow backend
+HardwareResource: [Not specified]
+PerformanceMetric: accuracy, precision, recall, F1 score, mean average precision (mAP), mean absolute error (MAE), mean square error (MSE), root mean square error (RMSE)
+ModelPurpose: semantic segmentation

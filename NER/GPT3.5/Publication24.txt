@@ -1,0 +1,7 @@
+Named Entities:
+DataFormat(audio data, Mel spectrogram representation with 32 frequency bins)
+Dataset(CitySounds2017 dataset, expert-annotated dataset of urban sounds from Greater London, UK)
+PreprocessingStep(normalization, scaling, cleaning)
+Framework(Theano v. 0.9.0, Lasagne v. 2 for machine learning, Librosa v. 4.2 for audio processing)
+PerformanceMetric(precision, recall, fraction of true positives, false positives, true negatives, false negatives)
+ModelPurpose(measuring biotic and anthropogenic acoustic activity)

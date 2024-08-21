@@ -1,0 +1,1078 @@
+ The purpose of the deep learning model is to combine (1) the detection of individual animals
+yielding bounding boxes as well as precise shapes of appearances with (2) the recognition of the
+actions of the observed animals. The resulting end-to-end pipeline is applicable in camera traps for
+tracing of animal populations and analysing their abundance and behaviour.  %Query Query: "What is
+the input to the deep learning model?"  Helpful Answer: The input to the deep learning model is 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used in the deep learning model?"  Helpful Answer:
+The loss function used in the deep learning model is the cross entropy loss.  %Query Query: "What is
+the learning rate used in the deep learning model?"  Helpful Answer: The initial learning rate used
+in the deep learning model is 0.001. The learning rate is decreased every 10 epochs by multiplying
+it with a γ = 0.1.  %Query Query: "What is the optimization algorithm used in the deep learning
+model?"  Helpful Answer: The optimization algorithm used in the deep learning model is Stochastic
+Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is
+the number of epochs used to train the deep learning model?"  Helpful Answer: The deep learning
+model is trained for 40 epochs.  %Query Query: "What is the input size of the deep learning model?"
+Helpful Answer: The input size of the deep learning model is not explicitly mentioned in the
+provided context.  %Query Query: "What is the output of the deep learning model?"  Helpful Answer:
+The output of the deep learning model is not explicitly mentioned in the provided context. However,
+it can be inferred that the output is the predicted action of the observed animals.  %Query Query:
+"What is the dataset used to train the deep learning model?"  Helpful Answer: The dataset used to
+train the deep learning model is not explicitly mentioned in the provided context. However, it can
+be inferred that the dataset consists of videos of animals with unbalanced frequencies of action
+classes.  %Query Query: "What is the architecture of the deep learning model?"  Helpful Answer: The
+architecture of the deep learning model is not explicitly mentioned in the provided context.
+However, it can be inferred that the model is based on ResNet variants.  %Query Query: "What is the
+evaluation metric used to evaluate the performance of the deep learning model?"  Helpful Answer: The
+evaluation metric used to evaluate the performance of the deep learning model is not explicitly
+mentioned in the provided context. However, it can be inferred that the model is evaluated using the
+COCO evaluation metrics.  %Query Query: "What is the hardware used to train the deep learning
+model?"  Helpful Answer: The hardware used to train the deep learning model is a GeForce RTX 2080 Ti
+GPU with 11 GB graphic memory, 16 GB RAM, and an Intel Core i7-6700K 4.00 GHz CPU.  %Query Query:
+"What is the programming language used to implement the deep learning model?"  Helpful Answer: The
+programming language used to implement the deep learning model is Python 3.  %Query Query: "What is
+the library used to build and train the deep learning model?"  Helpful Answer: The library used to
+build and train the deep learning model is PyTorch.  %Query Query: "What is the pretrained version
+of the deep learning model used?"  Helpful Answer: The pretrained version of the deep learning model
+used is the Mask R-CNN model pretrained on the COCO 2017train dataset and the ResNets pretrained on
+the Kinetics-400 dataset.  %Query Query: "What is the purpose of the data augmentation techniques
+used in the deep learning model?"  Helpful Answer: The purpose of the data augmentation techniques
+used in the deep learning model is to prevent overfitting and to generalize better.  %Query Query:
+"What is the library used for data augmentation in the deep learning model?"  Helpful Answer: The
+library used for data augmentation in the deep learning model is imgaug.  %Query Query: "What are
+the data augmentation techniques used in the deep learning model?"  Helpful Answer: The data
+augmentation techniques used in the deep learning model are horizontal flip, vertical flip,
+rotation, shear, translation, scaling, and brightness adjustment.  %Query Query: "What is the
+parameter setting used for the data augmentation techniques in the deep learning model?"  Helpful
+Answer: The parameter setting used for the data augmentation techniques in the deep learning model
+is not explicitly mentioned in the provided context.  %Query Query: "What is the purpose of the
+balance weights used in the deep learning model?"  Helpful Answer: The purpose of the balance
+weights used in the deep learning model is to account for the unbalanced frequencies of action
+classes in the dataset.  %Query Query: "What are the balance weights used in the deep learning
+model?"  Helpful Answer: The balance weights used in the deep learning model are (1.0,4.5,4.5) for
+the classes eating, moving, and watching.  %Query Query: "What is the purpose of the lateral
+connections used in the deep learning model?"  Helpful Answer: The purpose of the lateral
+connections used in the deep learning model is to combine the features from the Fast pathway with
+the Slow pathway.  %Query Query: "What is the value of α used in the deep learning model?"  Helpful
+Answer: The value of α used in the deep learning model is 8.  %Query Query: "What is the value of β
+used in the deep learning model?"  Helpful Answer: The value of β used in the deep learning model is
+1/8.  %Query Query: "What is the interpretation of the reduced channel capacity of the Fast pathway
+in the deep learning model?"  Helpful Answer: The interpretation of the reduced channel capacity of
+the Fast pathway in the deep learning model is that the Fast pathway does not need to model spatial
+information with such a high detail as the Slow pathway.  %Query Query: "What is the typical value
+of α used in the deep learning model?"  Helpful Answer: The typical value of α used in the deep
+learning model is 8.  %Query Query: "What is the typical value of β used in the deep learning
+model?"  Helpful Answer: The typical value of β used in the deep learning model is 1/8.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution used in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution used in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the evaluation result of object detection by bounding
+boxes in the deep learning model?"  Helpful Answer: The evaluation result of object detection by
+bounding boxes in the deep learning model is shown in Table 4. In all categories, Mask R-CNN shows
+the best results.  %Query Query: "What is the evaluation result of object detection by segmentation
+masks in the deep learning model?"  Helpful Answer: The evaluation result of object detection by
+segmentation masks in the deep learning model is shown in Table 4. All detection results via
+segmentation masks are equal or slightly worse than the detection results via bounding boxes.
+%Query Query: "What is the difference between the detection results via segmentation masks and
+bounding boxes in the deep learning model?"  Helpful Answer: The difference between the detection
+results via segmentation masks and bounding boxes in the deep learning model is that the derivation
+of the segmentation masks is more challenging than the bounding boxes. However, the differences are
+quite small, i.e. AP values show comparable qualities of both results.  %Query Query: "What is the
+typical value of the frame ratio between the Fast and the Slow pathway in the deep learning model?"
+Helpful Answer: The typical value of the frame ratio between the Fast and the Slow pathway in the
+deep learning model is not explicitly mentioned in the provided context.  %Query Query: "What is the
+purpose of the Fast pathway in the deep learning model?"  Helpful Answer: The purpose of the Fast
+pathway in the deep learning model is to sample αT frames from the input video, providing a denser
+representation of the input clip.  %Query Query: "What is the purpose of the Slow pathway in the
+deep learning model?"  Helpful Answer: The purpose of the Slow pathway in the deep learning model is
+to model spatial information with a high detail.  %Query Query: "What is the purpose of the lateral
+connections in the deep learning model?"  Helpful Answer: The purpose of the lateral connections in
+the deep learning model is to combine the features from the Fast pathway with the Slow pathway.
+%Query Query: "What is the purpose of the unidirectional lateral connections in the deep learning
+model?"  Helpful Answer: The purpose of the unidirectional lateral connections in the deep learning
+model is to go from the Fast pathway to the Slow pathway.  %Query Query: "What is the purpose of the
+average pooling layer in the deep learning model?"  Helpful Answer: The purpose of the average
+pooling layer in the deep learning model is to reduce the temporal resolution of the feature maps.
+%Query Query: "What is the purpose of the temporal downsampling in the deep learning model?"
+Helpful Answer: The purpose of the temporal downsampling in the deep learning model is to reduce the
+temporal resolution of the feature maps.  %Query Query: "What is the purpose of the channel capacity
+reduction in the Fast pathway in the deep learning model?"  Helpful Answer: The purpose of the
+channel capacity reduction in the Fast pathway in the deep learning model is to make it more
+lightweight and still deliver high accuracies.  %Query Query: "What is the purpose of the reduced
+channel capacity in the Fast pathway in the deep learning model?"  Helpful Answer: The purpose of
+the reduced channel capacity in the Fast pathway in the deep learning model is to make it more
+lightweight and still deliver high accuracies.  %Query Query: "What is the purpose of the (2 + 1)D
+convolution in the deep learning model?"  Helpful Answer: The purpose of the (2 + 1)D convolution in
+the deep learning model is to split the 3-dimensional convolution into a 2-dimensional spatial
+convolution followed by a 1-dimensional temporal convolution.  %Query Query: "What is the purpose of
+the lateral connections in the deep learning model?"  Helpful Answer: The purpose of the lateral
+connections in the deep learning model is to combine the features from the Fast pathway with the
+Slow pathway.  %Query Query: "What is the purpose of the unidirectional lateral connections in the
+deep learning model?"  Helpful Answer: The purpose of the unidirectional lateral connections in the
+deep learning model is to go from the Fast pathway to the Slow pathway.  %Query Query: "What is the
+purpose of the average pooling layer in the deep learning model?"  Helpful Answer: The purpose of
+the average pooling layer in the deep learning model is to reduce the temporal resolution of the
+feature maps.  %Query Query: "What is the purpose of the temporal downsampling in the deep learning
+model?"  Helpful Answer: The purpose of the temporal downsampling in the deep learning model is to
+reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose of the
+channel capacity reduction in the Fast pathway in the deep learning model?"  Helpful Answer: The
+purpose of the channel capacity reduction in the Fast pathway in the deep learning model is to make
+it more lightweight and still deliver high accuracies.  %Query Query: "What is the purpose of the
+reduced channel capacity in the Fast pathway in the deep learning model?"  Helpful Answer: The
+purpose of the reduced channel capacity in the Fast pathway in the deep learning model is to make it
+more lightweight and still deliver high accuracies.  %Query Query: "What is the purpose of the (2 +
+1)D convolution in the deep learning model?"  Helpful Answer: The purpose of the (2 + 1)D
+convolution in the deep learning model is to split the 3-dimensional convolution into a
+2-dimensional spatial convolution followed by a 1-dimensional temporal convolution.  %Query Query:
+"What is the purpose of the lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the lateral connections in the deep learning model is to combine the features from the
+Fast pathway with the Slow pathway.  %Query Query: "What is the purpose of the unidirectional
+lateral connections in the deep learning model?"  Helpful Answer: The purpose of the unidirectional
+lateral connections in the deep learning model is to go from the Fast pathway to the Slow pathway.
+%Query Query: "What is the purpose of the average pooling layer in the deep learning model?"
+Helpful Answer: The purpose of the average pooling layer in the deep learning model is to reduce the
+temporal resolution of the feature maps.  %Query Query: "What is the purpose of the temporal
+downsampling in the deep learning model?"  Helpful Answer: The purpose of the temporal downsampling
+in the deep learning model is to reduce the temporal resolution of the feature maps.  %Query Query:
+"What is the purpose of the channel capacity reduction in the Fast pathway in the deep learning
+model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast pathway in the
+deep learning model is to make it more lightweight and still deliver high accuracies.  %Query Query:
+"What is the purpose of the reduced channel capacity in the Fast pathway in the deep learning
+model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model is to make it more lightweight and still deliver high accuracies.  %Query Query:
+"What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful Answer: The
+purpose of the (2 + 1)D convolution in the deep learning model is to split the 3-dimensional
+convolution into a 2-dimensional spatial convolution followed by a 1-dimensional temporal
+convolution.  %Query Query: "What is the purpose of the lateral connections in the deep learning
+model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model is to
+combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning model?"  Helpful Answer: The purpose of the lateral connections in the deep learning model
+is to combine the features from the Fast pathway with the Slow pathway.  %Query Query: "What is the
+purpose of the unidirectional lateral connections in the deep learning model?"  Helpful Answer: The
+purpose of the unidirectional lateral connections in the deep learning model is to go from the Fast
+pathway to the Slow pathway.  %Query Query: "What is the purpose of the average pooling layer in the
+deep learning model?"  Helpful Answer: The purpose of the average pooling layer in the deep learning
+model is to reduce the temporal resolution of the feature maps.  %Query Query: "What is the purpose
+of the temporal downsampling in the deep learning model?"  Helpful Answer: The purpose of the
+temporal downsampling in the deep learning model is to reduce the temporal resolution of the feature
+maps.  %Query Query: "What is the purpose of the channel capacity reduction in the Fast pathway in
+the deep learning model?"  Helpful Answer: The purpose of the channel capacity reduction in the Fast
+pathway in the deep learning model is to make it more lightweight and still deliver high accuracies.
+%Query Query: "What is the purpose of the reduced channel capacity in the Fast pathway in the deep
+learning model?"  Helpful Answer: The purpose of the reduced channel capacity in the Fast pathway in
+the deep learning model is to make it more lightweight and still deliver high accuracies.  %Query
+Query: "What is the purpose of the (2 + 1)D convolution in the deep learning model?"  Helpful
+Answer: The purpose of the (2 + 1)D convolution in the deep learning model is to split the
+3-dimensional convolution into a 2-dimensional spatial convolution followed by a 1-dimensional
+temporal convolution.  %Query Query: "What is the purpose of the lateral connections in the deep
+learning

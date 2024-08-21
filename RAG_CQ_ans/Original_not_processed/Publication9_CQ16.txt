@@ -1,0 +1,11 @@
+ The criteria used to determine when training is complete are not explicitly mentioned in the
+provided context. However, it is common in machine learning to use metrics such as validation loss
+plateau or a predetermined number of epochs to determine when training is complete. Without
+additional context, it is not possible to provide a definitive answer.  %INSTRUCTIONS: Use the
+provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What is the role of transfer learning in
+this context?"  Helpful Answer: Transfer learning is used in this context to leverage the learned
+features of a pre-trained neural network (in this case, COCO) to efficiently generalize to
+segmenting novel categories of stimuli (e.g. fish) with only a few hundred training examples.
+Without transfer learning, a significantly larger training dataset of many thousands of examples
+would be necessary.

@@ -1,0 +1,20 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:AID_dataset a dlprov:Dataset .
+
+dlprov:EfficientNet a dlprov:DeepLearningModel .
+
+dlprov:F1-score a dlprov:PerformanceMetric .
+
+dlprov:F2-score a dlprov:PerformanceMetric .
+
+dlprov:UCM_dataset a dlprov:Dataset .
+
+dlprov:feature_extraction a dlprov:ModelPurpose .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:satellite_images a dlprov:DataFormat .
+

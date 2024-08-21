@@ -1,0 +1,48 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#//github.com/ShawnTylerSchwartz/sashimi> a dlprov:CodeRepositoryLink%28https .
+
+dlprov:0.0001_for_stage_3 a dlprov:Hyperparameter%28learning_rates .
+
+dlprov:0.001_for_stages_1_and_2 a dlprov:Hyperparameter%28learning_rates .
+
+dlprov:000_image_COCO_dataset a dlprov:Dataset .
+
+dlprov:2014 a dlprov:Dataset .
+
+dlprov:328 a dlprov:Dataset .
+
+dlprov:GeForce_RTX_2080_GPU a dlprov:HardwareResource .
+
+<https://w3id.org/dlprov#Lin_et_al.> a dlprov:Dataset .
+
+dlprov:Mask_R-CNN a dlprov:DeepLearningModel .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:automate_image_segmentation a dlprov:ModelPurpose .
+
+dlprov:detect_pixel-level_target_regions_of_interest a dlprov:ModelPurpose .
+
+dlprov:flipping_50%25_of_images_in_left-right_orientation a dlprov:DataAugmentationTechnique .
+
+dlprov:frequency-weighted_IoU a dlprov:PerformanceMetric .
+
+dlprov:image_augmentation_by_flipping_50%25_of_images a dlprov:Hyperparameter%28learning_rates .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:learning_momentum_0.9 a dlprov:Hyperparameter%28learning_rates .
+
+dlprov:mean_IoU a dlprov:PerformanceMetric .
+
+dlprov:mean_accuracy a dlprov:PerformanceMetric .
+
+dlprov:pixel_accuracy a dlprov:PerformanceMetric .
+
+dlprov:stochastic_gradient_descent_with_backpropagation a dlprov:OptimizationTechnique .
+
+dlprov:trained_for_160_epochs a dlprov:Hyperparameter%28learning_rates .
+
+dlprov:weight_decay_0.0001 a dlprov:Hyperparameter%28learning_rates .
+

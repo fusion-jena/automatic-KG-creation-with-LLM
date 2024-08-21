@@ -1,0 +1,16 @@
+Named Entities:
+
+DataFormat: image
+DataAugmentationTechnique: rotation, flipping, brightness adjustments
+Dataset: ImageNet
+PreprocessingStep: resizing, rotation, flipping, brightness adjustments, pre-training, fine-tuning, mask post-processing
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: DeepLabv3+ (CNN)
+Hyperparameter: Input dimension: 512 × 512 (segmentation model), Batch size: 3 (segmentation model), 32 (single-leaf classifier), Learning rate: 1 × 10−4, Optimizer: Adam optimizer, Loss function: Binary cross-entropy, Epochs: 100
+Pre-trained network: ResNet-101 (segmentation model), VGG16 (single-leaf classifier)
+OptimizationTechnique: Stochastic Gradient Descent (SGD), Adam optimizer
+RegularizationMethod: [Not provided]
+Framework: Keras, TensorFlow
+HardwareResource: [Not provided]
+PerformanceMetric: accuracy, precision, recall, F1 score, mean average precision (mAP), mean absolute error (MAE), mean square error (MSE), root mean square error (RMSE)
+ModelPurpose: semantic segmentation

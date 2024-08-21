@@ -1,0 +1,1 @@
+The deep learning model is built using Theano v. 0. 9. 0 and lasagne v. 2 for machine learning, and librosa v. 4. 2 for audio processing. 

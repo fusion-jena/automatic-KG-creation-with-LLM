@@ -1,0 +1,30 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CUDA-CuDNN a dlprov:Framework .
+
+dlprov:Keras a dlprov:Framework .
+
+dlprov:Matlab a dlprov:Framework .
+
+dlprov:Python a dlprov:Framework .
+
+dlprov:TITAN-X_GPU a dlprov:HardwareResource .
+
+dlprov:U-net a dlprov:DeepLearningModel .
+
+dlprov:audio_spectrograms a dlprov:DataFormat .
+
+dlprov:grey-coloured_1-channel_images a dlprov:DataFormat .
+
+dlprov:mean_Dice_coefficient a dlprov:PerformanceMetric .
+
+dlprov:random_displacements a dlprov:DataAugmentationTechnique .
+
+dlprov:recordings_void_of_any_bird_activity a dlprov:Dataset .
+
+dlprov:segmentation a dlprov:ModelPurpose .
+
+dlprov:small_random_rotations a dlprov:DataAugmentationTechnique .
+
+dlprov:spectrogram_figures_of_bird_recordings a dlprov:Dataset .
+

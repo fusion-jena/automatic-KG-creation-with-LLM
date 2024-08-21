@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The deep learning pipeline uses video data formats. The video clips are captured with 8 frames per second by camera traps using infrared cameras and infrared flash-lights. The clips show deer, boars, foxes, and hares, mostly at night time.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The data augmentation techniques applied in the deep learning pipeline are horizontal flip, rotation, scaling, and shearing. These techniques are applied using the python library imgaug (Jung et al. (2020)) for the data augmentation of images and videos. For Mask R-CNN and FGFA, the same augmentation technique with identical parameters is applied to each frame of the video.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are not explicitly mentioned in the provided context. However, the context does mention the use of a dataset for animal action recognition, which is a subset of the dataset AnnotationsActions. This dataset is not a standard dataset like MNIST, CIFAR, or ImageNet.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide information on the preprocessing steps involved before training a deep learning model. However, common preprocessing steps for deep learning models include normalization, scaling, and cleaning. Normalization involves scaling the input features to a range between 0 and 1 or -1 and 1. Scaling involves resizing the input features to a fixed size. Cleaning involves removing or correcting any errors or inconsistencies in the data.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, but the provided context does not include the code repository link of the deep learning pipeline.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a SlowFast architecture, which is a type of deep learning model that uses two pathways for video input, a Slow pathway and a Fast pathway. The Slow pathway works on a low frame rate and low temporal resolution for detecting spatial semantics, while the Fast pathway uses a high frame rate to capture motion and the temporal aspects in the video. The backbone for the pathways can be implemented by different networks, with ResNets achieving the best results. SlowFast is a single-stream architecture that works on two different frame rates.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The deep learning model uses Stochastic Gradient Descent (SGD) as the optimization technique. The initial learning rate is 0. 001, and it is decreased every 10 epochs by multiplying it with γ = 0. 1. The momentum is set to 0. 9, and the weight decay is 5 ⋅ 10. The loss function used is the cross entropy loss. The model is trained for 40 epochs.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The optimization technique used in the deep learning pipeline is Stochastic Gradient Descent (SGD). The learning rate is initially set to 0. 0005 and is decreased every 10 epochs by multiplying it with 0. 1. In the first epoch, warmup iterations are used for the learning rate with a warmup factor of 1/1000. The momentum is set to 0. 9 and the weight decay is 0. 0005. These parameters gave the best results in the evaluations. The models are trained for 30 epochs.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The paper mentions the use of data augmentation techniques to prevent overfitting and generalize better. Specifically, the python library imgaug is used for data augmentation of images and videos. The augmentation techniques used include horizontal flip. However, the paper does not explicitly mention the use of regularization methods such as dropout or L2 regularization.
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The query does not provide enough context to determine which frameworks are used to build the deep learning model.
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The training and testing were performed with a GeForce RTX 2080 Ti GPU with 11 GB graphic memory, 16 GB RAM, and an Intel Core i7-6700K 4. 00 GHz CPU.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The evaluation metrics used to evaluate the performance of the deep learning model are Average Precision (AP) and Average Recall (AR). AP is a numeric metric to compare precision-recall curves from different detectors, while AR is averaged over different IoU thresholds. The AP for COCO datasets is calculated as the average precision for different recall levels of the same detector, while the AR is calculated as the average recall for different IoU thresholds. The AR is also averaged over all classes and is denoted as AR. The ARmax=1 and ARmax=10 are considered, which are calculated for 1 detection and a maximum of 10 detections in one image, respectively. Both ARs are averaged over the described 10 IoU thresholds.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to combine (1) the detection of individual animals yielding bounding boxes as well as precise shapes of appearances with (2) the recognition of the actions of the observed animals. The resulting end-to-end pipeline is applicable in camera traps for tracing of animal populations and analysing their abundance and behaviour. %Query
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

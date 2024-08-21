@@ -1,0 +1,74 @@
+ The purpose of the deep learning model is to classify images into various classes.  %Explanation
+Explanation: The context states that the VGG16 model has been used to classify images into various
+classes.  %Query Query: "What is the input to the deep learning model?"  Helpful Answer: The input
+to the deep learning model is a batch normalization layer that is added to the input layer and then
+fed to the VGG16 model.  %Explanation Explanation: The context states that a batch normalization
+layer was added to the input layer and then fed to the VGG16 model.  %Query Query: "What is the
+output of the deep learning model?"  Helpful Answer: The output of the deep learning model is
+presented with respect to 17 classes.  %Explanation Explanation: The context states that the output
+of the penultimate block of the VGG16 model was flattened and then passed on to a softmax classifier
+to present the output with respect to 17 classes.  %Query Query: "What is the optimizer used in the
+deep learning model?"  Helpful Answer: The Adam optimizer is used to minimize the loss in the deep
+learning model.  %Explanation Explanation: The context states that the Adam optimizer has been used
+to minimize the loss, which is measured by binary cross-entropy, with a learning rate of 10^4.
+%Query Query: "What is the loss function used in the deep learning model?"  Helpful Answer: The loss
+function used in the deep learning model is binary cross-entropy.  %Explanation Explanation: The
+context states that the loss is measured by binary cross-entropy.  %Query Query: "What is the
+learning rate used in the deep learning model?"  Helpful Answer: The learning rate used in the deep
+learning model is 10^4.  %Explanation Explanation: The context states that the Adam optimizer has
+been used to minimize the loss, which is measured by binary cross-entropy, with a learning rate of
+10^4.  %Query Query: "What is the batch size used in the deep learning model?"  Helpful Answer: The
+batch size used in the deep learning model is 128.  %Explanation Explanation: The context states
+that a batch size of 128 was used.  %Query Query: "How many epochs was the deep learning model
+trained for?"  Helpful Answer: The deep learning model was trained for 15 epochs.  %Explanation
+Explanation: The context states that this model was trained for 15 epochs.  %Query Query: "What is
+the training loss of the deep learning model?"  Helpful Answer: The training loss of the deep
+learning model is 6.88%.  %Explanation Explanation: The context states that a training loss of 6.88%
+was obtained.  %Query Query: "What is the training accuracy of the deep learning model?"  Helpful
+Answer: The training accuracy of the deep learning model is 97.35%.  %Explanation Explanation: The
+context states that a training accuracy of 97.35% was obtained.  %Query Query: "What is the testing
+accuracy of the deep learning model?"  Helpful Answer: The testing accuracy of the deep learning
+model is 96.71%.  %Explanation Explanation: The context states that a testing accuracy of 96.71% was
+obtained.  %Query Query: "What is the F-beta score of the deep learning model?"  Helpful Answer: The
+F-beta score of the deep learning model is 92.69%.  %Explanation Explanation: The context states
+that an F-beta score of 92.69% was obtained.  %Query Query: "What is the purpose of the deep
+learning model?"  Helpful Answer: The purpose of the deep learning model is to classify satellite
+imagery in an automated manner using deep learning with the help of the VGG16 model.  %Explanation
+Explanation: The context states that a way to classify satellite imagery in an automated manner
+using deep learning with the help of the VGG16 model has been shown.  %Query Query: "What is the
+accuracy of the deep learning model?"  Helpful Answer: The accuracy of the deep learning model is
+high, achieving a training accuracy of 97.35% and a testing accuracy of 96.71%.  %Explanation
+Explanation: The context states that high accuracy was achieved, with a training accuracy of 97.35%
+and a testing accuracy of 96.71%.  %Query Query: "What is the time taken to train the deep learning
+model?"  Helpful Answer: The time taken to train the deep learning model is around one hour using an
+NVIDIA Tesla K80 GPU.  %Explanation Explanation: The context states that using an NVIDIA Tesla K80
+GPU, this took around one hour to train.  %Query Query: "What is the application of the deep
+learning model?"  Helpful Answer: The deep learning model can be successfully applied to track the
+changing land pattern in the rainforests of Amazon. This data about the location of deforestation
+and human encroachment on forests can help governments and local stakeholders respond more quickly
+and effectively. Besides, this model can be used to track natural calamities like floods, forest
+fires, etc.  %Explanation Explanation: The context states that this model can be successfully
+applied to track the changing land pattern in the rainforests of Amazon. This data about the
+location of deforestation and human encroachment on forests can help governments and local
+stakeholders respond more quickly and effectively. Besides, this model can be used to track natural
+calamities like floods, forest fires, etc.  %Query Query: "What are the future improvements that can
+be made to the deep learning model?"  Helpful Answer: A few additions may be made to this work for
+improvements mentioned below:  Using a larger neural network is likely to give a better result.
+Models like ResNet and Inception, which are deeper in nature may give better results than the VGG16
+model.  Also, the dataset may help in better classiﬁcation. In this work, it has been shown how
+resizing the provided image to 128x128 pixels can be made to obtain good performance. No
+preprocessing involving the texture and nature of the image itself was performed.  Performing data
+augmentation to make the system more robust may be another way of getting better results. Since the
+satellite images may vary in terms of lighting effect, rotation, shifting, etc., it may be a good
+idea to perform data augmentation to enlarge the dataset for better training.  These things may be
+investigated in the upcoming future to improve the accuracy and robustness of this model.
+%Explanation Explanation: The context states that a few additions may be made to this work for
+improvements mentioned below:  Using a larger neural network is likely to give a better result.
+Models like ResNet and Inception, which are deeper in nature may give better results than the VGG16
+model.  Also, the dataset may help in better classiﬁcation. In this work, it has been shown how
+resizing the provided image to 128x128 pixels can be made to obtain good performance. No
+preprocessing involving the texture and nature of the image itself was performed.  Performing data
+augmentation to make the system more robust may be another way of getting better results. Since the
+satellite images may vary in terms of lighting effect, rotation, shifting, etc., it may be a good
+idea to perform data augmentation to enlarge the dataset for better training.  These things may be
+investigated in the upcoming future to improve the accuracy and robustness of this model.

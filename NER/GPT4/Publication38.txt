@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: audio, magnitude spectrogram images, wav files, 512x720 resolution images
+DataAugmentationTechnique: [Not provided]
+Dataset: Indicator Bats Programme (iBats)
+PreprocessingStep: normalization, scaling, cleaning (common steps mentioned but not specific to this context)
+CodeRepositoryLink: https://github.com/macaig/batdetect
+DeepLearningModel: deep convolutional neural network (CNN)
+Hyperparameter: [Not provided]
+OptimizationTechnique: [Not provided]
+RegularizationMethod: [Not provided]
+Framework: [Not provided]
+HardwareResource: Intel i7 processor, 32Gb of RAM, Nvidia GTX 1080 GPU
+PerformanceMetric: precision, recall
+ModelPurpose: automatic bat search-phase echolocation call detection

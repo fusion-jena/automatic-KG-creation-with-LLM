@@ -1,0 +1,40 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:F1-score a dlprov:PerformanceMetric .
+
+dlprov:GH a dlprov:Dataset .
+
+dlprov:Global_High_Quality a dlprov:Dataset .
+
+dlprov:Keras a dlprov:Framework .
+
+dlprov:LH a dlprov:Dataset .
+
+dlprov:LL a dlprov:Dataset .
+
+dlprov:Local_High_Quality a dlprov:Dataset .
+
+dlprov:Local_Low_Quality a dlprov:Dataset .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:accuracy a dlprov:PerformanceMetric .
+
+dlprov:convolutional_neural_network a dlprov:DeepLearningModel .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:dropout_rate a dlprov:Hyperparameter .
+
+dlprov:family-level_classification_of_below-ground_bulk_samples_of_Coleoptera a dlprov:ModelPurpose .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:multiclass_precision a dlprov:PerformanceMetric .
+
+dlprov:multiclass_recall_rate a dlprov:PerformanceMetric .
+
+dlprov:number_of_units_in_the_two_FC_layers a dlprov:Hyperparameter .
+

@@ -1,0 +1,12 @@
+ The datasets used in the deep learning pipeline are not explicitly mentioned in the provided
+context. However, it is mentioned that the BatDetect CNNs were trained using a subset of full-
+spectrum time-expanded (TE) ultrasonic acoustic data recorded between 2005-2011 along road-transects
+by citizen scientists as part of the Indicator Bats Programme (iBats). The audio data contained many
+instances of low amplitude and faint bat calls, as well as other night-time 'background' noises such
+as other biotic, abiotic, and anthropogenic sounds. The audio data were split up into 3.84s long
+sound clips to include the 3.2s of TE audio and buffered by sensor-listening silence on either side.
+Each sound clip was then uploaded as both a wav file and a magnitude spectrogram image onto the Bat
+Detective project website. The original recordings were time-expanded, therefore reducing the
+frequency, sounds in the files were in the audible spectrum and could be easily heard by users.
+Users were presented with a spectrogram and its corresponding audio file, and asked to annotate the
+presence of bat calls in each 3.84s clip (corresponding to 320ms of real-time recordings).

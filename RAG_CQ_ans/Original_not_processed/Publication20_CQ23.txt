@@ -1,0 +1,5 @@
+ The deep learning model was trained with a diverse dataset that included thumbnails of whole fish,
+part of species, and environment. The model was also post-processed with decision rules to improve
+its performance. The model was tested on a set of thumbnails that were not included in the training
+dataset, and its performance was compared to that of human experts. The model was also evaluated
+using cross-validation and stratified splitting to ensure its generalizability.

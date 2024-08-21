@@ -1,0 +1,2 @@
+ The training is considered complete when the classifier converges within the first 100 training
+iterations, as shown in Figure 5.

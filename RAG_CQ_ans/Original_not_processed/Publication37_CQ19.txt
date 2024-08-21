@@ -1,0 +1,4 @@
+ The deep learning model is built using Lasagne, a lightweight library to build and train neural
+networks in Theano.  Reference(s): [28] S. Dieleman, J. Schlüter, C. Raffel, E. OIson, S.K.
+Si'lnderby, D. Nouri, D. Maturana, M. Thoma, E. Battenberg, and J. Kelly, "Lasagne: First release,"
+https : / /github. corni Lasagne/Lasagne, 2015.

@@ -1,0 +1,4 @@
+ The strategy implemented to monitor the model performance during training is to use a validation
+dataset. This dataset is used to evaluate the model's performance after each training epoch. The
+model's performance on the validation dataset is used to determine when to stop training and to
+prevent overfitting.

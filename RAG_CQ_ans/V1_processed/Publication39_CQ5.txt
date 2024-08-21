@@ -1,0 +1,1 @@
+The datasets used in the deep learning pipeline are not explicitly mentioned in the provided context. However, the context does mention the use of a dataset for animal action recognition, which is a subset of the dataset AnnotationsActions. This dataset is not a standard dataset like MNIST, CIFAR, or ImageNet. 

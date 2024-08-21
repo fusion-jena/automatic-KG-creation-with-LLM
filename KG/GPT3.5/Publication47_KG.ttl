@@ -1,0 +1,33 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5BNot_specified%5D> a dlprov:DataAnnotationTechnique,
+        dlprov:DataAugmentationTechnique,
+        dlprov:HardwareResource,
+        dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique,
+        dlprov:RegularizationMethod .
+
+dlprov:CSV a dlprov:DataFormat .
+
+dlprov:Deep_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:IUC-NN a dlprov:DeepLearningModel .
+
+dlprov:Orchid_species_occurrence_records_from_GBIF_and_WCSP a dlprov:Dataset .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:accuracy a dlprov:PerformanceMetric .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:cross-entropy_loss a dlprov:PerformanceMetric .
+
+<https://w3id.org/dlprov#https%3A//github.com/azizka/IUCNN> a dlprov:CodeRepository .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:predicting_conservation_status_of_orchid_species a dlprov:ModelPurpose .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+

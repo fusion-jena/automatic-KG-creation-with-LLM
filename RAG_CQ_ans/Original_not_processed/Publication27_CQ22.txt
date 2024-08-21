@@ -1,0 +1,6 @@
+ The performance of the deep learning model is evaluated using metrics such as accuracy, precision,
+recall, and F1 score. Accuracy measures the proportion of correct predictions out of the total
+number of predictions. Precision measures the proportion of true positive predictions out of all
+positive predictions. Recall measures the proportion of true positive predictions out of all actual
+positive instances. The F1 score is the harmonic mean of precision and recall, providing a single
+metric that balances both.

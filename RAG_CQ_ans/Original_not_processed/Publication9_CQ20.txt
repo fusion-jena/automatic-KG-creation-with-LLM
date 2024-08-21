@@ -1,0 +1,1 @@
+ The deep learning model is trained using a desktop computer equipped with a GeForce RTX 2080 GPU.

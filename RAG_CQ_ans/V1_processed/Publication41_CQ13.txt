@@ -1,0 +1,1 @@
+The Adam optimizer was used to minimize the loss, which is measured by binary cross-entropy, with a learning rate of 10^4. A batch size of 128 was used, and the model was trained for 15 epochs. 

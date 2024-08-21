@@ -1,0 +1,40 @@
+Build an ontology with classes, object properties, data properties, and axioms in RDF format for describing the provenance of Deep Learning Pipeline using the competency questions.
+Use the IRI for the base ontology: https://w3id.org/dlprovenance/
+Reuse the PROV-O ontology classes and properties for creating the heirarchy of the ontology.
+Incorporate data properties, Inverse Properties, and ensure the hierarchy is well-structured. 
+Below are the examples and follow the same format:
+
+Concepts: Hyperparameter, Model
+Relations: hasHyperparameter, hasModel
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/dlprovenance#"
+     xml:base="https://w3id.org/dlprovenance"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Hyperparameter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Hyperparameter</rdfs:label>
+        <rdfs:comment xml:lang="en">Hyperparameter is a prior parameter of an implementation, i.e., a parameter which is set before its execution (e.g. C, the complexity parameter, in weka.SMO).</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Model">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Model</rdfs:label>
+        <rdfs:comment xml:lang="en">Model is a generalization of a set of training data able to predict values for unseen instances. It is an output from an execution of a data mining algorithm implementation.</rdfs:comment>
+    </owl:Class>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasHyperparameter">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance##Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Hyperparameter"/>
+        <rdfs:label>hasHyperparameter</rdfs:label>
+        <rdfs:comment>A relation between an implementation of a machine learning algorithm and its hyperparameter.</rdfs:comment>
+    </owl:ObjectProperty>
+</rdf:RDF>
+
+Concepts: DeepLearningPipeline, RawDataCollectionMethod, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, DeepLearningModelType, Hyperparameter, HyperparameterOptimizationTechnique, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, MonitoringStrategy, DeepLearningFramework, HardwareResource, PostprocessingStep, EvaluationMetric, GeneralizabilityMeasure, RandomnessHandlingStrategy, ModelPurpose
+Relationships: hasRawDataCollectionMethod, hasDataFormat, hasDataAnnotationTechnique, hasDataAugmentationTechnique, hasDataset, involvesPreprocessingStep, hasDataSplitCriteria, hasCodeRepository, hasDataRepository, hasLink, usesDeepLearningModelType, hasHyperparameter, usesHyperparameterOptimizationTechnique, usesOptimizationTechnique, hasTrainingCompletionCriteria, usesRegularizationMethod, hasMonitoringStrategy, usesDeepLearningFramework, usesHardwareResource, involvesPostprocessingStep, usesEvaluationMetric, ensuresGeneralizability, usesRandomnessHandlingStrategy, hasModelPurpose, addressesDataBias
+DataProperties: codeRepositoryLink, dataRepositoryLink
+InverseProperties: isRawDataCollectionMethodOf, isDataFormatOf, isDataAnnotationTechniqueOf, isDataAugmentationTechniqueOf, isDatasetOf, isPreprocessingStepOf, isDataSplitCriteriaOf, isCodeRepositoryOf, isDataRepositoryOf, isModelOf, isHyperparameterOf, isOptimizedBy, isTrainingCompleteBy, isRegularizedBy, isMonitoredBy, isBuiltBy, isTrainedOn, isPostprocessedBy, isEvaluatedBy, isGeneralizableBy, isHandledBy

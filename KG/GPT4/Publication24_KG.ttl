@@ -1,0 +1,48 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:CitySounds2017 a dlprov:Dataset .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Hann_window_application a dlprov:PreprocessingStep .
+
+dlprov:Mel_spectrogram a dlprov:DataFormat .
+
+dlprov:Mel_spectrogram_conversion a dlprov:PreprocessingStep .
+
+dlprov:Theano_v._0.9.0 a dlprov:Framework .
+
+dlprov:audio a dlprov:DataFormat .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:false_negatives a dlprov:PerformanceMetric .
+
+dlprov:false_positives a dlprov:PerformanceMetric .
+
+dlprov:fast_Fourier_transform a dlprov:PreprocessingStep .
+
+dlprov:generate_measures_of_biotic_and_anthropogenic_acoustic_activity a dlprov:ModelPurpose .
+
+dlprov:lasagne_v._2 a dlprov:Framework .
+
+dlprov:librosa_v._4.2 a dlprov:Framework .
+
+dlprov:log-scale_representation_conversion a dlprov:PreprocessingStep .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+<https://w3id.org/dlprov#presence/absence_prediction_of_biotic_or_anthropogenic_acoustic_activity> a dlprov:ModelPurpose .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:true_negatives a dlprov:PerformanceMetric .
+
+dlprov:true_positives a dlprov:PerformanceMetric .
+

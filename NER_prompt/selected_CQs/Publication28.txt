@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The context does not provide information on the specific data formats used in the deep learning pipeline. However, it can be inferred that the pipeline uses satellite images as input data. %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer, just say that you don't know, don't try to make up an answer. %Query
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. Therefore, I cannot provide an answer to this query.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The performance of the PTDLEN-VAE model is examined against UCM dataset and AID dataset. The UCM dataset comprises a set of 100 images with 21 class labels. Each image measures 256 × 256 pixels. The pixel resolution of this public domain imagery is 1 ft. Fig. 1 showcases the sample images from UCM dataset. The AID multi-label dataset has 3000 RS images from the AID dataset.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information on the preprocessing steps involved before training a deep learning model. However, common preprocessing steps in deep learning include normalization, scaling, and cleaning. Normalization scales the data to a specific range, typically between 0 and 1, to ensure that all features have the same scale. Scaling involves rescaling the data to a specific range, such as -1 to 1 or 0 to 1. Cleaning involves removing or correcting any errors or inconsistencies in the data.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include information about the code repository link of the deep learning pipeline.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses the EfficientNet model, which is a type of convolutional neural network (CNN).
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The context does not provide information on the hyperparameters used in the deep learning model, such as learning rate or optimizer.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The helpful answer is that the paper does not explicitly mention the use of specific optimization techniques such as Stochastic Gradient Descent (SGD) or Adam in the deep learning pipeline. However, it does mention the use of the Improved Krill Herd Optimization (IKHO) algorithm for parameter optimization of the EfficientNet model.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The context does not provide information on the regularization methods used to prevent overfitting in the deep learning pipeline. Therefore, I cannot provide an answer to this query.
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The context does not provide information on the specific frameworks used to build the deep learning model.
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using various metrics such as precision, recall, F1-score, and F2-score. %Query
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to generate a useful set of feature vectors of the input satellite images. The deep learning model is used as a feature extraction module.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The deep learning pipeline uses audio data. The acquired audio files are transmitted over 4G using SMTP. The audio file is segmented into 15 second windows. Each of the sample windows are passed to the feature extractor function where MFCC is used to return the extracted features for the classifier. The predicted vector is processed and logged to the site for review.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the data augmentation techniques applied in the deep learning pipeline.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The context does not provide information on the specific datasets used in the deep learning pipeline.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The provided context does not explicitly mention any preprocessing steps before training the deep learning model. However, it does mention that the acquired audio files are segmented into 15-second windows and passed to a feature extractor function where MFCC is used to return the extracted features for the classifier. This can be considered as a form of preprocessing.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include the code repository link of the deep learning pipeline.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a Multilayer Perceptron (MLP) as the deep learning model.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The MLP is configured with a filter size of 2 and is used with Backpropagation as the learning algorithm and Adam as the optimiser. A dropout value of 50% has been used in the first three layers to improve generalisation and reduce overfitting. The first three layers are composed of 256 nodes while the final layer is equal to the number of classes in our dataset.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The MLP is configured with a filter size of 2 and is used with Backpropagation as the learning algorithm and Adam as the optimiser. A dropout value of 50% has been used in the first three layers to improve generalisation and reduce overfitting. The first three layers are composed of 256 nodes while the final layer is equal to the number of classes in our dataset. The model summary is shown in figure 5.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The deep learning pipeline uses dropout as a regularization method to prevent overfitting. A dropout value of 50% has been used in the first three layers of the MLP.
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The trained model is hosted using TensorFlow 2. 2.
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The deep learning model is trained using an Intel Xeon E5-1630v3 CPU, 64GB of RAM, and a NVidia Quadro RTX 8000 GPU.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance metrics used to evaluate the deep learning model are Sensitivity, Specificity, F1 Score, and Precision.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is for classification. The model is used to automatically classify bird sounds within their natural habitat.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

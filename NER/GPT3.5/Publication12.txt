@@ -1,0 +1,9 @@
+Named Entities:
+DataFormat(images, 64*64 pixels)
+DataSplitCriteria(training dataset with 85% of images, validation dataset with 15%)
+PreprocessingStep(batch normalization (BNorm) layers)
+DeepLearningModel(BatNet, based on convolutional neural networks (CNNs))
+Framework(TensorFlow)
+HardwareResource(GPU)
+PerformanceMetric(Receiver operating characteristic (ROC) curve, area under the curve (AUC), overall accuracy, sensitivity, specificity, false positive rate)
+ModelPurpose(classify bat species based on acoustic signals)

@@ -1,0 +1,5 @@
+ The purpose of the deep learning model is to develop a species richness retrieval model by
+integration of the surveyed and estimated richness information collected in South Korea and
+multitemporal remote sensing data.  The purpose of the deep learning model in this study is to
+develop a species richness retrieval model by integrating the surveyed and estimated richness
+information collected in South Korea and multitemporal remote sensing data.

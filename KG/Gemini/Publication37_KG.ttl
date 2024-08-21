@@ -1,0 +1,34 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Adding_background_noise a dlprov:DataAugmentationTechnique .
+
+dlprov:Audio a dlprov:DataFormat .
+
+dlprov:CLO-43SD a dlprov:Dataset .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Classification_accuracy a dlprov:PerformanceMetric .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:Dropout_probability a dlprov:Hyperparameter .
+
+dlprov:Dynamic_range_compression a dlprov:DataAugmentationTechnique .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:L2_regularization_penalty_factor a dlprov:Hyperparameter .
+
+dlprov:Lasagne a dlprov:Framework .
+
+dlprov:Learning_rate a dlprov:Hyperparameter .
+
+dlprov:Mini-batch_stochastic_gradient_descent a dlprov:OptimizationTechnique .
+
+dlprov:Pitch_shifting a dlprov:DataAugmentationTechnique .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Time_stretching a dlprov:DataAugmentationTechnique .
+

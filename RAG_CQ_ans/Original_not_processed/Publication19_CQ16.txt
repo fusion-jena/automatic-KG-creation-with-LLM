@@ -1,0 +1,3 @@
+ The criteria used to determine when training is complete is when the validation loss plateaus. This
+is shown in Fig. 6, where the Inception-V3 model converged only in 60 epochs and the trend of the
+validation loss strongly suggests that there was little overfitting.

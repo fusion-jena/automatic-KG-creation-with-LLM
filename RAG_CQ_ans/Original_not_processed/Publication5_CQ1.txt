@@ -1,0 +1,5 @@
+ The study utilizes a combination of surveyed and estimated richness information collected in South
+Korea and multitemporal remote sensing data. The surveyed data is likely collected through field
+surveys, while the remote sensing data is collected using satellite sensors. The specific sensors
+used are not mentioned, but the study does mention using MODIS products, which are collected using
+the MODIS sensor on board the Terra and Aqua satellites.

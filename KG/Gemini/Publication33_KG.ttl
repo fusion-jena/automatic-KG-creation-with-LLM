@@ -1,0 +1,18 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:T0 a dlprov:Dataset .
+
+dlprov:T1 a dlprov:Dataset .
+
+dlprov:T2 a dlprov:Dataset .
+
+dlprov:decreasing_contrast a dlprov:DataAugmentationTechnique .
+
+dlprov:horizontal_flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:increasing_contrast a dlprov:DataAugmentationTechnique .
+
+dlprov:resizing a dlprov:PreprocessingStep .
+

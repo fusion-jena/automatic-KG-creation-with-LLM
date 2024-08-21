@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The data format used in the deep learning pipeline is images.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The paper does not provide information on the specific data augmentation techniques applied in the deep learning pipeline.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are not explicitly mentioned in the provided context. However, it is mentioned that Inception-V3, MobileNet-V2, ResNet-18, and DenseNet-121 were trained on data consisting of 33,984 images taken during day and night with 6 animal classes. It is also mentioned that all architectures were pre-initialized to ImageNet weights. Therefore, it can be inferred that the dataset used for training the models is a custom dataset consisting of 33,984 images of 6 animal classes, and that ImageNet was used for pre-initialization of the models.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information about the preprocessing steps involved before training the deep learning models. However, common preprocessing steps for deep learning models include normalization, scaling, cleaning, and data augmentation. Normalization and scaling help to bring the data to a similar scale, while cleaning involves removing or correcting erroneous data. Data augmentation is a technique used to increase the amount of training data by applying transformations such as rotation, scaling, and flipping.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include the code repository link of the deep learning pipeline.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a Convolutional Neural Network (CNN) model.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The hyperparameters used in the deep learning model are as follows: - Optimizer: Stochastic Gradient Descent (SGD) - Batch size: varies depending on the model (48 for Inception-V3, 32 for MobileNet-V2, 32 for ResNet-18, and 16 for DenseNet-121) - Learning rate: varies depending on the model (0. 05 for Inception-V3, 0. 01 for MobileNet-V2, 0. 005 for ResNet-18, and 0. 001 for DenseNet-121) - Number of epochs: varies depending on the model (75 for Inception-V3, 100 for MobileNet-V2, 150 for ResNet-18, and 100 for DenseNet-121) - Input image size: varies depending on the model (299x299x3 for Inception-V3, 224x224x3 for MobileNet-V2, ResNet-18, and DenseNet-121) The models were implemented using Keras and the hyperparameters were determined using grid search.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The optimization technique applied in the deep learning pipeline is Stochastic Gradient Descent (SGD). Other hyperparameters like batch size, learning rate, and number of epochs were obtained using the grid search.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The context does not provide information on the regularization methods used to prevent overfitting in the deep learning pipeline. Therefore, I don't know the answer.
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The models were implemented using Keras (https://keras. io/).
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning models was evaluated using metrics such as accuracy, macro-F1 averages, and Area Under the ROC Curve (AUC). The best performing model was Inception-V3 with a macro Average F1 score of 0. 93 and the smallest size of 175 MB. The ROC curves for the Inception-V3 model showed that it performed well for all classes, with the lowest AUC being for the "other" class (AUC=0. 98). The confusion matrix for the Inception-V3 model showed that most large errors occurred due to the model not being able to classify the ghost images accurately. The classes with labels (e. g. , Fox, Donkey, Goat, and Sheep) were classified quite accurately.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to automatically classify images retrieved from camera traps and send the species information instantly to the concerned authorities. %Explanation The context states that the purpose of the research is to "automatically classify images retrieved from camera traps and to send the species information instantly to the concerned authorities using deep learning and edge analytics. " Therefore, the purpose of the deep learning model is to classify images. %Query
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

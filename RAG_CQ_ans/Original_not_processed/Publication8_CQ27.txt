@@ -1,0 +1,15 @@
+ The trained deep learning model was deployed by implementing it with the Detectron2 library in the
+PyTorch framework. The model was trained using Stochastic Gradient Descent optimiser with a learning
+rate of 0.0025 and momentum of 0.9. The anchor generator in the Region Proposal Network had six
+anchor scales [32, 64, 128, 256, 512, 1024] (square root of area in absolute pixels) each with three
+aspect ratios of [1:2, 1:1, 2:1]. The thresholds for non-maximum suppression (NMS) were 0.6 for
+training and 0.25 for testing, respectively. Due to the large image size and additional parameters
+of Faster R-CNN, a minibatch size of four images per GPU (TITAN Xp) was selected for training the
+model. The model was trained twice, once with a training subset of 498 images on a single GPU for
+9000 iterations and performance evaluated on the test subset of 155 images, also on a single GPU and
+then trained again on all 653 annotated images on three GPUs for 18000 iterations for predicting
+plant organs on another un-annotated independent dataset to evaluate our method. This dataset
+consists of 708 full scale herbarium scans, with an average size of ca. 9600 by 6500 pixels, from
+the Herbarium Senckenbergianum (FR) (Otte et al. 2011) with a different set of species (Fig. 2) and
+geographical origins, which is also available at GBIF (Senckenberg 2020). The Python code and the
+trained model have been made available at GitHub (Younis 2020).

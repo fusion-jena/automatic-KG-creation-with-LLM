@@ -1,0 +1,4 @@
+ After the model training, the postprocessing steps involved are creating a confusion matrix to
+depict TensorFlow's results, calculating the overall correct identification rate, and achieving 100%
+correct identification rate for some species. The lowest identification rates were for closely-
+related species, and no systematic errors were detected in TensorFlow classification.

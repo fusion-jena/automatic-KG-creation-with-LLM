@@ -1,0 +1,1 @@
+The context does not provide information on the specific hyperparameters used in the deep learning model, such as the learning rate or optimizer. 

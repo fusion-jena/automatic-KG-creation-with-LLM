@@ -1,0 +1,5 @@
+Named Entities:
+DataFormat(image)
+PreprocessingStep(scaling, rotations, translations)
+DeepLearningModel(Convolutional Neural Network (CNN))
+RegularizationMethod(dropout, L2 regularization)

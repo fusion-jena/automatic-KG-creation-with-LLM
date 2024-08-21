@@ -1,0 +1,7 @@
+ The context does not provide explicit information on the criteria used to split the data for deep
+learning model training. However, it mentions that 70 half-day videos were selected for validation,
+which were not used in the model training. This suggests that the data was split into training and
+validation sets. The context does not mention a test set, but it is common practice in machine
+learning to split the data into training, validation, and test sets. The criteria for splitting the
+data can vary, but common methods include random sampling or stratified sampling to ensure that the
+distribution of classes is similar in all sets.

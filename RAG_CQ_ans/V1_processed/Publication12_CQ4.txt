@@ -1,0 +1,1 @@
+The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. However, it mentions that signals were rescaled exponentially and shifted the window slightly either side of the call to change background noise. These techniques could be considered as data augmentation techniques. 

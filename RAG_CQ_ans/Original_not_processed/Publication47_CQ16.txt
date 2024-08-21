@@ -1,0 +1,4 @@
+ The training is completed when the neural network with the lowest cross-entropy loss across a range
+of models with different numbers of hidden layers and subsets of features is selected to predict the
+conservation status of all orchid species. Cross-validation is performed by shifting the validation
+set 5 times to quantify the average validation cross-entropy loss and accuracy.

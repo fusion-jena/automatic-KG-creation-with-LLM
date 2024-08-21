@@ -1,0 +1,30 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5Binvalid_URL_removed%5D> a dlprov:CodeRepositoryLink .
+
+dlprov:32Gb_of_RAM a dlprov:HardwareResource .
+
+dlprov:Audio a dlprov:DataFormat .
+
+dlprov:Automatic_bat_call_detection a dlprov:ModelPurpose .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Indicator_Bats_Programme a dlprov:Dataset .
+
+dlprov:Intel_i7_processor a dlprov:HardwareResource .
+
+dlprov:Magnitude_spectrogram_images a dlprov:DataFormat .
+
+dlprov:Not_explicitly_mentioned a dlprov:PreprocessingStep .
+
+dlprov:Nvidia_GTX_1080_GPU a dlprov:HardwareResource .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Time-expansion_mentioned_in_data_collection a dlprov:DataAugmentationTechnique .
+
+dlprov:iBats_bat_call_recordings a dlprov:Dataset .
+

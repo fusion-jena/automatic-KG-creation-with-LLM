@@ -1,0 +1,4 @@
+ The pipeline uses a convolutional neural network (CNN) model, specifically Google's Inception V3
+model, which was originally trained on the 2012 ImageNet data. The model is fine-tuned for the
+specific task by freezing the lower layers of the architecture and retraining the top layers to
+better fit the new dataset.

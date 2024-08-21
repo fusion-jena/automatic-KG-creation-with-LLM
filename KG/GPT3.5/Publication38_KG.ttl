@@ -1,0 +1,40 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5BNot_explicitly_mentioned%5D> a dlprov:DataAugmentationTechnique .
+
+dlprov:32Gb_RAM a dlprov:HardwareResource .
+
+dlprov:512x720_resolution a dlprov:DataFormat .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Intel_i7_processor a dlprov:HardwareResource .
+
+dlprov:Nvidia_GTX_1080_GPU a dlprov:HardwareResource .
+
+dlprov:Subset_of_full-spectrum_time-expanded a dlprov:Dataset .
+
+dlprov:TE_ultrasonic_acoustic_data_recorded_between_2005-2011_along_road-transects_by_citizen_scientists_as_part_of_the_Indicator_Bats_Programme a dlprov:Dataset .
+
+dlprov:automatic_bat_search-phase_echolocation_call_detection a dlprov:ModelPurpose .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:deep_convolutional_neural_network a dlprov:DeepLearningModel .
+
+<https://w3id.org/dlprov#https%3A//github.com/macaig/batdetect> a dlprov:CodeRepositoryLink .
+
+dlprov:magnitude_spectrogram_images a dlprov:DataFormat .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:not_explicitly_mentioned_but_inferred_from_common_practices a dlprov:PreprocessingStep .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:wav_files a dlprov:DataFormat .
+

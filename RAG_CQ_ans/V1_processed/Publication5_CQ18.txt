@@ -1,0 +1,1 @@
+The strategy implemented to monitor the model performance during training is to use a randomly selected 20% of the training samples as validation data. This is done to determine the models’ performance and to minimize overfitting for unseen data. 

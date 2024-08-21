@@ -1,0 +1,1 @@
+To improve the generalizability of the deep learning model, ﬁne-tuning was used by initializing the model with the pre-trained weights of ImageNet. Additionally, data augmentation techniques were applied to increase the size of the dataset from 100 to 6000 images. These techniques included Random scale, Random crop, Flip horizontally, and Random brightness. 

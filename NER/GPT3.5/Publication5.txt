@@ -1,0 +1,8 @@
+Named Entities:
+DataFormat(image data, MODIS-derived NDVI and LAI images)
+Dataset(time-series of MODIS-driven NDVI and LAI)
+PreprocessingStep(normalization, scaling, cleaning)
+DeepLearningModel(multilayer perceptron (MLP))
+RegularizationMethod(dropout, L2 regularization)
+PerformanceMetric(root mean square error (RMSE))
+ModelPurpose(develop a species richness retrieval model by integrating surveyed and estimated richness information collected in South Korea and multitemporal remote sensing data)

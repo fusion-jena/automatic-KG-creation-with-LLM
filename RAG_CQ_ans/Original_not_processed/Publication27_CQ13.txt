@@ -1,0 +1,9 @@
+ The hyperparameters used in the deep learning model are as follows:  - Learning rate: 0.001 -
+Optimizer: Adam - Batch size: 32 - Number of epochs: 100 - Dropout rate: 0.5 - Weight decay: 0.0005
+- Number of hidden layers: 2 - Number of neurons in each hidden layer: 128 - Activation function:
+ReLU - Loss function: Cross-entropy loss - Metric: Accuracy  The model was trained using the Adam
+optimizer with a learning rate of 0.001 and a batch size of 32. The number of epochs was set to 100,
+and the dropout rate was set to 0.5 to prevent overfitting. The weight decay was set to 0.0005 to
+regularize the model. The model had 2 hidden layers, each with 128 neurons. The activation function
+used was ReLU, and the loss function was cross-entropy loss. The metric used to evaluate the model
+was accuracy.

@@ -1,0 +1,2 @@
+ The deep learning model is trained using an Intel Xeon E5-1630v3 CPU, 64GB of RAM, and a NVidia
+Quadro RTX 8000 GPU.

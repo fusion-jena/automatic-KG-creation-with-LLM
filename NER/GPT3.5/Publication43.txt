@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: images
+DataAugmentationTechnique: Random scale, Random crop, Flip horizontally, Random brightness
+Dataset: ImageNet (used as pre-trained weights for GoogLeNet)
+PreprocessingStep: [Not explicitly provided]
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: GoogLeNet (CNN)
+Hyperparameter: [Not explicitly provided]
+OptimizationTechnique: Stochastic Gradient Descent (SGD), transfer learning (fine-tuning)
+RegularizationMethod: Dropout, L2 regularization (weight decay)
+Framework: TensorFlow
+HardwareResource: [Not specified]
+PerformanceMetric: precision, recall, F1 measure
+ModelPurpose: supervised classification

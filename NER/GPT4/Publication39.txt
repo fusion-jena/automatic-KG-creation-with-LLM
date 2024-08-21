@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: video, video clips, frames per second, infrared cameras, infrared flash-lights
+DataAugmentationTechnique: horizontal flip, rotation, scaling, shearing
+Dataset: AnnotationsActions dataset
+PreprocessingStep: normalization, scaling, cleaning (common steps mentioned but not specific to this context)
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: SlowFast architecture, ResNets (as backbone)
+Hyperparameter: initial learning rate (0.001), learning rate schedule (decrease every 10 epochs by 0.1), momentum (0.9), weight decay (5 ⋅ 10), epochs (40), cross-entropy loss
+OptimizationTechnique: Stochastic Gradient Descent (SGD), learning rate (0.0005, decreased every 10 epochs by 0.1), warmup iterations, warmup factor (1/1000), momentum (0.9), weight decay (0.0005), epochs (30)
+RegularizationMethod: data augmentation techniques (horizontal flip)
+Framework: [Not provided]
+HardwareResource: GeForce RTX 2080 Ti GPU (11 GB graphic memory), 16 GB RAM, Intel Core i7-6700K 4.00 GHz CPU
+PerformanceMetric: Average Precision (AP), Average Recall (AR), ARmax=1, ARmax=10
+ModelPurpose: detection of individual animals (bounding boxes and precise shapes), recognition of actions of animals, camera traps, tracing animal populations, analyzing abundance and behavior

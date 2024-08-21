@@ -1,0 +1,1 @@
+ The pipeline uses the EfficientNet model, which is a type of convolutional neural network (CNN).

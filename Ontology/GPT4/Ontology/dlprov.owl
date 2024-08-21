@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/dlprovenance#"
+     xml:base="https://w3id.org/dlprovenance"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:prov="http://www.w3.org/ns/prov#">
+    <owl:Ontology rdf:about="https://w3id.org/dlprovenance"/>
+
+    <!-- Classes -->
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataCollectionMethod">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Data Collection Method</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataFormat">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Data Format</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataAnnotationTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Data Annotation Technique</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataAugmentationTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Data Augmentation Technique</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Dataset">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Dataset</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PreprocessingStep">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Preprocessing Step</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataSplitCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Data Split Criteria</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Repository">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Repository</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelType">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Model Type</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Hyperparameter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Hyperparameter</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#HyperparameterOptimizationMethod">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Hyperparameter Optimization Method</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#OptimizationTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Optimization Technique</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#TrainingCompletionCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Training Completion Criteria</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#RegularizationMethod">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Regularization Method</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelMonitoringStrategy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Model Monitoring Strategy</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Framework">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Framework</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#HardwareResource">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Hardware Resource</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PostprocessingStep">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Postprocessing Step</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PerformanceMetric">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Performance Metric</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#GeneralizabilityMeasure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Generalizability Measure</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#RandomnessHandlingStrategy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Randomness Handling Strategy</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelPurpose">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Model Purpose</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataBiasHandlingTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Data Bias Handling Technique</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DeploymentProcess">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Deployment Process</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DeploymentPlatform">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Deployment Platform</rdfs:label>
+    </owl:Class>
+
+    <!-- Object Properties -->
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesDataCollectionMethod">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataCollectionMethod"/>
+        <rdfs:label>usesDataCollectionMethod</rdfs:label>
+        <rdfs:comment>Relation between a dataset and its data collection method.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesDataFormat">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataFormat"/>
+        <rdfs:label>usesDataFormat</rdfs:label>
+        <rdfs:comment>Relation between a dataset and its data format.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesAnnotationTechnique">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataAnnotationTechnique"/>
+        <rdfs:label>usesAnnotationTechnique</rdfs:label>
+        <rdfs:comment>Relation between a dataset and its annotation technique.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#appliesAugmentationTechnique">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataAugmentationTechnique"/>
+        <rdfs:label>appliesAugmentationTechnique</rdfs:label>
+        <rdfs:comment>Relation between a dataset and its augmentation technique.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesPreprocessingStep">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PreprocessingStep"/>
+        <rdfs:label>usesPreprocessingStep</rdfs:label>
+        <rdfs:comment>Relation between a dataset and its preprocessing step.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesDataSplitCriteria">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataSplitCriteria"/>
+        <rdfs:label>usesDataSplitCriteria</rdfs:label>
+        <rdfs:comment>Relation between a dataset and its data split criteria.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#availableInCodeRepository">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Repository"/>
+        <rdfs:label>availableInCodeRepository</rdfs:label>
+        <rdfs:comment>Relation between a model and its code repository.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#availableInDataRepository">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Repository"/>
+        <rdfs:label>availableInDataRepository</rdfs:label>
+        <rdfs:comment>Relation between a dataset and its data repository.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasModelType">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#ModelType"/>
+        <rdfs:label>hasModelType</rdfs:label>
+        <rdfs:comment>Relation between a model and its type.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesHyperparameter">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Hyperparameter"/>
+        <rdfs:label>usesHyperparameter</rdfs:label>
+        <rdfs:comment>Relation between a model and its hyperparameter.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#optimizedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#HyperparameterOptimizationMethod"/>
+        <rdfs:label>optimizedBy</rdfs:label>
+        <rdfs:comment>Relation between a model and its hyperparameter optimization method.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#appliesOptimizationTechnique">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#OptimizationTechnique"/>
+        <rdfs:label>appliesOptimizationTechnique</rdfs:label>
+        <rdfs:comment>Relation between a model and its optimization technique.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesCompletionCriteria">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#TrainingCompletionCriteria"/>
+        <rdfs:label>usesCompletionCriteria</rdfs:label>
+        <rdfs:comment>Relation between a model and its training completion criteria.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#usesRegularizationMethod">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#RegularizationMethod"/>
+        <rdfs:label>usesRegularizationMethod</rdfs:label>
+        <rdfs:comment>Relation between a model and its regularization method.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#monitoredBy">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#ModelMonitoringStrategy"/>
+        <rdfs:label>monitoredBy</rdfs:label>
+        <rdfs:comment>Relation between a model and its monitoring strategy.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#builtWithFramework">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Framework"/>
+        <rdfs:label>builtWithFramework</rdfs:label>
+        <rdfs:comment>Relation between a model and the framework used to build it.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#trainedOnHardware">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#HardwareResource"/>
+        <rdfs:label>trainedOnHardware</rdfs:label>
+        <rdfs:comment>Relation between a model and the hardware resource used for training.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#appliesPostprocessingStep">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PostprocessingStep"/>
+        <rdfs:label>appliesPostprocessingStep</rdfs:label>
+        <rdfs:comment>Relation between a model and its postprocessing step.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#evaluatedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PerformanceMetric"/>
+        <rdfs:label>evaluatedBy</rdfs:label>
+        <rdfs:comment>Relation between a model and its performance metric.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#ensuresGeneralizabilityWith">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#GeneralizabilityMeasure"/>
+        <rdfs:label>ensuresGeneralizabilityWith</rdfs:label>
+        <rdfs:comment>Relation between a model and its generalizability measure.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#handlesRandomnessWith">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#RandomnessHandlingStrategy"/>
+        <rdfs:label>handlesRandomnessWith</rdfs:label>
+        <rdfs:comment>Relation between a model and its randomness handling strategy.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasPurpose">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#ModelPurpose"/>
+        <rdfs:label>hasPurpose</rdfs:label>
+        <rdfs:comment>Relation between a model and its purpose.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#handlesBiasWith">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataBiasHandlingTechnique"/>
+        <rdfs:label>handlesBiasWith</rdfs:label>
+        <rdfs:comment>Relation between a dataset and its data bias handling technique.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#deployedUsing">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeploymentProcess"/>
+        <rdfs:label>deployedUsing</rdfs:label>
+        <rdfs:comment>Relation between a model and its deployment process.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#deployedOn">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeploymentPlatform"/>
+        <rdfs:label>deployedOn</rdfs:label>
+        <rdfs:comment>Relation between a model and its deployment platform.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- Data Properties -->
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#hasCodeRepositoryLink">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Repository"/>
+        <rdfs:range rdf:resource="xsd:anyURI"/>
+        <rdfs:label>hasCodeRepositoryLink</rdfs:label>
+        <rdfs:comment>Relation between a repository and its code repository link.</rdfs:comment>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#hasDataRepositoryLink">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Repository"/>
+        <rdfs:range rdf:resource="xsd:anyURI"/>
+        <rdfs:label>hasDataRepositoryLink</rdfs:label>
+        <rdfs:comment>Relation between a repository and its data repository link.</rdfs:comment>
+    </owl:DatatypeProperty>
+
+</rdf:RDF>
+

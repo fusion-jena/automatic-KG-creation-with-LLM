@@ -1,0 +1,50 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:Convolutional_depth a dlprov:Hyperparameter .
+
+dlprov:Custom_dataset_created_from_captured_sequences_of_images_containing_wasps a dlprov:Dataset .
+
+dlprov:Customized_CNN_model a dlprov:DeepLearningModel .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:F1-score a dlprov:PerformanceMetric .
+
+dlprov:Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:Fully_connected_size a dlprov:Hyperparameter .
+
+dlprov:Images a dlprov:DataFormat .
+
+dlprov:Kernel_size a dlprov:Hyperparameter .
+
+dlprov:Moth_species_classification a dlprov:ModelPurpose .
+
+dlprov:Optimizer a dlprov:Hyperparameter .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Removing_images_with_no_insects a dlprov:PreprocessingStep .
+
+dlprov:Resizing_images_to_128x128_pixels a dlprov:PreprocessingStep .
+
+dlprov:Rotating a dlprov:DataAugmentationTechnique .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:Scaling_pixel_values_to_0-1_range a dlprov:PreprocessingStep .
+
+dlprov:Shearing a dlprov:DataAugmentationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:and_background_images a dlprov:Dataset .
+
+dlprov:moths a dlprov:Dataset .
+

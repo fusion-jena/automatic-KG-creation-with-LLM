@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The deep learning pipeline uses audio and image data formats. The audio data is presented as spectrograms, while the image data is presented as image crops around the object of interest, with contrast enhancement and consecutive frame differences.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The provided context does not mention any specific data augmentation techniques applied in the deep learning pipeline. Therefore, I cannot provide a helpful answer to this query.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The paper does not explicitly mention the use of any specific datasets such as MNIST, CIFAR, or ImageNet. However, it does mention that the deep learning pipeline uses large amounts of labeled data produced by analysts using the UI. This data is used to classify dozens of species signals and event types across ongoing projects. The paper also mentions the use of deep convolutional neural networks (CNNs) and deep feed forward neural networks (DNNs) to audio spectrogram and image data. This suggests that the datasets used in the deep learning pipeline are likely audio and image data related to biodiversity monitoring.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information on the preprocessing steps involved before training a deep learning model. However, common preprocessing steps for deep learning models include normalization, scaling, cleaning, and augmentation of the data. Normalization and scaling help to bring the data to a similar scale, cleaning helps to remove any noise or irrelevant data, and augmentation helps to increase the size of the dataset.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include the code repository link of the deep learning pipeline.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses deep convolutional neural networks (CNNs) and deep feed forward neural networks (DNNs) to audio spectrogram and image data.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The paper does not provide information on the hyperparameters used in the deep learning model, such as learning rate or optimizer.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The provided context does not mention any specific optimization techniques applied in the deep learning pipeline, such as SGD (Stochastic Gradient Descent) or Adam.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The provided context does not mention any specific regularization methods used to prevent overfitting in the deep learning pipeline.
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The context does not provide information on the specific frameworks used to build the deep learning model.
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the specific hardware resources used for training the deep learning model.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The context does not provide information on the specific metrics used to evaluate the performance of the deep learning model.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to classify the presence or absence and activity rates of a number of different endangered species, or in some cases, the sounds of birds colliding with energy infrastructure. In total, the model has the ability to classify dozens of species signals and event types across ongoing projects, and aims to scale this up to encompass whole communities.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

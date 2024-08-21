@@ -1,0 +1,1 @@
+ The pipeline uses a 100-layer CNN based on the TensorFlow implementation of ResNet.

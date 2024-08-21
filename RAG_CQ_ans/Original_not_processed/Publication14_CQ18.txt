@@ -1,0 +1,5 @@
+ The strategy implemented to monitor the model performance during training is not explicitly
+mentioned in the provided context. However, it is mentioned that the model evaluation on the 70 test
+videos completed in 4 hr and 38 min on 30 CPUs with an average frame rate of 17 frames/s. This
+suggests that the model performance was monitored during training by evaluating it on a test
+dataset.

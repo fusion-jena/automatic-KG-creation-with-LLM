@@ -1,0 +1,11 @@
+ After the model training, the postprocessing steps involved include using the validation dataset to
+evaluate the performance of the four models. Receiver operating characteristic (ROC) curve, area
+under the curve (AUC), overall accuracy, sensitivity, specificity, and false positive rate were
+calculated using Python package sklearn and plotted using package matplotlib. A confusion matrix was
+also used to evaluate the taxonomic bias of the four networks using the package sklearn. To check
+whether closely genetically related taxa impact on the identification for the four networks, a
+phylogenetic tree was also drawn to illustrate genetic relationships among the taxa. The phylogeny
+was reconstructed using six mitochondrial genes from the 36 species extracted from public database
+GenBank. A maximum likelihood method was adopted using a software called RAxML v8.2.2 with GRT+Γ
+model and 200 bootstraps to build the phylogeny. The acoustic traits sweep-rate and frequency traits
+were extracted using Sonobat V4.2.2 and plotted using R packages picante and Geiger.

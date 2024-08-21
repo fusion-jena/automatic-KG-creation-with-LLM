@@ -1,0 +1,10 @@
+ The trained deep learning model was deployed in an inferencing pipeline to record bird audio in a
+realistic environment. This was achieved using a Samsung S10 deployed under a tree containing
+nesting Common Wood Pigeons. Audio was recorded for a total of three minutes and uploaded to the
+platform for classification. During deployment, 8 individual bird songs were detected. The model
+achieved an accuracy of 0.83 for the train split and 0.74 for the test split. The deployment of the
+model demonstrates that the system can be used in a practical way to automatically classify bird
+sounds within their natural habitat. Although a Samsung S10 was used in the implementation, a broad
+range of acoustic sensors could be integrated into the system to achieve the same effect. The
+inferencing pipeline offers a scalable and cost-effective way to collect, process, and classify
+acoustic audio samples.

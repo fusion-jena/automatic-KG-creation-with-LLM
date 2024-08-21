@@ -1,0 +1,24 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Keras_Deep_learning_library a dlprov:Framework .
+
+dlprov:U-net_deep_autoencoder a dlprov:DeepLearningModel .
+
+dlprov:audio_spectrograms a dlprov:DataFormat .
+
+dlprov:grey-coloured_1-channel_images a dlprov:DataFormat .
+
+dlprov:mean_Dice_coefficient_loss_function a dlprov:PerformanceMetric .
+
+dlprov:random_displacements_at_the_maximum_of_the_10%25_of_the_image a dlprov:DataAugmentationTechnique .
+
+dlprov:recordings_void_of_any_bird_activity a dlprov:Dataset .
+
+dlprov:segmentation a dlprov:ModelPurpose .
+
+dlprov:single_TITAN-X_GPU a dlprov:HardwareResource .
+
+dlprov:small_random_rotations_between_-5_and_5_degrees a dlprov:DataAugmentationTechnique .
+
+dlprov:spectrogram_figures_of_bird_recordings a dlprov:Dataset .
+

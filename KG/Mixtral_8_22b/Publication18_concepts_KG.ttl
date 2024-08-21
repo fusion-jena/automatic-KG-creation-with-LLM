@@ -1,0 +1,53 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:CNNs a dlprov:Method .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Convolutional_Neural_Networks a dlprov:Method .
+
+dlprov:Detection_of_whale_presence_in_marine_mammal_hotspots_for_whale_watching a dlprov:ModelPurpose .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:F1-measure a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:F1-score a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:GPUs a dlprov:HardwareResource .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:Images a dlprov:RawData .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:Normalization a dlprov:PreprocessingStep .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:TPUs a dlprov:HardwareResource .
+
+dlprov:TensorFlow a dlprov:CodeRepository,
+        dlprov:Framework .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:cropping_parts_of_the_image a dlprov:DataAugmentationTechnique .
+
+dlprov:data_augmentation a dlprov:PreprocessingStep .
+
+dlprov:different_illumination_conditions a dlprov:DataAugmentationTechnique .
+
+dlprov:rotations a dlprov:DataAugmentationTechnique .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:transfer_learning a dlprov:PreprocessingStep .
+
+dlprov:translations a dlprov:DataAugmentationTechnique .
+

@@ -1,0 +1,13 @@
+CQ2:What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+CQ4:What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ5:What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+CQ6:What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+CQ10:What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+CQ12:What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+CQ13:What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+CQ15:What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+CQ17:What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+CQ19:Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+CQ20:Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+CQ22:What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+CQ25:What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?

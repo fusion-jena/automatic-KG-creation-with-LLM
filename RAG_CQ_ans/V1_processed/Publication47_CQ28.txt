@@ -1,0 +1,1 @@
+The deep learning model was deployed as an R package (IUCNN) based on the Python TensorFlow library. The context does not provide information on which platform was used to deploy the model. 

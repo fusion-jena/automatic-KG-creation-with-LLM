@@ -1,0 +1,1 @@
+The strategy implemented to monitor the model performance during training is to stop when the average slope of the training mean loss had an absolute difference to 0 on the last 100 epochs. The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version). 

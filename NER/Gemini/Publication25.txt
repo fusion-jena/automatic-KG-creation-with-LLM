@@ -1,0 +1,3 @@
+Named Entities:
+DataFormat(RGB, LIDAR)
+PreprocessingStep(normalization, scaling, cleaning)

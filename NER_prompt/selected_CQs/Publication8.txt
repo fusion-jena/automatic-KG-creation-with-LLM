@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The data format used in the deep learning pipeline is image data. The deep learning pipeline in this study uses image data for detecting plant organs on herbarium scans. The plant organs are detected using an object detection network, which works by localising each object with a bounding box on the image and classifying it. The network used in this study is called Faster R-CNN, which is based on Convolutional Neural Networks (CNN) and is used for image data. Therefore, the data format used in the deep learning pipeline is image data.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The paper does not provide information on the specific data augmentation techniques applied in the deep learning pipeline.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The deep learning pipeline in this study uses the ImageNet dataset for transfer learning. The initial layers of the CNN are initialized with pre-trained weights from the ImageNet dataset, and the deeper layers are fine-tuned using the annotated herbarium scan dataset.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: Before training a deep learning model, several preprocessing steps are often involved. These can include normalization, scaling, and cleaning. Normalization is a technique used to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values or losing information. Scaling is a method used to standardize the range of independent variables or features of data. Cleaning is the process of removing or correcting erroneous data from a dataset. However, the specific preprocessing steps can vary depending on the dataset and the model being used. In this study, the herbarium scans were rescaled from their original average size of ca. 5100 by 3500 pixels to 1200 by 800 pixels, in order to preserve the aspect ratio of the scans and to speed up the learning by reducing the number of pixels.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include information about the code repository link of the deep learning pipeline.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The type of deep learning model used in the pipeline is a Convolutional Neural Network (CNN). Specifically, the Faster R-CNN model is used, which is based on the ResNet-50 architecture.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The deep learning model was implemented with the Detectron2 library in PyTorch framework and trained using Stochastic Gradient Descent optimiser with a learning rate of 0. 0025 and momentum of 0. 9. The anchor generator in the Region Proposal Network had six anchor scales [32, 64, 128, 256, 512, 1024] (square root of area in absolute pixels) each with three aspect ratios of [1:2, 1:1, 2:1]. The thresholds for non-maximum suppression (NMS) were 0. 6 for training and 0. 25 for testing, respectively.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The model was implemented with the Detectron2 library in PyTorch framework and trained using Stochastic Gradient Descent optimizer with a learning rate of 0. 0025 and momentum of 0. 9.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The paper does not provide information on the regularization methods used to prevent overfitting in the deep learning pipeline.
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The deep learning model is implemented with the Detectron2 library in the PyTorch framework.
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The model was trained using TITAN Xp GPUs. Specifically, a minibatch size of four images per GPU was selected for training the model. The model was trained twice, once with a training subset of 498 images on a single GPU for 9000 iterations and then trained again on all 653 annotated images on three GPUs for 18000 iterations.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using the COCO evaluation metric, which determines whether the predicted organs and their locations are correct. The minimum threshold chosen for any prediction to be acceptable is having a confidence score (probability) of 0. 5. The COCO method calculates average precision (with values from 0 to 100), which is a metric that encapsulates both precision and recall of the detection, for the entire predictions and each class of organs at different levels of Intersection over Union (IoU). IoU is an evaluation metric that quantifies the overlap of the predicted bounding boxes with the ground-truth bounding boxes. The IoU score ranges from 0 to 1, the higher the overlap, the higher the IoU score. The evaluation method considers all predictions as positive that have IoU of at least 0. 5 and the average precision at this level of IoU is called AP50. Similarly, the average precision with a minimum IoU of 0. 75 is called AP75, whereas AP is the average over 10 IoU levels from 0. 5 to 0. 95 with a step size of 0. 05. The precision metrics evaluated on the predicted organs on the test subset are shown in Table 2. The COCO method also calculates the AP for each category, as shown in Table 3, along with the total bounding boxes for each category in the test subset.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is object detection and localisation. It is used to detect and localise each object with a bounding box on the image and classify it. The model used in this study is called Faster R-CNN.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

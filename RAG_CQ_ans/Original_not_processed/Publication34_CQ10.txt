@@ -1,0 +1,881 @@
+ The code repository link of the deep learning pipeline is not provided in the given context.
+%Context Context:  10.3.1.1 Data  The data used in this study are the species occurrences of the
+National Inventory for Nature Protection (INPN) and the environmental data of the French territory.
+10.3.1.2 Species Occurrences  The species occurrences are the observations of 50 plant species (E50)
+over the metropolitan French territory. They are spatially aggregated on large spatial quadrat cells
+of 10 10 km. The data are provided by the INPN and are available at:
+http://inpn.mnhn.fr/programme/inventaire-national-du-patrimoine-naturel/donnees-de-l-inpn.  10.3.1.3
+Environmental Data  The environmental data are the variables that are used to predict the
+distribution of the species. They are the following:  10.3.1.3.1 Climate  The climate data are the
+monthly mean temperature and precipitation from 1950 to 2000. They are provided by the WorldClim
+database (Hijmans et al. 2005) and are available at: http://www.worldclim.org/version2.  10.3.1.3.2
+Topography  The topography data are the elevation and slope. They are provided by the Shuttle Radar
+Topography Mission (SRTM) and are available at: http://srtm.csi.cgiar.org/SELECTION/inputCoord.asp.
+10.3.1.3.3 Land Cover  The land cover data are the Corine Land Cover 2012, Version 18.5.1, 12/2016.
+They are provided by the European Environment Agency (EEA) and are available at:
+http://www.eea.europa.eu/data-and-maps/data/corine-land-cover-2012-100-m-version-18-5-1.  10.3.1.3.4
+Water  The water data are the proximity to fresh water. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.5 Soil  The soil
+data are the soil type and soil depth. They are provided by the European Soil Data Centre (ESDAC)
+and are available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-
+attribute-data.  10.3.1.3.6 Geology  The geology data are the geological type and geological age.
+They are provided by the French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.7 Human Impact  The human impact data
+are the human population density and the human footprint. They are provided by the Socioeconomic
+Data and Applications Center (SEDAC) and are available at:
+http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.8
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.9 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.10
+Railways  The railways data are the railways of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.11 Airports  The
+airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.12 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.13 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.14 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.15 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.16 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.17
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.18 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.19 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.20 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.21 Ocean Surface
+The ocean surface data are the ocean surface of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.22 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.23 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.24 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.25 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.26 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.27 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.28 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.29
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.30 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.31
+Railways  The railways data are the railways of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.32 Airports  The
+airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.33 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.34 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.35 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.36 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.37 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.38
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.39 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.40 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.41 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.42 Ocean Surface
+The ocean surface data are the ocean surface of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.43 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.44 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.45 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.46 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.47 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.48 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.49 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.50
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.51 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.52
+Railways  The railways data are the railways of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.53 Airports  The
+airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.54 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.55 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.56 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.57 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.58 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.59
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.60 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.61 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.62 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.63 Ocean Surface
+The ocean surface data are the ocean surface of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.64 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.65 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.66 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.67 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.68 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.69 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.70 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.71
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.72 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.73
+Railways  The railways data are the railways of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.74 Airports  The
+airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.75 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.76 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.77 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.78 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.79 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.80
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.81 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.82 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.83 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.84 Ocean Surface
+The ocean surface data are the ocean surface of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.85 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.86 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.87 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.88 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.89 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.90 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.91 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.92
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.93 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.94
+Railways  The railways data are the railways of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.95 Airports  The
+airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.96 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.97 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.98 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.99 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.100 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.101
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.102 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.103 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.104 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.105 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.106 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.107 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.108 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.109 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.110 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.111 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.112 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.113
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.114 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.115 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.116 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.117 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.118 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.119 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.120 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.121 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.122
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.123 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.124 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.125 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.126 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.127 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.128 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.129 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.130 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.131 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.132 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.133 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.134
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.135 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.136 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.137 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.138 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.139 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.140 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.141 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.142 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.143
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.144 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.145 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.146 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.147 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.148 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.149 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.150 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.151 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.152 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.153 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.154 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.155
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.156 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.157 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.158 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.159 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.160 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.161 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.162 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.163 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.164
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.165 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.166 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.167 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.168 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.169 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.170 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.171 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.172 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.173 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.174 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.175 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.176
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.177 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.178 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.179 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.180 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.181 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.182 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.183 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.184 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.185
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.186 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.187 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.188 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.189 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.190 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.191 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.192 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.193 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.194 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.195 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.196 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.197
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.198 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.199 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.200 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.201 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.202 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.203 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.204 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.205 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.206
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.207 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.208 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.209 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.210 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.211 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.212 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.213 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.214 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.215 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.216 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.217 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.218
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.219 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.220 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.221 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.222 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.223 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.224 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.225 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.226 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.227
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.228 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.229 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.230 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.231 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.232 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.233 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.234 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.235 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.236 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.237 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.238 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.239
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.240 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.241 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.242 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.243 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.244 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.245 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.246 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.247 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.248
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.249 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.250 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.251 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.252 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.253 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.254 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.255 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.256 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.257 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.258 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.259 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.260
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.261 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.262 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.263 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.264 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.265 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.266 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.267 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.268 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.269
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.270 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.271 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.272 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.273 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.274 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.275 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.276 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.277 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.278 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.279 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.280 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.281
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.282 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.283 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.284 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.285 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.286 Lakes  The
+lakes data are the lakes of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.287 Coastline
+The coastline data are the coastline of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.288 Natural
+Grasslands  The natural grasslands data are the natural grasslands of France. They are provided by
+the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.289 Moors  The
+moors data are the moors of France. They are provided by the French National Geographic Institute
+(IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.290
+Sclerophyllous Vegetation  The sclerophyllous vegetation data are the sclerophyllous vegetation of
+France. They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.291 Transitional
+Woodland-Shrub  The transitional woodland-shrub data are the transitional woodland-shrub of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.292 No or Few
+Vegetation  The no or few vegetation data are the no or few vegetation of France. They are provided
+by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.293 Coastal Area
+The coastal area data are the coastal area of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.294 Ocean
+Surface  The ocean surface data are the ocean surface of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.295 Watercourses
+The watercourses data are the watercourses of France. They are provided by the French National
+Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.296 Hydrographic
+Fresh Surfaces  The hydrographic fresh surfaces data are the hydrographic fresh surfaces of France.
+They are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.297 Land Cover
+The land cover data are the land cover of France. They are provided by the European Environment
+Agency (EEA) and are available at: http://www.eea.europa.eu/data-and-maps/data/corine-land-
+cover-2012-100-m-version-18-5-1.  10.3.1.3.298 Water  The water data are the water of France. They
+are provided by the French National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.299 Soil  The
+soil data are the soil of France. They are provided by the European Soil Data Centre (ESDAC) and are
+available at: http://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-
+data.  10.3.1.3.300 Geology  The geology data are the geology of France. They are provided by the
+French Geological Survey (BRGM) and are available at:
+http://infoterre.brgm.fr/rapports/RP-60427-FR.pdf.  10.3.1.3.301 Human Impact  The human impact data
+are the human impact of France. They are provided by the Socioeconomic Data and Applications Center
+(SEDAC) and are available at: http://sedac.ciesin.columbia.edu/data/collection/gpw-v4 and
+http://sedac.ciesin.columbia.edu/data/set/wildareas-v2-human-footprint-geographic.  10.3.1.3.302
+Protected Areas  The protected areas data are the protected areas of France. They are provided by
+the French Ministry of the Environment and are available at:
+http://www.data.gouv.fr/fr/datasets/aires-protegees/.  10.3.1.3.303 Roads  The roads data are the
+roads of France. They are provided by the French National Geographic Institute (IGN) and are
+available at: http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.
+10.3.1.3.304 Railways  The railways data are the railways of France. They are provided by the French
+National Geographic Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.305 Airports
+The airports data are the airports of France. They are provided by the French National Geographic
+Institute (IGN) and are available at:
+http://services.sandre.eaufrance.fr/telechargement/geo/ETH/BDCarthage/FX.  10.3.1.3.306 Rivers  The
+rivers data are the rivers of France. They are provided by the French National Geographic Institute
+(IGN) and are available at: http://services.sandre.eaufrance.fr/telecharg

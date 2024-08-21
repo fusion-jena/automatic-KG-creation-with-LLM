@@ -1,0 +1,9 @@
+ Named Entities:
+    For each provided Concept(Corresponding Named Entity,..),
+    DataFormat(CSV),
+    DeepLearningModel(DNN, CNN),
+    Hyperparameter(Uniform distribution U (0. 03, 0. 03), Stochastic gradient descent algorithm with a momentum of 0. 9, Batch-size of 50, Initial learning rate of 10−),
+    PerformanceMetric(Mean Loss, Root Mean Square Error (Rmse), Accuracy on 10% Densest Quadrats (A10%DQ)),
+    RegularizationMethod(Dropout, L2 regularization),
+    Framework(R framework (version 3. 3. 2), mxnet),
+    ModelPurpose(Learning a function that takes the environmental feature vector of a given location as input and outputs an estimate of the abundance of the species)

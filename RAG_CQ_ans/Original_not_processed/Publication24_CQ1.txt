@@ -1,0 +1,6 @@
+ The method used for collecting raw data in the deep learning pipeline is a passive acoustic
+recorder, specifically a Song Meter SM2+ digital audio field sensor. This sensor records sound
+between 0 and 12 kHz at a 24 kHz sample rate. The sensor is equipped with a single omnidirectional
+microphone and is oriented horizontally at a height of 1 m. The audio files are saved in.wav format
+onto a SD card. The audio is recorded in computationally manageable chunks of 29 min of every 30
+min, which are then divided into 1-min audio files.

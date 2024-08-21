@@ -1,0 +1,48 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:0.001 a dlprov:Hyperparameter .
+
+dlprov:244_images a dlprov:Dataset .
+
+dlprov:614_images a dlprov:Dataset .
+
+dlprov:64 a dlprov:Hyperparameter .
+
+dlprov:AUC a dlprov:PerformanceMetric .
+
+dlprov:BatNet a dlprov:DeepLearningModel .
+
+dlprov:Batch_Normalization a dlprov:RegularizationMethod .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:GPU a dlprov:HardwareResource .
+
+dlprov:ROC_curve a dlprov:PerformanceMetric .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:batch_size a dlprov:Hyperparameter .
+
+dlprov:confusion_matrix a dlprov:PerformanceMetric .
+
+dlprov:false_positive_rate a dlprov:PerformanceMetric .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:learning_rate a dlprov:Hyperparameter .
+
+dlprov:overall_accuracy a dlprov:PerformanceMetric .
+
+dlprov:rescaled_exponentially a dlprov:DataPreprocessingStep .
+
+dlprov:sensitivity a dlprov:PerformanceMetric .
+
+dlprov:shifted_window a dlprov:DataPreprocessingStep .
+
+dlprov:specificity a dlprov:PerformanceMetric .
+
+dlprov:training_dataset_with_111 a dlprov:Dataset .
+
+dlprov:validation_dataset_with_19 a dlprov:Dataset .
+

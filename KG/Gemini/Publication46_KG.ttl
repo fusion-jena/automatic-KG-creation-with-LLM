@@ -1,0 +1,44 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:AUC a dlprov:PerformanceMetric .
+
+dlprov:Area_Under_ROC_Curve a dlprov:PerformanceMetric .
+
+dlprov:Backpropagation_or_gradient_descent a dlprov:OptimizationTechnique .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Cleaning a dlprov:PreprocessingStep .
+
+dlprov:Cohen%27s_kappa a dlprov:PerformanceMetric .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Kernel_size_and_number a dlprov:Hyperparameter .
+
+dlprov:Likely_image_or_grid-like_data a dlprov:DataFormat .
+
+dlprov:Normalization a dlprov:PreprocessingStep .
+
+dlprov:SDM_for_Rhododendron_arboreum a dlprov:ModelPurpose .
+
+dlprov:Scaling a dlprov:PreprocessingStep .
+
+dlprov:Species_Distribution_Modelling a dlprov:ModelPurpose .
+
+dlprov:TSS a dlprov:PerformanceMetric .
+
+dlprov:True_Skill_Statistic a dlprov:PerformanceMetric .
+
+dlprov:based_on_CNN_usage a dlprov:DataFormat .
+
+dlprov:but_common_techniques_include_dropout_and_L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:but_specific_method_not_given a dlprov:OptimizationTechnique .
+
+dlprov:common_techniques a dlprov:PreprocessingStep .
+
+dlprov:for_convolutions a dlprov:Hyperparameter .
+
+dlprov:mentioned a dlprov:OptimizationTechnique .
+

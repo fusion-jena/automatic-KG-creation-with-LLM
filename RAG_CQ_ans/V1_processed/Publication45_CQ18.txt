@@ -1,0 +1,1 @@
+The strategy implemented to monitor the model performance during training was to stop the training of the individual candidate networks when the accuracy of the network on the test dataset did not increase further. 

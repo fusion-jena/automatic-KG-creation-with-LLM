@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The context does not provide specific information on the methods utilized for collecting raw data in the deep learning pipeline. However, it does mention the use of electronic sensors and large scale sensor networks for generating petabytes of data each year for biodiversity monitoring.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline uses audio and image data formats. The audio data is presented as spectrograms, while the image data is presented as image crops around the object of interest, with contrast enhancement and consecutive frame differences.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The paper does not provide specific details on the data annotation techniques used in the deep learning pipeline. However, it mentions that the system presents high probability events in a nonlinear-time presentation and allows analysis to repeatedly review complex or ambiguous events. The software is used to perform three specific tasks: (1) tools for audio and image data exploration to search for expected species and flag unknown or unexpected events, (2) creating labeled datasets to train and refine DL models, and (3) manually reviewing and auditing the output of existing DL models trained to classify events of interest. These tasks suggest that the data annotation techniques used may include labeling events of interest, flagging unknown or unexpected events, and possibly using bounding boxes or instance segmentation for image data. However, the paper does not provide explicit confirmation of these techniques.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The provided context does not mention any specific data augmentation techniques applied in the deep learning pipeline. Therefore, I cannot provide a helpful answer to this query.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The paper does not explicitly mention the use of any specific datasets such as MNIST, CIFAR, or ImageNet. However, it does mention that the deep learning pipeline uses large amounts of labeled data produced by analysts using the UI. This data is used to classify dozens of species signals and event types across ongoing projects. The paper also mentions the use of deep convolutional neural networks (CNNs) and deep feed forward neural networks (DNNs) to audio spectrogram and image data. This suggests that the datasets used in the deep learning pipeline are likely audio and image data related to biodiversity monitoring.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information on the preprocessing steps involved before training a deep learning model. However, common preprocessing steps for deep learning models include normalization, scaling, cleaning, and augmentation of the data. Normalization and scaling help to bring the data to a similar scale, cleaning helps to remove any noise or irrelevant data, and augmentation helps to increase the size of the dataset.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training (e. g. , train, test, validation).
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is not available in the provided context.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The context does not provide information on the data repository of the deep learning pipeline.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not include the code repository link of the deep learning pipeline.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, but the provided context does not mention a data repository link for the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses deep convolutional neural networks (CNNs) and deep feed forward neural networks (DNNs) to audio spectrogram and image data.
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The paper does not provide information on the hyperparameters used in the deep learning model, such as learning rate or optimizer.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The context does not provide information on how the hyperparameters of the model are optimized. Therefore, I don't know the answer to this question.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The provided context does not mention any specific optimization techniques applied in the deep learning pipeline, such as SGD (Stochastic Gradient Descent) or Adam.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The context does not provide information on the criteria used to determine when training is complete.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The provided context does not mention any specific regularization methods used to prevent overfitting in the deep learning pipeline.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is to use a validation set to evaluate the model's performance after each epoch. The validation set is a subset of the training data that is not used to train the model, but only to evaluate its performance. This allows the model to be evaluated on data that it has not seen before, which can help to prevent overfitting. Additionally, the validation set can be used to tune the model's hyperparameters, such as the learning rate or the number of layers in the network.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The context does not provide information on the specific frameworks used to build the deep learning model.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the specific hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: The provided context does not contain information about the postprocessing steps involved after the model training. Therefore, I cannot provide a helpful answer to this query.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The context does not provide information on the specific metrics used to evaluate the performance of the deep learning model.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The provided context does not contain information on the specific measures taken to ensure the generalizability of the deep learning model.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The provided context does not contain information about strategies employed to handle randomness in the deep learning pipeline, such as random seed values.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to classify the presence or absence and activity rates of a number of different endangered species, or in some cases, the sounds of birds colliding with energy infrastructure. In total, the model has the ability to classify dozens of species signals and event types across ongoing projects, and aims to scale this up to encompass whole communities.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The context does not provide information on the techniques used to address data bias during preprocessing of the deep learning pipeline.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The provided context does not contain information on the process followed to deploy the trained deep learning model, including model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

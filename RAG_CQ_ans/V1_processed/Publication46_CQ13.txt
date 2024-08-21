@@ -1,0 +1,1 @@
+The provided context does not explicitly mention the hyperparameters used in the deep learning model, such as learning rate or optimizer. However, it does mention that the hyperparameters involved in convolution operations are the size and number of kernels. The size could be anything from 3 × 3 to 5 × 5 to 7 × 7, and the kernel could be chosen randomly. 

@@ -1,0 +1,4 @@
+ The paper mentions the use of data augmentation techniques to prevent overfitting and generalize
+better. Specifically, the python library imgaug is used for data augmentation of images and videos.
+The augmentation techniques used include horizontal flip. However, the paper does not explicitly
+mention the use of regularization methods such as dropout or L2 regularization.

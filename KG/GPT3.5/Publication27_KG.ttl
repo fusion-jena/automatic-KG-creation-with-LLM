@@ -1,0 +1,94 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#//github.com/microsoft/FLAML> a dlprov:CodeRepositoryLink%28https .
+
+dlprov:0.001 a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Activation_function%3A_ReLU a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:AdaDelta a dlprov:OptimizationTechnique .
+
+dlprov:AdaGrad a dlprov:OptimizationTechnique .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:Adaptive_Moment_Estimation a dlprov:OptimizationTechnique .
+
+dlprov:Batch_size%3A_32 a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:CIFAR a dlprov:Dataset .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Data_augmentation a dlprov:PreprocessingStep .
+
+dlprov:Data_cleaning a dlprov:PreprocessingStep .
+
+dlprov:Data_normalization_or_standardization a dlprov:PreprocessingStep .
+
+dlprov:Data_splitting a dlprov:PreprocessingStep .
+
+dlprov:Data_transformation a dlprov:PreprocessingStep .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:Dropout_rate%3A_0.5 a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:Early_stopping a dlprov:RegularizationMethod .
+
+dlprov:F1_score a dlprov:PerformanceMetric .
+
+dlprov:Feature_selection_or_engineering a dlprov:PreprocessingStep .
+
+dlprov:Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:L1_regularization a dlprov:RegularizationMethod .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:Loss_function%3A_Cross-entropy_loss a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:MNIST a dlprov:Dataset .
+
+dlprov:Metric%3A_Accuracy a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:NVIDIA_GeForce_GTX_1080_Ti_GPU a dlprov:HardwareResource .
+
+dlprov:Number_of_epochs%3A_100 a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:Number_of_hidden_layers%3A_2 a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:Number_of_neurons_in_each_hidden_layer%3A_128 a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:Optimizer%3A_Adam a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:RMSprop a dlprov:OptimizationTechnique .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Rotating a dlprov:DataAugmentationTechnique .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:Translating a dlprov:DataAugmentationTechnique .
+
+dlprov:Weight_decay%3A_0.0005 a dlprov:Hyperparameter%28Learning_rate .
+
+dlprov:image_classification a dlprov:ModelPurpose .
+
+dlprov:image_data_formats a dlprov:DataFormat .
+

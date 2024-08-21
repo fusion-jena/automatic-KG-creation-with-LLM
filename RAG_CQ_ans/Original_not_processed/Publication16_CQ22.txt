@@ -1,0 +1,2 @@
+ The performance metrics used to evaluate the deep learning model are Sensitivity, Specificity, F1
+Score, and Precision.

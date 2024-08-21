@@ -1,0 +1,38 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Accuracy a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Cleaning a dlprov:PreprocessingStep .
+
+dlprov:Conditional_Kappa a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Deep_Learning_Pipeline a dlprov:Method .
+
+dlprov:F1_Score a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:Image_Data a dlprov:RawData .
+
+dlprov:Normalization a dlprov:PreprocessingStep .
+
+dlprov:Precision a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Prediction a dlprov:ModelPurpose .
+
+dlprov:Recall a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Scaling a dlprov:PreprocessingStep .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:True_Skill_Statistic a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+

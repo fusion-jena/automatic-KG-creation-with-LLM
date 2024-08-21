@@ -1,0 +1,1 @@
+The dataset was split into 80% for training and 20% for validation of the CNN model. No mention was made of a separate test set. 

@@ -1,0 +1,2 @@
+ The data augmentation technique applied in the deep learning pipeline is flipping 50% of the images
+in the left-right orientation to increase the robustness of the neural network.

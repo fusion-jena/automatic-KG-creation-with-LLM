@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The raw data for the deep learning pipeline is collected using full-spectrum time-expanded (TE) ultrasonic acoustic data recorded between 2005–2011 along road-transects by citizen scientists as part of the Indicator Bats Programme (iBats). The acoustic devices used were set to record using a TE factor of 10, a sampling time of 320ms, and sensitivity set on maximum, giving a continuous sequence of ‘snapshots’, consisting of 320ms of silence (sensor listening) and 3. 2s of TE audio (sensor playing back x 10). As sensitivity was set at maximum, and no minimum amplitude trigger mechanism was used on the recording devices, the recorded audio data contained many instances of low amplitude and faint bat calls, as well as other night-time ‘background’ noises such as other biotic, abiotic, and anthropogenic sounds.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline uses both audio data and magnitude spectrogram images. The audio data is in the form of wav files, and the spectrogram images are represented as 512x720 resolution images.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The data annotation techniques used in the deep learning pipeline are bounding box annotation and instance segmentation. Users were instructed to draw bounding boxes around the locations of bat calls within call sequences and to annotate them as being either: (1) search-phase echolocation calls; (2) terminal feeding buzzes; or (3) social calls. Users were also encouraged to annotate the presence of insect vocalisations and non-biotic mechanical noises.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The paper does not provide specific information on the data augmentation techniques applied in the deep learning pipeline. However, it mentions that the training data was collected as part of the Indicator Bats Programme (iBats) and was uploaded to the Zooniverse citizen science platform for public users to view and annotate. The audio data was split up into 3. 84s long sound clips, and each sound clip was uploaded as both a wav file and a magnitude spectrogram image. The paper also mentions that the original recordings were time-expanded, reducing the frequency and making the sounds audible to users. However, it does not provide details on any specific data augmentation techniques applied during the deep learning pipeline.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are not explicitly mentioned in the provided context. However, it is mentioned that the BatDetect CNNs were trained using a subset of full- spectrum time-expanded (TE) ultrasonic acoustic data recorded between 2005-2011 along road-transects by citizen scientists as part of the Indicator Bats Programme (iBats). The audio data contained many instances of low amplitude and faint bat calls, as well as other night-time 'background' noises such as other biotic, abiotic, and anthropogenic sounds. The audio data were split up into 3. 84s long sound clips to include the 3. 2s of TE audio and buffered by sensor-listening silence on either side. Each sound clip was then uploaded as both a wav file and a magnitude spectrogram image onto the Bat Detective project website. The original recordings were time-expanded, therefore reducing the frequency, sounds in the files were in the audible spectrum and could be easily heard by users. Users were presented with a spectrogram and its corresponding audio file, and asked to annotate the presence of bat calls in each 3. 84s clip (corresponding to 320ms of real-time recordings).
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The provided context does not explicitly mention the preprocessing steps involved before training a deep learning model. However, common preprocessing steps in deep learning include normalization, scaling, and cleaning of the data. Normalization is the process of rescaling the data to a standard range, often between 0 and 1. Scaling is the process of adjusting the range of the data, which can be useful when the data has a large range. Cleaning the data involves removing any irrelevant or incorrect data points, as well as handling missing data. These preprocessing steps can help improve the performance and efficiency of the deep learning model.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The data was split into training and test datasets. The training data was collected from time- expanded (TE) data recorded along road transects by the Indicator Bats Programme (iBats) in Romania and Bulgaria between 2006 and 2011. The test data was also collected from TE data recorded as part of iBats car transects in the UK between 2005 and 2011, and from real-time recordings from static recorders from the Norfolk Bat Survey from 2015. The test data was randomly chosen and the start times of the search-phase echolocation calls in these three test sets were manually extracted. The data contained a significantly greater proportion of negative (non-bat calls) as compared to positive examples (bat calls).
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is available on GitHub at <https://github. com/macaig/batdetect>.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The data repository of the deep learning pipeline is available on Zenodo.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: The code repository link of the deep learning pipeline is <https://github. com/macaig/batdetect>.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, but the provided context does not include information about the data repository link of the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a deep convolutional neural network (CNN) model.
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The paper does not provide information on the hyperparameters used in the deep learning model, such as learning rate and optimizer.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The context does not provide information on how the hyperparameters of the model are optimized.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The context does not provide information on the specific optimization techniques applied in the deep learning pipeline.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The context does not provide information on the criteria used to determine when training is complete.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The provided context does not mention any specific regularization methods used to prevent overfitting in the deep learning pipeline. Therefore, I don't know the answer to this question based on the given context.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is not explicitly mentioned in the provided context. However, it is mentioned that the code to train and evaluate the detection algorithms is available on the GitHub page (https://github. com/macaodha/batdetect). This suggests that the model performance during training might be monitored using standard evaluation metrics, but the specific strategy is not provided in the context.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The paper does not provide information on the specific frameworks used to build the deep learning model.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The deep learning model was trained using an Intel i7 processor, 32Gb of RAM, and a Nvidia GTX 1080 GPU.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: The provided context does not explicitly mention the postprocessing steps involved after the model training. However, it does mention that the output of the detector is a probability vector, which suggests that the model's performance could be evaluated using metrics such as precision, recall, and F1-score. Additionally, the context mentions that the model was trained using a subset of full- spectrum time-expanded ultrasonic acoustic data, which suggests that the model's performance could be evaluated using metrics such as accuracy and error rate. The context also mentions that the model was trained using annotations of the start time of search-phase bat echolocation calls in the acoustic recordings, which suggests that the model's performance could be evaluated using metrics such as mean absolute error and root mean squared error. However, the context does not provide specific details about the postprocessing steps involved after the model training.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using precision and recall metrics. The results show that the deep learning networks consistently outperformed other baselines in terms of recall, i. e. , increasing the proportion of detected bat calls in the test datasets. Although the precision of the commercial systems was often relatively high, the CNNs were able to detect much fainter and partially noise-masked bat calls that were missed by the other methods, with fewer false positives, and very quickly, particularly with CNNFAST.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The authors used a diverse dataset from the Indicator Bats Programme (iBats) [7] and generated annotations of the start time of search-phase bat echolocation calls in the acoustic recordings by uploading the acoustic data to the Zooniverse citizen science platform (www. zooniverse. org) as part of the Bat Detective project (www. batdetective. org). The audio data were first split up into 3. 84s long sound clips to include the 3. 2s of TE audio and buffered by sensor-listening silence on either side. Each sound clip was then uploaded as both a wav file and a magnitude spectrogram image (represented as a 512x720 resolution image) onto the Bat Detective project website. The original recordings were time-expanded, therefore reducing the frequency, sounds in the files were in the audible spectrum and could be easily heard by users. Users were presented with a spectrogram and its corresponding audio file, and asked to annotate the presence of bat calls in each 3. 84s clip (corresponding to 320ms of real-time recordings). The authors also mention that in future, extending the training dataset to include annotated bat calls from verified species-call databases to increase geographic and taxonomic coverage, will further improve the generality of their detection tool.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The provided context does not contain information about strategies employed to handle randomness in the deep learning pipeline, such as the use of random seed values. Therefore, I cannot provide an answer based on the given context.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is for automatic bat search-phase echolocation call detection, specifically for localization in time, in noisy, real-world recordings.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The provided context does not explicitly mention any techniques used to address data bias during preprocessing of the deep learning pipeline. However, it does mention that the training data was collected from citizen scientists as part of the Indicator Bats Programme (iBats) [7] and that the audio data contained many instances of low amplitude and faint bat calls, as well as other night- time ‘background’ noises such as other biotic, abiotic, and anthropogenic sounds. This suggests that the data collection process aimed to capture a diverse range of sounds, which could potentially help address data bias.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The context does not provide information on the process followed to deploy the trained deep learning model, including details on model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

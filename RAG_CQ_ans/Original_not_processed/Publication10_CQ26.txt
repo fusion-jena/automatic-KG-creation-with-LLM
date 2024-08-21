@@ -1,0 +1,6 @@
+ The provided context does not explicitly mention any techniques used to address data bias during
+preprocessing of the deep learning pipeline. However, it does discuss data augmentation techniques
+applied to bird vocalizations, such as small random rotations between -5 and 5 degrees and random
+displacements at the maximum of the 10% of the image. These techniques are used to accommodate
+within-species vocal variations and to make a global bird detector. The context does not discuss
+stratified splitting, oversampling, undersampling, or diverse data collection.

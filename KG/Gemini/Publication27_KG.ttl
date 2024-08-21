@@ -1,0 +1,8 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:resizing a dlprov:PreprocessingStep .
+

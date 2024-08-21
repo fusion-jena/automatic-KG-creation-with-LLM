@@ -1,0 +1,7 @@
+ The performance of the deep learning models was evaluated using metrics such as accuracy, macro-F1
+averages, and Area Under the ROC Curve (AUC). The best performing model was Inception-V3 with a
+macro Average F1 score of 0.93 and the smallest size of 175 MB. The ROC curves for the Inception-V3
+model showed that it performed well for all classes, with the lowest AUC being for the "other" class
+(AUC=0.98). The confusion matrix for the Inception-V3 model showed that most large errors occurred
+due to the model not being able to classify the ghost images accurately. The classes with labels
+(e.g., Fox, Donkey, Goat, and Sheep) were classified quite accurately.

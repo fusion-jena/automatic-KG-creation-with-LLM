@@ -1,0 +1,1 @@
+The dropout rate was determined by five-fold cross-validation with a random 200 images of the GH dataset, and these hyperparameters were used throughout all classification tasks in this study. 

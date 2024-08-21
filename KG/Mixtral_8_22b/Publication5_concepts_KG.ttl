@@ -1,0 +1,27 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:MLP a dlprov:DeepLearningModel,
+        dlprov:Method .
+
+dlprov:MODIS-derived_NDVI_and_LAI_images a dlprov:RawData .
+
+dlprov:RMSE a dlprov:PerformanceMetric .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:image_data a dlprov:DataFormat .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:not_explicitly_mentioned a dlprov:Dataset .
+
+dlprov:root_mean_square_error a dlprov:PerformanceMetric .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:species_richness_retrieval_model a dlprov:ModelPurpose .
+

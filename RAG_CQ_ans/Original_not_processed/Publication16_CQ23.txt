@@ -1,0 +1,5 @@
+ The deep learning model used a dropout value of 50% in the first three layers to improve
+generalization and reduce overfitting. Additionally, the model was trained over 100 epochs, which
+was found to be a sufficient number for the model to converge without overfitting. The model was
+also evaluated using both the test and validation data during training, and the results showed no
+overfitting.

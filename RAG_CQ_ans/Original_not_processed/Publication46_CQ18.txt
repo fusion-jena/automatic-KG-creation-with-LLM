@@ -1,0 +1,4 @@
+ The strategy implemented to monitor the model performance during training is tuning the learnable
+parameters, kernels, and weight by a loss function through the forward propagation followed by
+updating these parameter values through an optimization algorithm either by backpropagation or
+gradient descent.

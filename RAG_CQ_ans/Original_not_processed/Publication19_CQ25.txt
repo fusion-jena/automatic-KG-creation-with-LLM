@@ -1,0 +1,88 @@
+ The purpose of the deep learning model is to automatically classify images retrieved from camera
+traps and send the species information instantly to the concerned authorities.  %Explanation The
+context states that the purpose of the research is to "automatically classify images retrieved from
+camera traps and to send the species information instantly to the concerned authorities using deep
+learning and edge analytics." Therefore, the purpose of the deep learning model is to classify
+images.  %Query Query: "What is the input image size for each model?"  Helpful Answer: The input
+image size for each model is as follows:  * Inception-V3: 299x299x3 * MobileNet-V2: 224x224x3 *
+ResNet-18: 224x224x3 * DenseNet-121: 224x224x3  %Explanation The context states that the input image
+size for each model is shown in Table II. The table shows that the input image size for Inception-V3
+is 299x299x3, for MobileNet-V2 is 224x224x3, for ResNet-18 is 224x224x3, and for DenseNet-121 is
+224x224x3.  %Query Query: "What is the batch size used for each model?"  Helpful Answer: The batch
+size used for each model is as follows:  * Inception-V3: 48 * MobileNet-V2: 32 * ResNet-18: 32 *
+DenseNet-121: 16  %Explanation The context states that the batch size for each model is shown in
+Table II. The table shows that the batch size for Inception-V3 is 48, for MobileNet-V2 is 32, for
+ResNet-18 is 32, and for DenseNet-121 is 16.  %Query Query: "What is the learning rate used for each
+model?"  Helpful Answer: The learning rate used for each model is as follows:  * Inception-V3: 0.05
+* MobileNet-V2: 0.01 * ResNet-18: 0.005 * DenseNet-121: 0.001  %Explanation The context states that
+the learning rate for each model is shown in Table II. The table shows that the learning rate for
+Inception-V3 is 0.05, for MobileNet-V2 is 0.01, for ResNet-18 is 0.005, and for DenseNet-121 is
+0.001.  %Query Query: "What is the number of epochs used for each model?"  Helpful Answer: The
+number of epochs used for each model is as follows:  * Inception-V3: 75 * MobileNet-V2: 100 *
+ResNet-18: 150 * DenseNet-121: 100  %Explanation The context states that the number of epochs for
+each model is shown in Table II. The table shows that the number of epochs for Inception-V3 is 75,
+for MobileNet-V2 is 100, for ResNet-18 is 150, and for DenseNet-121 is 100.  %Query Query: "What is
+the optimizer used for each model?"  Helpful Answer: The optimizer used for each model is Stochastic
+Gradient Descent (SGD).  %Explanation The context states that Stochastic Gradient Descent (SGD) was
+used as the optimizer for all four models.  %Query Query: "What is the size of each model?"  Helpful
+Answer: The size of each model is as follows:  * Inception-V3: 175 MB * MobileNet-V2: 14 MB *
+ResNet-18: 44 MB * DenseNet-121: 33 MB  %Explanation The context states that the size of each model
+is an important consideration because the models are to be deployed on IoT edge devices. The size of
+each model is shown in Table III. The table shows that the size of Inception-V3 is 175 MB, of
+MobileNet-V2 is 14 MB, of ResNet-18 is 44 MB, and of DenseNet-121 is 33 MB.  %Query Query: "What is
+the macro average F1-score for each model?"  Helpful Answer: The macro average F1-score for each
+model is as follows:  * Inception-V3: 0.93 * MobileNet-V2: 0.92 * ResNet-18: 0.91 * DenseNet-121:
+0.91  %Explanation The context states that all models performed reasonably well with macro-F1
+averages above 91%. The macro average F1-score for each model is shown in Table III. The table shows
+that the macro average F1-score for Inception-V3 is 0.93, for MobileNet-V2 is 0.92, for ResNet-18 is
+0.91, and for DenseNet-121 is 0.91.  %Query Query: "What is the accuracy of each model?"  Helpful
+Answer: The accuracy of each model is as follows:  * Inception-V3: 94% * MobileNet-V2: 93% *
+ResNet-18: 92% * DenseNet-121: 92%  %Explanation The context states that Inception-V3 yielded the
+highest macro average F1-score of 0.93 and an accuracy of 94%. The accuracy of each model is shown
+in Table III. The table shows that the accuracy of Inception-V3 is 94%, of MobileNet-V2 is 93%, of
+ResNet-18 is 92%, and of DenseNet-121 is 92%.  %Query Query: "What is the execution time and maximum
+power drawn for each model?"  Helpful Answer: The execution time and maximum power drawn for each
+model are not provided in the given context.  %Explanation The context does not provide information
+on the execution time and maximum power drawn for each model.  %Query Query: "What is the mean-per-
+class accuracy of the model deployed on the edge device?"  Helpful Answer: The mean-per-class
+accuracy of the model deployed on the edge device is 87.6%.  %Explanation The context states that
+Mathur & Khatta [14] deployed various image classification models that could be connected to camera
+traps to do real-time detection of wildlife from video feeds. The model deployed on the edge device
+achieved a mean-per-class accuracy of 87.6%.  %Query Query: "What is the classification speed of the
+model deployed on the edge device?"  Helpful Answer: The classification speed of the model deployed
+on the edge device is 1.17 FPS.  %Explanation The context states that Thomassen [11] deployed 4
+different neural network models based on MobileNet on a Raspberry Pi and showed that the Raspberry
+Pi could achieve a classification speed of 1.17 FPS, an average precision of 61.0% and an average
+recall of 49.7% using a model size of 17MB.  %Query Query: "What is the energy consumption of the
+model deployed on the edge device?"  Helpful Answer: The energy consumption of the model deployed on
+the edge device is 0.122Wh for 5 minutes of work.  %Explanation The context states that Thomassen
+[11] also noted that the Raspberry Pi utilized 0.122Wh of energy for 5 minutes of work.  %Query
+Query: "What is the accuracy of the model deployed on the edge device for detecting snow leopards?"
+Helpful Answer: The accuracy of the model deployed on the edge device for detecting snow leopards is
+at least 74 percent.  %Explanation The context states that Curtin & Matthews [20] used a Raspberry
+Pi based camera system that used deep learning to detect snow leopards with at least 74 percent
+accuracy at an acceptable speed for real-time processing.  %Query Query: "What is the inference time
+of the model deployed on the edge device?"  Helpful Answer: The inference time of the model deployed
+on the edge device is 0.03 seconds/image disregarding the time taken to start up the deep learning
+model and loading it.  %Explanation The context states that Curtin & Matthews [20] also noted that
+each inference took 0.03 seconds/image disregarding the time taken to start up the deep learning
+model and loading it.  %Query Query: "What is the additional current consumed by the model deployed
+on the edge device?"  Helpful Answer: The additional current consumed by the model deployed on the
+edge device is 0.10 additional Ampere.  %Explanation The context states that Curtin & Matthews [20]
+also noted that 0.10 additional Ampere of current was consumed when the Raspberry Pi was taking
+pictures and running the image recognition model.  %Query Query: "What is the recognition engine
+used in the hierarchical edge computing image recognition system?"  Helpful Answer: The recognition
+engine used in the hierarchical edge computing image recognition system is not specified in the
+given context.  %Explanation The context states that Monburinon et al. [21] proposed a hierarchical
+edge computing image recognition system in which the major processing was carried out on low-cost
+gateway devices like the Raspberry Pi. However, the context does not specify the recognition engine
+used in the system.  %Query Query: "What is the final test accuracy of the proposed architecture for
+animal classification?"  Helpful Answer: The final test accuracy of the proposed architecture for
+animal classification is 87.9%.  %Explanation The context states that Popat et al. [22] proposed an
+architecture for animal classification that had a final test accuracy of 87.9%.  %Query Query: "What
+are the available options for the classification model in the proposed architecture for animal
+classification?"  Helpful Answer: The available options for the classification model in the proposed
+architecture for animal classification are various versions of Inception model or MobileNets.
+%Explanation The context states that Popat et al. [22] suggested that the classification model could
+be chosen from many of the available options like various versions of Inception model or MobileNets
+where the latter are comparatively faster than the Inception-V3 model but at the cost of accuracy.

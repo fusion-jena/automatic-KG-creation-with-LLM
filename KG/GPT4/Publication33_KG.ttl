@@ -1,0 +1,43 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:000_iterations a dlprov:TrainingCompletionCriteria .
+
+dlprov:100-layer_CNN_based_on_TensorFlow_implementation_of_ResNet a dlprov:DeepLearningModel .
+
+dlprov:3_matrices_with_numeric_values_describing_the_color_component a dlprov:DataFormat .
+
+dlprov:600 a dlprov:TrainingCompletionCriteria .
+
+dlprov:B a dlprov:DataFormat .
+
+dlprov:G a dlprov:DataFormat .
+
+dlprov:R a dlprov:DataFormat .
+
+dlprov:T0 a dlprov:Dataset .
+
+dlprov:T1 a dlprov:Dataset .
+
+dlprov:T2 a dlprov:Dataset .
+
+dlprov:back-propagation a dlprov:OptimizationTechnique .
+
+dlprov:batch_of_16_images a dlprov:TrainingCompletionCriteria .
+
+dlprov:data_augmentation a dlprov:PreprocessingStep .
+
+dlprov:decreasing_contrast a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:horizontal_flipping a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:increasing_contrast a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:resizing_to_64_%C3%97_64_pixels a dlprov:PreprocessingStep .
+
+dlprov:training_stopped_to_prevent_overfitting a dlprov:TrainingCompletionCriteria .
+

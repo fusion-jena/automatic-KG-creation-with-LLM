@@ -1,0 +1,3 @@
+ The dataset for this work has been derived from Planets full-frame analytic scene products using
+its 4-band satellites in sun-synchronous orbit (SSO) and International Space Station (ISS) orbit.
+The data format used in the deep learning pipeline is Chip (Image) Data Format.

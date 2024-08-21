@@ -1,0 +1,63 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:30_epochs a dlprov:TrainingCompletionCriteria .
+
+dlprov:AP a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:AR a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:AnnotationsActions a dlprov:Dataset .
+
+dlprov:Average_Precision a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Average_Recall a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:GeForce_RTX_2080_Ti_GPU a dlprov:HardwareResource .
+
+dlprov:SGD a dlprov:HyperparameterOptimization,
+        dlprov:OptimizationTechnique .
+
+dlprov:SlowFast_architecture a dlprov:DeepLearningModel,
+        dlprov:Method .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:HyperparameterOptimization,
+        dlprov:OptimizationTechnique .
+
+dlprov:bounding_boxes a dlprov:DataAnnotationTechnique .
+
+dlprov:combining_detection_of_individual_animals_and_recognition_of_their_actions a dlprov:ModelPurpose .
+
+dlprov:data_augmentation a dlprov:RegularizationMethod .
+
+dlprov:horizontal_flip a dlprov:DataAugmentationTechnique .
+
+dlprov:learning_rate a dlprov:Hyperparameter .
+
+dlprov:not_explicitly_mentioned a dlprov:DataBiasTechnique,
+        dlprov:DataSplitCriteria,
+        dlprov:GeneralizabilityMeasure,
+        dlprov:ModelDeploymentProcess,
+        dlprov:PostprocessingStep,
+        dlprov:PreprocessingStep,
+        dlprov:RandomnessStrategy .
+
+<https://w3id.org/dlprov#not_explicitly_mentioned.> a dlprov:DeploymentPlatform .
+
+dlprov:optimizer a dlprov:Hyperparameter .
+
+dlprov:precise_shapes_of_appearances a dlprov:DataAnnotationTechnique .
+
+dlprov:rotation a dlprov:DataAugmentationTechnique .
+
+dlprov:scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:shearing a dlprov:DataAugmentationTechnique .
+
+dlprov:video_clips a dlprov:DataFormat .
+
+dlprov:video_data_formats a dlprov:RawData .
+

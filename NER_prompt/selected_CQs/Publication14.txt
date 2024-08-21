@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The deep learning pipeline uses image data for training and classification. %Context layer reduces the vector of image features to the desired dimension- ality of length two (foreground and background). The softmax layer normalises this vector into probabilities that sum to one across all classes. DeepMeerkat is designed to be conservative, with a high F I G U R E 2 The front screen of the DeepMeerkat GUI. A user can select a file or directory of videos to screen using a pre- trained model. The path to the model is set under “Advanced settings” threshold for retaining frames (acceptance value = 0. 1). This means that the model must be more than 90% confident that a frame does not contain a foreground object to assign a background label. This prioritises minimising false negatives at the potential expense of in- majority of hummingbird visitation events (Weinstein, 2015). For the purposes of this article, I assumed that all events are captured by For training the fine- tuned neural network, I collected images for each class and trained with a batch size of 100 for 20,000 steps. To reduce training time, the feature vectors for the frozen layers were extracted in parallel using Google Cloud DataFlow. These features were then the basis for retraining the new fine- tuned layers. To fit the specifications of the pre- trained frozen layers, the bounding boxes from motion detection were resized into three channel arrays with height and width of 299 pixels. Following Zhang, He, Cao, and Cao (2016), aspect ratios of bounding boxes were not maintained when passing boxes to the neural network. Model performance was measured using true positive rate, true negative rate, and precision. A DeepMeerkat GUI (Figure 2, Figures S1 and S2) is available for download for Mac and Windows with the pre- trained humming- 3 | R E S U L T S Deng, J. , Dong, W. , Socher, R. , Li, L-J. , Li, K. , & Fei-Fei, L. (2009). ImageNet: A large-scale hierarchical image database. 2009 IEEE Conference on Computer Vision and Pattern Recognition, (June), (pp. 248–255). https://doi. org/10. 1109/cvprw. 2009. 5206848 Elias, A. R. , Golubovic, N. , Krintz, C. , & Wolski, R. (2017). Where’s the bear? – Automating wildlife image processing using IoT and edge WEINSTEIN 2041210x, 2018, 6, Downloaded from https://besjournals. onlinelibrary. wiley. com/doi/10. 1111/2041-210X. 13011 by Thuringer Universitats- Und, Wiley Online Library on [16/11/2023]. See the Terms and Conditions (https://onlinelibrary. com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License | 1441 Methods in Ecology and Evolu(cid:13)on Wilf, P. , Zhang, S. , Chikkerur, S. , Little, S. A. , Wing, S. L. , & Serre, T. (2016). Computer vision cracks the leaf code. Proceedings of the National Academy of Sciences of the United States of America, 113, 201524473. Zhang, Z. , He, Z. , Cao, G. , & Cao, W. Animal detection from highly cluttered natural scenes using spatiotemporal object region propos- als and patch verification. IEEE Transactions on Multimedia, 18, 2079– 2092. 1109/TMM. 2016. 2594138 How to cite this article: Weinstein BG. Scene- specific convolutional neural networks for video- based biodiversity detection. Methods Ecol Evol. 2018;9:1435–1441. 13011 S U P P O R T I N G I N FO R M AT I O N Additional supporting information may be found online in the Supporting Information section at the end of the article. Helpful
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. Therefore, I cannot provide a helpful answer to this query.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The deep learning pipeline used the 2012 ImageNet data for training the Inception V3 model. The model was then fine-tuned using a smaller set of training images specific to the ecological project. The specific datasets used for fine-tuning are not mentioned in the provided context.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide specific information on the preprocessing steps involved before training the deep learning model. However, common preprocessing steps for deep learning models include normalization, scaling, and cleaning. Normalization scales the data to a specific range, typically between 0 and 1, to ensure that all features have the same scale. Scaling adjusts the range of the data, often to a standard range such as -1 to 1 or 0 to 1. Cleaning involves removing or correcting any errors or inconsistencies in the data. These steps are important to ensure that the model can accurately learn from the data and make accurate predictions.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: The code repository link of the deep learning pipeline is not provided in the given context.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a convolutional neural network (CNN) model, specifically Google's Inception V3 model, which was originally trained on the 2012 ImageNet data. The model is fine-tuned for the specific task by freezing the lower layers of the architecture and retraining the top layers to better fit the new dataset.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The context does not provide information on the hyperparameters used in the deep learning model, such as the learning rate or optimizer.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The context does not provide information on the specific optimization techniques applied in the deep learning pipeline. Therefore, I cannot provide an answer to this query.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The paper "Dropout: A simple way to prevent neural networks from overfitting" by Srivastava et al. (2014) discusses the use of dropout as a regularization method to prevent overfitting in neural networks. The paper "Deep background subtraction with scene-specific convolutional neural networks" by Braham and Van Droogenbroeck (2016) also mentions the use of L2 regularization as a regularization method.
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The deep learning model is built using TensorFlow.
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide specific information about the hardware resources used for training the deep learning model. However, it does mention that feature extraction of the fixed inception layers completed in 1 hr and 26 min on 15 CPUs, and training of the new layers completed in 27 min on a single CPU. This suggests that the model was trained using CPUs.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using true positive rate, true negative rate, and precision.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is for classification. It is used to classify frames as either containing a foreground object (hummingbird) or background objects (vegetation and sky).
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

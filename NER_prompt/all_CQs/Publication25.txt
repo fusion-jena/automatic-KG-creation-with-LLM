@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The study used data from the National Ecological Observatory Network (NEON) site at the San Joaquin Experimental Range in California. The site contains an open woodland of live oak (Quercus agrifolia), blue oak (Quercus douglasii), and foothill pine (Pinus sabiniana) forest. The majority of the site is a single-story canopy with mixed understory of herbaceous vegetation. The data collection method is not explicitly mentioned in the provided context, but it can be inferred that the data was collected using remote sensing methods, such as Light Detection and Ranging (LIDAR) and RGB imagery.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The deep learning pipeline uses RGB data, which is a type of image data. It also uses LIDAR data, which is a type of point cloud data.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The deep learning pipeline uses a combination of unsupervised and supervised approaches for data annotation. Initially, a LIDAR-based unsupervised algorithm generates initial tree predictions, and the bounding box for each tree is extracted. This is followed by a self-supervised model trained on the RGB crops of the extracted bounding boxes. The model is then retrained using a small number of hand-annotations to correct errors from the unsupervised detection. The LIDAR data is only used to initialize the training of the network and is not used for the final prediction step. The result is a deep learning neural network that combines unsupervised and supervised approaches to perform tree delineation in new RGB imagery without the need for co-registered LIDAR data.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. Therefore, I don't know the answer.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are not explicitly mentioned in the provided context. However, the context does mention that the pipeline uses RGB data and LIDAR data. It also mentions that the pipeline is used for detecting tree crowns. Therefore, it can be inferred that the datasets used in the pipeline are likely related to remote sensing and tree detection.
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide information on the specific preprocessing steps involved before training a deep learning model. However, common preprocessing steps for deep learning models include normalization, scaling, and cleaning. Normalization involves scaling the input data to a specific range, such as between 0 and 1. Scaling involves adjusting the input data to have a mean of 0 and a standard deviation of 1. Cleaning involves removing any irrelevant or incorrect data from the input dataset.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training (e. g. , train, test, validation).
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, I cannot provide the exact location of the code repository. However, it is mentioned that the pipeline uses a LIDAR-based unsupervised detection to generate initial training data for a self-supervised RGB deep learning model, which is then retrained based on a small number of hand-annotated trees to create the full model.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The data repository of the deep learning pipeline is available on Zenodo. %Explanation Explanation: The context mentions that the data repository of the deep learning pipeline is available on Zenodo. %Context Context: 18. Weinstein, B. ; White, E. Weecology/DeepLidar: Resubmission II, Version 3. 0. Available online: http://doi. org/10. 5281/zenodo. 3066235 (accessed on 1 June 2019).
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: The code for this project is available on GitHub (<https://github. com/weecology/DeepLidar>) and archived on Zenodo [18].
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: The data repository link of the deep learning pipeline is available on Zenodo at <http://doi. org/10. 5281/zenodo. 3066235>.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a self-supervised red, green, blue (RGB) deep learning model.
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The context does not provide information on the hyperparameters used in the deep learning model, such as the learning rate or optimizer.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The context does not provide information on how the hyperparameters of the model are optimized.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The provided context does not mention any specific optimization techniques applied in the deep learning pipeline, such as SGD or Adam.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The context does not provide information on the criteria used to determine when training is complete.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The provided context does not mention any specific regularization methods used to prevent overfitting in the deep learning pipeline. However, it does mention that self-supervision, which only relies on unlabeled data, can be combined with labeled data in a semi-supervised framework, which may improve deep learning on limited training data by providing neural networks the opportunity to learn generalized features on a wider array of training examples, followed by retraining on a smaller number of high quality annotations. This approach could potentially help prevent overfitting, but the context does not provide specific details on the regularization methods used.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is not explicitly mentioned in the provided context. However, it is mentioned that the model was evaluated using field-collected stem recall and hand-annotated crown area recall and precision. It is also mentioned that the model was trained using a self-supervised approach and then retrained with hand-annotated trees.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The context does not provide information on the specific frameworks used to build the deep learning model.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the specific hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: The context does not provide information on the postprocessing steps involved after the model training.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The evaluation metrics used for the deep learning model are stem recall, precision, and recall for crown overlap. Stem recall was calculated using field-collected tree stem locations, while precision and recall for crown overlap were calculated on hand-annotated bounding boxes around each tree crown with a minimum predicted probability threshold of 0. 5.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The paper does not explicitly mention any specific measures taken to ensure the generalizability of the deep learning model, such as using a diverse dataset, cross-validation, or stratified splitting. However, it does mention that accurate tree detection will likely be region-specific and that the best model will vary among environments. This suggests that the authors acknowledge the need for training a new model for each geographic area using both RGB and LIDAR training data. Additionally, the paper mentions that the National Ecological Observatory Network has 45 forested NEON sites that could serve as pools of LIDAR and RGB data at 10,000 ha scales for regional model training. This could potentially improve the generalizability of the model by training it on a more diverse dataset.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The provided context does not explicitly mention strategies for handling randomness in the deep learning pipeline, such as random seed values. However, common strategies for handling randomness in deep learning include setting a fixed random seed value for reproducibility, using techniques like ensemble learning to average out the effects of randomness, or employing deterministic algorithms where possible.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is to perform tree delineation in new RGB imagery without the need for co-registered LIDAR data. This provides the potential for expanding the use of deep learning in remote sensing applications with limited labeled data.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The context does not provide information on the specific techniques used to address data bias during preprocessing of the deep learning pipeline. Therefore, I don't know the answer to this question based on the provided context.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The provided context does not contain information on the process followed to deploy the trained deep learning model, such as model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

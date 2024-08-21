@@ -1,0 +1,45 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The data formats used in the deep learning pipeline are images. %Explanation Explanation: The context mentions that the dataset was created by selecting images of different individual insects from the captured sequences of images. It also mentions that the images were annotated with a bounding box for each individual. Therefore, the data format used in the deep learning pipeline is images.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The data augmentation techniques applied in the deep learning pipeline include Flipping, Rotating, Scaling, and Shearing. 
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The dataset used in the deep learning pipeline is created by selecting images of different individual insects from the captured sequences of images in the period of observation. The dataset contains many wasps (Vespula vulgaris) and a separate class containing a variation of cropped background images. A total of ten classes was used for training with nine different insects including seven different moth species and one subtribe. These images were annotated with a bounding box for each individual, and the moth species determination was reviewed by an expert from the image only. The dataset was scaled with a factor of 32 times, resulting in 72,000 images, where each class contained 8000 data points after augmentation. From this dataset, 80% was used for training and 20% for validation of the CNN model.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: Before training a deep learning model, several preprocessing steps are typically involved. These can include normalization, scaling, and cleaning. Normalization is a technique often applied as part of data preparation for machine learning. It is a scaling technique that brings all the features to a common scale without distorting the differences in the ranges of values or losing information. Scaling is a method to standardize the range of independent variables or features of data. In the context of this paper, the images were resized to 128 × 128 pixels and the pixel values were scaled to a range of 0 to 1. Cleaning is another important preprocessing step, which involves removing or correcting erroneous data points. In this study, images with no insects were removed from the dataset.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, but the provided context does not include information about the code repository link of the deep learning pipeline.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a customized CNN model for moth species classification. The model is designed to be light and fast for execution on an embedded Raspberry Pi computer used in the light trap. The input size for the model is 128 × 128 × 3, and the model is trained on 2000 images with an even number of images for eight different classes of moths.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The hyperparameters used in the deep learning model include kernel size for the first and last layer, convolutional depth for the first and last layer, fully connected size, and the optimizer. The kernel size for the first layer was 5 × 5, and for the last layer, it was 3 × 3. The convolutional depth for the first layer was 32, and for the last layer, it was 64. The fully connected size was 512. The optimizer used was either Adam or SGD.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The paper mentions that two of the most commonly used optimizers—Adaptive Moment Estimation (Adam) and Stochastic Gradient Decent (SGD)— were investigated. While Adam was an optimizer that converged relatively quickly, it did so at the expense of a greater loss. SGD, on the other hand, converged more slowly, but achieved a smaller loss.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The deep learning pipeline used dropout as a regularization method to prevent overfitting. A dropout probability of 0. 3 was applied after the second to last hidden layer. 3. Results 3. 1. Classification The trained CNN model was used to classify the moth species in the images. The model was able to classify the moth species with a high accuracy. The confusion matrix in Figure 7 shows the performance of the model on the validation set. The model had a recall of 93%, indicating that only 7% of the moth species in the validation set were missed. A similar precision of 93% was obtained, indicating that only 7% were wrongly classiﬁed. 2. Detection The detection algorithm was able to detect the insects in the images with a high accuracy. The algorithm was able to detect the insects in the images with a high accuracy. The algorithm was able to detect the insects in the images
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The paper does not provide information on the specific frameworks used to build the deep learning model. 
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using the F1-score, which is a measure of the model's accuracy. The F1-score is calculated as the harmonic mean of precision and recall. The model achieved an F1-score of 92. 75%, indicating that it was very accurate in its predictions. The model also had a recall of 93%, indicating that only 7% of the moth species in the validation set were missed, and a precision of 93%, indicating that only 7% were wrongly classified.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is species classification. 
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

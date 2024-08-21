@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The deep learning pipeline in this paper uses audio data for bird species classification from flight calls.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The data augmentation techniques applied in the deep learning pipeline include adding background noise (from 4 different field recordings), dynamic range compression (using 4 parameterizations: music, film, speech, radio), pitch shifting (by 4 conservative values of -0. 5, -0. 25, 0. 5 semi tones, and 4 less conservative values of -2, -1, 1, 2 semitones), and time stretching (by 4 ratios: 0. 81, 0. 93, 1. 07, 1. 23). The augmentations are applied using the MUDA library [30].
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The dataset used in the deep learning pipeline is the publicly available CLO-43SD dataset, which is comprised of 5428 audio clips of flight calls from 43 different species of North American wood- warblers.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide information on the preprocessing steps involved before training a deep learning model. However, common preprocessing steps for deep learning models include normalization, scaling, and cleaning. Normalization involves scaling the input features to a range between 0 and 1, while scaling involves standardizing the input features to have a mean of 0 and a standard deviation of 1. Cleaning involves removing or correcting any errors or inconsistencies in the data.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, but the provided context does not include information about the code repository link of the deep learning pipeline.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a deep convolutional neural network (CNN) model.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The deep learning model uses a constant learning rate of 0. 01 and applies dropout to the input of the last two layers with probability 0. 5. L2-regularization is applied to the weights of the last two layers with a penalty factor of 0. 001. The model is trained for 100 epochs and is checkpointed after each epoch. A validation set is used to identify the parameter setting (epoch) achieving the highest classification accuracy. The model optimizes cross-entropy loss via mini-batch stochastic gradient descent.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The model optimizes cross-entropy loss via mini-batch stochastic gradient descent (SGD) with a constant learning rate of 0. 01. Dropout is applied to the input of the last two layers with probability 0. 5, and L2-regularization is applied to the weights of the last two layers with a penalty factor of 0. 001.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The deep learning pipeline uses dropout and L2 regularization to prevent overfitting. Dropout is applied to the input of the last two layers with probability 0. 5, and L2-regularization is applied to the weights of the last two layers with a penalty factor of 0. 001.
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The deep learning model is built using Lasagne, a lightweight library to build and train neural networks in Theano.
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated in terms of classification accuracy. The methods compared in this study are evaluated using 5-fold cross validation, and the results are reported as a box-plot generated from the per-fold accuracies. For identifying the best training epoch for the CNN model, 1 of the 4 training folds is used as a validation set, and the model is trained on the remaining 3 folds. The mean accuracies are indicated by the red squares in Figure 1.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is for classification. It is used to classify migrating birds' flight calls into different species. 
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

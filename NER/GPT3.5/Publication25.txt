@@ -1,0 +1,7 @@
+Named Entities:
+DataFormat(RGB data, LIDAR data)
+Dataset(no specific dataset mentioned, inferred to be related to remote sensing and tree detection)
+CodeRepositoryLink(https://github.com/weecology/DeepLidar)
+DeepLearningModel(self-supervised red, green, blue (RGB) deep learning model)
+PerformanceMetric(stem recall, precision, recall for crown overlap)
+ModelPurpose(tree delineation in RGB imagery without co-registered LIDAR data)

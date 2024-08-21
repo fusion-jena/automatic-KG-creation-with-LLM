@@ -1,0 +1,20 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Benthoz15 a dlprov:Dataset .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:activation_vectors_of_the_first_fully_connected_layer_of_a_pre-trained_VGGnet a dlprov:DataFormat .
+
+dlprov:automatic_annotation_of_unlabelled_coral_images_and_mosaics_from_the_Abrolhos_Islands_in_Western_Australia a dlprov:ModelPurpose .
+
+dlprov:classification_accuracy_greater_than_90%25 a dlprov:PerformanceMetric .
+
+dlprov:coral_reef_classification a dlprov:ModelPurpose .
+
+dlprov:image_data a dlprov:DataFormat .
+

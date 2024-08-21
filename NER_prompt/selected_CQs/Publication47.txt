@@ -1,0 +1,46 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
+Answer: The context does not provide information on the specific data formats used in the deep learning pipeline. However, it mentions that the algorithm is based on digitally available occurrence records, which could suggest the use of structured data formats such as CSV or similar.
+
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. Therefore, I cannot provide an answer to this question.
+
+CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
+Answer: The deep learning pipeline used in this study is not based on common datasets such as MNIST, CIFAR, or ImageNet. Instead, it uses a dataset of orchid species occurrence records, which includes features such as geographic, climatic, and biome data. The dataset was obtained from the Global Biodiversity Information Facility (GBIF) and the World Checklist of Selected Plant Families (WCSP). The dataset was filtered to include only species with at least 15 occurrence records available for assessment and that were assessed under the IUCN Red List categories and criteria version 3. 1. The dataset was then split into a training set (90% of the entries) and a test set (10%), with 20% of the training set used for validation.
+
+CQ: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: Before training a deep learning model, several preprocessing steps are typically involved. These can include normalization, scaling, and cleaning of the data. Normalization is the process of rescaling the data to a standard range, often between 0 and 1, to ensure that all features have the same scale and do not dominate others. Scaling is a similar process, but it rescales the data to a specific range, such as -1 to 1. Cleaning the data involves removing or correcting any errors, inconsistencies, or missing values in the data set. These preprocessing steps are important to ensure that the model can accurately learn from the data and make reliable predictions.
+
+CQ: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: The code repository link of the deep learning pipeline is available at https://github. com/azizka/IUCNN.
+
+CQ: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The type of deep learning model used in the pipeline is a neural network (NN) model, specifically a deep neural network algorithm called IUC-NN.
+
+CQ: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The provided context does not mention the specific hyperparameters used in the deep learning model, such as the learning rate or optimizer.
+
+CQ: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The context does not provide information on the specific optimization techniques applied in the deep learning pipeline. Therefore, I cannot provide an answer to this query.
+
+CQ: What are the regularization methods used to prevent overfitting  in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The context does not provide information on the specific regularization methods used to prevent overfitting in the deep learning pipeline.
+
+CQ: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The deep learning model, IUC-NN, is built using the Python TensorFlow library.
+
+CQ: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the specific hardware resources used for training the deep learning model, such as GPUs or TPUs.
+
+CQ: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model, IUC-NN, is evaluated using accuracy and cross-entropy loss. The accuracy is measured for both binary (possibly threatened vs. not threatened) and detailed (CR, EN, VU, NT, and LC) conservation status predictions. Cross-entropy loss is used to quantify the average validation loss during cross-validation.
+
+CQ: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model, IUC-NN, is to predict the conservation status of unevaluated orchid species. It is based on 4 groups of features derived from digitally available occurrence records: geographic, climatic, biome, and phylogenetic. The model was implemented as an R package and is based on the Python TensorFlow library.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ...

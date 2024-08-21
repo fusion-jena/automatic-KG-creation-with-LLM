@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: images
+DataAugmentationTechnique: Flipping, Rotating, Scaling, Shearing
+Dataset: dataset of individual insects, including wasps (Vespula vulgaris), seven different moth species, one subtribe, 72,000 images, 10 classes, 80% training, 20% validation
+PreprocessingStep: resizing images to 128 × 128 pixels, scaling pixel values to a range of 0 to 1, removing images with no insects
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: customized CNN model
+Hyperparameter: kernel size (first layer 5 × 5, last layer 3 × 3), convolutional depth (first layer 32, last layer 64), fully connected size (512), optimizer (Adam or SGD)
+OptimizationTechnique: Adam, Stochastic Gradient Descent (SGD)
+RegularizationMethod: dropout (dropout probability 0.3)
+Framework: [Not provided]
+HardwareResource: [Not provided]
+PerformanceMetric: F1-score, Precision, Recall, Accuracy
+ModelPurpose: species classification

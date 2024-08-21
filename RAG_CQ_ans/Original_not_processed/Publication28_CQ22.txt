@@ -1,0 +1,17 @@
+ The performance of the deep learning model is evaluated using various metrics such as precision,
+recall, F1-score, and F2-score.  %Query Query: "What is the structure of the EfficientNet model?"
+Helpful Answer: The EfficientNet model is a deep learning model that is used for feature extraction.
+It consists of various modules such as convolution, pooling layer, fully connected (FC) layers, and
+activation function. The EfficientNet framework is a compound scaling approach that utilizes a
+compound coefficient for uniformly scaling network width, depth, and resolution. It has 8 different
+techniques in B0 to B7. EfficientNet uses inverted bottleneck convolutional that is initially
+established in the MobileNetV2 method. The framework decreases calculation by the factor of 2 as
+related to normal convolutional. EfficientNetB0 is the simplest of all 8 techniques and utilizes
+less parameters. Therefore, it is directly utilized EfficientNetB0 for evaluating efficiency.
+%Query Query: "What is the purpose of the IKHO algorithm in the PTDLEN-VAE model?"  Helpful Answer:
+The purpose of the IKHO algorithm in the PTDLEN-VAE model is to optimize the parameters of the
+model. The IKHO algorithm is a metaheuristic optimization algorithm that is inspired by the behavior
+of krill herds. It is used to find the optimal values of the parameters of the PTDLEN-VAE model,
+such as the learning rate, batch size, and number of epochs. The IKHO algorithm is used to improve
+the performance of the PTDLEN-VAE model by finding the best set of parameters that maximize its
+accuracy and minimize its error rate.

@@ -1,0 +1,267 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dlprov:CodeRepository a owl:Class ;
+    rdfs:label "CodeRepository"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DataAnnotationTechnique a owl:Class ;
+    rdfs:label "DataAnnotationTechnique"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DataAugmentationTechnique a owl:Class ;
+    rdfs:label "DataAugmentationTechnique"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DataFormat a owl:Class ;
+    rdfs:label "DataFormat"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DataRepository a owl:Class ;
+    rdfs:label "DataRepository"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DataSplitCriteria a owl:Class ;
+    rdfs:label "DataSplitCriteria"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:Dataset a owl:Class ;
+    rdfs:label "Dataset"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DeepLearningFramework a owl:Class ;
+    rdfs:label "DeepLearningFramework"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DeepLearningModelType a owl:Class ;
+    rdfs:label "DeepLearningModelType"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DeepLearningPipeline a owl:Class ;
+    rdfs:label "DeepLearningPipeline"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:EvaluationMetric a owl:Class ;
+    rdfs:label "EvaluationMetric"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:GeneralizabilityMeasure a owl:Class ;
+    rdfs:label "GeneralizabilityMeasure"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:HardwareResource a owl:Class ;
+    rdfs:label "HardwareResource"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:Hyperparameter a owl:Class ;
+    rdfs:label "Hyperparameter"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:HyperparameterOptimizationTechnique a owl:Class ;
+    rdfs:label "HyperparameterOptimizationTechnique"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:ModelPurpose a owl:Class ;
+    rdfs:label "ModelPurpose"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:MonitoringStrategy a owl:Class ;
+    rdfs:label "MonitoringStrategy"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:OptimizationTechnique a owl:Class ;
+    rdfs:label "OptimizationTechnique"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:PostprocessingStep a owl:Class ;
+    rdfs:label "PostprocessingStep"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:PreprocessingStep a owl:Class ;
+    rdfs:label "PreprocessingStep"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:RandomnessHandlingStrategy a owl:Class ;
+    rdfs:label "RandomnessHandlingStrategy"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:RawDataCollectionMethod a owl:Class ;
+    rdfs:label "RawDataCollectionMethod"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:RegularizationMethod a owl:Class ;
+    rdfs:label "RegularizationMethod"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:TrainingCompletionCriteria a owl:Class ;
+    rdfs:label "TrainingCompletionCriteria"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:addressesDataBias a owl:ObjectProperty ;
+    rdfs:label "addressesDataBias"^^xsd:string .
+
+dlprov:codeRepositoryLink a owl:DatatypeProperty ;
+    rdfs:label "codeRepositoryLink"^^xsd:string .
+
+dlprov:dataRepositoryLink a owl:DatatypeProperty ;
+    rdfs:label "dataRepositoryLink"^^xsd:string .
+
+dlprov:ensuresGeneralizability a owl:ObjectProperty ;
+    rdfs:label "ensuresGeneralizability"^^xsd:string .
+
+dlprov:hasCodeRepository a owl:ObjectProperty ;
+    rdfs:label "hasCodeRepository"^^xsd:string .
+
+dlprov:hasDataAnnotationTechnique a owl:ObjectProperty ;
+    rdfs:label "hasDataAnnotationTechnique"^^xsd:string .
+
+dlprov:hasDataAugmentationTechnique a owl:ObjectProperty ;
+    rdfs:label "hasDataAugmentationTechnique"^^xsd:string .
+
+dlprov:hasDataFormat a owl:ObjectProperty ;
+    rdfs:label "hasDataFormat"^^xsd:string .
+
+dlprov:hasDataRepository a owl:ObjectProperty ;
+    rdfs:label "hasDataRepository"^^xsd:string .
+
+dlprov:hasDataSplitCriteria a owl:ObjectProperty ;
+    rdfs:label "hasDataSplitCriteria"^^xsd:string .
+
+dlprov:hasDataset a owl:ObjectProperty ;
+    rdfs:label "hasDataset"^^xsd:string .
+
+dlprov:hasHyperparameter a owl:ObjectProperty ;
+    rdfs:label "hasHyperparameter"^^xsd:string .
+
+dlprov:hasLink a owl:ObjectProperty ;
+    rdfs:label "hasLink"^^xsd:string .
+
+dlprov:hasModelPurpose a owl:ObjectProperty ;
+    rdfs:label "hasModelPurpose"^^xsd:string .
+
+dlprov:hasMonitoringStrategy a owl:ObjectProperty ;
+    rdfs:label "hasMonitoringStrategy"^^xsd:string .
+
+dlprov:hasRawDataCollectionMethod a owl:ObjectProperty ;
+    rdfs:label "hasRawDataCollectionMethod"^^xsd:string .
+
+dlprov:hasTrainingCompletionCriteria a owl:ObjectProperty ;
+    rdfs:label "hasTrainingCompletionCriteria"^^xsd:string .
+
+dlprov:involvesPostprocessingStep a owl:ObjectProperty ;
+    rdfs:label "involvesPostprocessingStep"^^xsd:string .
+
+dlprov:involvesPreprocessingStep a owl:ObjectProperty ;
+    rdfs:label "involvesPreprocessingStep"^^xsd:string .
+
+dlprov:usesDeepLearningFramework a owl:ObjectProperty ;
+    rdfs:label "usesDeepLearningFramework"^^xsd:string .
+
+dlprov:usesDeepLearningModelType a owl:ObjectProperty ;
+    rdfs:label "usesDeepLearningModelType"^^xsd:string .
+
+dlprov:usesEvaluationMetric a owl:ObjectProperty ;
+    rdfs:label "usesEvaluationMetric"^^xsd:string .
+
+dlprov:usesHardwareResource a owl:ObjectProperty ;
+    rdfs:label "usesHardwareResource"^^xsd:string .
+
+dlprov:usesHyperparameterOptimizationTechnique a owl:ObjectProperty ;
+    rdfs:label "usesHyperparameterOptimizationTechnique"^^xsd:string .
+
+dlprov:usesOptimizationTechnique a owl:ObjectProperty ;
+    rdfs:label "usesOptimizationTechnique"^^xsd:string .
+
+dlprov:usesRandomnessHandlingStrategy a owl:ObjectProperty ;
+    rdfs:label "usesRandomnessHandlingStrategy"^^xsd:string .
+
+dlprov:usesRegularizationMethod a owl:ObjectProperty ;
+    rdfs:label "usesRegularizationMethod"^^xsd:string .
+
+dlprov:isBuiltBy a owl:ObjectProperty ;
+    rdfs:label "isBuiltBy"^^xsd:string ;
+    owl:inverseOf dlprov:isBuiltBy .
+
+dlprov:isCodeRepositoryOf a owl:ObjectProperty ;
+    rdfs:label "isCodeRepositoryOf"^^xsd:string ;
+    owl:inverseOf dlprov:isCodeRepositoryOf .
+
+dlprov:isDataAnnotationTechniqueOf a owl:ObjectProperty ;
+    rdfs:label "isDataAnnotationTechniqueOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataAnnotationTechniqueOf .
+
+dlprov:isDataAugmentationTechniqueOf a owl:ObjectProperty ;
+    rdfs:label "isDataAugmentationTechniqueOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataAugmentationTechniqueOf .
+
+dlprov:isDataFormatOf a owl:ObjectProperty ;
+    rdfs:label "isDataFormatOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataFormatOf .
+
+dlprov:isDataRepositoryOf a owl:ObjectProperty ;
+    rdfs:label "isDataRepositoryOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataRepositoryOf .
+
+dlprov:isDataSplitCriteriaOf a owl:ObjectProperty ;
+    rdfs:label "isDataSplitCriteriaOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataSplitCriteriaOf .
+
+dlprov:isDatasetOf a owl:ObjectProperty ;
+    rdfs:label "isDatasetOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDatasetOf .
+
+dlprov:isEvaluatedBy a owl:ObjectProperty ;
+    rdfs:label "isEvaluatedBy"^^xsd:string ;
+    owl:inverseOf dlprov:isEvaluatedBy .
+
+dlprov:isGeneralizableBy a owl:ObjectProperty ;
+    rdfs:label "isGeneralizableBy"^^xsd:string ;
+    owl:inverseOf dlprov:isGeneralizableBy .
+
+dlprov:isHandledBy a owl:ObjectProperty ;
+    rdfs:label "isHandledBy"^^xsd:string ;
+    owl:inverseOf dlprov:isHandledBy .
+
+dlprov:isHyperparameterOf a owl:ObjectProperty ;
+    rdfs:label "isHyperparameterOf"^^xsd:string ;
+    owl:inverseOf dlprov:isHyperparameterOf .
+
+dlprov:isModelOf a owl:ObjectProperty ;
+    rdfs:label "isModelOf"^^xsd:string ;
+    owl:inverseOf dlprov:isModelOf .
+
+dlprov:isMonitoredBy a owl:ObjectProperty ;
+    rdfs:label "isMonitoredBy"^^xsd:string ;
+    owl:inverseOf dlprov:isMonitoredBy .
+
+dlprov:isOptimizedBy a owl:ObjectProperty ;
+    rdfs:label "isOptimizedBy"^^xsd:string ;
+    owl:inverseOf dlprov:isOptimizedBy .
+
+dlprov:isPostprocessedBy a owl:ObjectProperty ;
+    rdfs:label "isPostprocessedBy"^^xsd:string ;
+    owl:inverseOf dlprov:isPostprocessedBy .
+
+dlprov:isPreprocessingStepOf a owl:ObjectProperty ;
+    rdfs:label "isPreprocessingStepOf"^^xsd:string ;
+    owl:inverseOf dlprov:isPreprocessingStepOf .
+
+dlprov:isRawDataCollectionMethodOf a owl:ObjectProperty ;
+    rdfs:label "isRawDataCollectionMethodOf"^^xsd:string ;
+    owl:inverseOf dlprov:isRawDataCollectionMethodOf .
+
+dlprov:isRegularizedBy a owl:ObjectProperty ;
+    rdfs:label "isRegularizedBy"^^xsd:string ;
+    owl:inverseOf dlprov:isRegularizedBy .
+
+dlprov:isTrainedOn a owl:ObjectProperty ;
+    rdfs:label "isTrainedOn"^^xsd:string ;
+    owl:inverseOf dlprov:isTrainedOn .
+
+dlprov:isTrainingCompleteBy a owl:ObjectProperty ;
+    rdfs:label "isTrainingCompleteBy"^^xsd:string ;
+    owl:inverseOf dlprov:isTrainingCompleteBy .
+

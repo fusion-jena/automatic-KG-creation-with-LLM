@@ -1,0 +1,56 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:100_Epochs a dlprov:TrainingCompletionCriteria .
+
+dlprov:5-Fold_Cross_Validation a dlprov:ModelPerformanceMonitoringStrategy .
+
+dlprov:Adding_Background_Noise a dlprov:DataAugmentationTechnique .
+
+dlprov:Audio a dlprov:DataFormat .
+
+dlprov:Audio_Data a dlprov:RawData .
+
+dlprov:CLO-43SD a dlprov:Dataset .
+
+dlprov:Checkpointing_After_Each_Epoch a dlprov:TrainingCompletionCriteria .
+
+dlprov:Classification a dlprov:ModelPurpose .
+
+dlprov:Classification_Accuracy a dlprov:ModelPerformanceMonitoringStrategy .
+
+dlprov:Cleaning a dlprov:PreprocessingStep .
+
+dlprov:Cross-Entropy_Loss a dlprov:HyperparameterOptimization .
+
+dlprov:Deep_Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Deep_Learning_Pipeline a dlprov:Method .
+
+dlprov:Dropout a dlprov:Hyperparameter,
+        dlprov:RegularizationMethod .
+
+dlprov:Dynamic_Range_Compression a dlprov:DataAugmentationTechnique .
+
+dlprov:L2-Regularization a dlprov:Hyperparameter,
+        dlprov:RegularizationMethod .
+
+dlprov:Lasagne a dlprov:Framework .
+
+dlprov:Learning_Rate a dlprov:Hyperparameter .
+
+dlprov:Mini-Batch_Stochastic_Gradient_Descent a dlprov:HyperparameterOptimization .
+
+dlprov:Normalization a dlprov:PreprocessingStep .
+
+dlprov:Pitch_Shifting a dlprov:DataAugmentationTechnique .
+
+dlprov:Scaling a dlprov:PreprocessingStep .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:Theano a dlprov:Framework .
+
+dlprov:Time_Stretching a dlprov:DataAugmentationTechnique .
+
+dlprov:Validation_Set a dlprov:TrainingCompletionCriteria .
+

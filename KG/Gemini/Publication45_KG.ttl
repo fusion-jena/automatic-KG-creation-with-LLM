@@ -1,0 +1,45 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:5_fully_connected_layers a dlprov:DeepLearningModel .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Bark_beetle_outbreak_prediction a dlprov:ModelPurpose .
+
+dlprov:CNN_with_5_convolutional_layers a dlprov:DeepLearningModel .
+
+dlprov:Conditional_kappa a dlprov:PerformanceMetric .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:F1_score a dlprov:PerformanceMetric .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:Normalization a dlprov:PreprocessingStep .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Stochastic_gradient_descent a dlprov:OptimizationTechnique .
+
+dlprov:True_skill_statistic a dlprov:PerformanceMetric .
+
+dlprov:and_a_softmax_layer a dlprov:DeepLearningModel .
+
+dlprov:but_common_techniques_include_dropout_and_L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:but_common_techniques_include_flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:cleaning_-_common_techniques a dlprov:PreprocessingStep .
+
+dlprov:cropping a dlprov:DataAugmentationTechnique .
+
+dlprov:rotating a dlprov:DataAugmentationTechnique .
+
+dlprov:scaling a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+

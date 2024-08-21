@@ -1,0 +1,7 @@
+ After the model training, the postprocessing steps involved in the Sashimi toolkit include using
+the trained model to segment new images, evaluating the segmentation performance using metrics such
+as Intersection over Union (IoU) and pixel accuracy, and visualizing the segmentation results using
+tools such as saliency maps. The toolkit also includes a script to aid users in qualitatively and
+quantitatively assessing model performance for complementary sets of automatically and manually
+segmented images. However, the specific postprocessing steps may vary depending on the use case and
+the desired level of detail in the analysis.

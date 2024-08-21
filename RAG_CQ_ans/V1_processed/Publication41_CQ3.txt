@@ -1,0 +1,1 @@
+The provided context does not mention any specific data annotation techniques used in the deep learning pipeline, such as bounding box annotation or instance segmentation. Therefore, I cannot provide a helpful answer to this query based on the given context. 

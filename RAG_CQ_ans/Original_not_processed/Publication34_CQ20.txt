@@ -1,0 +1,1005 @@
+ The context does not provide information on the hardware resources used for training the deep
+learning model.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the batch size used for training the deep learning model?"
+Helpful Answer: The batch size used for training the deep learning model is 50.  %Query Query: "What
+is the momentum used for training the deep learning model?"  Helpful Answer: The momentum used for
+training the deep learning model is 0.9.  %Query Query: "What is the stochastic gradient descent
+algorithm used for training the deep learning model?"  Helpful Answer: The stochastic gradient
+descent algorithm used for training the deep learning model has a momentum of 0.9, a batch-size of
+50, and an initial learning rate of 10−.  %Query Query: "What is the average slope of the training
+mean loss used for stopping the training of the deep learning model?"  Helpful Answer: The training
+of the deep learning model is stopped when the average slope of the training mean loss has an
+absolute difference to 0 on the last 100 epochs.  %Query Query: "What is the time taken for training
+the SNN, DNN, and CNN models?"  Helpful Answer: The learning took approximately 5 min for SNN, 10
+min for DNN, and 5 h for CNN (independently of the version).  %Query Query: "What is the loss
+function used for training the deep learning model?"  Helpful Answer: The loss function used for
+training the deep learning model is the mean loss, which is relevant regarding the ecological model
+and is the objective function that is minimized during model training.  %Query Query: "What is the
+performance metric used for evaluating the deep learning model?"  Helpful Answer: The performance
+metrics used for evaluating the deep learning model are the mean loss, root mean square error
+(Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query Query: "What is the test set used for
+testing the deep learning model?"  Helpful Answer: The test set used for testing the deep learning
+model is a disjoint and randomly sampled subset of sites (400 sites) which aims at testing models
+generalization capacities.  %Query Query: "What is the train set used for fitting the deep learning
+model?"  Helpful Answer: The train set used for fitting the deep learning model is a disjoint and
+randomly sampled subset of sites (4781 sites).  %Query Query: "What is the average of the Rmse
+computed over species of E50?"  Helpful Answer: The average of the Rmse is computed over species of
+E50 by averaging the metric over each species response of the same model in the multi-response case,
+and by averaging the metric over the 50 independently learned models in the mono-response case.
+%Query Query: "What is the average of the loss computed over species of E50?"  Helpful Answer: The
+average of the loss is computed over species of E50 by averaging the metric over each species
+response of the same model in the multi-response case, and by averaging the metric over the 50
+independently learned models in the mono-response case.  %Query Query: "What is the accuracy on 10%
+densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful Answer: The
+accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model by
+calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The initial learning rate
+used for training the deep learning model is 10−.  %Query Query: "What is the momentum used for
+training the deep learning model?"  Helpful Answer: The momentum used for training the deep learning
+model is 0.9.  %Query Query: "What is the stochastic gradient descent algorithm used for training
+the deep learning model?"  Helpful Answer: The stochastic gradient descent algorithm used for
+training the deep learning model has a momentum of 0.9, a batch-size of 50, and an initial learning
+rate of 10−.  %Query Query: "What is the average slope of the training mean loss used for stopping
+the training of the deep learning model?"  Helpful Answer: The training of the deep learning model
+is stopped when the average slope of the training mean loss has an absolute difference to 0 on the
+last 100 epochs.  %Query Query: "What is the time taken for training the SNN, DNN, and CNN models?"
+Helpful Answer: The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN
+(independently of the version).  %Query Query: "What is the loss function used for training the deep
+learning model?"  Helpful Answer: The loss function used for training the deep learning model is the
+mean loss, which is relevant regarding the ecological model and is the objective function that is
+minimized during model training.  %Query Query: "What is the performance metric used for evaluating
+the deep learning model?"  Helpful Answer: The performance metrics used for evaluating the deep
+learning model are the mean loss, root mean square error (Rmse), and accuracy on 10% densest
+quadrats (A10%DQ).  %Query Query: "What is the test set used for testing the deep learning model?"
+Helpful Answer: The test set used for testing the deep learning model is a disjoint and randomly
+sampled subset of sites (400 sites) which aims at testing models generalization capacities.  %Query
+Query: "What is the train set used for fitting the deep learning model?"  Helpful Answer: The train
+set used for fitting the deep learning model is a disjoint and randomly sampled subset of sites
+(4781 sites).  %Query Query: "What is the average of the Rmse computed over species of E50?"
+Helpful Answer: The average of the Rmse is computed over species of E50 by averaging the metric over
+each species response of the same model in the multi-response case, and by averaging the metric over
+the 50 independently learned models in the mono-response case.  %Query Query: "What is the average
+of the loss computed over species of E50?"  Helpful Answer: The average of the loss is computed over
+species of E50 by averaging the metric over each species response of the same model in the multi-
+response case, and by averaging the metric over the 50 independently learned models in the mono-
+response case.  %Query Query: "What is the accuracy on 10% densest quadrats (A10%DQ) used for
+evaluating the deep learning model?"  Helpful Answer: The accuracy on 10% densest quadrats (A10%DQ)
+is used for evaluating the deep learning model by calculating the proportion of the 10% densest
+quadrats that are correctly predicted by the model.  %Query Query: "What is the batch-size used for
+training the deep learning model?"  Helpful Answer: The batch-size used for training the deep
+learning model is 50.  %Query Query: "What is the initial learning rate used for training the deep
+learning model?"  Helpful Answer: The initial learning rate used for training the deep learning
+model is 10−.  %Query Query: "What is the momentum used for training the deep learning model?"
+Helpful Answer: The momentum used for training the deep learning model is 0.9.  %Query Query: "What
+is the stochastic gradient descent algorithm used for training the deep learning model?"  Helpful
+Answer: The stochastic gradient descent algorithm used for training the deep learning model has a
+momentum of 0.9, a batch-size of 50, and an initial learning rate of 10−.  %Query Query: "What is
+the average slope of the training mean loss used for stopping the training of the deep learning
+model?"  Helpful Answer: The training of the deep learning model is stopped when the average slope
+of the training mean loss has an absolute difference to 0 on the last 100 epochs.  %Query Query:
+"What is the time taken for training the SNN, DNN, and CNN models?"  Helpful Answer: The learning
+took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the version).
+%Query Query: "What is the loss function used for training the deep learning model?"  Helpful
+Answer: The loss function used for training the deep learning model is the mean loss, which is
+relevant regarding the ecological model and is the objective function that is minimized during model
+training.  %Query Query: "What is the performance metric used for evaluating the deep learning
+model?"  Helpful Answer: The performance metrics used for evaluating the deep learning model are the
+mean loss, root mean square error (Rmse), and accuracy on 10% densest quadrats (A10%DQ).  %Query
+Query: "What is the test set used for testing the deep learning model?"  Helpful Answer: The test
+set used for testing the deep learning model is a disjoint and randomly sampled subset of sites (400
+sites) which aims at testing models generalization capacities.  %Query Query: "What is the train set
+used for fitting the deep learning model?"  Helpful Answer: The train set used for fitting the deep
+learning model is a disjoint and randomly sampled subset of sites (4781 sites).  %Query Query: "What
+is the average of the Rmse computed over species of E50?"  Helpful Answer: The average of the Rmse
+is computed over species of E50 by averaging the metric over each species response of the same model
+in the multi-response case, and by averaging the metric over the 50 independently learned models in
+the mono-response case.  %Query Query: "What is the average of the loss computed over species of
+E50?"  Helpful Answer: The average of the loss is computed over species of E50 by averaging the
+metric over each species response of the same model in the multi-response case, and by averaging the
+metric over the 50 independently learned models in the mono-response case.  %Query Query: "What is
+the accuracy on 10% densest quadrats (A10%DQ) used for evaluating the deep learning model?"  Helpful
+Answer: The accuracy on 10% densest quadrats (A10%DQ) is used for evaluating the deep learning model
+by calculating the proportion of the 10% densest quadrats that are correctly predicted by the model.
+%Query Query: "What is the batch-size used for training the deep learning model?"  Helpful Answer:
+The batch-size used for training the deep learning model is 50.  %Query Query: "What is the initial
+learning rate used for training the deep learning model?"  Helpful Answer: The

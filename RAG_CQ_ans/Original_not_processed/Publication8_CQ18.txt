@@ -1,0 +1,5 @@
+ The strategy implemented to monitor the model performance during training is not explicitly
+mentioned in the provided context. However, it is mentioned that the model was trained using
+Stochastic Gradient Descent optimiser with a learning rate of 0.0025 and momentum of 0.9. This
+suggests that the model performance was likely monitored using metrics such as loss and accuracy
+during training.

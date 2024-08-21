@@ -1,0 +1,16 @@
+ Named Entities:
+    Dataset(Planets full-frame analytic scene products),
+    DataFormat(Chip (Image) Data Format),
+    DeepLearningModel(VGG16),
+    Hyperparameter(Adam optimizer, learning rate of 10^4, batch size of 128, 15 epochs),
+    PerformanceMetric(Precision, Recall, Accuracy, F-Beta Score, Categorical Cross Entropy),
+    Framework(TensorFlow),
+    HardwareResource(NVIDIA Tesla K80 GPU),
+    ModelPurpose(Classification),
+    PreprocessingStep(Resizing images to a standard size of 128x128 pixels),
+    DataSplitCriteria(40479 images for training and 40669 images for testing),
+    DataAugmentationTechnique(Flipping, Rotation, Scaling),
+    RegularizationMethod(Dropout, L2 regularization),
+    TrainingCompletionCriteria(15 epochs),
+    ModelDeploymentProcess(Not mentioned),
+    DeploymentPlatform(Not mentioned)

@@ -1,0 +1,6 @@
+ Named Entities:
+    Dataset(UCM dataset, AID dataset),
+    DeepLearningModel(EfficientNet),
+    PerformanceMetric(precision, recall, F1-score, F2-score),
+    ModelPurpose(feature extraction),
+    DataFormat(satellite images)

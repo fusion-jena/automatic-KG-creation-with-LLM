@@ -1,0 +1,1 @@
+The pipeline uses a customized CNN model for moth species classification. The model is designed to be light and fast for execution on an embedded Raspberry Pi computer used in the light trap. The input size for the model is 128 × 128 × 3, and the model is trained on 2000 images with an even number of images for eight different classes of moths. 

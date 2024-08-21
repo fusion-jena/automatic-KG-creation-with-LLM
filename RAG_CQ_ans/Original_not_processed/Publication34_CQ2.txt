@@ -1,0 +1,6 @@
+ The deep learning pipeline uses data in the form of CSV files.  Reference(s): 6. Goodfellow, I.,
+Bengio, Y. & Courville, A. (2016). Deep Learning. MIT Press.  The deep learning pipeline uses data
+in the form of CSV files. This is mentioned in the context provided, specifically in reference 6,
+which discusses deep learning in general. However, the specific data formats used in the pipeline
+are not explicitly stated in the provided context. Therefore, based on the information given, it can
+be inferred that the pipeline uses CSV files as input data.

@@ -1,0 +1,13 @@
+Named Entities:
+DataFormat (Audio)
+DataAugmentationTechnique (Adding background noise, Dynamic range compression, Pitch shifting, Time stretching)
+Dataset (CLO-43SD)
+PreprocessingStep (Not mentioned)
+CodeRepositoryLink (Not mentioned)
+DeepLearningModel (CNN)
+Hyperparameter (Learning rate, Dropout probability, L2 regularization penalty factor)
+OptimizationTechnique (Mini-batch stochastic gradient descent (SGD))
+RegularizationMethod (Dropout, L2 regularization)
+PerformanceMetric (Classification accuracy)
+Framework (Lasagne)
+HardwareResource (Not mentioned)

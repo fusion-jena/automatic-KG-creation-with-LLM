@@ -1,0 +1,9 @@
+ Before training a deep learning model, several preprocessing steps are typically involved. These
+can include normalization, scaling, and cleaning. Normalization is a technique used to change the
+values of numeric columns in the dataset to a common scale, without distorting differences in the
+ranges of values or losing information. Scaling is a feature scaling technique in which the values
+of numeric columns in the dataset are adjusted to a certain range, typically between 0 and 1.
+Cleaning is the process of removing or correcting errors, inconsistencies, and inaccuracies in the
+dataset. Other preprocessing steps can include data augmentation, which involves creating new data
+by applying transformations to the existing data, and transfer learning, which involves using a pre-
+trained model as a starting point for training a new model.

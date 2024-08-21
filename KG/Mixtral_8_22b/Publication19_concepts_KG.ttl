@@ -1,0 +1,66 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:0._005_for_ResNet-18 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:0._01_for_MobileNet-V2 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:0._05_for_Inception-V3 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:100_for_MobileNet-V2 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:150_for_ResNet-18 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:224x224x3_for_MobileNet-V2 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:299x299x3_for_Inception-V3 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:32_for_MobileNet-V2 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:32_for_ResNet-18 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:48_for_Inception-V3 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:75_for_Inception-V3 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:984_images_of_6_animal_classes a dlprov:Dataset .
+
+dlprov:AUC a dlprov:PerformanceMetric .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Area_Under_the_ROC_Curve a dlprov:PerformanceMetric .
+
+dlprov:Batch_size%3A_varies_depending_on_the_model a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Classification a dlprov:ModelPurpose .
+
+dlprov:Custom_dataset_consisting_of_33 a dlprov:Dataset .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:Input_image_size%3A_varies_depending_on_the_model a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:Keras a dlprov:Framework .
+
+dlprov:Learning_rate%3A_varies_depending_on_the_model a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:Number_of_epochs%3A_varies_depending_on_the_model a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:ResNet-18 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:SGD a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:and_0._001_for_DenseNet-121 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:and_100_for_DenseNet-121 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:and_16_for_DenseNet-121 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:and_DenseNet-121 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:macro-F1_averages a dlprov:PerformanceMetric .
+

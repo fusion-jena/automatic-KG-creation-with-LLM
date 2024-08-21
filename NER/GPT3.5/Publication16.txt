@@ -1,0 +1,12 @@
+Named Entities:
+DataFormat(audio data)
+DeepLearningModel(Multilayer Perceptron (MLP))
+Dataset(no specific dataset mentioned)
+PreprocessingStep(segmentation into 15-second windows, feature extraction using MFCC)
+OptimizationTechnique(Adam)
+Hyperparameter(filter size = 2, learning algorithm = Backpropagation, dropout = 50%, layer nodes = 256, final layer = number of classes)
+RegularizationMethod(dropout)
+Framework(TensorFlow 2.2)
+HardwareResource(Intel Xeon E5-1630v3 CPU, 64GB RAM, NVidia Quadro RTX 8000 GPU)
+PerformanceMetric(Sensitivity, Specificity, F1 Score, Precision)
+ModelPurpose(classification of bird sounds within their natural habitat)

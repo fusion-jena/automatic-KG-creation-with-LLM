@@ -1,0 +1,47 @@
+%INSTRUCTIONS:
+Use the concepts and relations (properties) and build an ontology in RDF format for describing the provenance of Deep Learning Pipeline.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+Don't provide anything other than the ontology in RDF format.
+
+Use the IRI for the base ontology: https://w3id.org/dlprovenance/
+Use the ontology classes and relations as the base ontology.
+Incorporate data properties, Inverse Properties, and ensure the hierarchy is well-structured. 
+Below are the examples and follow the same format for all the questions:
+
+Concepts: Hyperparameter, Model
+Relations: hasHyperparameter, hasModel
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/dlprovenance#"
+     xml:base="https://w3id.org/dlprovenance"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Hyperparameter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Hyperparameter</rdfs:label>
+        <rdfs:comment xml:lang="en">Hyperparameter is a prior parameter of an implementation, i.e., a parameter which is set before its execution (e.g. C, the complexity parameter, in weka.SMO).</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Model">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Model</rdfs:label>
+        <rdfs:comment xml:lang="en">Model is a generalization of a set of training data able to predict values for unseen instances. It is an output from an execution of a data mining algorithm implementation.</rdfs:comment>
+    </owl:Class>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasHyperparameter">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance##Model"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Hyperparameter"/>
+        <rdfs:label>hasHyperparameter</rdfs:label>
+        <rdfs:comment>A relation between an implementation of a machine learning algorithm and its hyperparameter.</rdfs:comment>
+    </owl:ObjectProperty>
+</rdf:RDF>
+
+%QUERY:
+concepts : {concepts}
+relations: {relations}
+data_properties: {data_properties}
+InverseProperties: {InverseProperties}
+base_onto_class: {base_onto_class}
+base_onto_property: {base_onto_property}

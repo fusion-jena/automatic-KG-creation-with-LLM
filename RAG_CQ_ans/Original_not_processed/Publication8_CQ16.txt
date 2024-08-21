@@ -1,0 +1,12 @@
+ The model was trained twice, once with a training subset of 498 images on a single GPU for 9000
+iterations and performance evaluated on the test subset of 155 images, also on a single GPU and then
+trained again on all 653 annotated images on three GPUs for 18000 iterations for predicting plant
+organs on another un-annotated independent dataset to evaluate our method. This dataset consists of
+708 full scale herbarium scans, with an average size of ca. 9600 by 6500 pixels, from the Herbarium
+Senckenbergianum (FR) (Otte et al. 2011) with a different set of species (Fig. 2) and geographical
+origins, which is also available at GBIF (Senckenberg 2020). The Python code and the trained model
+have been made available at GitHub (Younis 2020).  The criteria used to determine when training is
+complete are not explicitly mentioned in the provided context. However, it can be inferred that the
+training was completed after a certain number of iterations, specifically 9000 iterations for the
+first training and 18000 iterations for the second training. The performance was then evaluated on
+the test subset and the un-annotated independent dataset, respectively.

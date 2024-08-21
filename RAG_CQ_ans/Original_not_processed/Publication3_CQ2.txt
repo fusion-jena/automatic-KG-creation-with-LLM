@@ -1,0 +1,2 @@
+ The deep learning pipeline uses image data formats, specifically spectrograms, for the
+classification challenges.

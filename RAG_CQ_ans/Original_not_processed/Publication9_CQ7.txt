@@ -1,0 +1,3 @@
+ The dataset was randomly divided into training and validation sets, with approximately 80% of the
+data used for training and 20% for validation. The specific numbers are not mentioned in the
+context, but it is stated that there were 720 images for training and 190 for validation.

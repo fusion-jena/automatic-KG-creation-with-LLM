@@ -1,0 +1,4 @@
+ The purpose of the deep learning model is to classify the presence or absence and activity rates of
+a number of different endangered species, or in some cases, the sounds of birds colliding with
+energy infrastructure. In total, the model has the ability to classify dozens of species signals and
+event types across ongoing projects, and aims to scale this up to encompass whole communities.

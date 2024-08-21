@@ -1,0 +1,58 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:1%3A1 a dlprov:Hyperparameter%28learning_rate_0.0025%2C_momentum_0.9%2C_anchor_scales_%5B32%2C_64%2C_128%2C_256%2C_512%2C_1024%5D%2C_anchor_aspect_ratios_%5B1 .
+
+dlprov:2 a dlprov:Hyperparameter%28learning_rate_0.0025%2C_momentum_0.9%2C_anchor_scales_%5B32%2C_64%2C_128%2C_256%2C_512%2C_1024%5D%2C_anchor_aspect_ratios_%5B1 .
+
+dlprov:2%3A1%5D a dlprov:Hyperparameter%28learning_rate_0.0025%2C_momentum_0.9%2C_anchor_scales_%5B32%2C_64%2C_128%2C_256%2C_512%2C_1024%5D%2C_anchor_aspect_ratios_%5B1 .
+
+dlprov:AP a dlprov:PerformanceMetric .
+
+dlprov:AP50 a dlprov:PerformanceMetric .
+
+dlprov:AP75 a dlprov:PerformanceMetric .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:COCO_evaluation_metric a dlprov:PerformanceMetric .
+
+dlprov:Detectron2 a dlprov:Framework .
+
+dlprov:Faster_R-CNN a dlprov:DeepLearningModel .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:IoU a dlprov:PerformanceMetric .
+
+dlprov:NMS_thresholds_0.25_for_testing a dlprov:Hyperparameter%28learning_rate_0.0025%2C_momentum_0.9%2C_anchor_scales_%5B32%2C_64%2C_128%2C_256%2C_512%2C_1024%5D%2C_anchor_aspect_ratios_%5B1 .
+
+dlprov:NMS_thresholds_0.6_for_training a dlprov:Hyperparameter%28learning_rate_0.0025%2C_momentum_0.9%2C_anchor_scales_%5B32%2C_64%2C_128%2C_256%2C_512%2C_1024%5D%2C_anchor_aspect_ratios_%5B1 .
+
+dlprov:PyTorch a dlprov:Framework .
+
+dlprov:ResNet-50 a dlprov:DeepLearningModel .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:TITAN_Xp_GPUs a dlprov:HardwareResource .
+
+dlprov:annotated_herbarium_scan_dataset a dlprov:Dataset .
+
+dlprov:average_precision a dlprov:PerformanceMetric .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:data_augmentation a dlprov:PreprocessingStep .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:localisation a dlprov:ModelPurpose .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:object_detection a dlprov:ModelPurpose .
+
+dlprov:rescaling a dlprov:PreprocessingStep .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+

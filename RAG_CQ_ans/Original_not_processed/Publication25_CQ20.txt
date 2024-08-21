@@ -1,0 +1,2 @@
+ The context does not provide information on the specific hardware resources used for training the
+deep learning model.

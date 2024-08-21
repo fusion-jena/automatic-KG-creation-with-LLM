@@ -1,0 +1,91 @@
+ %INSTRUCTIONS: Your task is to do Named Entity Recognition. You extract named entities from the provided competency question answers. 
+        Use provided concepts to understand which named entities to extract from competency answers. 
+        Concepts: Method, RawData, DataFormat, DataAnnotationTechnique, DataAugmentationTechnique, Dataset, PreprocessingStep, DataSplitCriteria, CodeRepository, DataRepository, CodeRepositoryLink, DataRepositoryLink, DeepLearningModel, Hyperparameter, HyperparameterOptimization, OptimizationTechnique, TrainingCompletionCriteria, RegularizationMethod, ModelPerformanceMonitoringStrategy, Framework, HardwareResource, PostprocessingStep, PerformanceMetric, GeneralizabilityMeasure, RandomnessStrategy, ModelPurpose, DataBiasTechnique, ModelDeploymentProcess, DeploymentPlatform.         
+        Example: DeepLearningModel(CNN, RNN, Transformer), Framework(TensorFlow, PyTorch), PerformanceMetric(Accuracy, mean IoU)
+        Below are the competency questions and answers: 
+CQ1: What methods are utilized for collecting raw data in the deep learning pipeline (e.g., surveys, sensors, public datasets)?
+Answer: The context does not provide specific information on the methods used for collecting raw data in the deep learning pipeline. However, it mentions that specimens from bulk-samples were air-dried and placed at regular distances onto filter paper in a Petri dish. Bulk-sample photographs were taken using a Zeiss AXIO Zoom. V16 Stereo Zoom Microscope equipped with a Zeiss AxioCam HRc (High Resolution 13 Megapixels Color Microscope) camera at the Imaging and Analysis Centre at the Natural History Museum (NHM) in London, United Kingdom. This suggests that the raw data for this study was collected using a microscope and camera.
+
+CQ2: What data formats are used in the deep learning pipeline (e.g., image, audio, video, CSV)?
+Answer: The data formats used in the deep learning pipeline are images.
+
+CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
+Answer: The provided context does not mention any specific data annotation techniques used in the deep learning pipeline. Therefore, I cannot provide an answer to this query based on the given context.
+
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline.
+
+CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
+Answer: The datasets used in the deep learning pipeline are Local High Quality (LH), Local Low Quality (LL), and Global High Quality (GH).
+
+CQ6: What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
+Answer: The context does not provide information on the preprocessing steps involved before training a deep learning model.
+
+CQ7: What are the criteria used to split the data for deep learning model training (e.g., train, test, validation)?
+Answer: The context does not provide information on the criteria used to split the data for deep learning model training (e. g. , train, test, validation).
+
+CQ8: Where is the code repository of the deep learning pipeline available (e.g., GitHub, GitLab, BitBucket)?
+Answer: The code repository of the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, I cannot provide the exact location of the code repository.
+
+CQ9: Where is the data repository of the deep learning pipeline available (e.g., Zenodo, Figshare, Dryad, GBIF)?
+Answer: The context does not provide information on the data repository of the deep learning pipeline.
+
+CQ10: What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?
+Answer: I'm sorry, the provided context does not contain information about the code repository link of the deep learning pipeline.
+
+CQ11: What is the data repository link of the deep learning pipeline (e.g., Link to Zenodo, Figshare, Dryad, GBIF)?
+Answer: I'm sorry, but the provided context does not include information about the data repository link of the deep learning pipeline.
+
+CQ12: What type of deep learning model is used in the pipeline (e.g., CNN, RNN, Transformer)?
+Answer: The pipeline uses a convolutional neural network (CNN) model.
+
+CQ13: What are the hyperparameters used in the deep learning model (e.g., learning rate, optimizer)?
+Answer: The hyperparameters used in the deep learning model are not explicitly mentioned in the provided context. However, it is mentioned that the number of units in the two FC layers (512 and 256 for the first and second FC layers respectively) and the dropout rate were determined by five-fold cross- validation with a random 200 images of the GH dataset. These hyperparameters were used throughout all classification tasks in this study.
+
+CQ14: How are the hyperparameters of the model optimized (e.g., grid search, random search)?
+Answer: The hyperparameters of the model were optimized using five-fold cross-validation with a random 200 images of the GH dataset. These hyperparameters were then used throughout all classification tasks in this study.
+
+CQ15: What optimization techniques are applied in the deep learning pipeline (e.g., SGD, Adam)?
+Answer: The context does not provide information on the specific optimization techniques applied in the deep learning pipeline.
+
+CQ16: What criteria are used to determine when training is complete (e.g., validation loss plateau)?
+Answer: The context does not provide information on the criteria used to determine when training is complete.
+
+CQ17: What are the regularization methods used to prevent overfitting in the deep learning pipeline (e.g., dropout, L2 regularization)?
+Answer: The dropout rate was determined by five-fold cross-validation with a random 200 images of the GH dataset, and these hyperparameters were used throughout all classification tasks in this study.
+
+CQ18: What is the strategy implemented to monitor the model performance during training?
+Answer: The strategy implemented to monitor the model performance during training is not explicitly mentioned in the provided context. However, it is mentioned that the number of units in the two FC layers (512 and 256 for the first and second FC layers respectively) and the dropout rate were determined by five-fold cross-validation with a random 200 images of the GH dataset. This suggests that cross-validation was used to monitor the model performance during training.
+
+CQ19: Which frameworks are used to build the deep learning model (e.g., TensorFlow, PyTorch)?
+Answer: The deep learning model is built using TensorFlow and Keras.
+
+CQ20: Which hardware resources are used for training the deep learning model (e.g., GPUs, TPUs)?
+Answer: The context does not provide information on the hardware resources used for training the deep learning model.
+
+CQ21: What are the postprocessing steps involved after the model training (e.g., Saliency maps, Metrics calculation, Confusion matrix)?
+Answer: The postprocessing steps involved after the model training include the calculation of metrics such as accuracy, multiclass recall rate, multiclass precision, and F1-score. Additionally, a scaled confusion matrix is generated for the prediction of Local High Quality (LH) images based on a training set of 400 or 800 randomly selected images from the same dataset (LH) or the Global High Quality (GH) dataset, respectively. The rows of the matrix represent the predicted classes, and the columns represent the true classes. The matrix is scaled so that each column sums up to one.
+
+CQ22: What metrics are used to evaluate the performance of the deep learning model (e.g., accuracy, precision, recall)?
+Answer: The performance of the deep learning model is evaluated using the following metrics: accuracy, multiclass recall rate, multiclass precision, and the F1-score. The accuracy is measured as the proportion of successful predictions in the test set. The multiclass recall rate is defined as a proportion of correct predictions of a class out of the actual number of images of that class. The multiclass precision is defined as a proportion of correct predictions of a class out of the number of images predicted as that class. The F1-score is a harmonic mean of the multiclass recall rate and precision.
+
+CQ23: What measures were taken to ensure the generalizability of the deep learning model (e.g., Diverse dataset, cross-validation, Stratified splitting)?
+Answer: The study used a diverse dataset, including images from different localities and countries. The number of units in the two FC layers and the dropout rate were determined by five-fold cross- validation with a random 200 images of the GH dataset. These hyperparameters were used throughout all classification tasks in this study. Within-dataset classification was performed by training the CNN model with N images randomly selected from the dataset and predicting the class of n test images randomly selected from the rest. N ranged between 100 and 700 for LH, 50 and 250 for LL, and 100 and 900 for GH. The number of test images, n, was set to 200 for LH and GH, and 50 for LL due to the small size of the dataset. To evaluate the consistency of prediction accuracy, ten replicates were generated for each scenario of N images. The output of the final softmax layer was used as the prediction probability of each class, and the image was classified to the class with the highest prediction probability. The accuracy of the prediction was measured as the proportion of successful predictions in the test set. The classification performance for each class was measured by the multiclass recall rate, multiclass precision, and the F1-score.
+
+CQ24: What strategies are employed to handle randomness in the deep learning pipeline (e.g., random seed value)?
+Answer: The strategies employed to handle randomness in the deep learning pipeline include setting a fixed random seed value, using deterministic algorithms, and employing techniques such as cross-validation and ensemble methods to reduce the impact of randomness on the model's performance.
+
+CQ25: What is the purpose of the deep learning model (e.g., classification, segmentation, detection)?
+Answer: The purpose of the deep learning model is for family-level classification of below-ground bulk samples of Coleoptera from understudied forests of Cyprus. The model is trained with images from local surveys versus global databases of above-ground samples from tropical forests and evaluated how prediction accuracy was affected by the quality and resolution of images, the size and complexity of the training set, and the transferability of identifications across very disparate source-target pairs that do not share any species or genera. The within-dataset classification accuracy reached 98% and depended on the number and quality of training images and on dataset complexity. The accuracy of between-datasets predictions was reduced to a maximum of 82% and depended greatly on the standardisation of the imaging procedure. When the source and target images were of similar quality and resolution, albeit from different faunas, the reduction of accuracy was minimal. Application of algorithms for domain adaptation significantly improved the prediction performance of models trained by non-standardised, low-quality images. The findings demonstrate that existing databases can be used to train models and successfully classify images from unexplored biota, when the imaging conditions and classification algorithms are carefully considered. Also, the results provide guidelines for data acquisition and algorithmic development for high-throughput image-based biodiversity surveys.
+
+CQ26: What techniques are used to address data bias during preprocessing of the deep learning pipeline (e.g., Stratified splitting, oversampling, undersampling, Diverse data collection)?
+Answer: The context does not provide information on the techniques used to address data bias during preprocessing of the deep learning pipeline.
+
+CQ27: What process was followed to deploy the trained deep learning model (e.g., Model serialization, Platform selection)?
+Answer: The context does not provide information on the process followed to deploy the trained deep learning model, such as model serialization or platform selection.
+
+CQ28: Which platform was used to deploy the deep learning model (e.g., AWS, Azure, Google Cloud platform)?
+Answer: The context does not provide information on the platform used to deploy the deep learning model.
+
+Provide your answer as follows:
+        Named Entities: For each provided Concept(Corresponding Named Entity,..), ... 

@@ -1,0 +1,2 @@
+ The deep learning model was trained using an Intel i7 processor, 32Gb of RAM, and a Nvidia GTX 1080
+GPU.
