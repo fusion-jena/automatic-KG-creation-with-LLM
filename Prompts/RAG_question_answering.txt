@@ -1,5 +1,0 @@
-%INSTRUCTIONS:
-Use the provided pieces of context to answer the query. If you don't know the answer, just say that you don't know, don't try to make up an answer.
-
-%Query
-Query: "{query}"
