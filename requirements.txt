@@ -172,7 +172,7 @@ tiktoken==0.5.2
 timm==0.9.12
 tokenizers==0.15.0
 tonic-validate==3.1.0
-torch==2.1.2
+torch==2.2.0
 torchvision==0.16.2
 tornado==6.4
 tqdm==4.66.1
