@@ -1,1 +1,0 @@
-The raw data for this study was collected using multitemporal Landsat 8 images and plant species occurrence records from the Korea National Arboretum, the National Institute of Biological Resources, and the Korea Forest Service. The remote sensing data was preprocessed using the Google Earth Engine platform.

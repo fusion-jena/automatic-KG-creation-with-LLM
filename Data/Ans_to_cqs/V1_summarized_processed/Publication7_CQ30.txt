@@ -1,1 +1,0 @@
-The annotations or labels are used to train a deep network which classifies unlabelled images and mosaics. The best performing classifier is then used to generate coral maps from the mosaics of the Abrolhos Islands.

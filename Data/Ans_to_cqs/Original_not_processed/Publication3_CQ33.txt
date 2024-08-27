@@ -1,6 +1,0 @@
-  Yes, there are post-processing steps applied to the model's output. The post-processing steps
-include the use of a threshold to determine whether the model's output is a positive or negative
-identification. The threshold is set at 0.5, meaning that if the model's output is greater than or
-equal to 0.5, it is considered a positive identification, and if it is less than 0.5, it is
-considered a negative identification. Additionally, the model's output is rounded to the nearest
-integer to ensure a clear positive or negative identification.

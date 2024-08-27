@@ -1,1 +1,0 @@
-The model selection process was not explicitly described in the text, but the authors used a deep learning model for organ detection and tested it on a subset of annotated scans.

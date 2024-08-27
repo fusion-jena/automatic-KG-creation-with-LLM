@@ -1,1 +1,0 @@
-cted based on the root mean square error (RMSE) as the performance metric. The feature with the greatest significance in the species richness retrievals was determined using a statistical feature importance test (SFIT). 

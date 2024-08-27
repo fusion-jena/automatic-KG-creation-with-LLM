@@ -1,1 +1,0 @@
-The provided context does not explicitly mention which software frameworks or libraries are used to build the model, but it is likely that popular deep learning libraries such as TensorFlow or PyTorch were used.

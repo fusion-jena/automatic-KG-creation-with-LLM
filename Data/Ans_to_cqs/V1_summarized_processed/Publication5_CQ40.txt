@@ -1,1 +1,0 @@
-The text does not explicitly mention if privacy and security measures are implemented in handling sensitive data, but it can be inferred that the study followed the data handling and privacy policies of GBIF, a public database that provides open access to biodiversity data.

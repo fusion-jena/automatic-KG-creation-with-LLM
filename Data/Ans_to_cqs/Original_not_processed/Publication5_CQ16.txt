@@ -1,3 +1,0 @@
- The convergence criteria or stopping condition for the training process is not specified in the
-given context. It is not possible to answer this question without additional information.
-Confidence: 85%

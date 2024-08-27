@@ -1,3 +1,0 @@
- The provided context does not mention whether the trained model is deployed or not. It only
-discusses the training and testing of the model on different datasets. Therefore, it is not possible
-to answer this question without additional information.

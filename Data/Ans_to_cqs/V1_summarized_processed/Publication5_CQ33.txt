@@ -1,1 +1,0 @@
-The text does not mention any post-processing steps applied to the model's output.

@@ -1,1 +1,0 @@
-Yes, post-processing steps are applied to the model's output, including the use of a threshold and rounding to the nearest integer.

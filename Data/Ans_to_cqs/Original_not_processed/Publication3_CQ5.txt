@@ -1,2 +1,0 @@
- The provided context does not include information about the preprocessing steps involved before
-training the deep learning model.

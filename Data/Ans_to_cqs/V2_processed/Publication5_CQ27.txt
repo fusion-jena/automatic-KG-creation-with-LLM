@@ -1,1 +1,0 @@
-The text does not provide specific information on how different versions of datasets are managed. It mainly focuses on the use of deep learning to estimate plant species richness in the Korean Peninsula, including North Korea, by combining species distribution models and remote sensing data. 

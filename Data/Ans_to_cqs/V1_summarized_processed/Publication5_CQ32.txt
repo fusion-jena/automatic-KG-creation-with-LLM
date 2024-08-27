@@ -1,1 +1,0 @@
-The uncertainty or confidence in model predictions is captured by using k-fold cross-validation with k = 5 to fit the models and averaging the 5 results for the final suitability result for each species, and by using probability-based stacking to combine the predictions of each species’ SDM to estimate species richness.

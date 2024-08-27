@@ -1,1 +1,0 @@
-The provided context does not specify the hardware and software used for model deployment.

@@ -1,1 +1,0 @@
-The authors applied color channel stretch on each image in the dataset. This resulted in better performance compared to the original intensities.

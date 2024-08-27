@@ -1,1 +1,0 @@
-Yes, privacy and security measures are implemented in handling sensitive data. These measures include data encryption, restricted access, logging of access, and anonymization of data.

@@ -1,6 +1,0 @@
- The model was selected based on the root mean square error (RMSE) as the performance metric. The
-feature importance shows the extent to which the model performance decreased with random shuffling.
-The feature with the greatest significance in the species richness retrievals was determined using a
-statistical feature importance test (SFIT). The SFIT involved randomly shuffling a single feature
-while keeping all the other features constant, and iterating this process by changing the test
-variable. The feature importance was then calculated based on the decrease in model performance.

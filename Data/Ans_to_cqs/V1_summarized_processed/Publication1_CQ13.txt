@@ -1,1 +1,0 @@
-The model is initialized using deep convolutional neural networks (CNNs) and deep feed forward neural networks (DNNs) to audio spectrogram and image data. It is then refined and improved using labeled datasets created by analysts.

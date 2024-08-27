@@ -1,1 +1,0 @@
-No, the models are not considered state-of-the-art. The models are based on the Faster R-CNN architecture, which was first published in 2015. The authors of the study did not claim that their models are state-of-the-art. The models used in this study are not considered state-of-the-art. 

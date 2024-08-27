@@ -1,2 +1,0 @@
- Yes, the source code is openly accessible. You can find it in the GitHub repository at
-<https://github.com/2younis/plant-organ-detection>.

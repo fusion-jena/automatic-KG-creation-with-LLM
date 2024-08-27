@@ -1,5 +1,0 @@
-  The model is initialized using deep convolutional neural networks (CNNs) and deep feed forward
-neural networks (DNNs) to audio spectrogram and image data. The models are trained to classify the
-presence or absence and activity rates of a number of different endangered species, or in some
-cases, the sounds of birds colliding with energy infrastructure. The models are then refined and
-improved using labeled datasets created by analysts using the software's UI.

@@ -1,3 +1,0 @@
- The model is initialized using a pre-trained model on the COCO dataset. The COCO dataset is a
-large-scale object detection, segmentation, and captioning dataset. It contains 330,000 images and
-1.5 million object instances. The model is then fine-tuned on the annotated herbarium dataset.

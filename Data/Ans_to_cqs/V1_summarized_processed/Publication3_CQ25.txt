@@ -1,1 +1,0 @@
-The study explains model predictions by using a confusion matrix and comparing certainty rates associated with species present in the reference library to species new to the library.

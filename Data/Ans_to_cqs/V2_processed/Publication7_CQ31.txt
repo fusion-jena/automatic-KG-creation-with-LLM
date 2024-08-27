@@ -1,1 +1,0 @@
-The deep learning model generates classifications of coral reefs into coral or non-coral categories. 

@@ -1,1 +1,0 @@
-The deep learning model in the pipeline is Inception v3, a CNN implemented in TensorFlow with 48 layers, trained on over 1 million images from the ImageNet database.

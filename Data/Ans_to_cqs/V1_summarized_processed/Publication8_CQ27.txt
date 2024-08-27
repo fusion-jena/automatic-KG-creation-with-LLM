@@ -1,1 +1,0 @@
-The different versions of datasets are managed by using a version control system, which allows for tracking changes made to the datasets, comparing different versions, and reverting to previous versions if necessary. It also enables collaboration among multiple users.

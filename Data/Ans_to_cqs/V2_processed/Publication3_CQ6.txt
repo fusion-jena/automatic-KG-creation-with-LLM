@@ -1,1 +1,0 @@
-The text does not mention any transformations or augmentations applied to the input data. 

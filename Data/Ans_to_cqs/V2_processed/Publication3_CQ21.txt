@@ -1,1 +1,0 @@
-No, the provided hyperparameters are not fine-tuned. The hyperparameters used in this study are the default values of the TensorFlow library. 

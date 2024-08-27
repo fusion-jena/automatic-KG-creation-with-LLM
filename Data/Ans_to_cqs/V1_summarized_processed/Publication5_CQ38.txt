@@ -1,1 +1,0 @@
-The authors address bias in the data by using probability-based stacking, which combines the predictions of each species' species distribution model (SDM) to estimate species richness. They also use MODIS products, Normalized Difference Vegetation Index (NDVI) and Leaf Area Index (LAI), as input variables to estimate potential plant species richness of South Korea.
