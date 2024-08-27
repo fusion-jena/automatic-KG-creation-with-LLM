@@ -186,7 +186,7 @@ unstructured==0.11.6
 unstructured-client==0.15.0
 unstructured-inference==0.7.18
 unstructured.pytesseract==0.3.12
-urllib3==2.1.0
+urllib3==2.2.2
 uvicorn==0.27.1
 uvloop==0.19.0
 vllm==0.3.1
