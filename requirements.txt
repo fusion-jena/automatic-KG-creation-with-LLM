@@ -11,7 +11,7 @@ attrs==23.1.0
 backoff==2.2.1
 beautifulsoup4==4.12.2
 bitsandbytes==0.41.3.post2
-certifi==2023.11.17
+certifi==2024.7.4
 cffi==1.16.0
 chardet==5.2.0
 charset-normalizer==3.3.2
