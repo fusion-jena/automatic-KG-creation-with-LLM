@@ -189,7 +189,7 @@ unstructured.pytesseract==0.3.12
 urllib3==2.2.2
 uvicorn==0.27.1
 uvloop==0.19.0
-vllm==0.3.1
+vllm==0.5.5
 watchfiles==0.21.0
 wcwidth==0.2.13
 websockets==12.0
