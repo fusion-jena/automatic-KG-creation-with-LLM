@@ -6,6 +6,7 @@ from LLM_loader import llm
 def Ontology_creation(config):
     template = read_txt(config.get('Paths', 'Ontology_creation_prompt'))
     prompt_template = PromptTemplate(input_variables=["concepts", "relations","data_properties","InverseProperties","base_onto_class","base_onto_property"], template=template)
+    content = read_txt(config.get('Paths', 'Concepts_and_relationships_save_path'))
     concepts_s_ind = content.find('Concepts:') + len('Concepts:')
     concepts_e_ind = content.find('Relationships:')
     concepts = content[concepts_s_ind:concepts_e_ind].strip()
