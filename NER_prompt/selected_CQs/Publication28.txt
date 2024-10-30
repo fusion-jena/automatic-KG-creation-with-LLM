@@ -6,7 +6,7 @@
 CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
 Answer: The context does not provide information on the specific data formats used in the deep learning pipeline. However, it can be inferred that the pipeline uses satellite images as input data. %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer, just say that you don't know, don't try to make up an answer. %Query
 
-CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Flipping, Rotating, Scaling)?
 Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. Therefore, I cannot provide an answer to this query.
 
 CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?

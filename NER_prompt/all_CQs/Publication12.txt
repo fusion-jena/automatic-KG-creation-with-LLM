@@ -12,7 +12,7 @@ Answer: The data formats used in the deep learning pipeline are images. The imag
 CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
 Answer: The context does not provide information on the specific data annotation techniques used in the deep learning pipeline. However, it mentions that images were manually assigned into four categories, which suggests that some form of manual annotation was used.
 
-CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Flipping, Rotating, Scaling)?
 Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. However, it mentions that signals were rescaled exponentially and shifted the window slightly either side of the call to change background noise. These techniques could be considered as data augmentation techniques.
 
 CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?

@@ -6,7 +6,7 @@
 CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
 Answer: The data format used in the deep learning pipeline is image data. The deep learning pipeline in this study uses image data for detecting plant organs on herbarium scans. The plant organs are detected using an object detection network, which works by localising each object with a bounding box on the image and classifying it. The network used in this study is called Faster R-CNN, which is based on Convolutional Neural Networks (CNN) and is used for image data. Therefore, the data format used in the deep learning pipeline is image data.
 
-CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Flipping, Rotating, Scaling)?
 Answer: The paper does not provide information on the specific data augmentation techniques applied in the deep learning pipeline.
 
 CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?

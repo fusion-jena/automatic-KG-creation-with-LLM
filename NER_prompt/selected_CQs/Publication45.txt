@@ -6,7 +6,7 @@
 CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
 Answer: The deep learning pipeline uses image data for predicting bark beetle disturbance from infestation maps. The network is asked to classify the focal cell of an example image either as disturbed or undisturbed.
 
-CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Flipping, Rotating, Scaling)?
 Answer: The context does not provide information on the specific data augmentation techniques applied in the deep learning pipeline. However, common data augmentation techniques in deep learning include flipping, rotating, scaling, and cropping.
 
 CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?

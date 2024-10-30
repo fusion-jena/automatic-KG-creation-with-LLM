@@ -12,7 +12,7 @@ Answer: The data formats used in the deep learning pipeline are grey-coloured 1-
 CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
 Answer: The context does not provide specific information on the data annotation techniques used in the deep learning pipeline. However, it mentions that the training data in [18] are extracted manually, and this manual tagging process would also be possible in audio spectrograms. In this work, a modified version of [6] is used to extract automatically the mask of the spectrogram of a bird recording. The training set is composed of spectrogram figures of bird recordings as well as recordings void of any bird activity and their corresponding binary masks.
 
-CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Flipping, Rotating, Scaling)?
 Answer: The data augmentation techniques applied in the deep learning pipeline are small random rotations between -5 and 5 degrees as well as random displacements at the maximum of the 10% of the image. Although this is a large displacement to apply in order to accommodate within-species vocal variations, it was decided to use it and proved beneficial probably because a global bird detector was made and not one dedicated to a specific species.
 
 CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?

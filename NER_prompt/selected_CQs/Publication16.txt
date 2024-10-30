@@ -6,7 +6,7 @@
 CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
 Answer: The deep learning pipeline uses audio data. The acquired audio files are transmitted over 4G using SMTP. The audio file is segmented into 15 second windows. Each of the sample windows are passed to the feature extractor function where MFCC is used to return the extracted features for the classifier. The predicted vector is processed and logged to the site for review.
 
-CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Flipping, Rotating, Scaling)?
 Answer: The context does not provide information on the data augmentation techniques applied in the deep learning pipeline.
 
 CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
