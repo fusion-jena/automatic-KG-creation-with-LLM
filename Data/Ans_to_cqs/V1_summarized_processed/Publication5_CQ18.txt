@@ -1,1 +1,0 @@
-The provided context does not contain information about the hardware infrastructures used for model training.

@@ -1,1 +1,0 @@
-The model is initialized by using the first 10% of the data for training and the remaining 90% for testing. This is a common practice in machine learning to ensure that the model is able to generalize well to new data. 

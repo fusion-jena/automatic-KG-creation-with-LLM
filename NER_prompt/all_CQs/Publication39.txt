@@ -12,7 +12,7 @@ Answer: The deep learning pipeline uses video data formats. The video clips are 
 CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
 Answer: The VGG Image Annotator (VIA) Version 2. 0. 8 (Dutta and Zisserman (2019)) is used for the annotation of the segmentation dataset. For each occurring animal in a frame of the training set, a polygonal segmentation mask depicting the visible silhouette, a bounding box and a class label, i. e. , deer, boar, fox, hare, are annotated. The polygonal silhouette of a deer shows typically around 70 vertices, while the polygonal silhouette of a hare may show only around 35 vertices.
 
-CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Flipping, Rotating, Scaling)?
 Answer: The data augmentation techniques applied in the deep learning pipeline are horizontal flip, rotation, scaling, and shearing. These techniques are applied using the python library imgaug (Jung et al. (2020)) for the data augmentation of images and videos. For Mask R-CNN and FGFA, the same augmentation technique with identical parameters is applied to each frame of the video.
 
 CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?

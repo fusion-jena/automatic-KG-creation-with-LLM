@@ -1,1 +1,0 @@
-The stopping condition for the training process is a fixed number of iterations or epochs.

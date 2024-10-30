@@ -1,1 +1,0 @@
-The provided context does not explicitly state the hyperparameters used in the model.

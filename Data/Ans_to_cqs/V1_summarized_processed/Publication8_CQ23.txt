@@ -1,1 +1,0 @@
-ifferent metrics for different problems. For organ detection, they used average precision (AP) and intersection over union (IoU), while for taxon classification, they used accuracy. 

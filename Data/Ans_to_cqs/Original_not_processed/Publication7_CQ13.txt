@@ -1,2 +1,0 @@
- The model is initialized using pre-trained CNN image representations extracted from VGGnet. These
-representations are then fine-tuned for the coral reef classiﬁcation problem.

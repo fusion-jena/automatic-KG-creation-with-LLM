@@ -1,1 +1,0 @@
-The data is annotated with pixel labels, with 50 pixels marked in each training image. The labels are coral or non-coral.

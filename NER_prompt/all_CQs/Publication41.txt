@@ -12,7 +12,7 @@ Answer: The dataset for this work has been derived from Planets full-frame analy
 CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
 Answer: The provided context does not mention any specific data annotation techniques used in the deep learning pipeline, such as bounding box annotation or instance segmentation. Therefore, I cannot provide a helpful answer to this query based on the given context.
 
-CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Flipping, Rotating, Scaling)?
 Answer: The paper does not provide specific details on the data augmentation techniques applied in the deep learning pipeline. However, it does mention that data augmentation could be performed to make the system more robust, considering that satellite images may vary in terms of lighting effect, rotation, shifting, etc. Therefore, it can be inferred that techniques such as flipping, rotation, and scaling could potentially be applied for data augmentation in this context.
 
 CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?

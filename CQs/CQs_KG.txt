@@ -1,5 +1,5 @@
 CQ2:What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
-CQ4:What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ4:What are the data augmentation techniques applied in the deep learning pipeline (e.g, Flipping, Rotating, Scaling)?
 CQ5:What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?
 CQ6:What preprocessing steps are involved before training a deep learning model (e.g., normalization, scaling, cleaning)?
 CQ10:What is the code repository link of the deep learning pipeline (e.g., Link to GitHub, GitLab, BitBucket)?

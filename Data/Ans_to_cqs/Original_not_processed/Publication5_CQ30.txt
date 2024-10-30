@@ -1,5 +1,0 @@
- The annotations or labels are used in the model as the target variable, which is the variable that
-the model is trying to predict. In this case, the annotations or labels are the species richness
-values for each grid cell. The model uses these values to learn the relationship between the input
-variables (such as NDVI and LAI) and the target variable, and then uses this relationship to predict
-the species richness for new, unseen data.

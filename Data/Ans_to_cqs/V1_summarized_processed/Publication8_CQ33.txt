@@ -1,1 +1,0 @@
-Yes, there are post-processing steps applied to the model's output, including manual verification and correction of a subset of the predictions, and annotation of an un-annotated dataset based on the model's predictions.

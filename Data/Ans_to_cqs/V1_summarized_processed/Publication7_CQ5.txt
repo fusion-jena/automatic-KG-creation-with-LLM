@@ -1,1 +1,0 @@
-The preprocessing steps involved before training the deep learning model are patch extraction and resizing.

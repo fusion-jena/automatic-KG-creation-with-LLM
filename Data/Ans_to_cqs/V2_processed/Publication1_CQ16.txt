@@ -1,1 +1,0 @@
-The convergence criteria or stopping condition for the training process is not specified in the provided context. It could be a fixed number of iterations, a threshold for the loss function, or a maximum time limit, but it is not mentioned. 

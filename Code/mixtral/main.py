@@ -13,7 +13,7 @@ def main():
     Ontology_creation(config)
     RAG_CQ_answering(config)
     process_cq_ans(config)
-    NER__mixtral(config)
+    NER_mixtral(config)
 
 if __name__ == "__main__":
     main()

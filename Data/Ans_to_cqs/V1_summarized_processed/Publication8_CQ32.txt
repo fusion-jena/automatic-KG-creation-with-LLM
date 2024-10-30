@@ -1,1 +1,0 @@
-The uncertainty or confidence in model predictions is captured through the confidence score (probability) of the predictions, and the COCO method calculates average precision (with values from 0 to 100) for the entire predictions and each class of organs at different levels of Intersection over Union (IoU).

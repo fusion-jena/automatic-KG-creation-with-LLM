@@ -1,6 +1,0 @@
- The model weights are updated by retraining with new data once for each experiment. The model is
-trained on two-thirds of the images from the year 2011 and tested on the remaining images from the
-same year for the first experiment. For the second experiment, the images from year 2011 were used
-for training and the images from 2012 and 2013 constitute the test set. For the third experiment,
-the training set consisted of two-thirds of the images from the years 2011, 2012 and 2013, whereas
-the test set consists of all the remaining images from the same years.

@@ -1,1 +1,0 @@
-The herbarium scans were rescaled to 1200 by 800 pixels, and manually annotated for six different types of organs using LabelImg. The annotated images were then divided into a validated subset of 155 images for testing and 498 images for training.

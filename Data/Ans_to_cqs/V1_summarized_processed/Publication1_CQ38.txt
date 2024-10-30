@@ -1,1 +1,0 @@
-The bias in the data is addressed by using a variety of sensors to collect raw data, which is then analyzed with different algorithms to alleviate sampling, variability, and bias problems associated with traditional surveys.

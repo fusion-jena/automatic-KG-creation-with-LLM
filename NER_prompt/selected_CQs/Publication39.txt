@@ -6,7 +6,7 @@
 CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
 Answer: The deep learning pipeline uses video data formats. The video clips are captured with 8 frames per second by camera traps using infrared cameras and infrared flash-lights. The clips show deer, boars, foxes, and hares, mostly at night time.
 
-CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Flipping, Rotating, Scaling)?
 Answer: The data augmentation techniques applied in the deep learning pipeline are horizontal flip, rotation, scaling, and shearing. These techniques are applied using the python library imgaug (Jung et al. (2020)) for the data augmentation of images and videos. For Mask R-CNN and FGFA, the same augmentation technique with identical parameters is applied to each frame of the video.
 
 CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?

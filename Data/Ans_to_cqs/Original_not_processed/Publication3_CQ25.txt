@@ -1,5 +1,0 @@
- The study explains model predictions by using a confusion matrix to show the number of images per
-class assigned to a species present in the reference library and the average certainty rate
-associated with those identifications. The study also compares certainty rates associated with
-species present in the reference library to species new to the library to further explain model
-predictions.

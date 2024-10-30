@@ -1,1 +1,0 @@
-To explain model predictions, a statistical feature importance test (SFIT) is performed, where a single feature is randomly shuffled, and the feature importance is measured by the decrease in model performance.

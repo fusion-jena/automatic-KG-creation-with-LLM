@@ -6,7 +6,7 @@
 CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
 Answer: The deep learning pipeline uses image data formats. Specifically, it uses thumbnails of whole fish, part of fish species, and environment.
 
-CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Flipping, Rotating, Scaling)?
 Answer: The data augmentation technique applied in the deep learning pipeline is flipping each thumbnail with respect to the vertical axis. This procedure homogenizes the proportion of left-oriented and right-oriented individuals in the database and is hypothesized to improve the average identification rate since fish individuals are seen in all positions.
 
 CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?

@@ -6,7 +6,7 @@
 CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
 Answer: The data formats used in the deep learning pipeline are images. The images are extracted from videos and are coded as 3 matrices with numeric values describing the color component (R, G, B) of the pixel.
 
-CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Flipping, Rotating, Scaling)?
 Answer: The data augmentation techniques applied in the deep learning pipeline are increasing and decreasing contrast. Each "natural" image yielded 4 more images: 2 with increased contrast (120% and 140%) and 2 with decreased contrast (80% and 60%). Additionally, all images were horizontally flipped to obtain the final training dataset.
 
 CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?

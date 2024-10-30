@@ -1,1 +1,0 @@
-The model was implemented with the Detectron2 (Wu et al. 2019) library in PyTorch framework and trained using Stochastic Gradient Descent optimiser with a learning rate of 0. 0025 and momentum of 0. 9. The model was trained on a single GPU (TITAN Xp) and three GPUs for different iterations. The Python code and the trained model have been made available at GitHub (Younis 2020). 

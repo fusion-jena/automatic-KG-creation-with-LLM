@@ -1,1 +1,0 @@
-The versioning strategy for trained models is not specified in the provided context. 

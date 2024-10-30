@@ -1,3 +1,0 @@
- The study acknowledges the inherent biases in the dataset and the decision-making process. However,
-it does not provide specific details about the transparency of the decision-making process regarding
-bias.

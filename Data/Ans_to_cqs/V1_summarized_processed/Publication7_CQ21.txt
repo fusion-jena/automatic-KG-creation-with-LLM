@@ -1,1 +1,0 @@
-The text does not explicitly mention whether the hyperparameters are fine-tuned or not.

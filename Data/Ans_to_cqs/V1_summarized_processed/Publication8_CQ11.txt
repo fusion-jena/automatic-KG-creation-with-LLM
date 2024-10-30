@@ -1,1 +1,0 @@
-The pipeline uses a single model for organ detection.

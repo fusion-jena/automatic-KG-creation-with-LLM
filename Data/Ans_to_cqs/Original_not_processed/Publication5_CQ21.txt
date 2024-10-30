@@ -1,4 +1,0 @@
- The provided context does not mention any fine-tuning of the hyperparameters. The hyperparameters
-used in the study are mentioned in the text, but there is no information about whether they were
-fine-tuned or not. Therefore, the answer is "No, the provided context does not mention any fine-
-tuning of the hyperparameters."

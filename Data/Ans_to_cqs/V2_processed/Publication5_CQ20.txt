@@ -1,1 +1,0 @@
-The specific hyperparameters were selected based on a grid search, where the model was trained and validated with different combinations of hyperparameters. The combination that resulted in the best performance, as measured by the root mean square error (RMSE), was selected as the final set of hyperparameters. 

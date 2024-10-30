@@ -1,4 +1,0 @@
- The provided context does not explicitly state the hyperparameters used in the model. However, it
-does mention that the model is a deep learning model, and deep learning models typically have
-hyperparameters such as learning rate, batch size, number of layers, and number of neurons per
-layer. Without more information, it is not possible to provide a specific answer to this query.

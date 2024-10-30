@@ -1,4 +1,0 @@
- The raw data was collected using an Autonomous Underwater Vehicle (AUV) equipped with a high-
-resolution camera. The AUV was used to capture images of the coral reefs in the Abrolhos Islands.
-The images were then used to generate mosaics and coral maps, which were used to quantify the coral
-population and analyze the trends in coral population.

@@ -1,1 +1,0 @@
-The model selection process considered the use of macro-ecological models and stacking species distribution models (S-SDMs) to estimate species richness, and the S-SDMs approach was chosen because it combines the predictions of each species’ SDM to estimate species richness.

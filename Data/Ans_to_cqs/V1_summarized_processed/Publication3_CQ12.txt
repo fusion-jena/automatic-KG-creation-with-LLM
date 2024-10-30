@@ -1,1 +1,0 @@
-The models used in the study are not explicitly stated to be state-of-the-art.

@@ -1,1 +1,0 @@
-The provided context does not contain enough information to answer this question. The text describes the use of deep learning for classification and detection, but it does not provide information on why specific hyperparameters were selected. 

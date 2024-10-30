@@ -1,1 +1,0 @@
-Yes, the authors used different metrics for different problems. For the coral classiﬁcation problem, they used overall classiﬁcation accuracy. For the coral population analysis problem, they used percentage coral cover. 

@@ -1,1 +1,0 @@
-The pipeline uses two models: a deep learning (DL) model and a species distribution model (SDM). The DL model is used for both North and South Korea, while the SDM model is used only for South Korea.

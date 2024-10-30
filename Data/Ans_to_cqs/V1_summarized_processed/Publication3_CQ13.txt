@@ -1,1 +1,0 @@
-The model is initialized by using TensorFlow's Inception v3, which is a pre-trained model with more than a million images.

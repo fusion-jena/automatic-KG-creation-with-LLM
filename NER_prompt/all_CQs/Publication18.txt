@@ -12,7 +12,7 @@ Answer: The context does not provide information on the specific data formats us
 CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
 Answer: The data annotation techniques used in the deep learning pipeline for object detection include bounding box annotation and instance segmentation. Bounding box annotation involves drawing a rectangle around the object of interest in an image, while instance segmentation involves labeling each pixel in an image with a class label. In this work, bounding box annotation was used to annotate the whale presence in the images.
 
-CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Flipping, Rotating, Scaling)?
 Answer: Data augmentation techniques applied in the deep learning pipeline include scaling, rotations, translations, different illumination conditions, and cropping parts of the image. These transformations simulate the deformations that data could suffer in real world. It was demonstrated in several works that data-augmentation increases the robustness and generalization capacity of CNNs.
 
 CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?

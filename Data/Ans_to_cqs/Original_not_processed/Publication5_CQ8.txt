@@ -1,4 +1,0 @@
- The deep learning model used in the pipeline is a multilayer perceptron (MLP) architecture. It is a
-type of feedforward neural network that is effective for solving regression problems. It comprises
-an input layer, an output layer, and one or more hidden layers in between. The network architecture
-of MLP used in this study is illustrated in Figure 3 of the document.

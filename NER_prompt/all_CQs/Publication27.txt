@@ -12,7 +12,7 @@ Answer: The deep learning pipeline uses image data formats.
 CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
 Answer: The data annotation techniques used in the deep learning pipeline include bounding box annotation, instance segmentation, semantic segmentation, polygon annotation, key point annotation, and landmark annotation. Bounding box annotation involves drawing a box around an object to identify its location in an image. Instance segmentation involves labeling individual objects in an image, while semantic segmentation involves labeling each pixel in an image with a class label. Polygon annotation involves drawing a polygon around an object to identify its shape and location. Key point annotation involves labeling specific points on an object, such as the corners of a building or the joints of a person. Landmark annotation involves labeling specific points on an object that are used for alignment or tracking.
 
-CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Flipping, Rotating, Scaling)?
 Answer: The data augmentation techniques applied in the deep learning pipeline include Flipping, Rotating, Scaling, and Translating.
 
 CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?

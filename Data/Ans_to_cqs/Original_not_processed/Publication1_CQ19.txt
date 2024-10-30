@@ -1,6 +1,0 @@
- The provided context does not contain information about the specific hyperparameters used in the
-model. However, it is mentioned that deep convolutional neural networks (CNNs) and deep feed forward
-neural networks (DNNs) are used. Common hyperparameters for these types of models include the
-learning rate, batch size, number of layers, number of units in each layer, and regularization
-parameters. The specific values of these hyperparameters would depend on the specific dataset and
-problem being addressed.
