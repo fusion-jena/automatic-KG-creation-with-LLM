@@ -175,7 +175,7 @@ tonic-validate==3.1.0
 torch==2.1.2
 torchvision==0.16.2
 tornado==6.4
-tqdm==4.66.1
+tqdm==4.66.3
 traitlets==5.14.1
 transformers==4.38.0
 triton==2.1.0
