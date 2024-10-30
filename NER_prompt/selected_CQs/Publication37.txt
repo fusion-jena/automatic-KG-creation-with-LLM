@@ -6,7 +6,7 @@
 CQ: What data formats are used in the deep learning pipeline (e.g, image, audio, video, csv)?
 Answer: The deep learning pipeline in this paper uses audio data for bird species classification from flight calls.
 
-CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Fliping, Roating, Scaling)?
+CQ: What are the data augmentation techniques applied in the deep learning pipeline (e.g, Flipping, Rotating, Scaling)?
 Answer: The data augmentation techniques applied in the deep learning pipeline include adding background noise (from 4 different field recordings), dynamic range compression (using 4 parameterizations: music, film, speech, radio), pitch shifting (by 4 conservative values of -0. 5, -0. 25, 0. 5 semi tones, and 4 less conservative values of -2, -1, 1, 2 semitones), and time stretching (by 4 ratios: 0. 81, 0. 93, 1. 07, 1. 23). The augmentations are applied using the MUDA library [30].
 
 CQ: What are the datasets used in the deep learning pipeline (e.g, MNIST, CIFAR, ImageNet)?

@@ -1,1 +1,0 @@
-The preprocessing steps involved before training the deep learning model include data cleaning, data normalization, data augmentation, splitting the data, feature extraction, model selection, and hyperparameter tuning.

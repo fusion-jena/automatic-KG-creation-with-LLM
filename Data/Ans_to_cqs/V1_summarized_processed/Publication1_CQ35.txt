@@ -1,1 +1,0 @@
-The passage does not provide specific details about the hardware and software used for model deployment. However, it does mention that the data is stored at a co-located data center using off- the-shelf computers, and managed and served with freely available software including Spark.

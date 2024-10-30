@@ -1,1 +1,0 @@
-The Faster R-CNN model was built using TensorFlow and trained using the TensorFlow Object Detection API.

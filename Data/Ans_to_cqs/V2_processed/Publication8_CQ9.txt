@@ -1,1 +1,0 @@
-The model was selected based on its performance on the test subset of the MNHN Paris Herbarium dataset. The model with the highest average precision was chosen for the task of organ detection on the Herbarium Senckenbergianum dataset. 

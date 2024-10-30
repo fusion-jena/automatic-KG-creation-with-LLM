@@ -1,1 +1,0 @@
-The provided text does not explicitly mention whether the hyperparameters are fine-tuned or not. However, it does mention that the weights of the deep network are ﬁne tuned using the Benthoz15 dataset. It is possible that the hyperparameters are also ﬁne tuned during this process, but the text does not provide enough information to confirm this. 

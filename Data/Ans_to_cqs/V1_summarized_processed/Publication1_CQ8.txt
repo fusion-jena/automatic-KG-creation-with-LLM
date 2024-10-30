@@ -1,1 +1,0 @@
-The architecture of the deep learning model in the pipeline is not specified in the given text.

@@ -1,1 +1,0 @@
-The paper does not explicitly mention how uncertainty or confidence in model predictions is captured. However, it does suggest that the method provides some measure of certainty or uncertainty in its predictions.

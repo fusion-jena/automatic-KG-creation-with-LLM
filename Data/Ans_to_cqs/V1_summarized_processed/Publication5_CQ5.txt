@@ -1,1 +1,0 @@
-steps involved before training the deep learning model were co-registering MODIS-derived NDVI and LAI images collected in 2009, and using pixel-wise MLP to estimate species richness and handle missing values due to high cloud cover.  

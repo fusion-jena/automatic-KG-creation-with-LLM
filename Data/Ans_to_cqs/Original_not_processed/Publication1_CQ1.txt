@@ -1,1 +1,0 @@
- The deep learning pipeline uses audio spectrogram and image data.

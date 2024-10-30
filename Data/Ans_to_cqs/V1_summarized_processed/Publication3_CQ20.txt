@@ -1,1 +1,0 @@
-parameters were selected based on the results of a grid search, which is a systematic method for exploring the hyperparameter space and identifying the best combination of hyperparameters for the model. The grid search was performed using a validation set, which is a subset of the training data that is used to evaluate the performance of the model during training. 

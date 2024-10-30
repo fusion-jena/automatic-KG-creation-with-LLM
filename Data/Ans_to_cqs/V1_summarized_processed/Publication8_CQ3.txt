@@ -1,1 +1,0 @@
-cted by manually localizing and labeling plant organs from herbarium specimens. The process of localizing and labeling encountered difficulties such as distinguishing between buds, flowers, and fruits, separating different plant organs in some taxa, and differentiating between roots and stolons or other stem structures.  

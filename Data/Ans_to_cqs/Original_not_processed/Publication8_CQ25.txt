@@ -1,8 +1,0 @@
- The paper does not explicitly mention any measures taken to explain model predictions. However, it
-does mention that the model was manually verified and corrected to evaluate the predictions on the
-Herbarium Senckenbergianum dataset. This process likely involved comparing the model's predictions
-to the actual annotations and making adjustments as necessary to ensure the accuracy of the model.
-Additionally, the paper mentions that the annotations for the Herbarium Senckenbergianum dataset
-were done based on the predictions of organs on scans. This suggests that the predictions were used
-to guide the annotation process, which could also be considered a form of explanation for the
-model's predictions.

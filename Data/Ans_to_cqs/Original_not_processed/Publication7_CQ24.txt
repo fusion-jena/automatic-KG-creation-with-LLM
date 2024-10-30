@@ -1,4 +1,0 @@
- No, there is not sufficient information to reproduce the deep learning pipeline. The paper provides
-a high-level overview of the proposed framework, but it lacks the necessary details to replicate the
-pipeline. For instance, it does not specify the architecture of the 2-layered neural network used
-for classifying corals from non-corals, nor does it provide the code or data used in the study.

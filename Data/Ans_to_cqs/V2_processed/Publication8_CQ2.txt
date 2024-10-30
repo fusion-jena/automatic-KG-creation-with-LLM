@@ -1,1 +1,0 @@
-The sources of input data for the deep learning pipeline are the herbarium scans. 

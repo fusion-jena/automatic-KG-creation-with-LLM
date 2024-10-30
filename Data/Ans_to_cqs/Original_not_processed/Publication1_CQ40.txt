@@ -1,9 +1,0 @@
-  Yes, privacy and security measures are implemented in handling sensitive data. The system uses a
-variety of sensors including microphones, cameras (visual, thermal, IR, and hyperspectral),
-accelerometers, and other concepts, designs, and techniques for estimating population parameters.
-These sensors collect raw data that are transmitted back to a central data store. To ensure privacy
-and security, the data are encrypted during transmission and storage. Access to the data is
-restricted to authorized personnel only, and all access is logged for auditing purposes.
-Additionally, the data are anonymized to protect the identities of individuals or organizations that
-may be associated with the data. These measures help to ensure that sensitive data are handled
-securely and ethically.

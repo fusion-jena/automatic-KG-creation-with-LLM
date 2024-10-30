@@ -1,1 +1,0 @@
-ta is addressed by acknowledging the inherent biases in the study and the datasets used. The model was trained again on all the annotated scans and tested on a different un-annotated dataset, and the predicted bounding boxes were compared with the hand-annotated scans to evaluate the precision of the organ detection model on this dataset.  

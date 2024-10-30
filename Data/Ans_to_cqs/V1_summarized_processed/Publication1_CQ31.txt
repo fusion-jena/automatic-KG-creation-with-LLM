@@ -1,1 +1,0 @@
-The deep learning model generates relative probabilities that an event is from a specific data class.

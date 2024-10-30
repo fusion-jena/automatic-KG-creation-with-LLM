@@ -1,9 +1,0 @@
-  The provided context does not directly address the query about transparency in the decision-making
-process regarding bias. However, it does mention that the study used a method called "stacking
-species distribution models" to estimate species richness. This method combines the predictions of
-each species' distribution model to estimate species richness. While the study does not explicitly
-discuss transparency in the decision-making process regarding bias, it does mention that
-probability-based stacking produced unbiased richness that is closer to the true species richness.
-This suggests that the study took steps to minimize bias in the estimation of species richness.
-However, without further information, it is not possible to determine whether the decision-making
-process regarding bias was transparent.

@@ -1,5 +1,0 @@
-  In the model, the annotations or labels are used to train the model to recognize and classify the
-different species of frogs. Each spectrogram image is associated with a label indicating the species
-of frog that it represents. During training, the model learns to associate the visual patterns in
-the spectrogram images with the corresponding labels. Once the model is trained, it can be used to
-predict the species of frog for new, unlabeled spectrogram images.

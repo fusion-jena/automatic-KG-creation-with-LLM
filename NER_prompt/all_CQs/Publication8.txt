@@ -12,7 +12,7 @@ Answer: The data format used in the deep learning pipeline is image data. The de
 CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
 Answer: The data annotation technique used in the deep learning pipeline for detecting plant organs on herbarium scans is bounding box annotation. This is used to localise each object with a bounding box on the image and classify it.
 
-CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Flipping, Rotating, Scaling)?
 Answer: The paper does not provide information on the specific data augmentation techniques applied in the deep learning pipeline.
 
 CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?

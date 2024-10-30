@@ -1,1 +1,0 @@
-The annotations or labels are used to train the model to recognize and classify different species of frogs. The model learns to associate the visual patterns in the spectrogram images with the corresponding labels.

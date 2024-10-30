@@ -1,1 +1,0 @@
-The architecture of the deep learning model in the pipeline is a 2-layered neural network used to classify corals from non-corals, using features learned using a Convolutional Neural Network (CNN) and the Spatial Pyramid Pooling (SPP) technique for patch extraction.

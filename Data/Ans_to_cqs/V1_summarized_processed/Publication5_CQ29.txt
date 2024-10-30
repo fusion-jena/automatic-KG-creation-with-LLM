@@ -1,1 +1,0 @@
-The data is not directly labeled or annotated, but it is used to train and test models for estimating plant species richness. The models are evaluated based on their ability to predict species richness in independent datasets and to identify important variables and time periods.

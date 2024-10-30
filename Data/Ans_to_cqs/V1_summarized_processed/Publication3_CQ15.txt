@@ -1,1 +1,0 @@
-The text does not provide information about optimization algorithms or learning rate schedules used during training.

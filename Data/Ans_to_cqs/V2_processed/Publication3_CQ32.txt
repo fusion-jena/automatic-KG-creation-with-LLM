@@ -1,1 +1,0 @@
-Uncertainty or confidence in model predictions is captured by TensorFlow through the use of certainty rates. Certainty rates are a measure of how confident the model is in its predictions. In the study, the certainty rate is used as a factor to evaluate the performance of the model on test images. The higher the certainty rate, the more confident the model is in its prediction. 

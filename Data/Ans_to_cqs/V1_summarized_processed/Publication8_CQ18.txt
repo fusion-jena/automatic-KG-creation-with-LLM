@@ -1,1 +1,0 @@
-The model was trained on a single GPU (TITAN Xp) and on three GPUs for the final training.

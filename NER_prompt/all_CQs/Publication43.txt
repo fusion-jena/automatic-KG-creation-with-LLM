@@ -12,7 +12,7 @@ Answer: The deep learning pipeline in this context uses image data format. %Expl
 CQ3: What are the data annotation techniques used in the deep learning pipeline (e.g., bounding box annotation, instance segmentation)?
 Answer: The paper does not provide information on the specific data annotation techniques used in the deep learning pipeline. However, it mentions that the training dataset was labeled with 100 80 × 80- pixels image patches containing Ziziphus lotus shrubs and 100 images for Bare soil with sparse vegetation. This suggests that the data annotation technique used was likely image patch labeling.
 
-CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Fliping, Roating, Scaling)?
+CQ4: What are the data augmentation techniques applied in the deep learning pipeline (e.g., Flipping, Rotating, Scaling)?
 Answer: The data augmentation techniques applied in the deep learning pipeline are: Random scale, Random crop, Flip horizontally, and Random brightness.
 
 CQ5: What are the datasets used in the deep learning pipeline (e.g., MNIST, CIFAR, ImageNet)?
