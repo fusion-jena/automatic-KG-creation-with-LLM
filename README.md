@@ -31,5 +31,8 @@ To run the whole pipeline, submit (execute) your job using main.py and use confi
 The repository is licensed under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Publication
+#### v1.0 version citation
 Kommineni, V. K., König-Ries, B., & Samuel, S. (2024). From human experts to machines: An LLM supported approach to ontology and knowledge graph construction. arXiv preprint arXiv:2403.08345. 
 [https://doi.org/10.48550/arXiv.2403.08345](https://doi.org/10.48550/arXiv.2403.08345)
+#### v2.0 version citation
+Kommineni, V. K., König-Ries, B., & Samuel, S. (2024). Towards the Automation of Knowledge Graph Construction Using Large Language Models. In E. Vakaj, S. Iranmanesh, R. Stamartina, N. Mihindukulasooriya, S. Tiwari, F. Ortiz-Rodríguez & R. Mcgranaghan (Eds.), Proceedings of the 3rd International Workshop on Natural Language Processing for Knowledge Graph Creation (part of 20th International Conference on Semantic Systems (SEMANTiCS 2024)), Vol. 3874, pp. 19-34. CEUR-WS. Available at: https://ceur-ws.org/Vol-3874/paper2.pdf
