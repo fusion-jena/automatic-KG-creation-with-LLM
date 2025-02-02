@@ -13,11 +13,11 @@ def NER_mixtral(config):
         Answer:::
         '''
         for i in [2,5,6,4,12,15,13,22,17,19,20,8,25]:
-        Answer = read_txt(f"{config.get('Paths', 'Ans_to_cq_output_folder')}Publication{pub}_CQ{i}.txt")
-        prompt = f"Q: {CQs[i-1]}\nA: {Answer}\n"
-        combined_prompt += prompt
-        combined_prompt +=Answer_format
-        #print(combined_prompt)
-        output = llm.invoke(combined_prompt)
-        with open(f"{config.get('Paths', 'NER_mixtral_save')}Publication{pub}_concepts.txt", 'w') as f:
-            f.write(output)
+            Answer = read_txt(f"{config.get('Paths', 'Ans_to_cq_output_folder')}Publication{pub}_CQ{i}.txt")
+            prompt = f"Q: {CQs[i-1]}\nA: {Answer}\n"
+            combined_prompt += prompt
+            combined_prompt +=Answer_format
+            #print(combined_prompt)
+            output = llm.invoke(combined_prompt)
+            with open(f"{config.get('Paths', 'NER_mixtral_save')}Publication{pub}_concepts.txt", 'w') as f:
+                f.write(output)

@@ -23,7 +23,7 @@ def Ontology_creation(config):
     inverse_properties = content[inverse_properties_s_ind:].strip()
     base_onto_class, base_onto_property = get_base_onto_class(config.get('Paths', 'SOTAOntology_path'))
 
-    prompt = prompt_template.format(concepts=concepts,relations=relationships,base_onto_class=base_onto_class,base_onto_property=base_onto_property)
+    prompt = prompt_template.format(concepts=concepts,relations=relationships,data_properties=data_properties,InverseProperties=inverse_properties,base_onto_class=base_onto_class,base_onto_property=base_onto_property)
 
     with open(config.get('Paths', 'Created_onto_path'),"w") as f:
         f.write(llm.invoke(prompt))

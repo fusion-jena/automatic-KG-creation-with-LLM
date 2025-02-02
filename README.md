@@ -23,7 +23,7 @@ The repository encompasses various components, including code for data preproces
 Add the Hugging face access token in the helper_functions.py in the following line:
 access_token_read = os.getenv('access_token_read_hf')  
 
-Install the prerequisite using the requirements.txt file. 
+Create virtual environment and install the prerequisite using the requirements.txt file. The code (v2.0.1) was tested & reproduced using Python 3.10.16 on a Linux system.
 
 To run the whole pipeline, submit (execute) your job using main.py and use config.ini to customise the variables and paths 
 

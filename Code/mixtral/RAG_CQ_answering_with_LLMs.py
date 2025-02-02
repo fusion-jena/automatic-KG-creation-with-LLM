@@ -25,5 +25,5 @@ def RAG_CQ_answering(config):
             prompt = prompt_template.format(query=cq)
             result = chain({"query": prompt}, return_only_outputs=True)
             wrapped_text = textwrap.fill(result['result'], width=100)
-            with open(f"{config.get('Paths', 'Ans_to_cq_path')}Publication{d}_CQ{p}.txt", 'w') as f:
+            with open(f"{config.get('Paths', 'Ans_to_cq_input_folder')}Publication{d}_CQ{p}.txt", 'w') as f:
                 f.write(wrapped_text)
