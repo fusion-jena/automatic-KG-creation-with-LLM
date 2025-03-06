@@ -147,7 +147,7 @@ pyzmq==25.1.2
 quantile-python==1.1
 ragas==0.1.1
 rapidfuzz==3.5.2
-ray==2.9.2
+ray==2.43.0
 rdflib==7.0.0
 referencing==0.33.0
 regex==2023.10.3
