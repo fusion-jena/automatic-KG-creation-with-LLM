@@ -1,0 +1,30 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Audio a dlprov:DataFormat .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Classification a dlprov:ModelPurpose .
+
+dlprov:DNN a dlprov:DeepLearningModel .
+
+dlprov:Data_exploration a dlprov:PreprocessingStep .
+
+dlprov:Data_labeling a dlprov:PreprocessingStep .
+
+dlprov:Detection a dlprov:ModelPurpose .
+
+dlprov:Environmental_Sensor_Data a dlprov:DataFormat .
+
+dlprov:Filtering a dlprov:PreprocessingStep .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:Labeled_audio_spectrogram_and_image_data_collected_from_sensor_networks_for_biodiversity_monitoring_projects a dlprov:Dataset .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Sorting a dlprov:PreprocessingStep .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+

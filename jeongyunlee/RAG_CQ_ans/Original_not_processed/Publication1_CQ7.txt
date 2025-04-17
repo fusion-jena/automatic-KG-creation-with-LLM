@@ -1,0 +1,4 @@
+The provided context does not specify the exact criteria used to split the data into train, test,
+and validation sets for deep learning model training. It describes data exploration, labeling, and
+the use of large labeled datasets for training and refining deep learning models, but does not
+detail the specific methodology or criteria for data splitting.

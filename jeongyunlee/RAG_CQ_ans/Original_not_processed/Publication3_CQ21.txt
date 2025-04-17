@@ -1,0 +1,14 @@
+Based on the provided context, the following postprocessing steps are involved after model training:
+1. **Metrics Calculation**: The certainty rate (confidence score) for each classification is
+calculated and used as a factor to evaluate classifier performance on test images. Average certainty
+rates are also computed for groups of species (e.g., those present in the reference library vs.
+those not present).  2. **Confusion Matrix**: A confusion matrix is generated to visualize and
+assess the model’s performance, showing how often images of each species are correctly or
+incorrectly classified. The matrix includes certainty rates for each classification, with color
+coding to indicate different ranges of certainty.  3. **Statistical Testing**: A Mann–Whitney U test
+is used to compare certainty rates between groups (e.g., species present in the reference library
+vs. new species), providing a statistical assessment of model performance differences.  There is no
+mention in the provided context of using saliency maps or other model interpretability tools as part
+of the postprocessing steps.  **Summary of postprocessing steps:** - Calculation of certainty rates
+(metrics) - Generation and analysis of confusion matrices - Statistical comparison of performance
+metrics (e.g., Mann–Whitney U test)  Saliency maps are not mentioned in the provided context.

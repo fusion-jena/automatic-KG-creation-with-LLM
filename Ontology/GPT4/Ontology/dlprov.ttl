@@ -1,418 +1,409 @@
-@prefix : <https://w3id.org/dlprovenance#> .
+@prefix dlprov: <https://w3id.org/dlprov#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/dlprovenance#> .
-
-<https://w3id.org/dlprovenance> rdf:type owl:Ontology .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dlprov:CodeRepository a owl:Class ;
+    rdfs:label "CodeRepository"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:CodeRepositoryLink a owl:Class ;
+    rdfs:label "CodeRepositoryLink"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DataAnnotationTechnique a owl:Class ;
+    rdfs:label "DataAnnotationTechnique"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DataAugmentationTechnique a owl:Class ;
+    rdfs:label "DataAugmentationTechnique"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
+
+dlprov:DataBiasTechnique a owl:Class ;
+    rdfs:label "DataBiasTechnique"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-#################################################################
-#    Object Properties
-#################################################################
+dlprov:DataFormat a owl:Class ;
+    rdfs:label "DataFormat"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#appliesAugmentationTechnique
-:appliesAugmentationTechnique rdf:type owl:ObjectProperty ;
-                              rdfs:domain :Dataset ;
-                              rdfs:range :DataAugmentationTechnique ;
-                              rdfs:comment "Relation between a dataset and its augmentation technique." ;
-                              rdfs:label "appliesAugmentationTechnique" .
+dlprov:DataRepository a owl:Class ;
+    rdfs:label "DataRepository"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:DataRepositoryLink a owl:Class ;
+    rdfs:label "DataRepositoryLink"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#appliesOptimizationTechnique
-:appliesOptimizationTechnique rdf:type owl:ObjectProperty ;
-                              rdfs:domain :Model ;
-                              rdfs:range :OptimizationTechnique ;
-                              rdfs:comment "Relation between a model and its optimization technique." ;
-                              rdfs:label "appliesOptimizationTechnique" .
+dlprov:DataSplitCriteria a owl:Class ;
+    rdfs:label "DataSplitCriteria"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:Dataset a owl:Class ;
+    rdfs:label "Dataset"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#appliesPostprocessingStep
-:appliesPostprocessingStep rdf:type owl:ObjectProperty ;
-                           rdfs:domain :Model ;
-                           rdfs:range :PostprocessingStep ;
-                           rdfs:comment "Relation between a model and its postprocessing step." ;
-                           rdfs:label "appliesPostprocessingStep" .
+dlprov:DeepLearningModel a owl:Class ;
+    rdfs:label "DeepLearningModel"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:DeploymentPlatform a owl:Class ;
+    rdfs:label "DeploymentPlatform"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#availableInCodeRepository
-:availableInCodeRepository rdf:type owl:ObjectProperty ;
-                           rdfs:domain :Model ;
-                           rdfs:range :Repository ;
-                           rdfs:comment "Relation between a model and its code repository." ;
-                           rdfs:label "availableInCodeRepository" .
+dlprov:Framework a owl:Class ;
+    rdfs:label "Framework"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:GeneralizabilityMeasure a owl:Class ;
+    rdfs:label "GeneralizabilityMeasure"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#availableInDataRepository
-:availableInDataRepository rdf:type owl:ObjectProperty ;
-                           rdfs:domain :Dataset ;
-                           rdfs:range :Repository ;
-                           rdfs:comment "Relation between a dataset and its data repository." ;
-                           rdfs:label "availableInDataRepository" .
+dlprov:HardwareResource a owl:Class ;
+    rdfs:label "HardwareResource"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:Hyperparameter a owl:Class ;
+    rdfs:label "Hyperparameter"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#builtWithFramework
-:builtWithFramework rdf:type owl:ObjectProperty ;
-                    rdfs:domain :Model ;
-                    rdfs:range :Framework ;
-                    rdfs:comment "Relation between a model and the framework used to build it." ;
-                    rdfs:label "builtWithFramework" .
+dlprov:HyperparameterOptimization a owl:Class ;
+    rdfs:label "HyperparameterOptimization"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:Method a owl:Class ;
+    rdfs:label "Method"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#deployedOn
-:deployedOn rdf:type owl:ObjectProperty ;
-            rdfs:domain :Model ;
-            rdfs:range :DeploymentPlatform ;
-            rdfs:comment "Relation between a model and its deployment platform." ;
-            rdfs:label "deployedOn" .
+dlprov:ModelDeploymentProcess a owl:Class ;
+    rdfs:label "ModelDeploymentProcess"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:ModelPerformanceMonitoringStrategy a owl:Class ;
+    rdfs:label "ModelPerformanceMonitoringStrategy"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#deployedUsing
-:deployedUsing rdf:type owl:ObjectProperty ;
-               rdfs:domain :Model ;
-               rdfs:range :DeploymentProcess ;
-               rdfs:comment "Relation between a model and its deployment process." ;
-               rdfs:label "deployedUsing" .
+dlprov:ModelPurpose a owl:Class ;
+    rdfs:label "ModelPurpose"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:OptimizationTechnique a owl:Class ;
+    rdfs:label "OptimizationTechnique"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#ensuresGeneralizabilityWith
-:ensuresGeneralizabilityWith rdf:type owl:ObjectProperty ;
-                             rdfs:domain :Model ;
-                             rdfs:range :GeneralizabilityMeasure ;
-                             rdfs:comment "Relation between a model and its generalizability measure." ;
-                             rdfs:label "ensuresGeneralizabilityWith" .
+dlprov:PerformanceMetric a owl:Class ;
+    rdfs:label "PerformanceMetric"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:PostprocessingStep a owl:Class ;
+    rdfs:label "PostprocessingStep"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#evaluatedBy
-:evaluatedBy rdf:type owl:ObjectProperty ;
-             rdfs:domain :Model ;
-             rdfs:range :PerformanceMetric ;
-             rdfs:comment "Relation between a model and its performance metric." ;
-             rdfs:label "evaluatedBy" .
+dlprov:PreprocessingStep a owl:Class ;
+    rdfs:label "PreprocessingStep"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:RandomnessStrategy a owl:Class ;
+    rdfs:label "RandomnessStrategy"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#handlesBiasWith
-:handlesBiasWith rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Dataset ;
-                 rdfs:range :DataBiasHandlingTechnique ;
-                 rdfs:comment "Relation between a dataset and its data bias handling technique." ;
-                 rdfs:label "handlesBiasWith" .
+dlprov:RawData a owl:Class ;
+    rdfs:label "RawData"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:RegularizationMethod a owl:Class ;
+    rdfs:label "RegularizationMethod"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
-###  https://w3id.org/dlprovenance#handlesRandomnessWith
-:handlesRandomnessWith rdf:type owl:ObjectProperty ;
-                       rdfs:domain :Model ;
-                       rdfs:range :RandomnessHandlingStrategy ;
-                       rdfs:comment "Relation between a model and its randomness handling strategy." ;
-                       rdfs:label "handlesRandomnessWith" .
+dlprov:TrainingCompletionCriteria a owl:Class ;
+    rdfs:label "TrainingCompletionCriteria"^^xsd:string ;
+    rdfs:subClassOf prov:Entity .
 
+dlprov:codeRepositoryLink a owl:DatatypeProperty ;
+    rdfs:label "codeRepositoryLink"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#hasCodeRepositoryLink
-:hasCodeRepositoryLink rdf:type owl:ObjectProperty ;
-                       rdfs:domain :Repository ;
-                       rdfs:range <xsd:anyURI> .
+dlprov:codeRepositoryName a owl:DatatypeProperty ;
+    rdfs:label "codeRepositoryName"^^xsd:string .
 
+dlprov:dataAnnotationTechniqueName a owl:DatatypeProperty ;
+    rdfs:label "dataAnnotationTechniqueName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#hasDataRepositoryLink
-:hasDataRepositoryLink rdf:type owl:ObjectProperty ;
-                       rdfs:domain :Repository ;
-                       rdfs:range <xsd:anyURI> .
+dlprov:dataAugmentationTechniqueName a owl:DatatypeProperty ;
+    rdfs:label "dataAugmentationTechniqueName"^^xsd:string .
 
+dlprov:dataBiasTechniqueName a owl:DatatypeProperty ;
+    rdfs:label "dataBiasTechniqueName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#hasModelType
-:hasModelType rdf:type owl:ObjectProperty ;
-              rdfs:domain :Model ;
-              rdfs:range :ModelType ;
-              rdfs:comment "Relation between a model and its type." ;
-              rdfs:label "hasModelType" .
+dlprov:dataFormat a owl:DatatypeProperty ;
+    rdfs:label "dataFormat"^^xsd:string .
 
+dlprov:dataRepositoryLink a owl:DatatypeProperty ;
+    rdfs:label "dataRepositoryLink"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#hasPurpose
-:hasPurpose rdf:type owl:ObjectProperty ;
-            rdfs:domain :Model ;
-            rdfs:range :ModelPurpose ;
-            rdfs:comment "Relation between a model and its purpose." ;
-            rdfs:label "hasPurpose" .
+dlprov:dataRepositoryName a owl:DatatypeProperty ;
+    rdfs:label "dataRepositoryName"^^xsd:string .
 
+dlprov:dataSplitCriteriaName a owl:DatatypeProperty ;
+    rdfs:label "dataSplitCriteriaName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#monitoredBy
-:monitoredBy rdf:type owl:ObjectProperty ;
-             rdfs:domain :Model ;
-             rdfs:range :ModelMonitoringStrategy ;
-             rdfs:comment "Relation between a model and its monitoring strategy." ;
-             rdfs:label "monitoredBy" .
+dlprov:datasetName a owl:DatatypeProperty ;
+    rdfs:label "datasetName"^^xsd:string .
 
+dlprov:deepLearningModelName a owl:DatatypeProperty ;
+    rdfs:label "deepLearningModelName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#optimizedBy
-:optimizedBy rdf:type owl:ObjectProperty ;
-             rdfs:domain :Model ;
-             rdfs:range :HyperparameterOptimizationMethod ;
-             rdfs:comment "Relation between a model and its hyperparameter optimization method." ;
-             rdfs:label "optimizedBy" .
+dlprov:deploymentPlatformName a owl:DatatypeProperty ;
+    rdfs:label "deploymentPlatformName"^^xsd:string .
 
+dlprov:frameworkName a owl:DatatypeProperty ;
+    rdfs:label "frameworkName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#trainedOnHardware
-:trainedOnHardware rdf:type owl:ObjectProperty ;
-                   rdfs:domain :Model ;
-                   rdfs:range :HardwareResource ;
-                   rdfs:comment "Relation between a model and the hardware resource used for training." ;
-                   rdfs:label "trainedOnHardware" .
+dlprov:generalizabilityMeasureName a owl:DatatypeProperty ;
+    rdfs:label "generalizabilityMeasureName"^^xsd:string .
 
+dlprov:hardwareResourceName a owl:DatatypeProperty ;
+    rdfs:label "hardwareResourceName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#usesAnnotationTechnique
-:usesAnnotationTechnique rdf:type owl:ObjectProperty ;
-                         rdfs:domain :Dataset ;
-                         rdfs:range :DataAnnotationTechnique ;
-                         rdfs:comment "Relation between a dataset and its annotation technique." ;
-                         rdfs:label "usesAnnotationTechnique" .
+dlprov:hasCodeRepository a owl:ObjectProperty ;
+    rdfs:label "hasCodeRepository"^^xsd:string .
 
+dlprov:hasCodeRepositoryLink a owl:ObjectProperty ;
+    rdfs:label "hasCodeRepositoryLink"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#usesCompletionCriteria
-:usesCompletionCriteria rdf:type owl:ObjectProperty ;
-                        rdfs:domain :Model ;
-                        rdfs:range :TrainingCompletionCriteria ;
-                        rdfs:comment "Relation between a model and its training completion criteria." ;
-                        rdfs:label "usesCompletionCriteria" .
+dlprov:hasDataAnnotationTechnique a owl:ObjectProperty ;
+    rdfs:label "hasDataAnnotationTechnique"^^xsd:string .
 
+dlprov:hasDataAugmentationTechnique a owl:ObjectProperty ;
+    rdfs:label "hasDataAugmentationTechnique"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#usesDataCollectionMethod
-:usesDataCollectionMethod rdf:type owl:ObjectProperty ;
-                          rdfs:domain :Dataset ;
-                          rdfs:range :DataCollectionMethod ;
-                          rdfs:comment "Relation between a dataset and its data collection method." ;
-                          rdfs:label "usesDataCollectionMethod" .
+dlprov:hasDataBiasTechnique a owl:ObjectProperty ;
+    rdfs:label "hasDataBiasTechnique"^^xsd:string .
 
+dlprov:hasDataFormat a owl:ObjectProperty ;
+    rdfs:label "hasDataFormat"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#usesDataFormat
-:usesDataFormat rdf:type owl:ObjectProperty ;
-                rdfs:domain :Dataset ;
-                rdfs:range :DataFormat ;
-                rdfs:comment "Relation between a dataset and its data format." ;
-                rdfs:label "usesDataFormat" .
+dlprov:hasDataRepository a owl:ObjectProperty ;
+    rdfs:label "hasDataRepository"^^xsd:string .
 
+dlprov:hasDataRepositoryLink a owl:ObjectProperty ;
+    rdfs:label "hasDataRepositoryLink"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#usesDataSplitCriteria
-:usesDataSplitCriteria rdf:type owl:ObjectProperty ;
-                       rdfs:domain :Dataset ;
-                       rdfs:range :DataSplitCriteria ;
-                       rdfs:comment "Relation between a dataset and its data split criteria." ;
-                       rdfs:label "usesDataSplitCriteria" .
+dlprov:hasDataSplitCriteria a owl:ObjectProperty ;
+    rdfs:label "hasDataSplitCriteria"^^xsd:string .
 
+dlprov:hasDataset a owl:ObjectProperty ;
+    rdfs:label "hasDataset"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#usesHyperparameter
-:usesHyperparameter rdf:type owl:ObjectProperty ;
-                    rdfs:domain :Model ;
-                    rdfs:range :Hyperparameter ;
-                    rdfs:comment "Relation between a model and its hyperparameter." ;
-                    rdfs:label "usesHyperparameter" .
+dlprov:hasDeepLearningModel a owl:ObjectProperty ;
+    rdfs:label "hasDeepLearningModel"^^xsd:string .
 
+dlprov:hasDeploymentPlatform a owl:ObjectProperty ;
+    rdfs:label "hasDeploymentPlatform"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#usesPreprocessingStep
-:usesPreprocessingStep rdf:type owl:ObjectProperty ;
-                       rdfs:domain :Dataset ;
-                       rdfs:range :PreprocessingStep ;
-                       rdfs:comment "Relation between a dataset and its preprocessing step." ;
-                       rdfs:label "usesPreprocessingStep" .
+dlprov:hasFramework a owl:ObjectProperty ;
+    rdfs:label "hasFramework"^^xsd:string .
 
+dlprov:hasGeneralizabilityMeasure a owl:ObjectProperty ;
+    rdfs:label "hasGeneralizabilityMeasure"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#usesRegularizationMethod
-:usesRegularizationMethod rdf:type owl:ObjectProperty ;
-                          rdfs:domain :Model ;
-                          rdfs:range :RegularizationMethod ;
-                          rdfs:comment "Relation between a model and its regularization method." ;
-                          rdfs:label "usesRegularizationMethod" .
+dlprov:hasHardwareResource a owl:ObjectProperty ;
+    rdfs:label "hasHardwareResource"^^xsd:string .
 
+dlprov:hasHyperparameter a owl:ObjectProperty ;
+    rdfs:label "hasHyperparameter"^^xsd:string .
 
-#################################################################
-#    Data properties
-#################################################################
+dlprov:hasHyperparameterOptimization a owl:ObjectProperty ;
+    rdfs:label "hasHyperparameterOptimization"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#hasCodeRepositoryLink
-:hasCodeRepositoryLink rdf:type owl:DatatypeProperty .
+dlprov:hasMethod a owl:ObjectProperty ;
+    rdfs:label "hasMethod"^^xsd:string .
 
+dlprov:hasModelDeploymentProcess a owl:ObjectProperty ;
+    rdfs:label "hasModelDeploymentProcess"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#hasDataRepositoryLink
-:hasDataRepositoryLink rdf:type owl:DatatypeProperty .
+dlprov:hasModelPerformanceMonitoringStrategy a owl:ObjectProperty ;
+    rdfs:label "hasModelPerformanceMonitoringStrategy"^^xsd:string .
 
+dlprov:hasModelPurpose a owl:ObjectProperty ;
+    rdfs:label "hasModelPurpose"^^xsd:string .
 
-#################################################################
-#    Classes
-#################################################################
+dlprov:hasOptimizationTechnique a owl:ObjectProperty ;
+    rdfs:label "hasOptimizationTechnique"^^xsd:string .
 
-###  http://www.w3.org/ns/prov#Entity
-prov:Entity rdf:type owl:Class .
+dlprov:hasPerformanceMetric a owl:ObjectProperty ;
+    rdfs:label "hasPerformanceMetric"^^xsd:string .
 
+dlprov:hasPostprocessingStep a owl:ObjectProperty ;
+    rdfs:label "hasPostprocessingStep"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#DataAnnotationTechnique
-:DataAnnotationTechnique rdf:type owl:Class ;
-                         rdfs:subClassOf prov:Entity ;
-                         rdfs:label "Data Annotation Technique"@en .
+dlprov:hasPreprocessingStep a owl:ObjectProperty ;
+    rdfs:label "hasPreprocessingStep"^^xsd:string .
 
+dlprov:hasRandomnessStrategy a owl:ObjectProperty ;
+    rdfs:label "hasRandomnessStrategy"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#DataAugmentationTechnique
-:DataAugmentationTechnique rdf:type owl:Class ;
-                           rdfs:subClassOf prov:Entity ;
-                           rdfs:label "Data Augmentation Technique"@en .
+dlprov:hasRawData a owl:ObjectProperty ;
+    rdfs:label "hasRawData"^^xsd:string .
 
+dlprov:hasRegularizationMethod a owl:ObjectProperty ;
+    rdfs:label "hasRegularizationMethod"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#DataBiasHandlingTechnique
-:DataBiasHandlingTechnique rdf:type owl:Class ;
-                           rdfs:subClassOf prov:Entity ;
-                           rdfs:label "Data Bias Handling Technique"@en .
+dlprov:hasTrainingCompletionCriteria a owl:ObjectProperty ;
+    rdfs:label "hasTrainingCompletionCriteria"^^xsd:string .
 
+dlprov:hyperparameterName a owl:DatatypeProperty ;
+    rdfs:label "hyperparameterName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#DataCollectionMethod
-:DataCollectionMethod rdf:type owl:Class ;
-                      rdfs:subClassOf prov:Entity ;
-                      rdfs:label "Data Collection Method"@en .
+dlprov:hyperparameterOptimizationName a owl:DatatypeProperty ;
+    rdfs:label "hyperparameterOptimizationName"^^xsd:string .
 
+dlprov:methodName a owl:DatatypeProperty ;
+    rdfs:label "methodName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#DataFormat
-:DataFormat rdf:type owl:Class ;
-            rdfs:subClassOf prov:Entity ;
-            rdfs:label "Data Format"@en .
+dlprov:modelDeploymentProcessName a owl:DatatypeProperty ;
+    rdfs:label "modelDeploymentProcessName"^^xsd:string .
 
+dlprov:modelPerformanceMonitoringStrategyName a owl:DatatypeProperty ;
+    rdfs:label "modelPerformanceMonitoringStrategyName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#DataSplitCriteria
-:DataSplitCriteria rdf:type owl:Class ;
-                   rdfs:subClassOf prov:Entity ;
-                   rdfs:label "Data Split Criteria"@en .
+dlprov:modelPurposeName a owl:DatatypeProperty ;
+    rdfs:label "modelPurposeName"^^xsd:string .
 
+dlprov:optimizationTechniqueName a owl:DatatypeProperty ;
+    rdfs:label "optimizationTechniqueName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#Dataset
-:Dataset rdf:type owl:Class ;
-         rdfs:subClassOf prov:Entity ;
-         rdfs:label "Dataset"@en .
+dlprov:performanceMetricName a owl:DatatypeProperty ;
+    rdfs:label "performanceMetricName"^^xsd:string .
 
+dlprov:postprocessingStepName a owl:DatatypeProperty ;
+    rdfs:label "postprocessingStepName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#DeploymentPlatform
-:DeploymentPlatform rdf:type owl:Class ;
-                    rdfs:subClassOf prov:Entity ;
-                    rdfs:label "Deployment Platform"@en .
+dlprov:preprocessingStepName a owl:DatatypeProperty ;
+    rdfs:label "preprocessingStepName"^^xsd:string .
 
+dlprov:randomnessStrategyName a owl:DatatypeProperty ;
+    rdfs:label "randomnessStrategyName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#DeploymentProcess
-:DeploymentProcess rdf:type owl:Class ;
-                   rdfs:subClassOf prov:Entity ;
-                   rdfs:label "Deployment Process"@en .
+dlprov:regularizationMethodName a owl:DatatypeProperty ;
+    rdfs:label "regularizationMethodName"^^xsd:string .
 
+dlprov:trainingCompletionCriteriaName a owl:DatatypeProperty ;
+    rdfs:label "trainingCompletionCriteriaName"^^xsd:string .
 
-###  https://w3id.org/dlprovenance#Framework
-:Framework rdf:type owl:Class ;
-           rdfs:subClassOf prov:Entity ;
-           rdfs:label "Framework"@en .
+dlprov:isCodeRepositoryLinkOf a owl:ObjectProperty ;
+    rdfs:label "isCodeRepositoryLinkOf"^^xsd:string ;
+    owl:inverseOf dlprov:isCodeRepositoryLinkOf .
 
+dlprov:isCodeRepositoryOf a owl:ObjectProperty ;
+    rdfs:label "isCodeRepositoryOf"^^xsd:string ;
+    owl:inverseOf dlprov:isCodeRepositoryOf .
 
-###  https://w3id.org/dlprovenance#GeneralizabilityMeasure
-:GeneralizabilityMeasure rdf:type owl:Class ;
-                         rdfs:subClassOf prov:Entity ;
-                         rdfs:label "Generalizability Measure"@en .
+dlprov:isDataAnnotationTechniqueOf a owl:ObjectProperty ;
+    rdfs:label "isDataAnnotationTechniqueOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataAnnotationTechniqueOf .
 
+dlprov:isDataAugmentationTechniqueOf a owl:ObjectProperty ;
+    rdfs:label "isDataAugmentationTechniqueOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataAugmentationTechniqueOf .
 
-###  https://w3id.org/dlprovenance#HardwareResource
-:HardwareResource rdf:type owl:Class ;
-                  rdfs:subClassOf prov:Entity ;
-                  rdfs:label "Hardware Resource"@en .
+dlprov:isDataBiasTechniqueOf a owl:ObjectProperty ;
+    rdfs:label "isDataBiasTechniqueOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataBiasTechniqueOf .
 
+dlprov:isDataFormatOf a owl:ObjectProperty ;
+    rdfs:label "isDataFormatOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataFormatOf .
 
-###  https://w3id.org/dlprovenance#Hyperparameter
-:Hyperparameter rdf:type owl:Class ;
-                rdfs:subClassOf prov:Entity ;
-                rdfs:label "Hyperparameter"@en .
+dlprov:isDataRepositoryLinkOf a owl:ObjectProperty ;
+    rdfs:label "isDataRepositoryLinkOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataRepositoryLinkOf .
 
+dlprov:isDataRepositoryOf a owl:ObjectProperty ;
+    rdfs:label "isDataRepositoryOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataRepositoryOf .
 
-###  https://w3id.org/dlprovenance#HyperparameterOptimizationMethod
-:HyperparameterOptimizationMethod rdf:type owl:Class ;
-                                  rdfs:subClassOf prov:Entity ;
-                                  rdfs:label "Hyperparameter Optimization Method"@en .
+dlprov:isDataSplitCriteriaOf a owl:ObjectProperty ;
+    rdfs:label "isDataSplitCriteriaOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDataSplitCriteriaOf .
 
+dlprov:isDatasetOf a owl:ObjectProperty ;
+    rdfs:label "isDatasetOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDatasetOf .
 
-###  https://w3id.org/dlprovenance#Model
-:Model rdf:type owl:Class .
+dlprov:isDeepLearningModelOf a owl:ObjectProperty ;
+    rdfs:label "isDeepLearningModelOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDeepLearningModelOf .
 
+dlprov:isDeploymentPlatformOf a owl:ObjectProperty ;
+    rdfs:label "isDeploymentPlatformOf"^^xsd:string ;
+    owl:inverseOf dlprov:isDeploymentPlatformOf .
 
-###  https://w3id.org/dlprovenance#ModelMonitoringStrategy
-:ModelMonitoringStrategy rdf:type owl:Class ;
-                         rdfs:subClassOf prov:Entity ;
-                         rdfs:label "Model Monitoring Strategy"@en .
+dlprov:isFrameworkOf a owl:ObjectProperty ;
+    rdfs:label "isFrameworkOf"^^xsd:string ;
+    owl:inverseOf dlprov:isFrameworkOf .
 
+dlprov:isGeneralizabilityMeasureOf a owl:ObjectProperty ;
+    rdfs:label "isGeneralizabilityMeasureOf"^^xsd:string ;
+    owl:inverseOf dlprov:isGeneralizabilityMeasureOf .
 
-###  https://w3id.org/dlprovenance#ModelPurpose
-:ModelPurpose rdf:type owl:Class ;
-              rdfs:subClassOf prov:Entity ;
-              rdfs:label "Model Purpose"@en .
+dlprov:isHardwareResourceOf a owl:ObjectProperty ;
+    rdfs:label "isHardwareResourceOf"^^xsd:string ;
+    owl:inverseOf dlprov:isHardwareResourceOf .
 
+dlprov:isHyperparameterOf a owl:ObjectProperty ;
+    rdfs:label "isHyperparameterOf"^^xsd:string ;
+    owl:inverseOf dlprov:isHyperparameterOf .
 
-###  https://w3id.org/dlprovenance#ModelType
-:ModelType rdf:type owl:Class ;
-           rdfs:subClassOf prov:Entity ;
-           rdfs:label "Model Type"@en .
+dlprov:isHyperparameterOptimizationOf a owl:ObjectProperty ;
+    rdfs:label "isHyperparameterOptimizationOf"^^xsd:string ;
+    owl:inverseOf dlprov:isHyperparameterOptimizationOf .
 
+dlprov:isMethodOf a owl:ObjectProperty ;
+    rdfs:label "isMethodOf"^^xsd:string ;
+    owl:inverseOf dlprov:isMethodOf .
 
-###  https://w3id.org/dlprovenance#OptimizationTechnique
-:OptimizationTechnique rdf:type owl:Class ;
-                       rdfs:subClassOf prov:Entity ;
-                       rdfs:label "Optimization Technique"@en .
+dlprov:isModelDeploymentProcessOf a owl:ObjectProperty ;
+    rdfs:label "isModelDeploymentProcessOf"^^xsd:string ;
+    owl:inverseOf dlprov:isModelDeploymentProcessOf .
 
+dlprov:isModelPerformanceMonitoringStrategyOf a owl:ObjectProperty ;
+    rdfs:label "isModelPerformanceMonitoringStrategyOf"^^xsd:string ;
+    owl:inverseOf dlprov:isModelPerformanceMonitoringStrategyOf .
 
-###  https://w3id.org/dlprovenance#PerformanceMetric
-:PerformanceMetric rdf:type owl:Class ;
-                   rdfs:subClassOf prov:Entity ;
-                   rdfs:label "Performance Metric"@en .
+dlprov:isModelPurposeOf a owl:ObjectProperty ;
+    rdfs:label "isModelPurposeOf"^^xsd:string ;
+    owl:inverseOf dlprov:isModelPurposeOf .
 
+dlprov:isOptimizationTechniqueOf a owl:ObjectProperty ;
+    rdfs:label "isOptimizationTechniqueOf"^^xsd:string ;
+    owl:inverseOf dlprov:isOptimizationTechniqueOf .
 
-###  https://w3id.org/dlprovenance#PostprocessingStep
-:PostprocessingStep rdf:type owl:Class ;
-                    rdfs:subClassOf prov:Entity ;
-                    rdfs:label "Postprocessing Step"@en .
+dlprov:isPerformanceMetricOf a owl:ObjectProperty ;
+    rdfs:label "isPerformanceMetricOf"^^xsd:string ;
+    owl:inverseOf dlprov:isPerformanceMetricOf .
 
+dlprov:isPostprocessingStepOf a owl:ObjectProperty ;
+    rdfs:label "isPostprocessingStepOf"^^xsd:string ;
+    owl:inverseOf dlprov:isPostprocessingStepOf .
 
-###  https://w3id.org/dlprovenance#PreprocessingStep
-:PreprocessingStep rdf:type owl:Class ;
-                   rdfs:subClassOf prov:Entity ;
-                   rdfs:label "Preprocessing Step"@en .
+dlprov:isPreprocessingStepOf a owl:ObjectProperty ;
+    rdfs:label "isPreprocessingStepOf"^^xsd:string ;
+    owl:inverseOf dlprov:isPreprocessingStepOf .
 
+dlprov:isRandomnessStrategyOf a owl:ObjectProperty ;
+    rdfs:label "isRandomnessStrategyOf"^^xsd:string ;
+    owl:inverseOf dlprov:isRandomnessStrategyOf .
 
-###  https://w3id.org/dlprovenance#RandomnessHandlingStrategy
-:RandomnessHandlingStrategy rdf:type owl:Class ;
-                            rdfs:subClassOf prov:Entity ;
-                            rdfs:label "Randomness Handling Strategy"@en .
+dlprov:isRawDataOf a owl:ObjectProperty ;
+    rdfs:label "isRawDataOf"^^xsd:string ;
+    owl:inverseOf dlprov:isRawDataOf .
 
+dlprov:isRegularizationMethodOf a owl:ObjectProperty ;
+    rdfs:label "isRegularizationMethodOf"^^xsd:string ;
+    owl:inverseOf dlprov:isRegularizationMethodOf .
 
-###  https://w3id.org/dlprovenance#RegularizationMethod
-:RegularizationMethod rdf:type owl:Class ;
-                      rdfs:subClassOf prov:Entity ;
-                      rdfs:label "Regularization Method"@en .
+dlprov:isTrainingCompletionCriteriaOf a owl:ObjectProperty ;
+    rdfs:label "isTrainingCompletionCriteriaOf"^^xsd:string ;
+    owl:inverseOf dlprov:isTrainingCompletionCriteriaOf .
 
-
-###  https://w3id.org/dlprovenance#Repository
-:Repository rdf:type owl:Class ;
-            rdfs:subClassOf prov:Entity ;
-            rdfs:label "Repository"@en .
-
-
-###  https://w3id.org/dlprovenance#TrainingCompletionCriteria
-:TrainingCompletionCriteria rdf:type owl:Class ;
-                            rdfs:subClassOf prov:Entity ;
-                            rdfs:label "Training Completion Criteria"@en .
-
-
-###  xsd:anyURI
-<xsd:anyURI> rdf:type owl:Class .
-
-
-#################################################################
-#    Annotations
-#################################################################
-
-:hasCodeRepositoryLink rdfs:comment "Relation between a repository and its code repository link." ;
-                       rdfs:label "hasCodeRepositoryLink" .
-
-
-:hasDataRepositoryLink rdfs:comment "Relation between a repository and its data repository link." ;
-                       rdfs:label "hasDataRepositoryLink" .
-
-
-###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

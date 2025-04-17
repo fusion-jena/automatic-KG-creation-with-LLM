@@ -1,0 +1,4 @@
+The provided context does not specify any particular regularization methods (such as dropout or L2
+regularization) used to prevent overfitting in the deep learning pipeline described. The text
+discusses the use of transfer learning, cross-validation techniques (leave-one-out and k-fold), and
+the architecture of CNNs, but does not mention explicit regularization methods.

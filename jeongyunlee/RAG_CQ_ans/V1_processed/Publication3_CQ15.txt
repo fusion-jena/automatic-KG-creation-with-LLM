@@ -1,0 +1,1 @@
+The provided context does not specify which optimization techniques (such as SGD or Adam) were applied in the deep learning pipeline. It describes the use of transfer learning with the Inception v3 model and modifications to training steps and validation percentage, but does not mention the specific optimizer used. 

@@ -1,0 +1,7 @@
+Based on the provided context, the deep learning pipeline primarily uses the following data formats:
+- **Audio**: High sample rate audio data, such as 16-bit stereo audio at 22,000 samples per second
+(22 kHz), is used. Audio data is often represented as 2D spectrograms for analysis and
+visualization. - **Image**: High-resolution color images, for example, 2048-by-1536 8-bit 4:2:2
+color images, are collected and processed. - **Other Environmental Sensor Data**: Data such as
+temperature or air quality, which typically have much lower data rates, are also mentioned.  There
+is no explicit mention of video or CSV formats in the context provided.

@@ -1,0 +1,14 @@
+Based on the provided context, the preprocessing steps involved before training the deep learning
+model included:  1. **Audio Clipping and Standardization**: High-quality single notes were clipped
+from recordings for each species, ensuring each sample had a duration of one second. Silence was
+added at the beginning and end of each note to standardize the temporal scale across samples.  2.
+**File Formatting**: Each audio sample was saved as a 32-bit, single-channel WAV file with a 44.1
+kHz sampling rate.  3. **Spectrogram Generation**: Using R packages (warbleR and Seewave),
+spectrograms were generated for each audio sample across a standardized frequency range (1.0–5.5
+kHz), which covers all known Platymantis calls.  4. **Oscillogram Parameters**: A fast-Fourier
+transformation (FFT) of 512 points with 90% overlap between successive windows was used to generate
+the spectrograms.  5. **Image Saving**: All spectrograms were saved as Portable Network Graphics
+(PNG) files for use as input images to the CNN.  These steps ensured that all input data were
+consistent in duration, frequency range, and format before being used to train the deep learning
+model. The context does not mention explicit normalization or scaling of pixel values, nor
+additional cleaning steps beyond the standardization and formatting described above.

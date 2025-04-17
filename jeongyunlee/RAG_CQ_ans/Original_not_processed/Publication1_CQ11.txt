@@ -1,0 +1,3 @@
+Based on the provided context, the data repository link for the deep learning pipeline is:
+http://first.bloomberglp.com/documents/d4gx/Environment.zip  There is no mention of a Zenodo,
+Figshare, Dryad, or GBIF link in the provided information.

@@ -1,0 +1,2 @@
+The pipeline employs deep convolutional neural networks (CNNs) and deep feed forward neural networks
+(DNNs) for processing audio spectrogram and image data.

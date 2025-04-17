@@ -1,0 +1,3 @@
+The data are publicly available via Cornell University’s Laboratory of Ornithology and Macaulay
+Library of Natural Sounds: https://www.macaulaylibrary.org  There is no mention of a Zenodo,
+Figshare, Dryad, or GBIF link in the provided context.

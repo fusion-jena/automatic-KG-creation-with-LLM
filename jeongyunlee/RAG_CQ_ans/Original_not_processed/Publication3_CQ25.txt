@@ -1,0 +1,2 @@
+The purpose of the deep learning model described in the context is classification. Specifically, it
+is used to identify Platymantis frog species based on spectrogram images of their call notes.

@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/dlprovenance#"
+     xml:base="https://w3id.org/dlprovenance"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <owl:Ontology/>
+
+    <!-- Classes -->
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Method"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#RawData"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataFormat"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataAnnotationTechnique"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataAugmentationTechnique"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Dataset"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PreprocessingStep"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataSplitCriteria"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#CodeRepository"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataRepository"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#CodeRepositoryLink"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataRepositoryLink"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DeepLearningModel"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Hyperparameter"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#HyperparameterOptimization"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#OptimizationTechnique"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#TrainingCompletionCriteria"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#RegularizationMethod"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelPerformanceMonitoringStrategy"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Framework"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#HardwareResource"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PostprocessingStep"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PerformanceMetric"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#GeneralizabilityMeasure"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#RandomnessStrategy"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelPurpose"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataBiasTechnique"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelDeploymentProcess"/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DeploymentPlatform"/>
+
+    <!-- Object Properties and Inverse Properties -->
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasMethod">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isMethodOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isMethodOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasRawData">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isRawDataOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isRawDataOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataFormat">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDataFormatOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataFormatOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataAnnotationTechnique">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDataAnnotationTechniqueOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataAnnotationTechniqueOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataAugmentationTechnique">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDataAugmentationTechniqueOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataAugmentationTechniqueOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataset">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDatasetOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDatasetOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasPreprocessingStep">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isPreprocessingStepOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isPreprocessingStepOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataSplitCriteria">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDataSplitCriteriaOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataSplitCriteriaOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasCodeRepository">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isCodeRepositoryOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isCodeRepositoryOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataRepository">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDataRepositoryOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataRepositoryOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasCodeRepositoryLink">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isCodeRepositoryLinkOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isCodeRepositoryLinkOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataRepositoryLink">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDataRepositoryLinkOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataRepositoryLinkOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDeepLearningModel">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDeepLearningModelOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDeepLearningModelOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasHyperparameter">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isHyperparameterOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isHyperparameterOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasHyperparameterOptimization">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isHyperparameterOptimizationOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isHyperparameterOptimizationOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasOptimizationTechnique">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isOptimizationTechniqueOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isOptimizationTechniqueOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasTrainingCompletionCriteria">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isTrainingCompletionCriteriaOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isTrainingCompletionCriteriaOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasRegularizationMethod">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isRegularizationMethodOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isRegularizationMethodOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasModelPerformanceMonitoringStrategy">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isModelPerformanceMonitoringStrategyOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isModelPerformanceMonitoringStrategyOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasFramework">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isFrameworkOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isFrameworkOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasHardwareResource">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isHardwareResourceOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isHardwareResourceOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasPostprocessingStep">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isPostprocessingStepOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isPostprocessingStepOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasPerformanceMetric">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isPerformanceMetricOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isPerformanceMetricOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasGeneralizabilityMeasure">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isGeneralizabilityMeasureOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isGeneralizabilityMeasureOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasRandomnessStrategy">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isRandomnessStrategyOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isRandomnessStrategyOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasModelPurpose">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isModelPurposeOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isModelPurposeOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataBiasTechnique">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDataBiasTechniqueOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataBiasTechniqueOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasModelDeploymentProcess">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isModelDeploymentProcessOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isModelDeploymentProcessOf"/>
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDeploymentPlatform">
+        <owl:inverseOf rdf:resource="https://w3id.org/dlprovenance#isDeploymentPlatformOf"/>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDeploymentPlatformOf"/>
+
+    <!-- Data Properties -->
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#methodName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataFormat"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataAnnotationTechniqueName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataAugmentationTechniqueName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#datasetName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#preprocessingStepName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataSplitCriteriaName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#codeRepositoryName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataRepositoryName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#codeRepositoryLink"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataRepositoryLink"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#deepLearningModelName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#hyperparameterName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#hyperparameterOptimizationName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#optimizationTechniqueName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#trainingCompletionCriteriaName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#regularizationMethodName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#modelPerformanceMonitoringStrategyName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#frameworkName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#hardwareResourceName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#postprocessingStepName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#performanceMetricName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#generalizabilityMeasureName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#randomnessStrategyName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#modelPurposeName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataBiasTechniqueName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#modelDeploymentProcessName"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#deploymentPlatformName"/>
+
+</rdf:RDF>

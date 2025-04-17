@@ -1,0 +1,3 @@
+The provided context does not specify which data augmentation techniques (such as flipping,
+rotating, or scaling) are applied in the deep learning pipeline. It describes the use of deep
+learning models and data exploration tools but does not mention specific data augmentation methods.

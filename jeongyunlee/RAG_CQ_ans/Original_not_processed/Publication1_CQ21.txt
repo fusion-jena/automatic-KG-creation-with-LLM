@@ -1,0 +1,20 @@
+The provided context does not give a detailed, explicit list of postprocessing steps such as
+saliency maps, metrics calculation, or confusion matrix after model training. However, it does
+mention some relevant postprocessing and auditing activities:  - **Manual Review and Auditing:**
+After running deep learning (DL) models to classify and detect species or events of interest,
+analysts manually review and audit the output. The model outputs the relative probability that an
+event is from a specific data class, and analysts can sort and review the data accordingly. -
+**Visualization Tools:** Analysts use visualization tools such as 2D scatter plots, heat maps, and
+t-SNE clustering to view and select data samples according to similarity or multiple attributes.
+This helps in identifying common signal types or anomalies. - **Labeling and Auditing UI:** The user
+interface allows analysts to efficiently label and audit data samples, using visualizations like
+spectrograms for audio and enhanced images for visual data. Keyboard shortcuts and batch processing
+are used to increase throughput. - **Efficacy Testing:** The efficacy of UI improvements is
+periodically tested using A/B testing to measure improvements in audit throughput.  The context does
+not specifically mention the use of saliency maps, metrics calculation (such as accuracy, precision,
+recall), or confusion matrices as postprocessing steps, but it does describe a process of manual and
+semi-automated review, visualization, and auditing of model outputs.  **In summary:**   The
+postprocessing steps described in the context primarily involve manual review and auditing of model
+outputs using visualization and labeling tools, as well as sorting and filtering based on model
+probabilities and data attributes. Specific mention of saliency maps, metrics calculation, or
+confusion matrices is not provided in the context.

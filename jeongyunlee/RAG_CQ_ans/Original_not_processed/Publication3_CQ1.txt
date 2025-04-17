@@ -1,0 +1,8 @@
+Based on the provided context, the raw data for the deep learning pipeline in this study were
+collected from the following sources:  - Public datasets: Specifically, data were obtained from the
+Macaulay Library at the Cornell Library of Natural Sounds, which provided recordings of Platymantis
+species. - Field surveys: Additional recordings were generated from recent field surveys conducted
+by researchers (e.g., RMB and colleagues).  There is no mention of the use of sensors (other than
+audio recording devices implied by the collection of frog calls) or surveys in the traditional sense
+(e.g., questionnaires). The primary methods described are the use of public datasets and field-
+collected audio recordings.

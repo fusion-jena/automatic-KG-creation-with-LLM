@@ -1,0 +1,6 @@
+The purpose of the deep learning model described in the context is primarily classification and
+detection. The models are used to classify the presence or absence and activity rates of different
+endangered species, as well as to detect specific events of interest (such as the sounds of birds
+colliding with energy infrastructure) in audio spectrogram and image data. The models output the
+relative probability that an event is from a specific data class, usually corresponding to a species
+or event.

@@ -1,0 +1,13 @@
+Based on the provided context, the following preprocessing steps were involved before training the
+deep learning model:  1. **Data Compilation and Selection**: MODIS-derived NDVI and LAI time-series
+data were compiled for the year 2009, which was the middle year of the species survey period.  2.
+**Temporal and Spatial Resampling**:    - The 8-day composite LAI product (MCD15A2) was converted to
+16-day composite images to match the temporal resolution of the NDVI product.    - Both NDVI and LAI
+data were resampled to a spatial resolution of 30 arcseconds to be consistent with the species
+richness results.  3. **Handling Missing Values**: At each pixel location, only samples where no
+missing values existed were used for model training and testing.  4. **Data Mosaicking and
+Reprojection**: MODIS images from different tiles (h27v04, h27v05, h28v05) were composited and
+reprojected using the MODIS Reprojection Tool to cover the entire Korean Peninsula.  The context
+does not explicitly mention normalization or scaling of the input features, nor does it detail other
+cleaning steps beyond handling missing values. If such steps were performed, they are not described
+in the provided text.

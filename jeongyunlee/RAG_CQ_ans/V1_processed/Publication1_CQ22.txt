@@ -1,0 +1,1 @@
+The provided context does not specify which metrics (such as accuracy, precision, or recall) are used to evaluate the performance of the deep learning model. It describes the use of deep learning for classification and detection, and mentions reductions in manual data review, but does not detail specific evaluation metrics. 

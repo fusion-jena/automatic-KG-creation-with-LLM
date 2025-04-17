@@ -1,0 +1,3 @@
+The provided context does not specify which cloud platform (e.g., AWS, Azure, Google Cloud Platform)
+was used to deploy the deep learning model. It only mentions that TensorFlow Inception v3 was
+implemented in the Linux environment (Ubuntu, version 18.04).

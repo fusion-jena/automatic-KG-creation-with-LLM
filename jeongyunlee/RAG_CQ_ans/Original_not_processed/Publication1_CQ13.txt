@@ -1,0 +1,4 @@
+The provided context does not specify the exact hyperparameters (such as learning rate or optimizer)
+used in the deep learning models for biodiversity monitoring. It describes the use of deep
+convolutional neural networks (CNNs) and deep feed forward neural networks (DNNs), but does not
+detail the specific hyperparameter settings.

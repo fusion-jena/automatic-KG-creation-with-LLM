@@ -1,0 +1,5 @@
+The provided context does not specify the exact strategy implemented to monitor model performance
+during training. It describes the use of labeled datasets to train and refine deep learning (DL)
+models, manual review and auditing of model outputs, and periodic A/B testing of user interface
+improvements, but it does not detail the specific methods or metrics used to monitor model
+performance during the training process itself.

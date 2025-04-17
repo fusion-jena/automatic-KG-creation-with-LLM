@@ -1,0 +1,54 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Audio_clipping_and_standardization a dlprov:PreprocessingStep .
+
+dlprov:Audio_recordings_of_frog_calls a dlprov:RawData .
+
+dlprov:Average_certainty_rate a dlprov:PerformanceMetric .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Classification_of_Platymantis_frog_species_based_on_spectrogram_images a dlprov:ModelPurpose .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Cornell_Lab_of_Ornithology_Macaulay_Library a dlprov:DataRepository .
+
+dlprov:Correct_identification_rate a dlprov:PerformanceMetric .
+
+dlprov:Custom_datasets_of_spectrograms_derived_from_bioacoustic_recordings a dlprov:Dataset .
+
+dlprov:File_formatting a dlprov:PreprocessingStep .
+
+dlprov:Image_saving_as_PNG a dlprov:PreprocessingStep .
+
+dlprov:Inception_v3 a dlprov:DeepLearningModel .
+
+dlprov:Number_of_training_steps a dlprov:Hyperparameter .
+
+dlprov:Oscillogram_parameters_with_FFT_of_512_points_and_90%25_overlap a dlprov:PreprocessingStep .
+
+dlprov:PNG_files a dlprov:DataFormat .
+
+dlprov:Silence_addition a dlprov:PreprocessingStep .
+
+dlprov:Spectrogram_generation_using_warbleR_and_Seewave a dlprov:PreprocessingStep .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:Validation_percentage a dlprov:Hyperparameter .
+
+dlprov:Validation_percentage_set_to_20%25 a dlprov:DataSplitCriteria .
+
+dlprov:WAV_files a dlprov:DataFormat .
+
+dlprov:accuracy a dlprov:PerformanceMetric .
+
+dlprov:leave-one-out_and_k-fold a dlprov:GeneralizabilityMeasure%28Cross-validation_techniques .
+
+dlprov:recordings_sourced_from_Cornell_Lab_of_Ornithology_Macaulay_Library_and_recent_field_surveys a dlprov:Dataset .
+
+dlprov:specifically_from_the_genus_Platymantis a dlprov:RawData .
+
+dlprov:spectrogram_images_generated_from_Platymantis_audio_recordings a dlprov:Dataset .
+

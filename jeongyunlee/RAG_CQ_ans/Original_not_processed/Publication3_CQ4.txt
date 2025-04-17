@@ -1,0 +1,4 @@
+The provided context does not mention any specific data augmentation techniques such as flipping,
+rotating, or scaling being applied in the deep learning pipeline. The process described involves
+generating spectrograms from audio recordings and standardizing their duration and frequency range,
+but there is no explicit reference to the use of data augmentation methods.

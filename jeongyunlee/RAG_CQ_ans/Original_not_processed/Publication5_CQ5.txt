@@ -1,0 +1,7 @@
+The datasets used in the deep learning pipeline described in the context are:  - MOD13A1 and
+MYD13A1: 16-day composite NDVI (Normalized Difference Vegetation Index) products at a resolution of
+15 arcseconds. - MCD15A2: 8-day composite LAI (Leaf Area Index) product at 15 arcseconds, converted
+to 16-day composites. - Species richness data from the Korea Forest Service’s 6th National Forest
+Inventory and Monitoring.  These datasets were used to estimate plant species richness across the
+Korean Peninsula. The data were downloaded from the Land Processes Distributed Active Archive Center
+(LP DAAC).  Standard image datasets like MNIST, CIFAR, or ImageNet were not used in this pipeline.
