@@ -1,0 +1,6 @@
+Named Entities:
+DataFormat(audio (0-12 kHz))
+Dataset(CitySounds2017)
+PreprocessingStep(normalization, scaling)
+Framework(Theano v. 0.9.0, lasagne v. 2)
+PerformanceMetric(precision, recall)

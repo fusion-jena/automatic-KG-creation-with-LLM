@@ -1,0 +1,2 @@
+ The context does not provide information on the data augmentation techniques applied in the deep
+learning pipeline. Therefore, I cannot provide an answer to this query.

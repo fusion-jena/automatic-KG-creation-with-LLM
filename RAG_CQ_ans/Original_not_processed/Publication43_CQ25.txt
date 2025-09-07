@@ -1,0 +1,7 @@
+ The purpose of the deep learning model is for supervised classification. It is used to
+automatically discover increasingly higher level features from data. The lower convolutional layers
+capture low-level image features, e.g. edges, color, while higher convolutional layers capture more
+complex features, i.e., composite of several features. The deep learning model used in this work is
+GoogLeNet, which was the winner of ILSVRC (ImageNet Large Scale Visual Recognition Competition
+(ILSVRC)) 2014. It provides higher accuracy with less computational cost compared to previous
+network architectures.

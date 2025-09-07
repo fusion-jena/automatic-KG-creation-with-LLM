@@ -1,0 +1,1 @@
+The paper mentions that two of the most commonly used optimizers—Adaptive Moment Estimation (Adam) and Stochastic Gradient Decent (SGD)— were investigated. While Adam was an optimizer that converged relatively quickly, it did so at the expense of a greater loss. SGD, on the other hand, converged more slowly, but achieved a smaller loss. 

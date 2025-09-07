@@ -1,0 +1,5 @@
+ The data annotation techniques used in the deep learning pipeline are bounding box annotation and
+instance segmentation. Users were instructed to draw bounding boxes around the locations of bat
+calls within call sequences and to annotate them as being either: (1) search-phase echolocation
+calls; (2) terminal feeding buzzes; or (3) social calls. Users were also encouraged to annotate the
+presence of insect vocalisations and non-biotic mechanical noises.

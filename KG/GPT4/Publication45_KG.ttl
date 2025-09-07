@@ -1,0 +1,34 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:F1_score a dlprov:PerformanceMetric .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:accuracy a dlprov:PerformanceMetric .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:conditional_kappa a dlprov:PerformanceMetric .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:predicting_bark_beetle_outbreaks a dlprov:ModelPurpose .
+
+dlprov:prediction a dlprov:ModelPurpose .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:true_skill_statistic a dlprov:PerformanceMetric .
+

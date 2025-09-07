@@ -1,0 +1,1 @@
+ The datasets used in the deep learning pipeline are MNIST, CIFAR, and ImageNet.

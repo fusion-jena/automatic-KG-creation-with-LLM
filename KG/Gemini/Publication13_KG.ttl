@@ -1,0 +1,30 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:256 a dlprov:Hyperparameter .
+
+dlprov:512 a dlprov:Hyperparameter .
+
+dlprov:GH a dlprov:Dataset .
+
+dlprov:Global_High_Quality a dlprov:Dataset .
+
+dlprov:Keras a dlprov:Framework .
+
+dlprov:LH a dlprov:Dataset .
+
+dlprov:LL a dlprov:Dataset .
+
+dlprov:Local_High_Quality a dlprov:Dataset .
+
+dlprov:Local_Low_Quality a dlprov:Dataset .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:dropout_rate a dlprov:Hyperparameter .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:number_of_units_in_the_first_FC_layer a dlprov:Hyperparameter .
+
+dlprov:number_of_units_in_the_second_FC_layer a dlprov:Hyperparameter .
+

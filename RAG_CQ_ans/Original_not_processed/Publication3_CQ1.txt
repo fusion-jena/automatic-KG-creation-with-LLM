@@ -1,0 +1,6 @@
+ The methods utilized for collecting raw data in the deep learning pipeline are not explicitly
+mentioned in the provided context. However, it can be inferred that field surveys and recordings are
+used to collect data for the study. The context mentions that the study uses distributional data and
+recent field surveys by RMB to generate a new dataset. Additionally, the study uses spectrograms,
+which are visual representations of the spectrum of frequencies of a signal as it varies with time,
+to train and test the classifier.

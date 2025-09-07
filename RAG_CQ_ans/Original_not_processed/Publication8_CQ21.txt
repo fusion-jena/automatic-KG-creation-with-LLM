@@ -1,0 +1,7 @@
+ The postprocessing steps involved after the model training are not explicitly mentioned in the
+provided context. However, based on the context, we can infer that the model performance was
+evaluated using visual inspection and the Average Precision (AP) metric. The Average Precision
+metric was calculated for each type of organ and for the entire dataset. Additionally, the model was
+tested on a different un-annotated dataset, and the predicted bounding boxes were manually annotated
+to evaluate the model's performance. The context does not mention the use of saliency maps or
+confusion matrix for postprocessing.

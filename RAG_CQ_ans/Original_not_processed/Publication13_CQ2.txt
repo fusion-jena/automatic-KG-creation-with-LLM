@@ -1,0 +1,2 @@
+ The data formats used in the deep learning pipeline are images.  Answer: The data formats used in
+the deep learning pipeline are images.

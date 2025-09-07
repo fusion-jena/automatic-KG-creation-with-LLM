@@ -1,0 +1,1 @@
+The postprocessing steps involved after the model training include the calculation of metrics such as precision, recall, F1-score, and accuracy. Additionally, a confusion matrix can be used to visualize the performance of the model. Saliency maps can also be generated to understand the features that the model is focusing on for its predictions. 

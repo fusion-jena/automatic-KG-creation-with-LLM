@@ -1,0 +1,9 @@
+Named Entities: 
+DataFormat(grey-coloured 1-channel images, audio spectrograms)
+DataAugmentationTechnique(small random rotations, random displacements)
+Dataset(spectrogram figures of bird recordings, recordings void of any bird activity)
+DeepLearningModel(U-net)
+Framework(Keras, CUDA-CuDNN, Python, Matlab)
+HardwareResource(TITAN-X GPU)
+PerformanceMetric(mean Dice coefficient)
+ModelPurpose(segmentation)

@@ -1,0 +1,28 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:100-layer_CNN_based_on_TensorFlow_ResNet_implementation a dlprov:DeepLearningModel .
+
+dlprov:3_matrices_with_R a dlprov:DataFormat .
+
+dlprov:B_values a dlprov:DataFormat .
+
+dlprov:G a dlprov:DataFormat .
+
+dlprov:T0 a dlprov:Dataset .
+
+dlprov:T1 a dlprov:Dataset .
+
+dlprov:T2 a dlprov:Dataset .
+
+dlprov:back-propagation a dlprov:OptimizationTechnique .
+
+dlprov:horizontal_flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:increasing_and_decreasing_contrast a dlprov:DataAugmentationTechnique .
+
+dlprov:resizing_to_64_%C3%97_64_pixels a dlprov:PreprocessingStep .
+
+dlprov:stopped_training_to_prevent_overfitting a dlprov:TrainingCompletionCriteria .
+

@@ -1,0 +1,1 @@
+The performance of the deep learning model, IUC-NN, is evaluated using accuracy and cross-entropy loss. The accuracy is measured for both binary (possibly threatened vs. not threatened) and detailed (CR, EN, VU, NT, and LC) conservation status predictions. Cross-entropy loss is used to quantify the average validation loss during cross-validation. 

@@ -1,0 +1,1 @@
+The deep learning model was deployed on the Google Cloud platform. The context does not provide information on the platform used to deploy the deep learning model. Therefore, I don't know the answer. 

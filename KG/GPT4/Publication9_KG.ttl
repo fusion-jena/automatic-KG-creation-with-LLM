@@ -1,0 +1,42 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#//github.com/ShawnTylerSchwartz/sashimi> a dlprov:CodeRepositoryLink%28https .
+
+dlprov:160_epochs a dlprov:Hyperparameter .
+
+dlprov:COCO_dataset a dlprov:Dataset .
+
+dlprov:GeForce_RTX_2080_GPU a dlprov:HardwareResource .
+
+dlprov:Mask_R-CNN a dlprov:DeepLearningModel .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:backpropagation a dlprov:OptimizationTechnique .
+
+dlprov:flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:frequency-weighted_IoU a dlprov:PerformanceMetric .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:image_flipping a dlprov:Hyperparameter .
+
+dlprov:image_segmentation a dlprov:ModelPurpose .
+
+dlprov:learning_momentum_0.9 a dlprov:Hyperparameter .
+
+dlprov:learning_rate_0.0001 a dlprov:Hyperparameter .
+
+dlprov:learning_rate_0.001 a dlprov:Hyperparameter .
+
+dlprov:mean_IoU a dlprov:PerformanceMetric .
+
+dlprov:mean_accuracy a dlprov:PerformanceMetric .
+
+dlprov:pixel_accuracy a dlprov:PerformanceMetric .
+
+dlprov:weight_decay_0.0001 a dlprov:Hyperparameter .
+

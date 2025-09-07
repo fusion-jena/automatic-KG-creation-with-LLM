@@ -1,0 +1,17 @@
+ Named Entities:
+    For each provided Concept(Corresponding Named Entity,..),
+    Method(Deep Learning Pipeline),
+    RawData(Image),
+    DataFormat(Image),
+    Dataset(MNIST, CIFAR, ImageNet),
+    PreprocessingStep(Data Cleaning, Data Normalization or Standardization, Data Transformation, Data Splitting, Data Augmentation, Feature Selection or Engineering),
+    DataAugmentationTechnique(Flipping, Rotating, Scaling, Translating),
+    DeepLearningModel(Convolutional Neural Network),
+    Hyperparameter(Learning Rate, Optimizer, Batch Size, Number of Epochs, Dropout Rate, Weight Decay, Number of Hidden Layers, Number of Neurons in Each Hidden Layer, Activation Function, Loss Function, Metric),
+    OptimizationTechnique(Stochastic Gradient Descent, Adaptive Moment Estimation),
+    RegularizationMethod(Dropout, L1 Regularization, L2 Regularization, Early Stopping),
+    Framework(TensorFlow),
+    HardwareResource(NVIDIA GeForce GTX 1080 Ti GPU),
+    CodeRepository(GitHub),
+    ModelPurpose(Image Classification),
+    PerformanceMetric(Accuracy, Precision, Recall, F1 Score)

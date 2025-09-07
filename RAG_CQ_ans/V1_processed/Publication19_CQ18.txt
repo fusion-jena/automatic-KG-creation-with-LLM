@@ -1,0 +1,1 @@
+The strategy implemented to monitor the model performance during training was to use a validation set. The validation set was used to evaluate the model performance after each epoch. The validation loss and accuracy were plotted to monitor the model performance during training. %Query 

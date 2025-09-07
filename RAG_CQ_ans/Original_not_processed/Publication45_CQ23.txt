@@ -1,0 +1,4 @@
+ The context does not provide specific information on the measures taken to ensure the
+generalizability of the deep learning model. However, it is mentioned that deep learning approaches
+are good at generalizing beyond test data, which is an ability of high importance in the context of
+prediction for applied ecological research.

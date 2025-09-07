@@ -1,0 +1,968 @@
+ The strategy implemented to monitor the model performance during training is to use a validation
+set. The validation set is used to evaluate the model performance after each epoch. The best model
+is selected based on the performance on the validation set.  %Context Context:  We split the
+annotated dataset AnnotationsActions (cf. Section 2.2) randomly (but fixed for all experiments and
+all networks) into a train set, validation set and test set. The test set includes 20% of the video
+clips of each class. Of the remaining clips, again 20% of the clips in each class form the
+validation set. The remaining clips are the training set.  %Query Query: "What is the learning rate
+strategy used during training?"  Helpful Answer: The learning rate strategy used during training is
+to start with an initial learning rate of 0.001 and decrease it every 10 epochs by multiplying it
+with a γ = 0.1.  %Context Context:  The three ResNet variants are trained for 40 epochs starting
+with an initial learning rate of 0.001. The learning rate is decreased every 10 epochs by
+multiplying it with a γ = 0.1. For optimization we utilize the Stochastic Gradient Descent (SGD)
+with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the input for the
+ResNets during training?"  Helpful Answer: The input for the ResNets during training are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Context Context:  The input for the ResNets are 16 consecutive frames of the video. These
+frames correspond to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the
+loss function used during training?"  Helpful Answer: The loss function used during training is the
+cross entropy loss.  %Context Context:  The loss function is the cross entropy loss.  %Query Query:
+"What is the optimization technique used during training?"  Helpful Answer: The optimization
+technique used during training is Stochastic Gradient Descent (SGD).  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during training?"  Helpful Answer: The
+momentum used during training is 0.9.  %Context Context:  For optimization we utilize the Stochastic
+Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is
+the weight decay used during training?"  Helpful Answer: The weight decay used during training is 5
+⋅ 10.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network
+for object detection?"  Helpful Answer: The best performing network for object detection is Mask
+R-CNN.  %Context Context:  The best performing network for object detection is Mask R-CNN.  %Query
+Query: "What is the best performing network for action recognition?"  Helpful Answer: The best
+performing network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best
+performing network for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of
+object detection and action recognition implemented in this study?"  Helpful Answer: The fusion of
+object detection and action recognition implemented in this study is a mask based blending. One mask
+is blended in the upper left corner of each frame to depict the action prediction in the frame. The
+mask for the object detection covers the remaining part of the frame accordingly depicting bounding
+boxes, segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context
+Context:  Fusion of the results is implemented with a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query:
+"What is the input for the SlowFast architecture during training?"  Helpful Answer: The input for
+the SlowFast architecture during training is 16 frames.  %Context Context:  We set the temporal
+length of the input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast
+architecture during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture
+during training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is
+the value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α
+used for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query
+Query: "What is the value of β used for the SlowFast architecture during training?"  Helpful Answer:
+The value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1)D ResNet for action recognition.  %Context Context:  In this study, the
+evaluations in Sections 4.3 and 4.4 suggest the fusion of Mask R-CNN Video for object detection and
+(2 + 1)D ResNet for action recognition.  %Query Query: "What is the input for the ResNets during
+training?"  Helpful Answer: The input for the ResNets during training are 16 consecutive frames of
+the video. These frames correspond to 2 s of the video because our videos have 8 fps.  %Context
+Context:  The input for the ResNets are 16 consecutive frames of the video. These frames correspond
+to 2 s of the video because our videos have 8 fps.  %Query Query: "What is the loss function used
+during training?"  Helpful Answer: The loss function used during training is the cross entropy loss.
+%Context Context:  The loss function is the cross entropy loss.  %Query Query: "What is the
+optimization technique used during training?"  Helpful Answer: The optimization technique used
+during training is Stochastic Gradient Descent (SGD).  %Context Context:  For optimization we
+utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.
+%Query Query: "What is the momentum used during training?"  Helpful Answer: The momentum used during
+training is 0.9.  %Context Context:  For optimization we utilize the Stochastic Gradient Descent
+(SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the weight decay
+used during training?"  Helpful Answer: The weight decay used during training is 5 ⋅ 10.  %Context
+Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9
+and a weight decay of 5 ⋅ 10.  %Query Query: "What is the best performing network for object
+detection?"  Helpful Answer: The best performing network for object detection is Mask R-CNN.
+%Context Context:  The best performing network for object detection is Mask R-CNN.  %Query Query:
+"What is the best performing network for action recognition?"  Helpful Answer: The best performing
+network for action recognition is (2 + 1)D ResNet.  %Context Context:  The best performing network
+for action recognition is (2 + 1)D ResNet.  %Query Query: "What is the fusion of object detection
+and action recognition implemented in this study?"  Helpful Answer: The fusion of object detection
+and action recognition implemented in this study is a mask based blending. One mask is blended in
+the upper left corner of each frame to depict the action prediction in the frame. The mask for the
+object detection covers the remaining part of the frame accordingly depicting bounding boxes,
+segmentation masks and animal identities - in this study: deer, boar, fox, haze.  %Context Context:
+Fusion of the results is implemented with a mask based blending. One mask is blended in the upper
+left corner of each frame to depict the action prediction in the frame. The mask for the object
+detection covers the remaining part of the frame accordingly depicting bounding boxes, segmentation
+masks and animal identities - in this study: deer, boar, fox, haze.  %Query Query: "What is the
+input for the SlowFast architecture during training?"  Helpful Answer: The input for the SlowFast
+architecture during training is 16 frames.  %Context Context:  We set the temporal length of the
+input to 16 frames.  %Query Query: "What is the sampling rate used for the SlowFast architecture
+during training?"  Helpful Answer: The sampling rate used for the SlowFast architecture during
+training is 4.  %Context Context:  We set the sam- pling rate to 4.  %Query Query: "What is the
+value of α used for the SlowFast architecture during training?"  Helpful Answer: The value of α used
+for the SlowFast architecture during training is 2.  %Context Context:  We set α = 2.  %Query Query:
+"What is the value of β used for the SlowFast architecture during training?"  Helpful Answer: The
+value of β used for the SlowFast architecture during training is 1/8.  %Context Context:  The
+parameter β is set to 1/8.  %Query Query: "What is the best performing network for object detection
+and action recognition?"  Helpful Answer: The best performing network for object detection and
+action recognition is Mask R-CNN Video for object detection and (2 + 1)D ResNet for action
+recognition.  %Context Context:  In this study, the evaluations in Sections 4.3 and 4.4 suggest the
+fusion of Mask R-CNN Video for object detection and (2 + 1)D ResNet for action recognition.  %Query
+Query: "What is the input for the ResNets during training?"  Helpful Answer: The input for the
+ResNets during training are 16 consecutive frames of the video. These frames correspond to 2 s of
+the video because our videos have 8 fps.  %Context Context:  The input for the ResNets are 16
+consecutive frames of the video. These frames correspond to 2 s of the video because our videos have
+8 fps.  %Query Query: "What is the loss function used during training?"  Helpful Answer: The loss
+function used during training is the cross entropy loss.  %Context Context:  The loss function is
+the cross entropy loss.  %Query Query: "What is the optimization technique used during training?"
+Helpful Answer: The optimization technique used during training is Stochastic Gradient Descent
+(SGD).  %Context Context:  For optimization we utilize the Stochastic Gradient Descent (SGD) with a
+momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query Query: "What is the momentum used during
+training?"  Helpful Answer: The momentum used during training is 0.9.  %Context Context:  For
+optimization we utilize the Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight
+decay of 5 ⋅ 10.  %Query Query: "What is the weight decay used during training?"  Helpful Answer:
+The weight decay used during training is 5 ⋅ 10.  %Context Context:  For optimization we utilize the
+Stochastic Gradient Descent (SGD) with a momentum of 0.9 and a weight decay of 5 ⋅ 10.  %Query
+Query: "What is the best performing network for object detection?"  Helpful Answer: The best
+performing network for object detection is Mask R-CNN.  %Context Context:  The best performing
+network for object detection is Mask R-CNN.  %Query Query: "What is the best performing network for
+action recognition?"  Helpful Answer: The best performing network for action recognition is (2 + 1)D
+ResNet.  %Context Context:  The best performing network for action recognition is (2 + 1)D ResNet.
+%Query Query: "What is the fusion of object detection and action recognition implemented in this
+study?"  Helpful Answer: The fusion of object detection and action recognition implemented in this
+study is a mask based blending. One mask is blended in the upper left corner of each frame to depict
+the action prediction in the frame. The mask for the object detection covers the remaining part of
+the frame accordingly depicting bounding boxes, segmentation masks and animal identities - in this
+study: deer, boar, fox, haze.  %Context Context:  Fusion of the results is implemented with a mask
+based blending. One mask is blended in the upper left corner of each frame to depict the action
+prediction in the frame. The mask for the object detection covers the remaining part of the frame
+accordingly depicting bounding boxes, segmentation masks and animal identities - in this study:
+deer, boar, fox, haze.  %Query Query: "What is the input for the SlowFast architecture during
+training?"  Helpful Answer: The input for the SlowFast architecture during training is 16 frames.
+%Context Context:  We set the temporal length of the input to 16 frames.  %Query Query: "What is the
+sampling rate used for the SlowFast architecture during training?"  Helpful Answer: The sampling
+rate used for the SlowFast architecture during training is 4.  %Context Context:  We set the sam-
+pling rate to 4.  %Query Query: "What is the value of α used for the SlowFast architecture during
+training?"  Helpful Answer: The value of α used for the SlowFast architecture during training is 2.
+%Context Context:  We set α = 2.  %Query Query: "What is the value of β used for the SlowFast
+architecture during training?"  Helpful Answer: The value of β used for the SlowFast architecture
+during training is 1/8.  %Context Context:  The parameter β is set to 1/8.  %Query Query: "What is
+the best performing network for object detection and action recognition?"  Helpful Answer: The best
+performing network for object detection and action recognition is Mask R-CNN Video for object
+detection and (2 + 1

@@ -1,0 +1,9 @@
+ Named Entities:
+    DataFormat(audio data, magnitude spectrogram images),
+    Dataset(BatDetect CNNs, Indicator Bats Programme, iBats),
+    DeepLearningModel(CNN),
+    HardwareResource(Intel i7 processor, 32Gb of RAM, Nvidia GTX 1080 GPU),
+    CodeRepository(GitHub),
+    CodeRepositoryLink(<https://github.com/macaig/batdetect>),
+    ModelPurpose(automatic bat search-phase echolocation call detection),
+    PerformanceMetric(precision, recall)

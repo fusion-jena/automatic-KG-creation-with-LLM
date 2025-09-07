@@ -1,0 +1,3 @@
+ The pipeline uses a deep feedforward network (DNN) and a convolutional neural network (CNN) as deep
+learning models. The DNN has multiple hidden layers, and the CNN is composed of two hidden
+convolutional layers and one last layer fully connected with 200 neurons.

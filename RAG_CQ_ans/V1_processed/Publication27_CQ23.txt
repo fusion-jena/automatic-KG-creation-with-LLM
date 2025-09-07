@@ -1,0 +1,1 @@
+The authors used a diverse dataset and employed cross-validation to ensure the generalizability of their deep learning model. They also used stratified splitting to maintain the balance of the dataset. 

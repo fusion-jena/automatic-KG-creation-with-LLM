@@ -1,0 +1,114 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:0.0005 a dlprov:OptimizationTechnique .
+
+dlprov:0.001 a dlprov:Hyperparameter .
+
+dlprov:0.9 a dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique .
+
+<https://w3id.org/dlprov#1/1000> a dlprov:OptimizationTechnique .
+
+dlprov:11_GB_graphic_memory a dlprov:HardwareResource .
+
+dlprov:16_GB_RAM a dlprov:HardwareResource .
+
+dlprov:30 a dlprov:OptimizationTechnique .
+
+dlprov:40 a dlprov:Hyperparameter .
+
+dlprov:5_%E2%8B%85_10 a dlprov:Hyperparameter .
+
+dlprov:AP a dlprov:PerformanceMetric .
+
+dlprov:AR a dlprov:PerformanceMetric .
+
+dlprov:ARmax%3D1 a dlprov:PerformanceMetric .
+
+dlprov:ARmax%3D10 a dlprov:PerformanceMetric .
+
+dlprov:AnnotationsActions_dataset a dlprov:Dataset .
+
+dlprov:Average_Precision a dlprov:PerformanceMetric .
+
+dlprov:Average_Recall a dlprov:PerformanceMetric .
+
+dlprov:GeForce_RTX_2080_Ti_GPU a dlprov:HardwareResource .
+
+dlprov:Intel_Core_i7-6700K_4.00_GHz_CPU a dlprov:HardwareResource .
+
+dlprov:ResNets a dlprov:DeepLearningModel .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:SlowFast_architecture a dlprov:DeepLearningModel .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:analyzing_abundance_and_behavior a dlprov:ModelPurpose .
+
+dlprov:as_backbone a dlprov:DeepLearningModel .
+
+dlprov:bounding_boxes_and_precise_shapes a dlprov:ModelPurpose .
+
+dlprov:camera_traps a dlprov:ModelPurpose .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:common_steps_mentioned_but_not_specific_to_this_context a dlprov:PreprocessingStep .
+
+dlprov:cross-entropy_loss a dlprov:Hyperparameter .
+
+dlprov:data_augmentation_techniques a dlprov:RegularizationMethod .
+
+dlprov:decrease_every_10_epochs_by_0.1 a dlprov:Hyperparameter .
+
+dlprov:decreased_every_10_epochs_by_0.1 a dlprov:OptimizationTechnique .
+
+dlprov:detection_of_individual_animals a dlprov:ModelPurpose .
+
+dlprov:epochs a dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique .
+
+dlprov:frames_per_second a dlprov:DataFormat .
+
+dlprov:horizontal_flip a dlprov:DataAugmentationTechnique,
+        dlprov:RegularizationMethod .
+
+dlprov:infrared_cameras a dlprov:DataFormat .
+
+dlprov:infrared_flash-lights a dlprov:DataFormat .
+
+dlprov:initial_learning_rate a dlprov:Hyperparameter .
+
+dlprov:learning_rate a dlprov:OptimizationTechnique .
+
+dlprov:learning_rate_schedule a dlprov:Hyperparameter .
+
+dlprov:momentum a dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:recognition_of_actions_of_animals a dlprov:ModelPurpose .
+
+dlprov:rotation a dlprov:DataAugmentationTechnique .
+
+dlprov:scaling a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:shearing a dlprov:DataAugmentationTechnique .
+
+dlprov:tracing_animal_populations a dlprov:ModelPurpose .
+
+dlprov:video a dlprov:DataFormat .
+
+dlprov:video_clips a dlprov:DataFormat .
+
+dlprov:warmup_factor a dlprov:OptimizationTechnique .
+
+dlprov:warmup_iterations a dlprov:OptimizationTechnique .
+
+dlprov:weight_decay a dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique .
+

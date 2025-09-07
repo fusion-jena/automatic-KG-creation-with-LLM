@@ -1,0 +1,12 @@
+Named Entities:
+DataFormat(images, thumbnails of whole fish, part of fish species, environment)
+DataAugmentationTechnique(flipping each thumbnail with respect to the vertical axis)
+Dataset(T1, T2, T3, T4: containing different combinations of raw fish thumbnails, mirror images, whole fish, part of fish, and environment thumbnails)
+DeepLearningModel(Convolutional Neural Network (CNN))
+Hyperparameter(Learning rate=10, Learning decay (Gamma=0.95), Dropout=50%, Solver type=Adam, Weight initialization=random Gaussian)
+OptimizationTechnique(Adam Solver type with learning parameters)
+RegularizationMethod(dropout, learning decay with Gamma=0.95)
+Framework(Caffe)
+HardwareResource(64GB RAM, i7 3.50GHz CPU, Titan X GPU)
+PerformanceMetric(mean identification success rate, correct identification rate, confusion between fish species, success rate)
+ModelPurpose(classification of fish species from images)

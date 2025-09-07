@@ -1,0 +1,11 @@
+ Named Entities:
+    DataFormat(Image),
+    Dataset(ImageNet),
+    DataAugmentationTechnique(Random scale, Random crop, Flip horizontally, Random brightness),
+    DeepLearningModel(GoogLeNet, CNN),
+    OptimizationTechnique(Stochastic Gradient Descent),
+    HyperparameterOptimization(Transfer learning),
+    RegularizationMethod(Dropout, L2 regularization),
+    Framework(TensorFlow),
+    ModelPurpose(Supervised Classification),
+    PerformanceMetric(Precision, Recall, F1 measure).

@@ -1,0 +1,12 @@
+ Named Entities:
+    DataFormat(Image),
+    Dataset(T0, T1, T2),
+    PreprocessingStep(Resizing, Data Augmentation),
+    DataAugmentationTechnique(Increasing Contrast, Decreasing Contrast, Horizontal Flipping),
+    DeepLearningModel(CNN),
+    Framework(TensorFlow),
+    PerformanceMetric(Mean Rate of Correct Classification, Rates of Correct Classifications per Species, Softmax Scores),
+    ModelPurpose(Classification),
+    CodeRepositoryLink(Not Mentioned),
+    DataRepositoryLink(Not Mentioned),
+    HardwareResource(Not Mentioned)

@@ -1,0 +1,16 @@
+ChatGPT
+
+Named Entities:
+DataFormat: image
+DataAugmentationTechnique: Random scale, Random crop, Flip horizontally, Random brightness
+Dataset: ImageNet
+PreprocessingStep: [Not provided]
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: GoogLeNet (CNN)
+Hyperparameter: [Not provided]
+OptimizationTechnique: Stochastic Gradient Descent (SGD)
+RegularizationMethod: Dropout, L2 regularization
+Framework: TensorFlow
+HardwareResource: [Not provided]
+PerformanceMetric: Precision, Recall, F1 measure
+ModelPurpose: Supervised classification

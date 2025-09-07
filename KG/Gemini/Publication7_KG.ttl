@@ -1,0 +1,12 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Benthoz15 a dlprov:Dataset .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:VGGnet a dlprov:DeepLearningModel .
+
+dlprov:image a dlprov:DataFormat .
+

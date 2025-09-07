@@ -1,0 +1,1 @@
+The provided context does not mention any specific optimization techniques applied in the deep learning pipeline, such as SGD (Stochastic Gradient Descent) or Adam. 

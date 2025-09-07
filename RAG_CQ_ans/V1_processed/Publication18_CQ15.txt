@@ -1,0 +1,1 @@
+The context does not provide information on the specific optimization techniques applied in the deep learning pipeline. However, common optimization techniques used in deep learning include Stochastic Gradient Descent (SGD) and Adam. 

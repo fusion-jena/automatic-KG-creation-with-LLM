@@ -1,0 +1,8 @@
+ The hyperparameters of the model are optimized through a process called back-propagation. Back-
+propagation consists of automatically changing parameters of the CNN through the comparison between
+its output and the correct class of the training element to eventually improve the final
+classification rate. The training procedure lasted 600,000 iterations; each iteration processed a
+batch of 16 images, which means that the 691,690 images of the training dataset were analyzed 14
+times each by the network on average. The training was then stopped to prevent overfitting, as an
+overfit model is too restrictive and only able to classify images that were used during the
+training.

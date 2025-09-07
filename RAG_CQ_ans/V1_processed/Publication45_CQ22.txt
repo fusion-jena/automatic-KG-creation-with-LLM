@@ -1,0 +1,1 @@
+The performance of the deep learning model is evaluated using the following metrics: accuracy, precision, recall, F1 score, conditional kappa, and true skill statistic. These metrics are used in both Experiment 1 and Experiment 2, as shown in Table 2. 

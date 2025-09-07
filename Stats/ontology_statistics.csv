@@ -1,0 +1,5 @@
+Model,Classes,Object_Properties,Data_Properties,SubClassOf_Axioms,Total_Axioms
+GPT4,28,27,2,28,216
+GPT3.5,26,52,1,26,210
+Gemini,24,46,2,24,189
+Mixtral_8*22b,30,58,28,30,548

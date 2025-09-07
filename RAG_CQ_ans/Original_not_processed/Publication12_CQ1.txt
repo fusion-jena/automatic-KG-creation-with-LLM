@@ -1,0 +1,3 @@
+ The study utilizes over 880 audio-files from 36 Asian bat species for the deep learning pipeline.
+The raw data is collected through audio recordings of bat calls. The specific methods for collecting
+these audio recordings are not explicitly mentioned in the provided context.

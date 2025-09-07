@@ -1,0 +1,4 @@
+Named Entities:
+DataFormat(satellite images)
+Dataset(UCM, AID)
+PreprocessingStep(normalization, scaling, cleaning)

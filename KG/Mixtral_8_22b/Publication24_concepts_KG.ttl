@@ -1,0 +1,26 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:CitySounds2017 a dlprov:Dataset .
+
+dlprov:Theano a dlprov:Framework .
+
+dlprov:audio a dlprov:DataFormat .
+
+dlprov:classification a dlprov:ModelPurpose .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:lasagne a dlprov:Framework .
+
+dlprov:librosa a dlprov:Framework .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+

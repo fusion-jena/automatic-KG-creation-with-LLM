@@ -1,0 +1,23 @@
+  Several techniques are used to address data bias during preprocessing of the deep learning
+pipeline. These include:  1. Stratified splitting: This technique involves splitting the dataset
+into training and testing sets while maintaining the same distribution of classes in both sets. This
+is particularly useful when dealing with imbalanced datasets.  2. Oversampling: This technique
+involves increasing the number of instances in the minority class by replicating them or creating
+synthetic examples. This can help balance the dataset and improve the model's performance.  3.
+Undersampling: This technique involves reducing the number of instances in the majority class. This
+can be done randomly or by selecting the most representative examples. This can also help balance
+the dataset and improve the model's performance.  4. Diverse data collection: This involves
+collecting data from a variety of sources and perspectives to ensure that the dataset is
+representative of the population. This can help reduce bias and improve the model's
+generalizability.  5. Data augmentation: This involves creating new data by applying transformations
+to the existing data. This can help increase the size of the dataset and improve the model's
+performance.  6. Transfer learning: This involves using a pre-trained model as a starting point for
+a new task. This can help reduce bias and improve the model's performance, especially when dealing
+with small datasets.  7. Fairness-aware machine learning: This involves incorporating fairness
+constraints into the learning process to ensure that the model does not discriminate against certain
+groups. This can help reduce bias and improve the model's fairness.  8. Explainable AI: This
+involves using techniques to make the model's decisions more transparent and understandable. This
+can help identify and address bias in the model.  9. Regularization: This involves adding a penalty
+term to the loss function to prevent overfitting and improve the model's generalizability. This can
+also help reduce bias.  10. Ensemble methods: This involves combining multiple models to improve the
+overall performance. This can help reduce bias and improve the model's robustness.

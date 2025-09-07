@@ -1,0 +1,2 @@
+ The purpose of the deep learning model is for classification. It is used to classify frames as
+either containing a foreground object (hummingbird) or background objects (vegetation and sky).

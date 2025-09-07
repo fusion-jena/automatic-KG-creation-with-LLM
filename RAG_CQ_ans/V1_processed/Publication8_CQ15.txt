@@ -1,0 +1,1 @@
+The model was implemented with the Detectron2 library in PyTorch framework and trained using Stochastic Gradient Descent optimizer with a learning rate of 0. 0025 and momentum of 0. 9. 

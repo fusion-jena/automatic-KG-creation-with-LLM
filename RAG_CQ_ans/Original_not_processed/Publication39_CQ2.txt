@@ -1,0 +1,3 @@
+ The deep learning pipeline uses video data formats. The video clips are captured with 8 frames per
+second by camera traps using infrared cameras and infrared flash-lights. The clips show deer, boars,
+foxes, and hares, mostly at night time.

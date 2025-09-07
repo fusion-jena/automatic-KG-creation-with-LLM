@@ -1,0 +1,7 @@
+ The context does not provide specific information on the methods used for collecting raw data in
+the deep learning pipeline. However, it mentions that specimens from bulk-samples were air-dried and
+placed at regular distances onto filter paper in a Petri dish. Bulk-sample photographs were taken
+using a Zeiss AXIO Zoom.V16 Stereo Zoom Microscope equipped with a Zeiss AxioCam HRc (High
+Resolution 13 Megapixels Color Microscope) camera at the Imaging and Analysis Centre at the Natural
+History Museum (NHM) in London, United Kingdom. This suggests that the raw data for this study was
+collected using a microscope and camera.

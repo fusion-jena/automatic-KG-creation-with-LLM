@@ -1,0 +1,2 @@
+ The optimization technique applied in the deep learning pipeline is stochastic gradient descent
+(SGD).

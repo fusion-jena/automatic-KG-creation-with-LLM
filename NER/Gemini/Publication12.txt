@@ -1,0 +1,10 @@
+Named Entities: 
+DataFormat(images)
+DataPreprocessingStep(rescaled exponentially, shifted window)
+Dataset(validation dataset with 19,614 images, training dataset with 111,244 images)
+DeepLearningModel(BatNet, CNN)
+Hyperparameter(batch size (64), learning rate (0.001))
+RegularizationMethod(Batch Normalization)
+Framework(TensorFlow)
+HardwareResource(GPU)
+PerformanceMetric(ROC curve, AUC, overall accuracy, sensitivity, specificity, false positive rate, confusion matrix)

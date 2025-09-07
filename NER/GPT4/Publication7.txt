@@ -1,0 +1,7 @@
+Named Entities: 
+DataFormat(image)
+Dataset(ImageNet, Benthoz15)
+PreprocessingStep(normalization, scaling, cleaning, data augmentation)
+DeepLearningModel(CNN, VGGnet)
+PerformanceMetric(accuracy)
+ModelPurpose(coral reef classification, automatic annotation of unlabelled coral images and mosaics)

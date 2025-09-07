@@ -1,0 +1,739 @@
+ Training is considered complete when the training loss has converged. In this case, the model was
+trained for 15 epochs, by which time the training loss had converged.  %Context: haze • partly
+cloudy • primary • road • selective logging • conventional mine • slash burn • water  As a single
+image can have multiple classes in this dataset so, in the algorithm, all such classes were tried to
+predict correctly for each of the images.  IV. DATA ANALYSIS  Some basic data analysis was performed
+on the dataset  which have been described in details below.  A. Distribution of Training Labels
+Firstly, the histogram as present in Figure 4 showing the distribution of training labels was
+constructed. It has been found that the dataset is not balanced in nature, i.e., all labels are not
+present in uniform quantity. Labels such as primary, clear and agriculture are present in
+signiﬁcantly more number than the other ones. Whereas, some other labels like slash burn, blow down
+and conventional mine are present in very less quantity. Note that in the dataset, a single image
+may have multiple classes. The histogram must be seen keeping this in mind.  Fig. 4: Distribution of
+Training Labels  B. Correlation Matrix  The correlation matrix was plotted, as shown in Figure 5, to
+understand the occurrence of the classes with respect to each other. Here, redder is the label, more
+is the value of the correlation for any given pair of classes. After studying this  plot, some
+interesting results were observed. Some of them are:  The label primary is associated with almost
+all classes. This means that most chips have some degree of primary forests along with other labels.
+The label agriculture is also associated with a few labels like road, habitation and cultivation.
+Fig. 5: Distribution of Training Labels  V. PREPROCESSING OF DATASET  Even after converting to JPG,
+the dataset was quite large in size. It would have been computationally expensive to train the model
+on such a large dataset. Besides, the obtained dataset contained images of various dimensions.
+Hence, all images were resized to a standard size, in this case, 128x128 pixels. This is also an
+important step as it helps in speeding up the training. Since the downloaded VGG16 model did not
+contain the top layer, it was possible to train with images with dimensions (128x128x3) that were
+different from the dimensions of images used in the original VGG16 model (224x224x3). In this
+dataset, 40479 images for training and 40669 images for testing were used. Each image may be
+classiﬁed into multiple classes.  VI. METHODOLOGY  VI. METHODOLOGY  In the proposed work, the VGG16
+model has been used to classify images into various classes. Figure 6 shows the original diagram of
+the VGG model.  Fig. 6: Distribution of Training Labels In the model, a batch normalization layer
+was added to the input layer and then fed to the VGG16 model. The last block  of the original VGG16
+model was removed and the output of the penultimate block of the VGG16 model was ﬂattened. It was
+then passed on to a softmax classiﬁer to present the output with respect to 17 classes. Here, 20% of
+the training data was used for validation after training. The architecture of this model is present
+in Table I.  TABLE I: Architecture of VGG16 model  Layer (type) input 1 (InputLayer) batch
+normalization 1 vgg16 (Model) ﬂatten 1 (Flatten) dense 1 (Dense)  Output Shape (None, 128, 128, 3)
+(None, 128, 128, 3) (None, 4, 4, 512) (None, 8192) (None, 17)  Parameter 0 12 14714688 0 139281
+Here, the Adam optimizer [16] has been used to minimize the loss, which is measured by binary cross-
+entropy, with a learning rate of 104. Batch size of 128 was used here and this model was trained for
+15 epochs. By this time, the training loss had converged. Using an NVIDIA Tesla K80 GPU, this took
+around one hour to train. The plot between the training loss vs epoch is shown in Figure 7.  Fig. 7:
+Plot of Training Loss vs Epoch  VII. RESULT  The following metrics were evaluated in our work
+Precision =  T P T P + F P  Recall =  T P T P + F N  Accuracy =  T P + T N T P + T N + F P + F N
+With TP, FP, TN,FN being number of true positives, false  positives, true negatives and false
+negatives, respectively.  1 precision + β  F-Beta Score = Fβ =  1 β+1  1 recall precision.recall
+precision + recall  1  β+1  = (1 + β)  Categorical Cross Entropy =  n (cid:88)  K (cid:88)  −y(k)
+truelog(y(k)  predict)  i  k  In the experiment, a training loss of 6.88%, training accu- racy of
+97.35% and testing accuracy of 96.71% were obtained. Also, an F-beta score of 92.69% was obtained.
+The F-beta score is a weighted harmonic mean of the precision and recall. An F-beta score reaches
+its best value at 1 and worst score at 0.  VIII. CONCLUSION  VIII. CONCLUSION  In this work, a way
+to classify satellite imagery in an automated manner using deep learning with the help of the VGG16
+model has been shown. High accuracy was consuming one hour while training with an NVIDIA Tesla K80
+GPU. This model can be successfully applied to track the changing land pattern in the rainforests of
+Amazon. This data about the location of deforestation and human encroachment on forests can help
+governments and local stakeholders respond more quickly and effectively. Besides, this model can be
+used to track natural calamities like ﬂoods, forest ﬁres, etc.  IX. FUTURE SCOPE  A few additions
+may be made to this work for improvements  mentioned below:  Using a larger neural network is likely
+to give a better result. Models like ResNet and Inception, which are deeper in nature may give
+better results than the VGG16 model.  Also, the dataset may help in better classiﬁcation. In this
+work, it has been shown how resizing the provided image to 128x128 pixels can be made to obtain good
+performance. No preprocessing involving the texture and nature of the image itself was performed.
+increased preprocessing of  Performing data augmentation to make the system more robust may be
+another way of getting better results. Since the satellite images may vary in terms of lighting
+effect, rotation, shifting, etc., it may be a good idea to perform data augmentation to enlarge the
+dataset for better training.  These things may be investigated in the upcoming future to improve the
+accuracy and robustness of this model.  REFERENCES  [1] Nunes Kehl, Thiago, Viviane Todt, Mauricio
+Roberto Veronez, and Silvio Csar Cazella, “Amazon rainforest deforestation daily detection tool
+using artiﬁcial neural networks and satellite images,” Sustainability 4, vol. 10, pp. 2566–2573,
+2012.  [2] Somnath Rakshit, Suvojit Manna, Sanket Biswas, RiyankaKundu, Priti Gupta, Sayantan
+Maitra, and Subhas Barman, “Prediction of Diabetes Type-II Using a Two-Class Neural Network,”
+International Conference on Computational Intelligence, Communications, and Business Analyt-
+ics,Springer,Singapore, pp. 65–71, 2017.  [3] Rowley, Henry A., Shumeet Baluja, and Takeo Kanade,
+“Neural network-based face detection,” IEEE Transactions on pattern analysis and machine
+intelligence, vol. 20, no. 1, pp. 23–28, 1998.  [4] Simonyan, Karen, and Andrew Zisserman, “Very
+deep convolutional networks for large-scale image recognition,” arXiv preprint arXiv:1409.1556,
+2014.  [5] He, Kaiming, Xiangyu Zhang, Shaoqing Ren, and Jian Sun, “Deep residual learning for image
+recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition,
+2016, pp. 770–778.  [6] Szegedy, Christian, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and
+Zbigniew Wojna, “Rethinking the inception architecture for computer vision,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2016, pp. 2818–2826.  [7] Kingma,
+Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint
+arXiv:1412.6980, 2014.  [8] Chollet, François, et al., “Xception: Deep learning with depthwise
+separable convolutions,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 1800–1807.  [9] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q.
+Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2017, pp. 4700–4708.  [10] Howard, Andrew G., et al.,
+“MobileNets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint
+arXiv:1704.04861, 2017.  [11] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and
+Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.  [12] Tan, Min, and
+Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural networks,” in
+Proceedings of the IEEE international conference on computer vision, 2019, pp. 7187–7196.  [13]
+Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures
+for scalable image recognition,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 8697–8710.  [14] Real, Edgar, et al., “Regularized evolution for
+image classifier architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [15] Liu, Hanxiao, et
+al., “Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [16] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [17] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [18] Huang, Gao, Zhuang
+Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional networks,”
+in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp.
+4700–4708.  [19] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural networks for
+mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [20] Sandler, Mark, Andrew
+Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and
+linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2018, pp. 4510–4520.  [21] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model
+scaling for convolutional neural networks,” in Proceedings of the IEEE international conference on
+computer vision, 2019, pp. 7187–7196.  [22] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc
+V. Le, “Learning transferable architectures for scalable image recognition,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.  [23] Real, Edgar,
+et al., “Regularized evolution for image classifier architecture search,” arXiv preprint
+arXiv:1802.01548, 2018.  [24] Liu, Hanxiao, et al., “Progressive neural architecture search,” in
+Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.  [25] Kingma,
+Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint
+arXiv:1412.6980, 2014.  [26] Chollet, François, et al., “Xception: Deep learning with depthwise
+separable convolutions,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 1800–1807.  [27] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian
+Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2017, pp. 4700–4708.  [28] Howard, Andrew G., et al.,
+“MobileNets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint
+arXiv:1704.04861, 2017.  [29] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and
+Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.  [30] Tan, Min, and
+Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural networks,” in
+Proceedings of the IEEE international conference on computer vision, 2019, pp. 7187–7196.  [31]
+Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures
+for scalable image recognition,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 8697–8710.  [32] Real, Edgar, et al., “Regularized evolution for
+image classifier architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [33] Liu, Hanxiao, et
+al., “Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [34] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [35] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [36] Huang, Gao, Zhuang
+Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional networks,”
+in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp.
+4700–4708.  [37] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural networks for
+mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [38] Sandler, Mark, Andrew
+Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and
+linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2018, pp. 4510–4520.  [39] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model
+scaling for convolutional neural networks,” in Proceedings of the IEEE international conference on
+computer vision, 2019, pp. 7187–7196.  [40] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc
+V. Le, “Learning transferable architectures for scalable image recognition,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.  [41] Real, Edgar,
+et al., “Regularized evolution for image classifier architecture search,” arXiv preprint
+arXiv:1802.01548, 2018.  [42] Liu, Hanxiao, et al., “Progressive neural architecture search,” in
+Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.  [43] Kingma,
+Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint
+arXiv:1412.6980, 2014.  [44] Chollet, François, et al., “Xception: Deep learning with depthwise
+separable convolutions,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 1800–1807.  [45] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian
+Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2017, pp. 4700–4708.  [46] Howard, Andrew G., et al.,
+“MobileNets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint
+arXiv:1704.04861, 2017.  [47] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and
+Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.  [48] Tan, Min, and
+Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural networks,” in
+Proceedings of the IEEE international conference on computer vision, 2019, pp. 7187–7196.  [49]
+Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures
+for scalable image recognition,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 8697–8710.  [50] Real, Edgar, et al., “Regularized evolution for
+image classifier architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [51] Liu, Hanxiao, et
+al., “Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [52] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [53] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [54] Huang, Gao, Zhuang
+Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional networks,”
+in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp.
+4700–4708.  [55] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural networks for
+mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [56] Sandler, Mark, Andrew
+Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and
+linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2018, pp. 4510–4520.  [57] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model
+scaling for convolutional neural networks,” in Proceedings of the IEEE international conference on
+computer vision, 2019, pp. 7187–7196.  [58] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc
+V. Le, “Learning transferable architectures for scalable image recognition,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.  [59] Real, Edgar,
+et al., “Regularized evolution for image classifier architecture search,” arXiv preprint
+arXiv:1802.01548, 2018.  [60] Liu, Hanxiao, et al., “Progressive neural architecture search,” in
+Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.  [61] Kingma,
+Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint
+arXiv:1412.6980, 2014.  [62] Chollet, François, et al., “Xception: Deep learning with depthwise
+separable convolutions,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 1800–1807.  [63] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian
+Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2017, pp. 4700–4708.  [64] Howard, Andrew G., et al.,
+“MobileNets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint
+arXiv:1704.04861, 2017.  [65] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and
+Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.  [66] Tan, Min, and
+Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural networks,” in
+Proceedings of the IEEE international conference on computer vision, 2019, pp. 7187–7196.  [67]
+Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures
+for scalable image recognition,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 8697–8710.  [68] Real, Edgar, et al., “Regularized evolution for
+image classifier architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [69] Liu, Hanxiao, et
+al., “Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [70] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [71] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [72] Huang, Gao, Zhuang
+Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional networks,”
+in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp.
+4700–4708.  [73] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural networks for
+mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [74] Sandler, Mark, Andrew
+Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and
+linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2018, pp. 4510–4520.  [75] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model
+scaling for convolutional neural networks,” in Proceedings of the IEEE international conference on
+computer vision, 2019, pp. 7187–7196.  [76] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc
+V. Le, “Learning transferable architectures for scalable image recognition,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.  [77] Real, Edgar,
+et al., “Regularized evolution for image classifier architecture search,” arXiv preprint
+arXiv:1802.01548, 2018.  [78] Liu, Hanxiao, et al., “Progressive neural architecture search,” in
+Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.  [79] Kingma,
+Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint
+arXiv:1412.6980, 2014.  [80] Chollet, François, et al., “Xception: Deep learning with depthwise
+separable convolutions,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 1800–1807.  [81] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian
+Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2017, pp. 4700–4708.  [82] Howard, Andrew G., et al.,
+“MobileNets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint
+arXiv:1704.04861, 2017.  [83] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and
+Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.  [84] Tan, Min, and
+Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural networks,” in
+Proceedings of the IEEE international conference on computer vision, 2019, pp. 7187–7196.  [85]
+Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures
+for scalable image recognition,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 8697–8710.  [86] Real, Edgar, et al., “Regularized evolution for
+image classifier architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [87] Liu, Hanxiao, et
+al., “Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [88] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [89] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [90] Huang, Gao, Zhuang
+Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional networks,”
+in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp.
+4700–4708.  [91] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural networks for
+mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [92] Sandler, Mark, Andrew
+Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and
+linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2018, pp. 4510–4520.  [93] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model
+scaling for convolutional neural networks,” in Proceedings of the IEEE international conference on
+computer vision, 2019, pp. 7187–7196.  [94] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc
+V. Le, “Learning transferable architectures for scalable image recognition,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.  [95] Real, Edgar,
+et al., “Regularized evolution for image classifier architecture search,” arXiv preprint
+arXiv:1802.01548, 2018.  [96] Liu, Hanxiao, et al., “Progressive neural architecture search,” in
+Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.  [97] Kingma,
+Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint
+arXiv:1412.6980, 2014.  [98] Chollet, François, et al., “Xception: Deep learning with depthwise
+separable convolutions,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 1800–1807.  [99] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian
+Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2017, pp. 4700–4708.  [100] Howard, Andrew G., et al.,
+“MobileNets: Efficient convolutional neural networks for mobile vision applications,” arXiv preprint
+arXiv:1704.04861, 2017.  [101] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and
+Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the
+IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.  [102] Tan, Min,
+and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural networks,” in
+Proceedings of the IEEE international conference on computer vision, 2019, pp. 7187–7196.  [103]
+Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures
+for scalable image recognition,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 8697–8710.  [104] Real, Edgar, et al., “Regularized evolution for
+image classifier architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [105] Liu, Hanxiao,
+et al., “Progressive neural architecture search,” in Proceedings of the European conference on
+computer vision (ECCV), 2018, pp. 19–35.  [106] Kingma, Diederik P., and Jimmy Ba, “Adam: A method
+for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [107] Chollet, François, et
+al., “Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [108] Huang, Gao,
+Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional
+networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 4700–4708.  [109] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural
+networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [110] Sandler,
+Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted
+residuals and linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 4510–4520.  [111] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking
+model scaling for convolutional neural networks,” in Proceedings of the IEEE international
+conference on computer vision, 2019, pp. 7187–7196.  [112] Zoph, Barret, Vijay Vasudevan, Jonathon
+Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image recognition,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.
+[113] Real, Edgar, et al., “Regularized evolution for image classifier architecture search,” arXiv
+preprint arXiv:1802.01548, 2018.  [114] Liu, Hanxiao, et al., “Progressive neural architecture
+search,” in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.
+[115] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv
+preprint arXiv:1412.6980, 2014.  [116] Chollet, François, et al., “Xception: Deep learning with
+depthwise separable convolutions,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2017, pp. 1800–1807.  [117] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and
+Kilian Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 4700–4708.  [118] Howard, Andrew
+G., et al., “MobileNets: Efficient convolutional neural networks for mobile vision applications,”
+arXiv preprint arXiv:1704.04861, 2017.  [119] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey
+Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.
+[120] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural
+networks,” in Proceedings of the IEEE international conference on computer vision, 2019, pp.
+7187–7196.  [121] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning
+transferable architectures for scalable image recognition,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 8697–8710.  [122] Real, Edgar, et al.,
+“Regularized evolution for image classifier architecture search,” arXiv preprint arXiv:1802.01548,
+2018.  [123] Liu, Hanxiao, et al., “Progressive neural architecture search,” in Proceedings of the
+European conference on computer vision (ECCV), 2018, pp. 19–35.  [124] Kingma, Diederik P., and
+Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [125]
+Chollet, François, et al., “Xception: Deep learning with depthwise separable convolutions,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1800–1807.
+[126] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected
+convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 4700–4708.  [127] Howard, Andrew G., et al., “MobileNets: Efficient
+convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861,
+2017.  [128] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen,
+“Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 4510–4520.  [129] Tan, Min, and Quoc V. Le,
+“EfficientNet: Rethinking model scaling for convolutional neural networks,” in Proceedings of the
+IEEE international conference on computer vision, 2019, pp. 7187–7196.  [130] Zoph, Barret, Vijay
+Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image
+recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition,
+2018, pp. 8697–8710.  [131] Real, Edgar, et al., “Regularized evolution for image classifier
+architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [132] Liu, Hanxiao, et al.,
+“Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [133] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [134] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [135] Huang, Gao,
+Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional
+networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 4700–4708.  [136] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural
+networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [137] Sandler,
+Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted
+residuals and linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 4510–4520.  [138] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking
+model scaling for convolutional neural networks,” in Proceedings of the IEEE international
+conference on computer vision, 2019, pp. 7187–7196.  [139] Zoph, Barret, Vijay Vasudevan, Jonathon
+Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image recognition,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.
+[140] Real, Edgar, et al., “Regularized evolution for image classifier architecture search,” arXiv
+preprint arXiv:1802.01548, 2018.  [141] Liu, Hanxiao, et al., “Progressive neural architecture
+search,” in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.
+[142] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv
+preprint arXiv:1412.6980, 2014.  [143] Chollet, François, et al., “Xception: Deep learning with
+depthwise separable convolutions,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2017, pp. 1800–1807.  [144] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and
+Kilian Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 4700–4708.  [145] Howard, Andrew
+G., et al., “MobileNets: Efficient convolutional neural networks for mobile vision applications,”
+arXiv preprint arXiv:1704.04861, 2017.  [146] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey
+Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.
+[147] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural
+networks,” in Proceedings of the IEEE international conference on computer vision, 2019, pp.
+7187–7196.  [148] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning
+transferable architectures for scalable image recognition,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 8697–8710.  [149] Real, Edgar, et al.,
+“Regularized evolution for image classifier architecture search,” arXiv preprint arXiv:1802.01548,
+2018.  [150] Liu, Hanxiao, et al., “Progressive neural architecture search,” in Proceedings of the
+European conference on computer vision (ECCV), 2018, pp. 19–35.  [151] Kingma, Diederik P., and
+Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [152]
+Chollet, François, et al., “Xception: Deep learning with depthwise separable convolutions,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1800–1807.
+[153] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected
+convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 4700–4708.  [154] Howard, Andrew G., et al., “MobileNets: Efficient
+convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861,
+2017.  [155] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen,
+“Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 4510–4520.  [156] Tan, Min, and Quoc V. Le,
+“EfficientNet: Rethinking model scaling for convolutional neural networks,” in Proceedings of the
+IEEE international conference on computer vision, 2019, pp. 7187–7196.  [157] Zoph, Barret, Vijay
+Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image
+recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition,
+2018, pp. 8697–8710.  [158] Real, Edgar, et al., “Regularized evolution for image classifier
+architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [159] Liu, Hanxiao, et al.,
+“Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [160] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [161] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [162] Huang, Gao,
+Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional
+networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 4700–4708.  [163] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural
+networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [164] Sandler,
+Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted
+residuals and linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 4510–4520.  [165] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking
+model scaling for convolutional neural networks,” in Proceedings of the IEEE international
+conference on computer vision, 2019, pp. 7187–7196.  [166] Zoph, Barret, Vijay Vasudevan, Jonathon
+Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image recognition,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.
+[167] Real, Edgar, et al., “Regularized evolution for image classifier architecture search,” arXiv
+preprint arXiv:1802.01548, 2018.  [168] Liu, Hanxiao, et al., “Progressive neural architecture
+search,” in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.
+[169] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv
+preprint arXiv:1412.6980, 2014.  [170] Chollet, François, et al., “Xception: Deep learning with
+depthwise separable convolutions,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2017, pp. 1800–1807.  [171] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and
+Kilian Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 4700–4708.  [172] Howard, Andrew
+G., et al., “MobileNets: Efficient convolutional neural networks for mobile vision applications,”
+arXiv preprint arXiv:1704.04861, 2017.  [173] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey
+Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.
+[174] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural
+networks,” in Proceedings of the IEEE international conference on computer vision, 2019, pp.
+7187–7196.  [175] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning
+transferable architectures for scalable image recognition,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 8697–8710.  [176] Real, Edgar, et al.,
+“Regularized evolution for image classifier architecture search,” arXiv preprint arXiv:1802.01548,
+2018.  [177] Liu, Hanxiao, et al., “Progressive neural architecture search,” in Proceedings of the
+European conference on computer vision (ECCV), 2018, pp. 19–35.  [178] Kingma, Diederik P., and
+Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [179]
+Chollet, François, et al., “Xception: Deep learning with depthwise separable convolutions,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1800–1807.
+[180] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected
+convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 4700–4708.  [181] Howard, Andrew G., et al., “MobileNets: Efficient
+convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861,
+2017.  [182] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen,
+“Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 4510–4520.  [183] Tan, Min, and Quoc V. Le,
+“EfficientNet: Rethinking model scaling for convolutional neural networks,” in Proceedings of the
+IEEE international conference on computer vision, 2019, pp. 7187–7196.  [184] Zoph, Barret, Vijay
+Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image
+recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition,
+2018, pp. 8697–8710.  [185] Real, Edgar, et al., “Regularized evolution for image classifier
+architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [186] Liu, Hanxiao, et al.,
+“Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [187] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [188] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [189] Huang, Gao,
+Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional
+networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 4700–4708.  [190] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural
+networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [191] Sandler,
+Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted
+residuals and linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 4510–4520.  [192] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking
+model scaling for convolutional neural networks,” in Proceedings of the IEEE international
+conference on computer vision, 2019, pp. 7187–7196.  [193] Zoph, Barret, Vijay Vasudevan, Jonathon
+Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image recognition,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.
+[194] Real, Edgar, et al., “Regularized evolution for image classifier architecture search,” arXiv
+preprint arXiv:1802.01548, 2018.  [195] Liu, Hanxiao, et al., “Progressive neural architecture
+search,” in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.
+[196] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv
+preprint arXiv:1412.6980, 2014.  [197] Chollet, François, et al., “Xception: Deep learning with
+depthwise separable convolutions,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2017, pp. 1800–1807.  [198] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and
+Kilian Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 4700–4708.  [199] Howard, Andrew
+G., et al., “MobileNets: Efficient convolutional neural networks for mobile vision applications,”
+arXiv preprint arXiv:1704.04861, 2017.  [200] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey
+Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.
+[201] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural
+networks,” in Proceedings of the IEEE international conference on computer vision, 2019, pp.
+7187–7196.  [202] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning
+transferable architectures for scalable image recognition,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 8697–8710.  [203] Real, Edgar, et al.,
+“Regularized evolution for image classifier architecture search,” arXiv preprint arXiv:1802.01548,
+2018.  [204] Liu, Hanxiao, et al., “Progressive neural architecture search,” in Proceedings of the
+European conference on computer vision (ECCV), 2018, pp. 19–35.  [205] Kingma, Diederik P., and
+Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [206]
+Chollet, François, et al., “Xception: Deep learning with depthwise separable convolutions,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1800–1807.
+[207] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected
+convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 4700–4708.  [208] Howard, Andrew G., et al., “MobileNets: Efficient
+convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861,
+2017.  [209] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen,
+“Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 4510–4520.  [210] Tan, Min, and Quoc V. Le,
+“EfficientNet: Rethinking model scaling for convolutional neural networks,” in Proceedings of the
+IEEE international conference on computer vision, 2019, pp. 7187–7196.  [211] Zoph, Barret, Vijay
+Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image
+recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition,
+2018, pp. 8697–8710.  [212] Real, Edgar, et al., “Regularized evolution for image classifier
+architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [213] Liu, Hanxiao, et al.,
+“Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [214] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [215] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [216] Huang, Gao,
+Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional
+networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 4700–4708.  [217] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural
+networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [218] Sandler,
+Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted
+residuals and linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 4510–4520.  [219] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking
+model scaling for convolutional neural networks,” in Proceedings of the IEEE international
+conference on computer vision, 2019, pp. 7187–7196.  [220] Zoph, Barret, Vijay Vasudevan, Jonathon
+Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image recognition,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.
+[221] Real, Edgar, et al., “Regularized evolution for image classifier architecture search,” arXiv
+preprint arXiv:1802.01548, 2018.  [222] Liu, Hanxiao, et al., “Progressive neural architecture
+search,” in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.
+[223] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv
+preprint arXiv:1412.6980, 2014.  [224] Chollet, François, et al., “Xception: Deep learning with
+depthwise separable convolutions,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2017, pp. 1800–1807.  [225] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and
+Kilian Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 4700–4708.  [226] Howard, Andrew
+G., et al., “MobileNets: Efficient convolutional neural networks for mobile vision applications,”
+arXiv preprint arXiv:1704.04861, 2017.  [227] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey
+Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.
+[228] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural
+networks,” in Proceedings of the IEEE international conference on computer vision, 2019, pp.
+7187–7196.  [229] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning
+transferable architectures for scalable image recognition,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 8697–8710.  [230] Real, Edgar, et al.,
+“Regularized evolution for image classifier architecture search,” arXiv preprint arXiv:1802.01548,
+2018.  [231] Liu, Hanxiao, et al., “Progressive neural architecture search,” in Proceedings of the
+European conference on computer vision (ECCV), 2018, pp. 19–35.  [232] Kingma, Diederik P., and
+Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [233]
+Chollet, François, et al., “Xception: Deep learning with depthwise separable convolutions,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1800–1807.
+[234] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected
+convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 4700–4708.  [235] Howard, Andrew G., et al., “MobileNets: Efficient
+convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861,
+2017.  [236] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen,
+“Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 4510–4520.  [237] Tan, Min, and Quoc V. Le,
+“EfficientNet: Rethinking model scaling for convolutional neural networks,” in Proceedings of the
+IEEE international conference on computer vision, 2019, pp. 7187–7196.  [238] Zoph, Barret, Vijay
+Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image
+recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition,
+2018, pp. 8697–8710.  [239] Real, Edgar, et al., “Regularized evolution for image classifier
+architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [240] Liu, Hanxiao, et al.,
+“Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [241] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [242] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [243] Huang, Gao,
+Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional
+networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 4700–4708.  [244] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural
+networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [245] Sandler,
+Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted
+residuals and linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 4510–4520.  [246] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking
+model scaling for convolutional neural networks,” in Proceedings of the IEEE international
+conference on computer vision, 2019, pp. 7187–7196.  [247] Zoph, Barret, Vijay Vasudevan, Jonathon
+Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image recognition,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.
+[248] Real, Edgar, et al., “Regularized evolution for image classifier architecture search,” arXiv
+preprint arXiv:1802.01548, 2018.  [249] Liu, Hanxiao, et al., “Progressive neural architecture
+search,” in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.
+[250] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv
+preprint arXiv:1412.6980, 2014.  [251] Chollet, François, et al., “Xception: Deep learning with
+depthwise separable convolutions,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2017, pp. 1800–1807.  [252] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and
+Kilian Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 4700–4708.  [253] Howard, Andrew
+G., et al., “MobileNets: Efficient convolutional neural networks for mobile vision applications,”
+arXiv preprint arXiv:1704.04861, 2017.  [254] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey
+Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.
+[255] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural
+networks,” in Proceedings of the IEEE international conference on computer vision, 2019, pp.
+7187–7196.  [256] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning
+transferable architectures for scalable image recognition,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 8697–8710.  [257] Real, Edgar, et al.,
+“Regularized evolution for image classifier architecture search,” arXiv preprint arXiv:1802.01548,
+2018.  [258] Liu, Hanxiao, et al., “Progressive neural architecture search,” in Proceedings of the
+European conference on computer vision (ECCV), 2018, pp. 19–35.  [259] Kingma, Diederik P., and
+Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [260]
+Chollet, François, et al., “Xception: Deep learning with depthwise separable convolutions,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1800–1807.
+[261] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected
+convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 4700–4708.  [262] Howard, Andrew G., et al., “MobileNets: Efficient
+convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861,
+2017.  [263] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen,
+“Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 4510–4520.  [264] Tan, Min, and Quoc V. Le,
+“EfficientNet: Rethinking model scaling for convolutional neural networks,” in Proceedings of the
+IEEE international conference on computer vision, 2019, pp. 7187–7196.  [265] Zoph, Barret, Vijay
+Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image
+recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition,
+2018, pp. 8697–8710.  [266] Real, Edgar, et al., “Regularized evolution for image classifier
+architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [267] Liu, Hanxiao, et al.,
+“Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [268] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [269] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [270] Huang, Gao,
+Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional
+networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 4700–4708.  [271] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural
+networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [272] Sandler,
+Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted
+residuals and linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 4510–4520.  [273] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking
+model scaling for convolutional neural networks,” in Proceedings of the IEEE international
+conference on computer vision, 2019, pp. 7187–7196.  [274] Zoph, Barret, Vijay Vasudevan, Jonathon
+Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image recognition,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.
+[275] Real, Edgar, et al., “Regularized evolution for image classifier architecture search,” arXiv
+preprint arXiv:1802.01548, 2018.  [276] Liu, Hanxiao, et al., “Progressive neural architecture
+search,” in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.
+[277] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv
+preprint arXiv:1412.6980, 2014.  [278] Chollet, François, et al., “Xception: Deep learning with
+depthwise separable convolutions,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2017, pp. 1800–1807.  [279] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and
+Kilian Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 4700–4708.  [280] Howard, Andrew
+G., et al., “MobileNets: Efficient convolutional neural networks for mobile vision applications,”
+arXiv preprint arXiv:1704.04861, 2017.  [281] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey
+Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.
+[282] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural
+networks,” in Proceedings of the IEEE international conference on computer vision, 2019, pp.
+7187–7196.  [283] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning
+transferable architectures for scalable image recognition,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 8697–8710.  [284] Real, Edgar, et al.,
+“Regularized evolution for image classifier architecture search,” arXiv preprint arXiv:1802.01548,
+2018.  [285] Liu, Hanxiao, et al., “Progressive neural architecture search,” in Proceedings of the
+European conference on computer vision (ECCV), 2018, pp. 19–35.  [286] Kingma, Diederik P., and
+Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [287]
+Chollet, François, et al., “Xception: Deep learning with depthwise separable convolutions,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1800–1807.
+[288] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected
+convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 4700–4708.  [289] Howard, Andrew G., et al., “MobileNets: Efficient
+convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861,
+2017.  [290] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen,
+“Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 4510–4520.  [291] Tan, Min, and Quoc V. Le,
+“EfficientNet: Rethinking model scaling for convolutional neural networks,” in Proceedings of the
+IEEE international conference on computer vision, 2019, pp. 7187–7196.  [292] Zoph, Barret, Vijay
+Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image
+recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition,
+2018, pp. 8697–8710.  [293] Real, Edgar, et al., “Regularized evolution for image classifier
+architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [294] Liu, Hanxiao, et al.,
+“Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [295] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [296] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [297] Huang, Gao,
+Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional
+networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 4700–4708.  [298] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural
+networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [299] Sandler,
+Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted
+residuals and linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 4510–4520.  [300] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking
+model scaling for convolutional neural networks,” in Proceedings of the IEEE international
+conference on computer vision, 2019, pp. 7187–7196.  [301] Zoph, Barret, Vijay Vasudevan, Jonathon
+Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image recognition,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.
+[302] Real, Edgar, et al., “Regularized evolution for image classifier architecture search,” arXiv
+preprint arXiv:1802.01548, 2018.  [303] Liu, Hanxiao, et al., “Progressive neural architecture
+search,” in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.
+[304] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv
+preprint arXiv:1412.6980, 2014.  [305] Chollet, François, et al., “Xception: Deep learning with
+depthwise separable convolutions,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2017, pp. 1800–1807.  [306] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and
+Kilian Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 4700–4708.  [307] Howard, Andrew
+G., et al., “MobileNets: Efficient convolutional neural networks for mobile vision applications,”
+arXiv preprint arXiv:1704.04861, 2017.  [308] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey
+Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.
+[309] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural
+networks,” in Proceedings of the IEEE international conference on computer vision, 2019, pp.
+7187–7196.  [310] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning
+transferable architectures for scalable image recognition,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 8697–8710.  [311] Real, Edgar, et al.,
+“Regularized evolution for image classifier architecture search,” arXiv preprint arXiv:1802.01548,
+2018.  [312] Liu, Hanxiao, et al., “Progressive neural architecture search,” in Proceedings of the
+European conference on computer vision (ECCV), 2018, pp. 19–35.  [313] Kingma, Diederik P., and
+Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [314]
+Chollet, François, et al., “Xception: Deep learning with depthwise separable convolutions,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1800–1807.
+[315] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected
+convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 4700–4708.  [316] Howard, Andrew G., et al., “MobileNets: Efficient
+convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861,
+2017.  [317] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen,
+“Mobilenetv2: Inverted residuals and linear bottlenecks,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 4510–4520.  [318] Tan, Min, and Quoc V. Le,
+“EfficientNet: Rethinking model scaling for convolutional neural networks,” in Proceedings of the
+IEEE international conference on computer vision, 2019, pp. 7187–7196.  [319] Zoph, Barret, Vijay
+Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image
+recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition,
+2018, pp. 8697–8710.  [320] Real, Edgar, et al., “Regularized evolution for image classifier
+architecture search,” arXiv preprint arXiv:1802.01548, 2018.  [321] Liu, Hanxiao, et al.,
+“Progressive neural architecture search,” in Proceedings of the European conference on computer
+vision (ECCV), 2018, pp. 19–35.  [322] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for
+stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [323] Chollet, François, et al.,
+“Xception: Deep learning with depthwise separable convolutions,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 1800–1807.  [324] Huang, Gao,
+Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected convolutional
+networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017,
+pp. 4700–4708.  [325] Howard, Andrew G., et al., “MobileNets: Efficient convolutional neural
+networks for mobile vision applications,” arXiv preprint arXiv:1704.04861, 2017.  [326] Sandler,
+Mark, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted
+residuals and linear bottlenecks,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2018, pp. 4510–4520.  [327] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking
+model scaling for convolutional neural networks,” in Proceedings of the IEEE international
+conference on computer vision, 2019, pp. 7187–7196.  [328] Zoph, Barret, Vijay Vasudevan, Jonathon
+Shlens, and Quoc V. Le, “Learning transferable architectures for scalable image recognition,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 8697–8710.
+[329] Real, Edgar, et al., “Regularized evolution for image classifier architecture search,” arXiv
+preprint arXiv:1802.01548, 2018.  [330] Liu, Hanxiao, et al., “Progressive neural architecture
+search,” in Proceedings of the European conference on computer vision (ECCV), 2018, pp. 19–35.
+[331] Kingma, Diederik P., and Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv
+preprint arXiv:1412.6980, 2014.  [332] Chollet, François, et al., “Xception: Deep learning with
+depthwise separable convolutions,” in Proceedings of the IEEE conference on computer vision and
+pattern recognition, 2017, pp. 1800–1807.  [333] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and
+Kilian Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE
+conference on computer vision and pattern recognition, 2017, pp. 4700–4708.  [334] Howard, Andrew
+G., et al., “MobileNets: Efficient convolutional neural networks for mobile vision applications,”
+arXiv preprint arXiv:1704.04861, 2017.  [335] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey
+Zhmoginov, and Liang-Chieh Chen, “Mobilenetv2: Inverted residuals and linear bottlenecks,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2018, pp. 4510–4520.
+[336] Tan, Min, and Quoc V. Le, “EfficientNet: Rethinking model scaling for convolutional neural
+networks,” in Proceedings of the IEEE international conference on computer vision, 2019, pp.
+7187–7196.  [337] Zoph, Barret, Vijay Vasudevan, Jonathon Shlens, and Quoc V. Le, “Learning
+transferable architectures for scalable image recognition,” in Proceedings of the IEEE conference on
+computer vision and pattern recognition, 2018, pp. 8697–8710.  [338] Real, Edgar, et al.,
+“Regularized evolution for image classifier architecture search,” arXiv preprint arXiv:1802.01548,
+2018.  [339] Liu, Hanxiao, et al., “Progressive neural architecture search,” in Proceedings of the
+European conference on computer vision (ECCV), 2018, pp. 19–35.  [340] Kingma, Diederik P., and
+Jimmy Ba, “Adam: A method for stochastic optimization,” arXiv preprint arXiv:1412.6980, 2014.  [341]
+Chollet, François, et al., “Xception: Deep learning with depthwise separable convolutions,” in
+Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 1800–1807.
+[342] Huang, Gao, Zhuang Liu, Laurens van der Maaten, and Kilian Q. Weinberger, “Densely connected
+convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern
+recognition, 2017, pp. 4700–4708.  [343] Howard, Andrew G., et al., “MobileNets: Efficient
+convolutional neural networks for mobile vision applications,” arXiv preprint arXiv:1704.04861,
+2017.  [344] Sandler, Mark, Andrew Howard, Menglong Zhu, Andrey Zhm

@@ -1,0 +1,46 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:64GB_RAM a dlprov:HardwareResource .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:F1_Score a dlprov:PerformanceMetric .
+
+dlprov:Intel_Xeon_E5-1630v3_CPU a dlprov:HardwareResource .
+
+dlprov:MLP a dlprov:DeepLearningModel .
+
+dlprov:Multilayer_Perceptron a dlprov:DeepLearningModel .
+
+dlprov:NVidia_Quadro_RTX_8000_GPU a dlprov:HardwareResource .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Sensitivity a dlprov:PerformanceMetric .
+
+dlprov:Specificity a dlprov:PerformanceMetric .
+
+dlprov:TensorFlow_2.2 a dlprov:Framework .
+
+dlprov:audio_data a dlprov:DataFormat .
+
+dlprov:classification_of_bird_sounds_within_their_natural_habitat a dlprov:ModelPurpose .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:dropout_%3D_50%25 a dlprov:Hyperparameter .
+
+dlprov:feature_extraction_using_MFCC a dlprov:PreprocessingStep .
+
+dlprov:filter_size_%3D_2 a dlprov:Hyperparameter .
+
+dlprov:final_layer_%3D_number_of_classes a dlprov:Hyperparameter .
+
+dlprov:layer_nodes_%3D_256 a dlprov:Hyperparameter .
+
+dlprov:learning_algorithm_%3D_Backpropagation a dlprov:Hyperparameter .
+
+dlprov:no_specific_dataset_mentioned a dlprov:Dataset .
+
+dlprov:segmentation_into_15-second_windows a dlprov:PreprocessingStep .
+

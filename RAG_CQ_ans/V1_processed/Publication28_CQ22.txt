@@ -1,0 +1,1 @@
+The performance of the deep learning model is evaluated using various metrics such as precision, recall, F1-score, and F2-score. %Query 

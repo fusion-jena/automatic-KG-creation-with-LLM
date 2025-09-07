@@ -1,0 +1,8 @@
+Named Entities: 
+DataFormat(image)
+Dataset(ImageNet)
+PreprocessingStep(rescaling)
+DeepLearningModel(CNN, Faster R-CNN, ResNet-50)
+Framework(PyTorch, Detectron2)
+HardwareResource(TITAN Xp GPUs)
+PerformanceMetric(COCO mAP, IoU, AP@0.5, AP@0.75, AP)

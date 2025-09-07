@@ -1,0 +1,7 @@
+ The dataset used for training the deep learning model was diverse, comprising 910 images sampled
+across seven phenotypically disparate reef fish families. The dataset was randomly divided into
+training and validation sets (ntrain = 720, nvalidation = 190; approximately 80% train, 20%
+validation). The model was trained for 160 epochs over three stages, with different learning rates
+and weight decay. Image augmentation was also used by flipping 50% of the images in the left-right
+orientation to increase the robustness of the neural network. Model training took approximately 8 hr
+to complete.

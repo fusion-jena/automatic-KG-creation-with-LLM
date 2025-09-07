@@ -1,0 +1,11 @@
+Named Entities: 
+DataFormat(image)
+Dataset(ImageNet, annotated herbarium scan dataset)
+PreprocessingStep(normalization, scaling, cleaning, data augmentation, rescaling)
+DeepLearningModel(CNN, Faster R-CNN, ResNet-50)
+Hyperparameter(learning rate 0.0025, momentum 0.9, anchor scales [32, 64, 128, 256, 512, 1024], anchor aspect ratios [1:2, 1:1, 2:1], NMS thresholds 0.6 for training, NMS thresholds 0.25 for testing)
+OptimizationTechnique(Stochastic Gradient Descent)
+Framework(PyTorch, Detectron2)
+HardwareResource(TITAN Xp GPUs)
+PerformanceMetric(COCO evaluation metric, average precision, IoU, AP50, AP75, AP)
+ModelPurpose(object detection, localisation)

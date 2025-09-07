@@ -1,0 +1,1 @@
+The deep learning pipeline in this context uses image data. The activation vectors of the first fully connected layer of a pre-trained VGGnet are employed as feature representations. The weights of this deep network are fine-tuned using the Benthoz15 dataset, which consists of expert-annotated and geo-referenced marine images from Australian seas. 

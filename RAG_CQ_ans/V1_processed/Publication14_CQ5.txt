@@ -1,0 +1,1 @@
+The deep learning pipeline used the 2012 ImageNet data for training the Inception V3 model. The model was then fine-tuned using a smaller set of training images specific to the ecological project. The specific datasets used for fine-tuning are not mentioned in the provided context. 

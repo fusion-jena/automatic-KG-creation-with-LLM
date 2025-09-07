@@ -1,0 +1,45 @@
+ After the model training, the postprocessing steps involved are the calculation of performance
+metrics such as Mean Loss, Root Mean Square Error (Rmse), and Accuracy on 10% Densest Quadrats
+(A10%DQ). These metrics are calculated for each species and for two disjoints and randomly sampled
+subsets of sites: A train set (4781 sites) which is used for fitting all models and a test set (400
+sites) which aims at testing models generalization capacities. Then, train and test metrics are
+averaged over the 50 species. The performance metrics are described in the following.  Reference(s):
+Table 10.3  10.3.5 Evaluation Metrics Predictions are made for every species of E50 and several
+model performance metrics are calculated for each species and for two disjoints and randomly sampled
+subsets of sites: A train set (4781 sites) which is used for ﬁtting all models and a test set (400
+sites) which aims at testing models generalization capacities. Then, train and test metrics are
+averaged over the 50 species. The performance metrics are described in the following.  10.3.5.1 Mean
+Loss Mean loss, just named loss in the following, is an important metric to consider because it is
+relevant regarding our ecological model and it is the objective function that is minimized during
+model training. The Mean loss of model m on species i and on sites 1,..., K is:  Loss(m, i,  {
+1,..., K  ) }  =  1 K  k  K  =  1  λm,θi (xk)  −  yi k log(λm,θi (xk))  In Table 10.3, the loss is
+averaged over species of E50. Thus, in the case of a mono-response model, we averaged the metric
+over the 50 independently learned models. In the multi-response case, we averaged the metric over
+each species response of the same model.  10.3.5.2 Root Mean Square Error (Rmse) The root mean
+square error is a general error measure, which, in contrary to the previous one, is independent of
+the statistical model:  Rmse(m, i,  {  1,..., L  }  )  =  1 K  k  K  =  1  yi k −  λm,θi (xk)  2  In
+Table 10.3, the average of the Rmse is computed over species of E50. Mono- response models are
+treated as explained previously.  10.3.5.3 Accuracy on 10% Densest Quadrats (A10%DQ)  Helpful
+Answer: After the model training, the postprocessing steps involved are the calculation of
+performance metrics such as Mean Loss, Root Mean Square Error (Rmse), and Accuracy on 10% Densest
+Quadrats (A10%DQ). These metrics are calculated for each species and for two disjoints and randomly
+sampled subsets of sites: A train set (4781 sites) which is used for fitting all models and a test
+set (400 sites) which aims at testing models generalization capacities. Then, train and test metrics
+are averaged over the 50 species. The performance metrics are described in the following.
+Reference(s): Table 10.3  10.3.5 Evaluation Metrics Predictions are made for every species of E50
+and several model performance metrics are calculated for each species and for two disjoints and
+randomly sampled subsets of sites: A train set (4781 sites) which is used for ﬁtting all models and
+a test set (400 sites) which aims at testing models generalization capacities. Then, train and test
+metrics are averaged over the 50 species. The performance metrics are described in the following.
+10.3.5.1 Mean Loss Mean loss, just named loss in the following, is an important metric to consider
+because it is relevant regarding our ecological model and it is the objective function that is
+minimized during model training. The Mean loss of model m on species i and on sites 1,..., K is:
+Loss(m, i,  {  1,..., K  ) }  =  1 K  k  K  =  1  λm,θi (xk)  −  yi k log(λm,θi (xk))  In Table
+10.3, the loss is averaged over species of E50. Thus, in the case of a mono-response model, we
+averaged the metric over the 50 independently learned models. In the multi-response case, we
+averaged the metric over each species response of the same model.  10.3.5.2 Root Mean Square Error
+(Rmse) The root mean square error is a general error measure, which, in contrary to the previous
+one, is independent of the statistical model:  Rmse(m, i,  {  1,..., L  }  )  =  1 K  k  K  =  1  yi
+k −  λm,θi (xk)  2  In Table 10.3, the average of the Rmse is computed over species of E50. Mono-
+response models are treated as explained previously.  10.3.5.3 Accuracy on 10% Densest Quadrats
+(A10%DQ)

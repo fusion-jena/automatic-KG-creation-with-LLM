@@ -1,0 +1,83 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5BNot_explicitly_mentioned%5D> a dlprov:PreprocessingStep .
+
+dlprov:11_GB a dlprov:HardwareResource .
+
+dlprov:16_GB_RAM a dlprov:HardwareResource .
+
+dlprov:4.00_GHz a dlprov:HardwareResource .
+
+dlprov:AP a dlprov:PerformanceMetric .
+
+dlprov:AR a dlprov:PerformanceMetric .
+
+dlprov:ARmax%3D1 a dlprov:PerformanceMetric .
+
+dlprov:ARmax%3D10 a dlprov:PerformanceMetric .
+
+dlprov:AnnotationsActions_dataset a dlprov:Dataset .
+
+dlprov:Average_Precision a dlprov:PerformanceMetric .
+
+dlprov:Average_Recall a dlprov:PerformanceMetric .
+
+dlprov:Data_augmentation a dlprov:RegularizationMethod .
+
+dlprov:GeForce_RTX_2080_Ti_GPU a dlprov:HardwareResource .
+
+dlprov:Intel_Core_i7-6700K_CPU a dlprov:HardwareResource .
+
+dlprov:SGD_optimizer a dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique .
+
+dlprov:SlowFast_architecture a dlprov:DeepLearningModel .
+
+dlprov:applied_using_imgaug_library a dlprov:DataAugmentationTechnique .
+
+dlprov:bounding_boxes a dlprov:ModelPurpose .
+
+dlprov:captured_with_8_frames_per_second_by_camera_traps_using_infrared_cameras_and_infrared_flash-lights a dlprov:DataFormat .
+
+dlprov:decreased_every_10_epochs_by_multiplying_with_0.1 a dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique .
+
+dlprov:detection_of_individual_animals a dlprov:ModelPurpose .
+
+dlprov:evaluated_over_IoU_thresholds a dlprov:PerformanceMetric .
+
+dlprov:horizontal_flip a dlprov:DataAugmentationTechnique .
+
+dlprov:horizontal_flip_mentioned a dlprov:RegularizationMethod .
+
+dlprov:initial_learning_rate_0.0005 a dlprov:OptimizationTechnique .
+
+dlprov:initial_learning_rate_0.001 a dlprov:Hyperparameter .
+
+dlprov:momentum_0.9 a dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique .
+
+dlprov:rotation a dlprov:DataAugmentationTechnique .
+
+dlprov:scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:shapes_and_recognition_of_animal_actions_in_camera_trap_videos a dlprov:ModelPurpose .
+
+dlprov:shearing a dlprov:DataAugmentationTechnique .
+
+dlprov:subset_used_for_animal_action_recognition a dlprov:Dataset .
+
+dlprov:trained_for_30_epochs a dlprov:OptimizationTechnique .
+
+dlprov:trained_for_40_epochs a dlprov:Hyperparameter .
+
+dlprov:utilizes_ResNets_as_backbones a dlprov:DeepLearningModel .
+
+dlprov:video_data_formats a dlprov:DataFormat .
+
+<https://w3id.org/dlprov#warmup_iterations_with_warmup_factor_1/1000> a dlprov:OptimizationTechnique .
+
+dlprov:weight_decay_0.0005 a dlprov:OptimizationTechnique .
+
+dlprov:weight_decay_5e-5 a dlprov:Hyperparameter .
+

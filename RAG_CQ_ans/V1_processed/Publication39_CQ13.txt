@@ -1,0 +1,1 @@
+The deep learning model uses Stochastic Gradient Descent (SGD) as the optimization technique. The initial learning rate is 0. 001, and it is decreased every 10 epochs by multiplying it with γ = 0. 1. The momentum is set to 0. 9, and the weight decay is 5 ⋅ 10. The loss function used is the cross entropy loss. The model is trained for 40 epochs. 

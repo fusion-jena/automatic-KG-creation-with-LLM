@@ -1,0 +1,9 @@
+Named Entities:
+DataFormat(audio)
+PreprocessingStep(segmented into 15-second windows)
+DeepLearningModel(Multilayer Perceptron (MLP))
+Hyperparameter(filter size (2), dropout value (50%))
+OptimizationTechnique(Adam)
+RegularizationMethod(dropout)
+Framework(TensorFlow 2.2)
+HardwareResource(CPU (Intel Xeon E5-1630v3), RAM (64GB), GPU (NVidia Quadro RTX 8000))

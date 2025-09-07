@@ -1,0 +1,4 @@
+ The methods compared in this study are evaluated in terms of classification accuracy. We divide the
+CLO-43SD dataset into 5 folds and perform 5-fold cross validation, and report the results as a box-
+plot generated from the per-fold accuracies. For identifying the best training epoch for the CNN
+model we use 1 of the 4 training folds as a validation set, and train on the remaining 3 folds.

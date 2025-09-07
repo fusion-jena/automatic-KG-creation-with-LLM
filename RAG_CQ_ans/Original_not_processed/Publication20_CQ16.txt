@@ -1,0 +1,7 @@
+ The network training was stopped after 70 epochs, which is a complete scope of the dataset where
+each image is used only once, to prevent overfitting. The learning parameters used include a
+learning rate of 10, an exponential learning decay with a Gamma of 0.95, a dropout of 50%, and an
+Adam Solver type. These are classic hyperparameters for a fast convergence of the network without
+overfitting. The training lasted 8 days on a computer with 64GB of RAM, an i7 3.50GHz CPU, and a
+Titan X GPU card for 900,000 images. The training was stopped after a certain number of epochs,
+rather than using a validation loss plateau, to prevent overfitting.

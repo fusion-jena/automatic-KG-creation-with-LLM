@@ -1,0 +1,75 @@
+ The context does not provide information on how the hyperparameters of the model are optimized.
+%Context 53. Rowat, D., Gore, M., Meekan, M. G., Lawler, I. R. & Bradshaw, C. J. A. Aerial survey as
+a tool to estimate whale shark abundance trends. J. Exp. Mar. Biol. Ecol. 368, 1–8 (2009).  54.
+Esteva, A. et al. Dermatologist-level classification of skin cancer with deep neural networks.
+Nature 542, 115–118 (2017). 55. Silver, D. et al. Mastering the game of Go with deep neural networks
+and tree search. Nature 529, 484–489 (2016). 56. Mnih, V. et al. Human-level control through deep
+reinforcement learning. Nature 518, 529–533 (2015). 57. Dodge, S. & Karam, L. Understanding how
+image quality affects deep neural networks. In 2016 Eighth International Conference on Quality of
+Multimedia Experience (QoMEX) 1–6, https://doi.org/10.1109/QoMEX.2016.7498955 (2016).  58. Kim, J.,
+Lee, J. K. & Lee, K. M. Accurate Image Super-Resolution Using Very Deep Convolutional Networks. in
+Proc. CVPR IEEE 1646–1654, https://doi.org/10.1109/CVPR.2016.182 (2016).  59. Tabik, S., Peralta,
+D., Herrera-Poyatos, A. & Herrera, F. A snapshot of image pre-processing for convolutional neural
+networks: case study of MNIST. Int. J. Comput. Intell. Syst. 10, 555–568 (2017).  60. Norouzzadeh,
+M. S. et al. Automatically identifying, counting, and describing wild animals in camera-trap images
+with deep learning. Proc. Natl. Acad. Sci. 115, E5716–E5725 (2018).  61. Maksimenko, V. A. et al.
+Increasing Human Performance by Sharing Cognitive Load Using Brain-to-Brain Interface. Front.
+Neurosci. 12 (2018).  62. Norris, K. S. & Sciences, A. I. of B. The seasonal migratory cycle of
+humpback whales. In Whales, Dolphins, and Porpoises 145–171 (University of California Press, 1966).
+63. Corkeron, P. J. Humpback whales (Megaptera novaeangliae) in Hervey Bay, Queensland: behaviour
+and responses to whale- watching vessels. Can. J. Zool. 73, 1290–1299 (1995).  64. Lyamin, O. I.,
+Manger, P. R., Mukhametov, L. M., Siegel, J. M. & Shpak, O. V. Rest and activity states in a gray
+whale. J. Sleep Res. 9, 261–267 (2000).  65. Su, J.-H., Piao, Y.-C., Luo, Z. & Yan, B.-P. Modeling
+Habitat Suitability of Migratory Birds from Remote Sensing Images Using Convolutional Neural
+Networks. Anim. Open Access J. MDPI 8 (2018).  Further research could increase the performance and
+variety of species identified by our CNN-model. For instance, the model could be improved by
+increasing the number of samples and variety of atmospheric and sea conditions in the training
+datasets, by building hierarchical training datasets with different behaviour across different
+species67, by using more spectral bands and temporal information68, and by artificially increasing
+the spatial resolution of the images through rendering69. In addition, as it is a fast and scalable
+method, it can even be transferred to very high spatial resolution images (<10 cm) captured by
+unmanned aerial vehicles (UAVs) for the automatic identification of specific individuals70.  CNNs
+constitute the state-of-the art in all the fundamental tasks in computer vision, e.g., in image
+classifica- tion and object detection in images. In image classification, the CNN model has to
+analyze the input image and produce a label that describes its visual content, together with a
+probability that expresses the confidence of the model. In object detection, the CNN detection model
+has not only to produce the correct label but also determine by means of a bounding box the region
+in the input image where the target object is located. Examples of the most accurate and robust
+models for image classification are Inception41 and Inception ResNet42. The most accurate detection
+frameworks are end-to-end object detection models that combine a sophisticated detection technique
+with one of the most powerful CNN classification models. At present, there exist several detection
+frameworks that provide good trade-off between accuracy, robustness and speed, such as, Faster-
+RCNN36, YOLO900043, FPN44, RefineDet45, DSSD46 and Focal Dense Object Detection47. Furthermore,
+several studies are focusing on improving these frameworks on specific remote sensing data48–51. In
+this work, we used Faster-RCNN36 based on Inception RenNet v2, as it is the most accurate detection
+framework according to the this study48.  Scientific RepoRtS | (2019) 9:14259 |
+https://doi.org/10.1038/s41598-019-50795-9  2  Figure 1. Results at a global scale of the first step
+whale presence detection model in ten marine mammal hotspots for whale watching (details in Table
+1). Red, blue, and yellow cells indicate respectively whale presence, water + submerged rocks, and
+ships.  0  0  1,045  10. Japanese coast (Japan)  0  0  1,120  Total  68  56  13,348  Table 1.
+Summary of the results of step-1 CNN-model in a total number of 13,348 evaluated cells. The first
+column shows the IDs and names of the ten evaluated whale watching sites. The second column shows
+the number of cells with whale presence photo-interpreted by the authors. The third and fourth
+columns show respectively the number of cells with and without whales according to step-1 CNN-based
+model predictions in each site. The asterisk and U indicates labeling uncertainty due to the low
+resolution of the images in that region.  the acquisition date of the satellite image, the behaviour
+recorded in the image and the resolution of the image can influence whale presence detection and
+counting. For instance, the spatial resolution of SPOT-6 satellite images was not good enough to
+assess whether the model was correct in Memba (Mozambique) at the date and location chosen. This
+robust, transparent and automatic method can have direct and wide implications for whale
+conservation by assessing whale distributions, abundances, and movement behaviours globally from
+satellite and aerial images.  Our satellite and aerial based assessment can complement and be
+compared with other aerial, marine, and land observations. The coastal images of Google Earth at
+zoom 18 that we used correspond to a visual altitude of ~254 m, similar to the aerial surveys for
+grey whales, and up to ~4 km offshore the coast, the maximum distance for whale visual surveys from
+land52. In whale assessments, such distances are good enough to get reliable esti- mates of
+instantaneous presence and relative population abundances53. As new RGB images become available, our
+method also enables dynamic updates at low cost, to assess seasonal and interannual changes in
+population sizes, feeding and breeding areas, migratory routes, and distribution ranges around the
+world.  Several studies show that the performance of CNNs can be equal or even better than humans
+when the quality of the images is good, for instance, for skin cancer detection54, mastering the
+game of Go55, or generalizing past experiences to new situations56. In general, the quality of the
+images determines the accuracy of the classifica- tion in CNNs57, learning and performing better on
+higher resolution images58. However, our results show how CNN-based methods trained on high-quality
+images (see methods section) can also reach good performance  Answer: The context does not provide
+information on how the hyperparameters of the model are optimized.

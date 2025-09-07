@@ -1,0 +1,7 @@
+Named Entities:
+DataFormat(spectrograms)
+Dataset(ImageNet)
+DeepLearningModel(Convolutional Neural Network (CNN), Inception v3)
+ModelPurpose(classify species of Philippine forest frogs based on their frequency distributions of individual call notes)
+PerformanceMetric(number of images per class assigned to a species present in the reference library, average certainty rate associated with those identifications)
+Framework(TensorFlow)

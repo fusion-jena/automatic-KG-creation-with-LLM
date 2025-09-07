@@ -1,0 +1,1 @@
+The helpful answer is that the paper does not explicitly mention the use of specific optimization techniques such as Stochastic Gradient Descent (SGD) or Adam in the deep learning pipeline. However, it does mention the use of the Improved Krill Herd Optimization (IKHO) algorithm for parameter optimization of the EfficientNet model. 

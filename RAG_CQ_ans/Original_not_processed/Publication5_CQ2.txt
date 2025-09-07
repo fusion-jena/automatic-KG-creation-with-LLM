@@ -1,0 +1,2 @@
+ The deep learning pipeline in this study uses MODIS-derived NDVI and LAI images as inputs.
+Therefore, the data format used in this deep learning pipeline is image data.

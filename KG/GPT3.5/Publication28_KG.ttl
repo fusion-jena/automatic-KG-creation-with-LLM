@@ -1,0 +1,24 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:AID_dataset a dlprov:Dataset .
+
+dlprov:EfficientNet a dlprov:DeepLearningModel .
+
+dlprov:F1-score a dlprov:PerformanceMetric .
+
+dlprov:F2-score a dlprov:PerformanceMetric .
+
+dlprov:IKHO_algorithm a dlprov:OptimizationTechnique .
+
+dlprov:Improved_Krill_Herd_Optimization a dlprov:OptimizationTechnique .
+
+dlprov:UCM_dataset a dlprov:Dataset .
+
+dlprov:feature_extraction a dlprov:ModelPurpose .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:satellite_images a dlprov:DataFormat .
+

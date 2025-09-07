@@ -1,0 +1,5 @@
+ The hyperparameters used in the deep learning model are not explicitly mentioned in the provided
+context. However, it is mentioned that the number of units in the two FC layers (512 and 256 for the
+first and second FC layers respectively) and the dropout rate were determined by five-fold cross-
+validation with a random 200 images of the GH dataset. These hyperparameters were used throughout
+all classification tasks in this study.

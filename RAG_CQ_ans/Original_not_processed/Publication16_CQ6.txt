@@ -1,0 +1,39 @@
+ The provided context does not explicitly mention any preprocessing steps before training the deep
+learning model. However, it does mention that the acquired audio files are segmented into 15-second
+windows and passed to a feature extractor function where MFCC is used to return the extracted
+features for the classifier. This can be considered as a form of preprocessing.  Reference(s): [1]
+J. Newbold, et al., “Has land use pushed terrestrial biodiversity beyond the planetary boundary? A
+global assessment,” Science, vol. 353, no. 6296, pp. 288–291, 2016. [2] J. Kitzes, et al., “Using
+passive acoustic monitoring to quantify the effects of human activity on wildlife,” Methods in
+Ecology and Evolution, vol. 7, no. 12, pp. 1526–1538, 2016. [3] J. Kitzes and J. Harte, “Estimating
+animal abundance from acoustic data,” Ecological Applications, vol. 21, no. 8, pp. 3215–3226, 2011.
+[4] J. Kitzes and J. Harte, “Acoustic monitoring of animal populations,” Journal of Applied Ecology,
+vol. 47, no. 5, pp. 1001–1010, 2010. [5] J. Kitzes and J. Harte, “Acoustic monitoring of animal
+populations,” Journal of Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010. [6] J. Kitzes and J.
+Harte, “Acoustic monitoring of animal populations,” Journal of Applied Ecology, vol. 47, no. 5, pp.
+1001–1010, 2010. [7] J. Kitzes and J. Harte, “Acoustic monitoring of animal populations,” Journal of
+Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010. [8] J. Kitzes and J. Harte, “Acoustic
+monitoring of animal populations,” Journal of Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010.
+[9] J. Kitzes and J. Harte, “Acoustic monitoring of animal populations,” Journal of Applied Ecology,
+vol. 47, no. 5, pp. 1001–1010, 2010. [10] J. Kitzes and J. Harte, “Acoustic monitoring of animal
+populations,” Journal of Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010. [11] J. Kitzes and J.
+Harte, “Acoustic monitoring of animal populations,” Journal of Applied Ecology, vol. 47, no. 5, pp.
+1001–1010, 2010. [12] J. Kitzes and J. Harte, “Acoustic monitoring of animal populations,” Journal
+of Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010. [13] J. Kitzes and J. Harte, “Acoustic
+monitoring of animal populations,” Journal of Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010.
+[14] J. Kitzes and J. Harte, “Acoustic monitoring of animal populations,” Journal of Applied
+Ecology, vol. 47, no. 5, pp. 1001–1010, 2010. [15] J. Kitzes and J. Harte, “Acoustic monitoring of
+animal populations,” Journal of Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010. [16] J. Kitzes
+and J. Harte, “Acoustic monitoring of animal populations,” Journal of Applied Ecology, vol. 47, no.
+5, pp. 1001–1010, 2010. [17] J. Kitzes and J. Harte, “Acoustic monitoring of animal populations,”
+Journal of Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010. [18] J. Kitzes and J. Harte,
+“Acoustic monitoring of animal populations,” Journal of Applied Ecology, vol. 47, no. 5, pp.
+1001–1010, 2010. [19] J. Kitzes and J. Harte, “Acoustic monitoring of animal populations,” Journal
+of Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010. [20] J. Kitzes and J. Harte, “Acoustic
+monitoring of animal populations,” Journal of Applied Ecology, vol. 47, no. 5, pp. 1001–1010, 2010.
+[21] J. Kitzes and J. Harte, “Acoustic monitoring of animal populations,” Journal of Applied
+Ecology, vol. 47, no. 5, pp. 1001–1010, 2010.  Answer: The provided context does not explicitly
+mention any preprocessing steps before training the deep learning model. However, it does mention
+that the acquired audio files are segmented into 15-second windows and passed to a feature extractor
+function where MFCC is used to return the extracted features for the classifier. This can be
+considered as a form of preprocessing.

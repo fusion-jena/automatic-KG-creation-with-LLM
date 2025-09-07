@@ -1,0 +1,8 @@
+ The context does not provide information on techniques used to address data bias during
+preprocessing of the deep learning pipeline. However, some common techniques used to address data
+bias include stratified splitting, oversampling, undersampling, and diverse data collection.
+Stratified splitting involves dividing the data into subsets, or strata, based on certain
+characteristics and then randomly selecting samples from each stratum. Oversampling involves
+duplicating examples from the minority class, while undersampling involves removing examples from
+the majority class. Diverse data collection involves collecting data from a variety of sources to
+ensure that the data is representative of the population being studied.

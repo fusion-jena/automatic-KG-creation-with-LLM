@@ -1,0 +1,33 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:F1-measure a dlprov:PerformanceMetric .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:cropping_parts_of_the_image a dlprov:DataAugmentationTechnique .
+
+dlprov:detection_of_whale_presence_in_marine_mammal_hotspots_for_whale_watching a dlprov:ModelPurpose .
+
+dlprov:different_illumination_conditions a dlprov:DataAugmentationTechnique .
+
+dlprov:no_specific_datasets_mentioned a dlprov:Dataset .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:not_specified a dlprov:HardwareResource,
+        dlprov:OptimizationTechnique,
+        dlprov:RegularizationMethod .
+
+dlprov:rotations a dlprov:DataAugmentationTechnique .
+
+dlprov:scaling a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:translations a dlprov:DataAugmentationTechnique .
+

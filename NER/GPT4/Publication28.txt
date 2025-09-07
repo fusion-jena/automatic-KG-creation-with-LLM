@@ -1,0 +1,8 @@
+Named Entities:
+DataFormat(satellite images)
+Dataset(UCM dataset, AID dataset)
+PreprocessingStep(normalization, scaling, cleaning)
+DeepLearningModel(EfficientNet)
+OptimizationTechnique(Improved Krill Herd Optimization (IKHO))
+PerformanceMetric(precision, recall, F1-score, F2-score)
+ModelPurpose(feature extraction module)

@@ -1,0 +1,5 @@
+ The optimization technique used in the deep learning pipeline is Stochastic Gradient Descent (SGD).
+The learning rate is initially set to 0.0005 and is decreased every 10 epochs by multiplying it with
+0.1. In the first epoch, warmup iterations are used for the learning rate with a warmup factor of
+1/1000. The momentum is set to 0.9 and the weight decay is 0.0005. These parameters gave the best
+results in the evaluations. The models are trained for 30 epochs.

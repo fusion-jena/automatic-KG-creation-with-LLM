@@ -1,0 +1,62 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:64GB_RAM a dlprov:HardwareResource .
+
+dlprov:Adam_Solver_type_with_learning_parameters a dlprov:OptimizationTechnique .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Caffe a dlprov:Framework .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Dropout%3D50%25 a dlprov:Hyperparameter .
+
+dlprov:Gamma%3D0.95 a dlprov:Hyperparameter .
+
+dlprov:Learning_decay a dlprov:Hyperparameter .
+
+dlprov:Learning_rate%3D10 a dlprov:Hyperparameter .
+
+dlprov:Solver_type%3DAdam a dlprov:Hyperparameter .
+
+dlprov:Titan_X_GPU a dlprov:HardwareResource .
+
+dlprov:Weight_initialization%3Drandom_Gaussian a dlprov:Hyperparameter .
+
+dlprov:and_environment_thumbnails a dlprov:Dataset%28T1%2C_T2%2C_T3%2C_T4 .
+
+dlprov:classification_of_fish_species_from_images a dlprov:ModelPurpose .
+
+dlprov:confusion_between_fish_species a dlprov:PerformanceMetric .
+
+dlprov:containing_different_combinations_of_raw_fish_thumbnails a dlprov:Dataset%28T1%2C_T2%2C_T3%2C_T4 .
+
+dlprov:correct_identification_rate a dlprov:PerformanceMetric .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:environment a dlprov:DataFormat .
+
+dlprov:flipping_each_thumbnail_with_respect_to_the_vertical_axis a dlprov:DataAugmentationTechnique .
+
+dlprov:i7_3.50GHz_CPU a dlprov:HardwareResource .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:learning_decay_with_Gamma%3D0.95 a dlprov:RegularizationMethod .
+
+dlprov:mean_identification_success_rate a dlprov:PerformanceMetric .
+
+dlprov:mirror_images a dlprov:Dataset%28T1%2C_T2%2C_T3%2C_T4 .
+
+dlprov:part_of_fish a dlprov:Dataset%28T1%2C_T2%2C_T3%2C_T4 .
+
+dlprov:part_of_fish_species a dlprov:DataFormat .
+
+dlprov:success_rate a dlprov:PerformanceMetric .
+
+dlprov:thumbnails_of_whole_fish a dlprov:DataFormat .
+
+dlprov:whole_fish a dlprov:Dataset%28T1%2C_T2%2C_T3%2C_T4 .
+

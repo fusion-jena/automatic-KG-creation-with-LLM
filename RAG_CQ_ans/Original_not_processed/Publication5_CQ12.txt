@@ -1,0 +1,1 @@
+ The type of deep learning model used in the pipeline is a multilayer perceptron (MLP).

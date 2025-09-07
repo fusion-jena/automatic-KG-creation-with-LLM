@@ -1,0 +1,1 @@
+The context does not provide information on the specific data annotation techniques used in the deep learning pipeline. However, it mentions that all input images together with their annotation were resized to a 512 × 512 resolution. This suggests that some form of annotation was used, but the specific technique is not mentioned. %Query 

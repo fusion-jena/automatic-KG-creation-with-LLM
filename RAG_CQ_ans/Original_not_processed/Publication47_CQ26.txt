@@ -1,0 +1,4 @@
+ The context does not provide information on the specific techniques used to address data bias
+during preprocessing of the deep learning pipeline. However, it mentions that the data was subjected
+to automated removal of records with common geographic errors and additional removal of records
+outside the known occurrence range of species from WCSP.

@@ -1,0 +1,46 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:16_GB_RAM a dlprov:HardwareResource .
+
+dlprov:AP a dlprov:PerformanceMetric .
+
+dlprov:AR a dlprov:PerformanceMetric .
+
+dlprov:Animal_action_recognition_with_bounding_boxes a dlprov:ModelPurpose .
+
+dlprov:Average_Precision a dlprov:PerformanceMetric .
+
+dlprov:Average_Recall a dlprov:PerformanceMetric .
+
+dlprov:Data_augmentation a dlprov:RegularizationMethod .
+
+dlprov:Epochs a dlprov:Hyperparameter .
+
+dlprov:GeForce_RTX_2080_Ti_GPU a dlprov:HardwareResource .
+
+dlprov:Horizontal_flip a dlprov:DataAugmentationTechnique .
+
+dlprov:Initial_learning_rate a dlprov:Hyperparameter .
+
+dlprov:Intel_Core_i7-6700K_4.00_GHz_CPU a dlprov:HardwareResource .
+
+dlprov:Momentum a dlprov:Hyperparameter .
+
+dlprov:Rotation a dlprov:DataAugmentationTechnique .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:Shearing a dlprov:DataAugmentationTechnique .
+
+dlprov:SlowFast_with_ResNet_backbone a dlprov:DeepLearningModel .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:Subset_of_AnnotationsActions_dataset a dlprov:Dataset .
+
+dlprov:Video a dlprov:DataFormat .
+
+dlprov:Weight_decay a dlprov:Hyperparameter .
+

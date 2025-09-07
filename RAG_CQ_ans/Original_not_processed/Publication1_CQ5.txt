@@ -1,0 +1,7 @@
+ The paper does not explicitly mention the use of any specific datasets such as MNIST, CIFAR, or
+ImageNet. However, it does mention that the deep learning pipeline uses large amounts of labeled
+data produced by analysts using the UI. This data is used to classify dozens of species signals and
+event types across ongoing projects.  The paper also mentions the use of deep convolutional neural
+networks (CNNs) and deep feed forward neural networks (DNNs) to audio spectrogram and image data.
+This suggests that the datasets used in the deep learning pipeline are likely audio and image data
+related to biodiversity monitoring.

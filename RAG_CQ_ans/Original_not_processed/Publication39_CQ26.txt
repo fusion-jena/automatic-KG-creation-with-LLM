@@ -1,0 +1,2 @@
+ The described SlowFast architecture uses balance weights as (1.0,4.5,4.5) for the classes eating,
+moving and watching to account for the unbalanced frequencies of action classes in the dataset.

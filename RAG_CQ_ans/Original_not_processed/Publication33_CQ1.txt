@@ -1,0 +1,5 @@
+ The methods utilized for collecting raw data in the deep learning pipeline include surveys,
+sensors, and public datasets. For instance, remote sensors such as satellites, drones, camera traps,
+or underwater cameras are used to record pictures or videos of aquatic and terrestrial organisms.
+Additionally, public datasets like Fish4Knowledge database and Seaclef challenge are used for
+ecological analysis.

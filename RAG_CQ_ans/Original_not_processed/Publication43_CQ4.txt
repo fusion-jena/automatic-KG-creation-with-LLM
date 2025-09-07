@@ -1,0 +1,2 @@
+ The data augmentation techniques applied in the deep learning pipeline are: Random scale, Random
+crop, Flip horizontally, and Random brightness.

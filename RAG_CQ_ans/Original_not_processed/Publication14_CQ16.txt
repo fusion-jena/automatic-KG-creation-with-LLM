@@ -1,0 +1,4 @@
+ The criteria used to determine when training is complete are not explicitly mentioned in the
+provided context. However, it is mentioned that the model was trained with a batch size of 100 for
+20,000 steps. This suggests that the number of training steps might be used as a criterion to
+determine when training is complete.

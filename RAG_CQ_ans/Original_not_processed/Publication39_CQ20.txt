@@ -1,0 +1,2 @@
+ The training and testing were performed with a GeForce RTX 2080 Ti GPU with 11 GB graphic memory,
+16 GB RAM, and an Intel Core i7-6700K 4.00 GHz CPU.

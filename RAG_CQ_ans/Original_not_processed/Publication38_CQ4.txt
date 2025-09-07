@@ -1,0 +1,8 @@
+ The paper does not provide specific information on the data augmentation techniques applied in the
+deep learning pipeline. However, it mentions that the training data was collected as part of the
+Indicator Bats Programme (iBats) and was uploaded to the Zooniverse citizen science platform for
+public users to view and annotate. The audio data was split up into 3.84s long sound clips, and each
+sound clip was uploaded as both a wav file and a magnitude spectrogram image. The paper also
+mentions that the original recordings were time-expanded, reducing the frequency and making the
+sounds audible to users. However, it does not provide details on any specific data augmentation
+techniques applied during the deep learning pipeline.

@@ -1,0 +1,1 @@
+The deep learning pipeline uses the CitySounds2017 dataset, an expert-annotated dataset of urban sounds collected across Greater London, UK. This dataset was used to train the CNNs, CityBioNet and CityAnthroNet, for measuring audible (0-12 kHz) biotic and anthropogenic acoustic activity in audio recordings from urban environments. 

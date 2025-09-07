@@ -1,0 +1,22 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:DNN a dlprov:DeepLearningModel .
+
+dlprov:Event_Detection a dlprov:ModelPurpose .
+
+dlprov:Species_Classification a dlprov:ModelPurpose .
+
+dlprov:audio_spectrogram a dlprov:DataFormat .
+
+dlprov:augmentation a dlprov:PreprocessingStep .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+

@@ -1,0 +1,12 @@
+ The pipeline uses a SlowFast architecture, which is a type of deep learning model that uses two
+pathways for video input, a Slow pathway and a Fast pathway. The Slow pathway works on a low frame
+rate and low temporal resolution for detecting spatial semantics, while the Fast pathway uses a high
+frame rate to capture motion and the temporal aspects in the video. The backbone for the pathways
+can be implemented by different networks, with ResNets achieving the best results. SlowFast is a
+single-stream architecture that works on two different frame rates.  Answer: The pipeline uses a
+SlowFast architecture, which is a type of deep learning model that uses two pathways for video
+input, a Slow pathway and a Fast pathway. The Slow pathway works on a low frame rate and low
+temporal resolution for detecting spatial semantics, while the Fast pathway uses a high frame rate
+to capture motion and the temporal aspects in the video. The backbone for the pathways can be
+implemented by different networks, with ResNets achieving the best results. SlowFast is a single-
+stream architecture that works on two different frame rates.

@@ -1,0 +1,27 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+<https://w3id.org/dlprov#Automatic_annotation_of_unlabelled_coral_images_and_mosaics_from_the_Abrolhos_Islands_in_Western_Australia.> a dlprov:ModelDeploymentProcess .
+
+dlprov:Benthoz15 a dlprov:Dataset .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Coral_reef_classification a dlprov:Method,
+        dlprov:ModelPurpose .
+
+dlprov:Expert-annotated a dlprov:DataAnnotationTechnique .
+
+dlprov:Geo-referenced_marine_images_from_Australian_seas a dlprov:DataBiasTechnique .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:Image_data a dlprov:RawData .
+
+dlprov:Learning_rate a dlprov:Hyperparameter .
+
+dlprov:Optimizer a dlprov:Hyperparameter .
+

@@ -1,0 +1,9 @@
+ The paper does not explicitly mention any specific measures taken to ensure the generalizability of
+the deep learning model, such as using a diverse dataset, cross-validation, or stratified splitting.
+However, it does mention that accurate tree detection will likely be region-specific and that the
+best model will vary among environments. This suggests that the authors acknowledge the need for
+training a new model for each geographic area using both RGB and LIDAR training data. Additionally,
+the paper mentions that the National Ecological Observatory Network has 45 forested NEON sites that
+could serve as pools of LIDAR and RGB data at 10,000 ha scales for regional model training. This
+could potentially improve the generalizability of the model by training it on a more diverse
+dataset.

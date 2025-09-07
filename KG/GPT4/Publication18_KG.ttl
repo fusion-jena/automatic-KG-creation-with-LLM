@@ -1,0 +1,34 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:F1-score a dlprov:PerformanceMetric .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:batch_normalization a dlprov:RegularizationMethod .
+
+dlprov:cropping_parts_of_the_image a dlprov:DataAugmentationTechnique .
+
+dlprov:detect_whale_presence a dlprov:ModelPurpose .
+
+dlprov:different_illumination_conditions a dlprov:DataAugmentationTechnique .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:early_stopping a dlprov:RegularizationMethod .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:rotations a dlprov:DataAugmentationTechnique .
+
+dlprov:scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:translations a dlprov:DataAugmentationTechnique .
+

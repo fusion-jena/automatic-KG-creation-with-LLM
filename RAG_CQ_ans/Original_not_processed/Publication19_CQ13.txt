@@ -1,0 +1,8 @@
+ The hyperparameters used in the deep learning model are as follows:  - Optimizer: Stochastic
+Gradient Descent (SGD) - Batch size: varies depending on the model (48 for Inception-V3, 32 for
+MobileNet-V2, 32 for ResNet-18, and 16 for DenseNet-121) - Learning rate: varies depending on the
+model (0.05 for Inception-V3, 0.01 for MobileNet-V2, 0.005 for ResNet-18, and 0.001 for
+DenseNet-121) - Number of epochs: varies depending on the model (75 for Inception-V3, 100 for
+MobileNet-V2, 150 for ResNet-18, and 100 for DenseNet-121) - Input image size: varies depending on
+the model (299x299x3 for Inception-V3, 224x224x3 for MobileNet-V2, ResNet-18, and DenseNet-121)  The
+models were implemented using Keras and the hyperparameters were determined using grid search.

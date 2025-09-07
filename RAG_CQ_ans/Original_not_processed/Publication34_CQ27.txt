@@ -1,0 +1,2 @@
+ The paper does not provide information on the process followed to deploy the trained deep learning
+model, including details on model serialization or platform selection.

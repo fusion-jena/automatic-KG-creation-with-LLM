@@ -1,0 +1,7 @@
+ The context does not provide information on the specific preprocessing steps involved before
+training a deep learning model. However, common preprocessing steps include normalization, scaling,
+cleaning, and data augmentation. Normalization scales the data to a specific range, typically
+between 0 and 1, while scaling adjusts the data to have a mean of 0 and a standard deviation of 1.
+Cleaning involves removing or correcting any errors or inconsistencies in the data. Data
+augmentation is a technique used to increase the amount of training data by applying transformations
+such as rotation, scaling, and flipping to the existing data.

@@ -1,0 +1,2 @@
+ The type of deep learning model used in the pipeline is a Convolutional Neural Network (CNN).
+Specifically, the Faster R-CNN model is used, which is based on the ResNet-50 architecture.

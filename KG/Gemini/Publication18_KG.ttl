@@ -1,0 +1,18 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:rotations a dlprov:PreprocessingStep .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:translations a dlprov:PreprocessingStep .
+

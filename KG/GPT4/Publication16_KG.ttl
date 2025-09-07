@@ -1,0 +1,45 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:256_nodes_in_first_three_layers a dlprov:Hyperparameter .
+
+dlprov:64GB_RAM a dlprov:HardwareResource .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:Adam_optimizer a dlprov:Hyperparameter .
+
+dlprov:Backpropagation a dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique .
+
+dlprov:F1_Score a dlprov:PerformanceMetric .
+
+dlprov:Intel_Xeon_E5-1630v3_CPU a dlprov:HardwareResource .
+
+dlprov:MFCC_feature_extraction a dlprov:PreprocessingStep .
+
+dlprov:MLP a dlprov:DeepLearningModel .
+
+dlprov:Multilayer_Perceptron a dlprov:DeepLearningModel .
+
+dlprov:NVidia_Quadro_RTX_8000_GPU a dlprov:HardwareResource .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Sensitivity a dlprov:PerformanceMetric .
+
+dlprov:Specificity a dlprov:PerformanceMetric .
+
+dlprov:TensorFlow_2.2 a dlprov:Framework .
+
+dlprov:audio a dlprov:DataFormat .
+
+dlprov:classification a dlprov:ModelPurpose .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:dropout_value_of_50%25 a dlprov:Hyperparameter .
+
+dlprov:filter_size_of_2 a dlprov:Hyperparameter .
+
+dlprov:segmenting_audio_into_15-second_windows a dlprov:PreprocessingStep .
+

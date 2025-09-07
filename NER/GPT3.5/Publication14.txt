@@ -1,0 +1,11 @@
+Named Entities:
+DataFormat(image data)
+DeepLearningModel(convolutional neural network (CNN), Google's Inception V3 model)
+Dataset(2012 ImageNet data)
+PreprocessingStep(normalization, scaling, cleaning)
+ModelPurpose(classification of frames as containing hummingbird or background objects)
+RegularizationMethod(dropout)
+Framework(TensorFlow)
+PerformanceMetric(true positive rate, true negative rate, precision)
+Hyperparameter(number of units in FC layers (512, 256), dropout rate)
+HardwareResource(15 CPUs, single CPU for training)

@@ -1,0 +1,13 @@
+
+    Named Entities:
+    DataFormat(audio),
+    DeepLearningModel(Multilayer Perceptron),
+    HyperparameterOptimization(Backpropagation, Adam),
+    Hyperparameter(filter size of 2, dropout value of 50%, 256 nodes),
+    PerformanceMetric(Sensitivity, Specificity, F1 Score, Precision),
+    RegularizationMethod(dropout),
+    Framework(TensorFlow),
+    HardwareResource(Intel Xeon E5-1630v3 CPU, 64GB of RAM, NVidia Quadro RTX 8000 GPU),
+    ModelPurpose(classification),
+    PostprocessingStep(logging the predicted vector to the site for review)
+

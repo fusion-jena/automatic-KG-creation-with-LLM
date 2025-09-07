@@ -1,0 +1,2 @@
+ The deep learning model was trained on a computer with 64GB of RAM, an i7 3.50GHz CPU, and a Titan
+X GPU card.

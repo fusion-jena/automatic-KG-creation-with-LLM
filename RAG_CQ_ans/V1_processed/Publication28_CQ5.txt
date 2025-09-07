@@ -1,0 +1,1 @@
+The performance of the PTDLEN-VAE model is examined against UCM dataset and AID dataset. The UCM dataset comprises a set of 100 images with 21 class labels. Each image measures 256 × 256 pixels. The pixel resolution of this public domain imagery is 1 ft. Fig. 1 showcases the sample images from UCM dataset. The AID multi-label dataset has 3000 RS images from the AID dataset. 

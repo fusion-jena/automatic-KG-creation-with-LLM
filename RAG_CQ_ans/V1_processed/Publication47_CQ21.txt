@@ -1,0 +1,1 @@
+After the model training, the postprocessing steps involved are not explicitly mentioned in the provided context. However, it is common to perform steps such as calculating metrics (e. g. , accuracy, precision, recall, F1-score), creating a confusion matrix, and generating saliency maps to understand the model's performance and interpret its predictions. 

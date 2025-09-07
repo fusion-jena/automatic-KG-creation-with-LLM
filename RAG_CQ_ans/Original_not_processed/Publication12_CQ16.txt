@@ -1,0 +1,5 @@
+ The criteria used to determine when training is complete are not explicitly mentioned in the
+provided context. However, it is common in machine learning to use validation loss plateau as an
+indicator that training is complete. This means that the model's performance on the validation
+dataset has stopped improving, indicating that further training is unlikely to improve the model's
+performance.

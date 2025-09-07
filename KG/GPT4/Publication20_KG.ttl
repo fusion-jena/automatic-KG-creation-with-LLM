@@ -1,0 +1,72 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:10 a dlprov:Hyperparameter%28learning_rate .
+
+dlprov:20_species a dlprov:Dataset .
+
+dlprov:44 a dlprov:Dataset .
+
+dlprov:50%25 a dlprov:RegularizationMethod%28dropout .
+
+dlprov:625_annotated_fish_thumbnails a dlprov:Dataset .
+
+dlprov:64GB_of_RAM a dlprov:HardwareResource .
+
+dlprov:Adam_Solver a dlprov:OptimizationTechnique .
+
+dlprov:Adam_Solver_type a dlprov:Hyperparameter%28learning_rate .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Caffe a dlprov:Framework .
+
+dlprov:I_don%27t_know a dlprov:CodeRepositoryLink .
+
+dlprov:T0 a dlprov:Dataset .
+
+dlprov:T1 a dlprov:Dataset .
+
+dlprov:T2 a dlprov:Dataset .
+
+dlprov:T3 a dlprov:Dataset .
+
+dlprov:T4 a dlprov:Dataset .
+
+dlprov:Titan_X_GPU_card a dlprov:HardwareResource .
+
+dlprov:annotated_fish_thumbnails a dlprov:Dataset .
+
+dlprov:classification_time_by_the_final_model a dlprov:PerformanceMetric .
+
+dlprov:classify_objects_from_images a dlprov:ModelPurpose .
+
+dlprov:confusion_between_fish_species a dlprov:PerformanceMetric .
+
+dlprov:correct_identification_rate a dlprov:PerformanceMetric .
+
+dlprov:doubling_the_number_of_thumbnails_per_fish_individual_by_flipping_each_thumbnail_with_respect_to_the_vertical_axis a dlprov:PreprocessingStep .
+
+dlprov:dropout%3A_50%25 a dlprov:Hyperparameter%28learning_rate .
+
+dlprov:flipping_each_thumbnail_with_respect_to_the_vertical_axis a dlprov:DataAnnotationTechnique,
+        dlprov:DataAugmentationTechnique .
+
+dlprov:i7_3.50GHz_CPU a dlprov:HardwareResource .
+
+dlprov:identify_fish_species a dlprov:ModelPurpose .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:learning_decay%3A_Gamma_of_0.95 a dlprov:Hyperparameter%28learning_rate,
+        dlprov:RegularizationMethod%28dropout .
+
+dlprov:mean_identification_success_rate a dlprov:PerformanceMetric .
+
+dlprov:mean_time_needed_to_identify_a_fish a dlprov:PerformanceMetric .
+
+dlprov:raw_fish_thumbnails a dlprov:Dataset .
+
+dlprov:success_rate a dlprov:PerformanceMetric .
+
+dlprov:weight_initialization%3A_random_Gaussian_initialization a dlprov:Hyperparameter%28learning_rate .
+

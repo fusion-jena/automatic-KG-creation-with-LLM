@@ -1,0 +1,1 @@
+The evaluation metrics used for the deep learning model are stem recall, precision, and recall for crown overlap. Stem recall was calculated using field-collected tree stem locations, while precision and recall for crown overlap were calculated on hand-annotated bounding boxes around each tree crown with a minimum predicted probability threshold of 0. 5. 

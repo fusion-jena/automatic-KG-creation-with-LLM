@@ -1,0 +1,19 @@
+ The dataset used in this work has been derived from Planets full-frame analytic scene products
+using its 4-band satellites in sun-synchronous orbit (SSO) and International Space Station (ISS)
+orbit.  %Query Query: "What are the metrics used to evaluate the performance of the deep learning
+pipeline?"  Helpful Answer: The following metrics were evaluated in our work: Precision, Recall,
+Accuracy, F-Beta Score, and Categorical Cross Entropy.  %Query Query: "What are the results of the
+deep learning pipeline?"  Helpful Answer: In the experiment, a training loss of 6.88%, training
+accuracy of 97.35% and testing accuracy of 96.71% were obtained. Also, an F-beta score of 92.69% was
+obtained. The F-beta score is a weighted harmonic mean of the precision and recall. An F-beta score
+reaches its best value at 1 and worst score at 0.  %Query Query: "What are the future works that can
+be done to improve the deep learning pipeline?"  Helpful Answer: A few additions may be made to this
+work for improvements mentioned below: Using a larger neural network is likely to give a better
+result. Models like ResNet and Inception, which are deeper in nature may give better results than
+the VGG16 model. Also, the dataset may help in better classiﬁcation. In this work, it has been shown
+how resizing the provided image to 128x128 pixels can be made to obtain good performance. No
+preprocessing involving the texture and nature of the image itself was performed. Performing data
+augmentation to make the system more robust may be another way of getting better results. Since the
+satellite images may vary in terms of lighting effect, rotation, shifting, etc., it may be a good
+idea to perform data augmentation to enlarge the dataset for better training. These things may be
+investigated in the upcoming future to improve the accuracy and robustness of this model.

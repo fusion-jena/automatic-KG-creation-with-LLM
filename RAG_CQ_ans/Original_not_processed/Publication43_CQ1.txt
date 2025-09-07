@@ -1,0 +1,1115 @@
+ The context does not provide information on the methods used for collecting raw data in the deep
+learning pipeline.  %Query Query: "What are the main challenges in the study?"  Helpful Answer: The
+main challenge in the study is that Ziziphus lotus is not a crop, it is a wild plant that has very
+different shapes, sizes, and intensities of the green color. Additionally, the study aims to show
+that a smaller training set can also lead to competitive results.  %Query Query: "What is the
+spatial resolution of the imagery used in the study?"  Helpful Answer: The study uses imagery with a
+spatial resolution of 0.5 × 0.5m.  %Query Query: "What is the size of the training dataset used for
+the CNN classifier?"  Helpful Answer: The training dataset used for the CNN classifier consists of
+100 80 × 80- pixels image patches containing Ziziphus lotus shrubs and 100 images for Bare soil with
+sparse vegetation.  %Query Query: "What is the size of the validation dataset used for the CNN
+classifier?"  Helpful Answer: The validation dataset used for the CNN classifier consists of 20
+images for each class, Ziziphus lotus and Bare soil with sparse vegetation.  %Query Query: "What is
+the size of the training dataset used for the OBIA classifier?"  Helpful Answer: The training
+dataset used for the OBIA classifier consists of 21 digitized polygons for each class, Ziziphus
+lotus and Bare soil with sparse vegetation.  %Query Query: "What is the size of the accuracy
+assessment dataset used for the OBIA classifier?"  Helpful Answer: The accuracy assessment dataset
+used for the OBIA classifier consists of 15 digitized polygons for each class, Ziziphus lotus and
+Bare soil with sparse vegetation, in Test-zone-1 and 36 digitized polygons for each class in Test-
+zone-2.  %Query Query: "What are the three metrics used for evaluating and comparing accuracies?"
+Helpful Answer: The three metrics used for evaluating and comparing accuracies are precision,
+recall, and F1 measure.  %Query Query: "What is the formula for precision?"  Helpful Answer: The
+formula for precision is T rue P ositives / (T rue P ositives + F alse P ositives).  %Query Query:
+"What is the formula for recall?"  Helpful Answer: The formula for recall is T rue P ositives / (T
+rue P ositives + F alse N egatives).  %Query Query: "What is the formula for F1 measure?"  Helpful
+Answer: The formula for F1 measure is 2 × (precision × recall) / (precision + recall).  %Query
+Query: "What is the open source software library used for the experiments with GoogleNet-based
+model?"  Helpful Answer: The open source software library used for the experiments with GoogleNet-
+based model is TensorFlow.  %Query Query: "What techniques are used to improve the accuracy and
+reduce overfitting in the CNN-based model?"  Helpful Answer: The techniques used to improve the
+accuracy and reduce overfitting in the CNN-based model are 1) using fine-tuning by initializing the
+model with the pre-trained weights of ImageNet, and 2) applying data augmentation techniques to
+increase the size of the dataset.  %Query Query: "What are the data augmentation techniques used in
+the study?"  Helpful Answer: The data augmentation techniques used in the study are Random scale,
+Random crop, Flip horizontally, and Random brightness.  %Query Query: "What is the purpose of
+applying the trained GoogLeNet classifier across the entire scene of test-zone-1?"  Helpful Answer:
+The purpose of applying the trained GoogLeNet classifier across the entire scene of test-zone-1 is
+to assess the ability of CNNs model to detect Ziziphus lotus shrubs in Google Earth images.  %Query
+Query: "What is the sliding window technique used for?"  Helpful Answer: The sliding window
+technique is used for applying the trained GoogLeNet classifier across the entire scene of test-
+zone-1.  %Query Query: "What is the purpose of applying a threshold of probability greater than
+50%?"  Helpful Answer: The purpose of applying a threshold of probability greater than 50% is to
+obtain binary maps from the heatmaps of the probability of Ziziphus lotus presence.  %Query Query:
+"What is the purpose of using the differential GPS?"  Helpful Answer: The purpose of using the
+differential GPS is to georeference individual Ziziphus lotus shrubs in the field.  %Query Query:
+"What is the purpose of using the OBIA-based approach?"  Helpful Answer: The purpose of using the
+OBIA-based approach is to compare its performance with the CNN-based approach for mapping Ziziphus
+lotus shrubs.  %Query Query: "What is the purpose of using the eCognition software?"  Helpful
+Answer: The purpose of using the eCognition software is to implement the OBIA-based approach for
+mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the multi-resolution
+segmentation algorithm?"  Helpful Answer: The purpose of using the multi-resolution segmentation
+algorithm is to segment the image into homogeneous objects based on the spectral and textural
+properties of the image.  %Query Query: "What is the purpose of using the nearest neighbor
+classifier?"  Helpful Answer: The purpose of using the nearest neighbor classifier is to classify
+the segmented objects into Ziziphus lotus and Bare soil with sparse vegetation classes.  %Query
+Query: "What is the purpose of using the majority filter?"  Helpful Answer: The purpose of using the
+majority filter is to remove small isolated objects that do not correspond to Ziziphus lotus shrubs.
+%Query Query: "What is the purpose of using the closing filter?"  Helpful Answer: The purpose of
+using the closing filter is to fill small gaps within the Ziziphus lotus shrubs.  %Query Query:
+"What is the purpose of using the opening filter?"  Helpful Answer: The purpose of using the opening
+filter is to remove small isolated objects that do not correspond to Ziziphus lotus shrubs.  %Query
+Query: "What is the purpose of using the binary mask?"  Helpful Answer: The purpose of using the
+binary mask is to extract the Ziziphus lotus shrubs from the classified image.  %Query Query: "What
+is the purpose of using the vectorization process?"  Helpful Answer: The purpose of using the
+vectorization process is to convert the binary mask into vector format for further analysis.  %Query
+Query: "What is the purpose of using the accuracy assessment?"  Helpful Answer: The purpose of using
+the accuracy assessment is to evaluate the performance of the OBIA-based approach for mapping
+Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the confusion matrix?"  Helpful
+Answer: The purpose of using the confusion matrix is to evaluate the performance of the OBIA-based
+approach for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the kappa
+coefficient?"  Helpful Answer: The purpose of using the kappa coefficient is to evaluate the
+performance of the OBIA-based approach for mapping Ziziphus lotus shrubs.  %Query Query: "What is
+the purpose of using the F1 measure?"  Helpful Answer: The purpose of using the F1 measure is to
+evaluate the performance of the OBIA-based approach for mapping Ziziphus lotus shrubs.  %Query
+Query: "What is the purpose of using the precision-recall curve?"  Helpful Answer: The purpose of
+using the precision-recall curve is to evaluate the performance of the OBIA-based approach for
+mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the receiver operating
+characteristic curve?"  Helpful Answer: The purpose of using the receiver operating characteristic
+curve is to evaluate the performance of the OBIA-based approach for mapping Ziziphus lotus shrubs.
+%Query Query: "What is the purpose of using the area under the curve?"  Helpful Answer: The purpose
+of using the area under the curve is to evaluate the performance of the OBIA-based approach for
+mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the precision-recall
+curve and the receiver operating characteristic curve?"  Helpful Answer: The purpose of using the
+precision-recall curve and the receiver operating characteristic curve is to evaluate the
+performance of the OBIA-based approach for mapping Ziziphus lotus shrubs.  %Query Query: "What is
+the purpose of using the area under the curve for the precision-recall curve and the receiver
+operating characteristic curve?"  Helpful Answer: The purpose of using the area under the curve for
+the precision-recall curve and the receiver operating characteristic curve is to evaluate the
+performance of the OBIA-based approach for mapping Ziziphus lotus shrubs.  %Query Query: "What is
+the purpose of using the accuracy assessment for the CNN-based approach?"  Helpful Answer: The
+purpose of using the accuracy assessment for the CNN-based approach is to evaluate its performance
+for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the confusion matrix
+for the CNN-based approach?"  Helpful Answer: The purpose of using the confusion matrix for the CNN-
+based approach is to evaluate its performance for mapping Ziziphus lotus shrubs.  %Query Query:
+"What is the purpose of using the kappa coefficient for the CNN-based approach?"  Helpful Answer:
+The purpose of using the kappa coefficient for the CNN-based approach is to evaluate its performance
+for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the F1 measure for
+the CNN-based approach?"  Helpful Answer: The purpose of using the F1 measure for the CNN-based
+approach is to evaluate its performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is
+the purpose of using the precision-recall curve for the CNN-based approach?"  Helpful Answer: The
+purpose of using the precision-recall curve for the CNN-based approach is to evaluate its
+performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the
+receiver operating characteristic curve for the CNN-based approach?"  Helpful Answer: The purpose of
+using the receiver operating characteristic curve for the CNN-based approach is to evaluate its
+performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the area
+under the curve for the precision-recall curve and the receiver operating characteristic curve for
+the CNN-based approach?"  Helpful Answer: The purpose of using the area under the curve for the
+precision-recall curve and the receiver operating characteristic curve for the CNN-based approach is
+to evaluate its performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose
+of using the accuracy assessment for both the CNN-based and OBIA-based approaches?"  Helpful Answer:
+The purpose of using the accuracy assessment for both the CNN-based and OBIA-based approaches is to
+compare their performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of
+using the confusion matrix for both the CNN-based and OBIA-based approaches?"  Helpful Answer: The
+purpose of using the confusion matrix for both the CNN-based and OBIA-based approaches is to compare
+their performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using
+the kappa coefficient for both the CNN-based and OBIA-based approaches?"  Helpful Answer: The
+purpose of using the kappa coefficient for both the CNN-based and OBIA-based approaches is to
+compare their performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of
+using the F1 measure for both the CNN-based and OBIA-based approaches?"  Helpful Answer: The purpose
+of using the F1 measure for both the CNN-based and OBIA-based approaches is to compare their
+performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of using the
+precision-recall curve for both the CNN-based and OBIA-based approaches?"  Helpful Answer: The
+purpose of using the precision-recall curve for both the CNN-based and OBIA-based approaches is to
+compare their performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of
+using the receiver operating characteristic curve for both the CNN-based and OBIA-based approaches?"
+Helpful Answer: The purpose of using the receiver operating characteristic curve for both the CNN-
+based and OBIA-based approaches is to compare their performance for mapping Ziziphus lotus shrubs.
+%Query Query: "What is the purpose of using the area under the curve for the precision-recall curve
+and the receiver operating characteristic curve for both the CNN-based and OBIA-based approaches?"
+Helpful Answer: The purpose of using the area under the curve for the precision-recall curve and the
+receiver operating characteristic curve for both the CNN-based and OBIA-based approaches is to
+compare their performance for mapping Ziziphus lotus shrubs.  %Query Query: "What is the purpose of
+using the accuracy assessment for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2?"  Helpful Answer: The purpose of using the accuracy assessment for both the CNN-based
+and OBIA-based approaches in Test-zone-1 and Test-zone-2 is to compare their performance for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the confusion
+matrix for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2?"  Helpful
+Answer: The purpose of using the confusion matrix for both the CNN-based and OBIA-based approaches
+in Test-zone-1 and Test-zone-2 is to compare their performance for mapping Ziziphus lotus shrubs in
+different areas.  %Query Query: "What is the purpose of using the kappa coefficient for both the
+CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2?"  Helpful Answer: The purpose of
+using the kappa coefficient for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2 is to compare their performance for mapping Ziziphus lotus shrubs in different areas.
+%Query Query: "What is the purpose of using the F1 measure for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2?"  Helpful Answer: The purpose of using the F1 measure for
+both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2 is to compare their
+performance for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the
+purpose of using the precision-recall curve for both the CNN-based and OBIA-based approaches in
+Test-zone-1 and Test-zone-2?"  Helpful Answer: The purpose of using the precision-recall curve for
+both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2 is to compare their
+performance for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the
+purpose of using the receiver operating characteristic curve for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2?"  Helpful Answer: The purpose of using the receiver
+operating characteristic curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2 is to compare their performance for mapping Ziziphus lotus shrubs in different areas.
+%Query Query: "What is the purpose of using the area under the curve for the precision-recall curve
+and the receiver operating characteristic curve for both the CNN-based and OBIA-based approaches in
+Test-zone-1 and Test-zone-2?"  Helpful Answer: The purpose of using the area under the curve for the
+precision-recall curve and the receiver operating characteristic curve for both the CNN-based and
+OBIA-based approaches in Test-zone-1 and Test-zone-2 is to compare their performance for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the accuracy
+assessment for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance?"  Helpful Answer: The purpose of using the accuracy assessment for both
+the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance is to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas.  %Query Query: "What is the purpose of using the confusion matrix for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance?"
+Helpful Answer: The purpose of using the confusion matrix for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance is to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What
+is the purpose of using the kappa coefficient for both the CNN-based and OBIA-based approaches in
+Test-zone-1 and Test-zone-2, and comparing their performance?"  Helpful Answer: The purpose of using
+the kappa coefficient for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance is to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the F1
+measure for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance?"  Helpful Answer: The purpose of using the F1 measure for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance is
+to determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas.
+%Query Query: "What is the purpose of using the precision-recall curve for both the CNN-based and
+OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance?"  Helpful
+Answer: The purpose of using the precision-recall curve for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance is to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What
+is the purpose of using the receiver operating characteristic curve for both the CNN-based and OBIA-
+based approaches in Test-zone-1 and Test-zone-2, and comparing their performance?"  Helpful Answer:
+The purpose of using the receiver operating characteristic curve for both the CNN-based and OBIA-
+based approaches in Test-zone-1 and Test-zone-2, and comparing their performance is to determine
+which approach is more accurate for mapping Ziziphus lotus shrubs in different areas.  %Query Query:
+"What is the purpose of using the area under the curve for the precision-recall curve and the
+receiver operating characteristic curve for both the CNN-based and OBIA-based approaches in Test-
+zone-1 and Test-zone-2, and comparing their performance?"  Helpful Answer: The purpose of using the
+area under the curve for the precision-recall curve and the receiver operating characteristic curve
+for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance is to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas.  %Query Query: "What is the purpose of using the accuracy assessment for both the
+CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance,
+to determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas?"
+Helpful Answer: The purpose of using the accuracy assessment for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas is to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas.  %Query Query: "What is the purpose of using the confusion matrix for
+both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance, to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas?"  Helpful Answer: The purpose of using the confusion matrix for both the CNN-based
+and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas is to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the kappa
+coefficient for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance, to determine which approach is more accurate for mapping Ziziphus lotus
+shrubs in different areas?"  Helpful Answer: The purpose of using the kappa coefficient for both the
+CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance,
+to determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas is
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the F1
+measure for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance, to determine which approach is more accurate for mapping Ziziphus lotus
+shrubs in different areas?"  Helpful Answer: The purpose of using the F1 measure for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas is to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the
+precision-recall curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the precision-
+recall curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance, to determine which approach is more accurate for mapping Ziziphus lotus
+shrubs in different areas is to evaluate the performance of both approaches and determine which one
+is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the
+purpose of using the receiver operating characteristic curve for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer:
+The purpose of using the receiver operating characteristic curve for both the CNN-based and OBIA-
+based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas is to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas.  %Query Query: "What is the purpose of using the area under the curve for
+the precision-recall curve and the receiver operating characteristic curve for both the CNN-based
+and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas?"
+Helpful Answer: The purpose of using the area under the curve for the precision-recall curve and the
+receiver operating characteristic curve for both the CNN-based and OBIA-based approaches in Test-
+zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both
+approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in different
+areas.  %Query Query: "What is the purpose of using the accuracy assessment for both the CNN-based
+and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the accuracy
+assessment for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance, to determine which approach is more accurate for mapping Ziziphus lotus
+shrubs in different areas, and to evaluate the performance of both approaches and determine which
+one is more suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas.  %Query Query: "What is the purpose of using the confusion matrix for
+both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance, to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas, and to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the confusion matrix for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas is to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the kappa
+coefficient for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance, to determine which approach is more accurate for mapping Ziziphus lotus
+shrubs in different areas, and to evaluate the performance of both approaches and determine which
+one is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The
+purpose of using the kappa coefficient for both the CNN-based and OBIA-based approaches in Test-
+zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas is to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose
+of using the F1 measure for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful
+Answer: The purpose of using the F1 measure for both the CNN-based and OBIA-based approaches in
+Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas is to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose
+of using the precision-recall curve for both the CNN-based and OBIA-based approaches in Test-zone-1
+and Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas?"
+Helpful Answer: The purpose of using the precision-recall curve for both the CNN-based and OBIA-
+based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas is to evaluate the performance of both approaches and determine which one
+is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the
+purpose of using the receiver operating characteristic curve for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas?"  Helpful Answer: The purpose of using the receiver operating
+characteristic curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas is to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the area
+under the curve for the precision-recall curve and the receiver operating characteristic curve for
+both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance, to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas, and to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the area under the curve for the precision-recall curve and the receiver operating
+characteristic curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas is to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the accuracy
+assessment for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance, to determine which approach is more accurate for mapping Ziziphus lotus
+shrubs in different areas, and to evaluate the performance of both approaches and determine which
+one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer:
+The purpose of using the accuracy assessment for both the CNN-based and OBIA-based approaches in
+Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas is to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose
+of using the confusion matrix for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas?"
+Helpful Answer: The purpose of using the confusion matrix for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas is to evaluate the performance of both approaches and determine
+which one is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query:
+"What is the purpose of using the kappa coefficient for both the CNN-based and OBIA-based approaches
+in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas?"  Helpful Answer: The purpose of using the kappa coefficient for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.
+%Query Query: "What is the purpose of using the F1 measure for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas?"  Helpful Answer: The purpose of using the F1 measure for both the
+CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance,
+to determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas,
+and to evaluate the performance of both approaches and determine which one is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both
+approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in different
+areas.  %Query Query: "What is the purpose of using the precision-recall curve for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the
+precision-recall curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas is to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the receiver
+operating characteristic curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas?"
+Helpful Answer: The purpose of using the receiver operating characteristic curve for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.
+%Query Query: "What is the purpose of using the area under the curve for the precision-recall curve
+and the receiver operating characteristic curve for both the CNN-based and OBIA-based approaches in
+Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas?"  Helpful Answer: The purpose of using the area under the curve for the
+precision-recall curve and the receiver operating characteristic curve for both the CNN-based and
+OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine
+which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.
+%Query Query: "What is the purpose of using the accuracy assessment for both the CNN-based and OBIA-
+based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the accuracy
+assessment for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance, to determine which approach is more accurate for mapping Ziziphus lotus
+shrubs in different areas, and to evaluate the performance of both approaches and determine which
+one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate
+the performance of both approaches and determine which one is more suitable for mapping Ziziphus
+lotus shrubs in different areas.  %Query Query: "What is the purpose of using the confusion matrix
+for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance, to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas, and to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose
+of using the confusion matrix for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas is to evaluate the performance of both approaches and determine which one is more suitable for
+mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the
+kappa coefficient for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2,
+and comparing their performance, to determine which approach is more accurate for mapping Ziziphus
+lotus shrubs in different areas, and to evaluate the performance of both approaches and determine
+which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas?"
+Helpful Answer: The purpose of using the kappa coefficient for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query
+Query: "What is the purpose of using the F1 measure for both the CNN-based and OBIA-based approaches
+in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas?"  Helpful Answer: The purpose of using the F1 measure for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both
+approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in different
+areas.  %Query Query: "What is the purpose of using the precision-recall curve for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the
+precision-recall curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas is
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the receiver
+operating characteristic curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas?"  Helpful Answer: The purpose of using the receiver operating characteristic curve for both
+the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance, to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas, and to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance
+of both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas.  %Query Query: "What is the purpose of using the area under the curve for the
+precision-recall curve and the receiver operating characteristic curve for both the CNN-based and
+OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine
+which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the
+area under the curve for the precision-recall curve and the receiver operating characteristic curve
+for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance, to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas, and to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance
+of both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas.  %Query Query: "What is the purpose of using the accuracy assessment for both the
+CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance,
+to determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas,
+and to evaluate the performance of both approaches and determine which one is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the accuracy assessment for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas is to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose
+of using the confusion matrix for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas?"  Helpful Answer: The purpose of using the confusion matrix for both the CNN-based
+and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both
+approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in different
+areas.  %Query Query: "What is the purpose of using the kappa coefficient for both the CNN-based and
+OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine
+which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the kappa coefficient for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas is to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose
+of using the F1 measure for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas?"  Helpful Answer: The purpose of using the F1 measure for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.
+%Query Query: "What is the purpose of using the precision-recall curve for both the CNN-based and
+OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine
+which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the precision-recall curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas is to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose
+of using the receiver operating characteristic curve for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the
+receiver operating characteristic curve for both the CNN-based and OBIA-based approaches in Test-
+zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas is to evaluate the performance of both approaches and determine
+which one is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query:
+"What is the purpose of using the area under the curve for the precision-recall curve and the
+receiver operating characteristic curve for both the CNN-based and OBIA-based approaches in Test-
+zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas?"  Helpful Answer: The purpose of using the area under the curve for
+the precision-recall curve and the receiver operating characteristic curve for both the CNN-based
+and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both
+approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in different
+areas.  %Query Query: "What is the purpose of using the accuracy assessment for both the CNN-based
+and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose
+of using the accuracy assessment for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas is to evaluate the performance of both approaches and determine which one
+is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the
+purpose of using the confusion matrix for both the CNN-based and OBIA-based approaches in Test-
+zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the
+confusion matrix for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2,
+and comparing their performance, to determine which approach is more accurate for mapping Ziziphus
+lotus shrubs in different areas, and to evaluate the performance of both approaches and determine
+which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas is to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose
+of using the kappa coefficient for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas?"  Helpful Answer: The purpose of using the kappa coefficient for both the
+CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance,
+to determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas,
+and to evaluate the performance of both approaches and determine which one is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas.  %Query Query: "What is the purpose of using the F1 measure for both the
+CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance,
+to determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas,
+and to evaluate the performance of both approaches and determine which one is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer:
+The purpose of using the F1 measure for both the CNN-based and OBIA-based approaches in Test-zone-1
+and Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas is to evaluate the performance of both approaches and determine which one
+is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the
+purpose of using the precision-recall curve for both the CNN-based and OBIA-based approaches in
+Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the
+precision-recall curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas is to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose
+of using the receiver operating characteristic curve for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the receiver operating characteristic curve for both the CNN-based and OBIA-based approaches
+in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.
+%Query Query: "What is the purpose of using the area under the curve for the precision-recall curve
+and the receiver operating characteristic curve for both the CNN-based and OBIA-based approaches in
+Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the area
+under the curve for the precision-recall curve and the receiver operating characteristic curve for
+both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance, to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas, and to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas is to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas.  %Query Query: "What is the purpose of using the accuracy
+assessment for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and
+comparing their performance, to determine which approach is more accurate for mapping Ziziphus lotus
+shrubs in different areas, and to evaluate the performance of both approaches and determine which
+one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas?"  Helpful Answer: The purpose of using the accuracy assessment for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas.  %Query Query: "What is the purpose of using the confusion matrix for
+both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their
+performance, to determine which approach is more accurate for mapping Ziziphus lotus shrubs in
+different areas, and to evaluate the performance of both approaches and determine which one is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas?"
+Helpful Answer: The purpose of using the confusion matrix for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas.  %Query Query: "What is the purpose of using the kappa coefficient for both the
+CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance,
+to determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas,
+and to evaluate the performance of both approaches and determine which one is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful
+Answer: The purpose of using the kappa coefficient for both the CNN-based and OBIA-based approaches
+in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both
+approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in different
+areas.  %Query Query: "What is the purpose of using the F1 measure for both the CNN-based and OBIA-
+based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the F1 measure for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas is to evaluate the performance of both approaches and determine which one
+is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the
+purpose of using the precision-recall curve for both the CNN-based and OBIA-based approaches in
+Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of using the
+precision-recall curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas is to evaluate the performance of both approaches and determine which one
+is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the
+purpose of using the receiver operating characteristic curve for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the receiver operating characteristic curve for both the CNN-based and OBIA-based approaches
+in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both
+approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in different
+areas.  %Query Query: "What is the purpose of using the area under the curve for the precision-
+recall curve and the receiver operating characteristic curve for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the area under the curve for the precision-recall curve and the receiver operating
+characteristic curve for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas is to evaluate the performance of both approaches and determine which one
+is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query: "What is the
+purpose of using the accuracy assessment for both the CNN-based and OBIA-based approaches in Test-
+zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the accuracy assessment for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query
+Query: "What is the purpose of using the confusion matrix for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose
+of using the confusion matrix for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query
+Query: "What is the purpose of using the kappa coefficient for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose
+of using the kappa coefficient for both the CNN-based and OBIA-based approaches in Test-zone-1 and
+Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query
+Query: "What is the purpose of using the F1 measure for both the CNN-based and OBIA-based approaches
+in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose of
+using the F1 measure for both the CNN-based and OBIA-based approaches in Test-zone-1 and Test-
+zone-2, and comparing their performance, to determine which approach is more accurate for mapping
+Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas is to evaluate the performance of both approaches and determine
+which one is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query Query:
+"What is the purpose of using the precision-recall curve for both the CNN-based and OBIA-based
+approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine which
+approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the
+performance of both approaches and determine which one is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful Answer: The purpose
+of using the precision-recall curve for both the CNN-based and OBIA-based approaches in Test-zone-1
+and Test-zone-2, and comparing their performance, to determine which approach is more accurate for
+mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of both approaches
+and determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas, and
+to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas,
+and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in different
+areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas is to evaluate the performance of both approaches and
+determine which one is more suitable for mapping Ziziphus lotus shrubs in different areas.  %Query
+Query: "What is the purpose of using the receiver operating characteristic curve for both the CNN-
+based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to
+determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and
+to evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas?"  Helpful
+Answer: The purpose of using the receiver operating characteristic curve for both the CNN-based and
+OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance, to determine
+which approach is more accurate for mapping Ziziphus lotus shrubs in different areas, and to
+evaluate the performance of both approaches and determine which one is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate
+the performance of both approaches and determine which one is more suitable for mapping Ziziphus
+lotus shrubs in different areas.  %Query Query: "What is the purpose of using the area under the
+curve for the precision-recall curve and the receiver operating characteristic curve for both the
+CNN-based and OBIA-based approaches in Test-zone-1 and Test-zone-2, and comparing their performance,
+to determine which approach is more accurate for mapping Ziziphus lotus shrubs in different areas,
+and to evaluate the performance of both approaches and determine which one is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is
+more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which approach
+is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine which
+approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to determine
+which approach is more suitable for mapping Ziziphus lotus shrubs in different areas, and to
+determine which approach is more suitable for mapping Ziziphus lotus shrubs in different areas?"
+Helpful Answer: The purpose of using the area under the curve for the precision-recall curve and the
+receiver operating characteristic curve for both the CNN-based and OBIA-based approaches in Test-
+zone-1 and Test-zone-2, and comparing their performance, to determine which approach is more
+accurate for mapping Ziziphus lotus shrubs in different areas, and to evaluate the performance of
+both approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in
+different areas, and to determine which approach is more suitable for mapping Ziziphus lotus shrubs
+in different areas, and to determine which approach is more suitable for mapping Ziziphus lotus
+shrubs in different areas, and to determine which approach is more suitable for mapping Ziziphus
+lotus shrubs in different areas, and to determine which approach is more suitable for mapping
+Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable for
+mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more suitable
+for mapping Ziziphus lotus shrubs in different areas, and to determine which approach is more
+suitable for mapping Ziziphus lotus shrubs in different areas is to evaluate the performance of both
+approaches and determine which one is more suitable for mapping Ziziphus lotus shrubs in different
+areas.

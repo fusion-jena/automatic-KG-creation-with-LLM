@@ -1,0 +1,1 @@
+The data is split into a train set (4781 sites) which is used for fitting all models and a test set (400 sites) which aims at testing models generalization capacities. The split is done randomly. 

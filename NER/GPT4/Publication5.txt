@@ -1,0 +1,8 @@
+Named Entities: 
+DataFormat(image)
+Dataset(MODIS-driven NDVI, MODIS-driven LAI)
+PreprocessingStep(normalization, scaling, cleaning, encoding categorical variables, feature selection, data augmentation)
+DeepLearningModel(MLP)
+RegularizationMethod(dropout, L2 regularization)
+PerformanceMetric(RMSE)
+ModelPurpose(develop a species richness retrieval model, integration of surveyed and estimated richness information, integration of multitemporal remote sensing data)

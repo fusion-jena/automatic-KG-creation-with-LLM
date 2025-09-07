@@ -1,0 +1,4 @@
+ The datasets used in the deep learning pipeline are not explicitly mentioned in the provided
+context. However, the context does mention that the pipeline uses RGB data and LIDAR data. It also
+mentions that the pipeline is used for detecting tree crowns. Therefore, it can be inferred that the
+datasets used in the pipeline are likely related to remote sensing and tree detection.

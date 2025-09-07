@@ -1,0 +1,2 @@
+ The provided context does not contain information on the process followed to deploy the trained
+deep learning model, including model serialization or platform selection.

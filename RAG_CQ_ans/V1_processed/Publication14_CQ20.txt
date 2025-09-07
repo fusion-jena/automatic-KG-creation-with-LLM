@@ -1,0 +1,1 @@
+The context does not provide specific information about the hardware resources used for training the deep learning model. However, it does mention that feature extraction of the fixed inception layers completed in 1 hr and 26 min on 15 CPUs, and training of the new layers completed in 27 min on a single CPU. This suggests that the model was trained using CPUs. 

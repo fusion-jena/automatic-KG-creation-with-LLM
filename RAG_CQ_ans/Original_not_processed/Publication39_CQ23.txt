@@ -1,0 +1,5 @@
+ To prevent overfitting and to generalize better, different data augmentation techniques were
+utilized during the training process. The python library imgaug was used for the data augmentation
+of images and videos. For Mask R-CNN and FGFA, the same augmentation technique with identical
+parameters was applied to each frame of the video. The augmentation techniques used were horizontal
+flip, vertical flip, and rotation.

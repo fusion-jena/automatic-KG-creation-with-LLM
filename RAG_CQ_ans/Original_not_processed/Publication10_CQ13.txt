@@ -1,0 +1,2 @@
+ The paper does not provide information on the hyperparameters used in the deep learning model, such
+as the learning rate or the optimizer.

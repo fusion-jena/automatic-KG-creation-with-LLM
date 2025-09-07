@@ -1,0 +1,15 @@
+Named Entities:
+DataFormat: CSV
+DataAnnotationTechnique: [Not specified]
+DataAugmentationTechnique: [Not specified]
+Dataset: Orchid species occurrence records from GBIF and WCSP
+PreprocessingStep: normalization, scaling, cleaning
+CodeRepository: https://github.com/azizka/IUCNN
+DeepLearningModel: IUC-NN (Deep Neural Network)
+Hyperparameter: [Not specified]
+OptimizationTechnique: [Not specified]
+RegularizationMethod: [Not specified]
+Framework: TensorFlow
+HardwareResource: [Not specified]
+PerformanceMetric: accuracy, cross-entropy loss
+ModelPurpose: predicting conservation status of orchid species

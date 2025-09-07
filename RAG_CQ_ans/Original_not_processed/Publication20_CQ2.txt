@@ -1,0 +1,2 @@
+ The deep learning pipeline uses image data formats. Specifically, it uses thumbnails of whole fish,
+part of fish species, and environment.

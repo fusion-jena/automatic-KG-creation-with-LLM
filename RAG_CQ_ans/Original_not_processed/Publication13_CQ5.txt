@@ -1,0 +1,2 @@
+ The datasets used in the deep learning pipeline are Local High Quality (LH), Local Low Quality
+(LL), and Global High Quality (GH).

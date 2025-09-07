@@ -1,0 +1,8 @@
+ The Stochastic Gradient Descent (SGD) is commonly used to update the weights in the deep learning
+pipeline. The network weights, wt, can be randomly initialized if the network is trained from
+scratch. However, this is suitable only when a large labeled training-set is available. Several
+works have shown that data-augmentation and transfer learning help overcome this limitation.
+Transfer learning (e.g., fine-tuning in CNNs) consists of re-utilizing the knowledge learned from
+one problem to another related one. In deep CNNs, transfer learning can be applied via fine-tuning,
+which involves initializing the weights of the network by the pre-trained weights on a different
+dataset.

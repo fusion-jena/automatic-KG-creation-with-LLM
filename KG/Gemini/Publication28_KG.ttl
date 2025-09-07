@@ -1,0 +1,14 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:AID a dlprov:Dataset .
+
+dlprov:UCM a dlprov:Dataset .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:satellite_images a dlprov:DataFormat .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+

@@ -1,0 +1,1 @@
+ The TensorFlow implementation of ResNet is used to build the deep learning model.

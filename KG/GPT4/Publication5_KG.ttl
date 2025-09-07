@@ -1,0 +1,34 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:MLP a dlprov:DeepLearningModel .
+
+dlprov:MODIS-driven_LAI a dlprov:Dataset .
+
+dlprov:MODIS-driven_NDVI a dlprov:Dataset .
+
+dlprov:RMSE a dlprov:PerformanceMetric .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:data_augmentation a dlprov:PreprocessingStep .
+
+dlprov:develop_a_species_richness_retrieval_model a dlprov:ModelPurpose .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:encoding_categorical_variables a dlprov:PreprocessingStep .
+
+dlprov:feature_selection a dlprov:PreprocessingStep .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:integration_of_multitemporal_remote_sensing_data a dlprov:ModelPurpose .
+
+dlprov:integration_of_surveyed_and_estimated_richness_information a dlprov:ModelPurpose .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+

@@ -1,0 +1,36 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:2 a dlprov:Hyperparameter .
+
+dlprov:50%25 a dlprov:Hyperparameter .
+
+dlprov:64GB a dlprov:HardwareResource .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:CPU a dlprov:HardwareResource .
+
+dlprov:GPU a dlprov:HardwareResource .
+
+dlprov:Intel_Xeon_E5-1630v3 a dlprov:HardwareResource .
+
+dlprov:MLP a dlprov:DeepLearningModel .
+
+dlprov:Multilayer_Perceptron a dlprov:DeepLearningModel .
+
+dlprov:NVidia_Quadro_RTX_8000 a dlprov:HardwareResource .
+
+dlprov:RAM a dlprov:HardwareResource .
+
+dlprov:TensorFlow_2.2 a dlprov:Framework .
+
+dlprov:audio a dlprov:DataFormat .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:dropout_value a dlprov:Hyperparameter .
+
+dlprov:filter_size a dlprov:Hyperparameter .
+
+dlprov:segmented_into_15-second_windows a dlprov:PreprocessingStep .
+

@@ -1,0 +1,4 @@
+Named Entities:
+DataFormat(image)
+DataAugmentationTechnique(Flipping)
+PreprocessingStep(resizing)

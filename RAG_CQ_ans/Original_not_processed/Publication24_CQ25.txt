@@ -1,0 +1,6 @@
+ The purpose of the deep learning model is to generate measures of biotic and anthropogenic acoustic
+activity. The model is a convolutional neural network (CNN) and is part of the CityNet system. The
+CNN is trained on a large dataset of annotated audio recordings collected across Greater London, UK.
+The CNN is used to predict the presence or absence of biotic or anthropogenic acoustic activity in
+each 1-second chunk of audio. The predictions can then be aggregated to give summaries over time or
+space.

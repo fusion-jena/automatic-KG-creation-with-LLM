@@ -1,0 +1,4 @@
+ The available data is frequently split into a training data set (used for training) and a test data
+set. The details of the network architecture, such as the size of the network, the selection of
+specific layer types, and parameters of the training process strongly determine the prediction
+accuracy of the network and are usually problem specific.

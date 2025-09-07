@@ -1,0 +1,1 @@
+The Faster R-CNN network uses a stochastic gradient descent (SGD) optimizer with a learning rate of 0. 00025. The YOLOv5s network uses an Adam optimizer with an initial image size of 640 × 640 and a batch size of 16. The single-leaf classifier uses an Adam optimizer at a learning rate of 1 × 10−4. 

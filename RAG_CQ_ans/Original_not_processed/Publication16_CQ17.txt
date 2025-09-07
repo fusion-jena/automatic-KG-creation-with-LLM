@@ -1,0 +1,2 @@
+ The deep learning pipeline uses dropout as a regularization method to prevent overfitting. A
+dropout value of 50% has been used in the first three layers of the MLP.

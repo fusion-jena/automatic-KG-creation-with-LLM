@@ -1,0 +1,20 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Keras a dlprov:Framework .
+
+dlprov:TITAN-X_GPU a dlprov:HardwareResource .
+
+dlprov:U-net_deep_autoencoder a dlprov:DeepLearningModel .
+
+dlprov:audio_spectrograms a dlprov:DataFormat .
+
+dlprov:grey-coloured_1-channel_images a dlprov:DataFormat .
+
+dlprov:mean_Dice_coefficient_loss_function a dlprov:PerformanceMetric .
+
+dlprov:random_displacements a dlprov:DataAugmentationTechnique .
+
+dlprov:random_rotations a dlprov:DataAugmentationTechnique .
+

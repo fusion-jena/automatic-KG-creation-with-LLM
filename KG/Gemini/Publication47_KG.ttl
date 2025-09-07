@@ -1,0 +1,36 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#//github.com/azizka/IUCNN> a dlprov:CodeRepositoryLink_%28https .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Cleaning a dlprov:PreprocessingStep .
+
+dlprov:Conservation_status_prediction_for_orchid_species a dlprov:ModelPurpose .
+
+dlprov:Cross-entropy_loss a dlprov:PerformanceMetric .
+
+dlprov:DNN_called_IUC-NN a dlprov:DeepLearningModel .
+
+dlprov:GBIF a dlprov:Dataset_%28Orchid_species_occurrence_records_including_geographic%2C_climatic%2C_biome%2C_and_phylogenetic_data._Sources .
+
+dlprov:NN a dlprov:DeepLearningModel .
+
+dlprov:Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Normalization a dlprov:PreprocessingStep .
+
+dlprov:Scaling a dlprov:PreprocessingStep .
+
+dlprov:Structured_data_formats_like_CSV a dlprov:DataFormat .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:WCSP a dlprov:Dataset_%28Orchid_species_occurrence_records_including_geographic%2C_climatic%2C_biome%2C_and_phylogenetic_data._Sources .
+
+dlprov:based_on_digitally_available_occurrence_records a dlprov:DataFormat .
+
+dlprov:common_techniques a dlprov:PreprocessingStep .
+
+dlprov:specifically_Deep_Neural_Network a dlprov:DeepLearningModel .
+

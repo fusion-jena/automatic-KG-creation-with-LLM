@@ -1,0 +1,11 @@
+ Named Entities:
+    For each provided Concept:
+    DataFormat(audio),
+    Dataset(CitySounds2017),
+    DeepLearningModel(CNN),
+    PreprocessingStep(normalization, scaling, cleaning),
+    PerformanceMetric(precision, recall),
+    Framework(Theano, lasagne, librosa),
+    ModelPurpose(classification),
+    CodeRepositoryLink(not provided),
+    DataRepositoryLink(not provided)

@@ -1,0 +1,1 @@
+The context does not provide information on the specific data formats used in the deep learning pipeline. However, it mentions that the Convolutional Neural Network (CNN) is used for processing multidimensional data that follows a grid pattern. This suggests that the data format could be an image or a similar grid-like data structure. 

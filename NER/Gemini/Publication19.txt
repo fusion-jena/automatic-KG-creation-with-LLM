@@ -1,0 +1,6 @@
+Named Entities:
+DataFormat(image)
+Dataset(custom dataset (33,984 images of 6 animal classes))
+DeepLearningModel(Convolutional Neural Network (CNN) - Inception-V3, MobileNet-V2, ResNet-18, DenseNet-121)
+Hyperparameter(Optimizer(Stochastic Gradient Descent (SGD)), Batch size(varies), Learning rate(varies), Number of epochs(varies), Input image size(varies))
+Framework(Keras)

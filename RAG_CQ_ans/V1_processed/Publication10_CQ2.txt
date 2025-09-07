@@ -1,0 +1,1 @@
+The data formats used in the deep learning pipeline are grey-coloured 1-channel images, specifically audio spectrograms. These images are fed to the input-layer of the U-net. The image fed to the output layer during training is the segmentation of the spectrogram of the input image. 

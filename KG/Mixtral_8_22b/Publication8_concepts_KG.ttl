@@ -1,0 +1,55 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:0.0025 a dlprov:Hyperparameter%28Learning_Rate .
+
+dlprov:18000_iterations a dlprov:TrainingCompletionCriteria .
+
+dlprov:9000_iterations a dlprov:TrainingCompletionCriteria .
+
+dlprov:Average_Precision a dlprov:PerformanceMetric .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:COCO_Evaluation_Metric a dlprov:ModelPerformanceMonitoringStrategy .
+
+dlprov:Convolutional_Neural_Networks a dlprov:DeepLearningModel .
+
+dlprov:Deep_Learning_Pipeline a dlprov:Method .
+
+dlprov:Detectron2 a dlprov:Framework .
+
+dlprov:Faster_R-CNN a dlprov:DeepLearningModel .
+
+dlprov:GitHub a dlprov:CodeRepository .
+
+dlprov:Herbarium_Scans a dlprov:RawData .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:Image_Data a dlprov:DataFormat .
+
+dlprov:Intersection_over_Union a dlprov:PerformanceMetric .
+
+dlprov:Momentum%3A_0.9 a dlprov:Hyperparameter%28Learning_Rate .
+
+dlprov:Non-Maximum_Suppression a dlprov:PostprocessingStep .
+
+dlprov:Object_Detection_Network a dlprov:DataAnnotationTechnique .
+
+dlprov:Object_Detection_and_Localisation a dlprov:ModelPurpose .
+
+dlprov:PyTorch a dlprov:Framework .
+
+dlprov:Rescaling a dlprov:PreprocessingStep .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:HyperparameterOptimization,
+        dlprov:OptimizationTechnique .
+
+dlprov:TITAN_Xp_GPUs a dlprov:HardwareResource .
+
+dlprov:Test_Subset a dlprov:DataSplitCriteria .
+
+dlprov:Training_Subset a dlprov:DataSplitCriteria .
+
+dlprov:Younis_2020 a dlprov:CodeRepositoryLink .
+

@@ -1,0 +1,2 @@
+ The datasets used in the deep learning pipeline are ImageNet and Benthoz15. ImageNet is used for
+pre-training the VGGnet, while Benthoz15 is used for fine-tuning the network.

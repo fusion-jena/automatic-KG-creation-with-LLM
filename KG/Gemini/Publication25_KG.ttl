@@ -1,0 +1,12 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:LIDAR a dlprov:DataFormat .
+
+dlprov:RGB a dlprov:DataFormat .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+

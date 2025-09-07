@@ -1,0 +1,1 @@
+The optimization technique applied in the deep learning pipeline is a stochastic gradient descent algorithm with a momentum of 0. 9. 

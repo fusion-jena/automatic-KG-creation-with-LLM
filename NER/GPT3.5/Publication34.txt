@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: CSV
+DataAugmentationTechnique: [Not provided]
+Dataset: [Not provided]
+PreprocessingStep: normalization, scaling, cleaning
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: Deep feedforward network (DNN), Convolutional Neural Network (CNN)
+Hyperparameter: uniform distribution U(0.03, 0.03), momentum (0.9), batch-size (50), initial learning rate (10^-)
+OptimizationTechnique: stochastic gradient descent (SGD)
+RegularizationMethod: dropout, L2 regularization
+Framework: R framework, mxnet library
+HardwareResource: [Not provided]
+PerformanceMetric: Mean Loss, Root Mean Square Error (Rmse), Accuracy on 10% Densest Quadrats (A10%DQ)
+ModelPurpose: Species abundance estimation

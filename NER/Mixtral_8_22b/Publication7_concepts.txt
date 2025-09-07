@@ -1,0 +1,13 @@
+ Named Entities:
+    For each provided Concept(Corresponding Named Entity,..),
+    Method(Coral reef classification),
+    RawData(Image data),
+    DataFormat(Image),
+    DataAnnotationTechnique(Expert-annotated),
+    Dataset(ImageNet, Benthoz15),
+    DeepLearningModel(CNN),
+    Hyperparameter(Learning rate, Optimizer),
+    PerformanceMetric(Accuracy),
+    ModelPurpose(Coral reef classification),
+    DataBiasTechnique(Geo-referenced marine images from Australian seas),
+    ModelDeploymentProcess(Automatic annotation of unlabelled coral images and mosaics from the Abrolhos Islands in Western Australia).

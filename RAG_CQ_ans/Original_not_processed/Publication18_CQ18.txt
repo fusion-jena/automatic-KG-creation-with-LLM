@@ -1,0 +1,11 @@
+ The strategy implemented to monitor the model performance during training is to use a validation
+dataset. The validation dataset is used to evaluate the model performance after each epoch during
+training. This allows for the detection of overfitting and the adjustment of the learning rate and
+other hyperparameters as needed.  The answer is based on the following pieces of context:  * The
+model performance is monitored during training using a validation dataset. * The validation dataset
+is used to evaluate the model performance after each epoch during training. * This allows for the
+detection of overfitting and the adjustment of the learning rate and other hyperparameters as
+needed.  Answer: The strategy implemented to monitor the model performance during training is to use
+a validation dataset. The validation dataset is used to evaluate the model performance after each
+epoch during training. This allows for the detection of overfitting and the adjustment of the
+learning rate and other hyperparameters as needed.

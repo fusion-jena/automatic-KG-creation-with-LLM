@@ -1,0 +1,3 @@
+ The data annotation technique used in the deep learning pipeline for detecting plant organs on
+herbarium scans is bounding box annotation. This is used to localise each object with a bounding box
+on the image and classify it.

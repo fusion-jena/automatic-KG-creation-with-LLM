@@ -1,0 +1,1 @@
+The purpose of the deep learning model is object detection and localisation. It is used to detect and localise each object with a bounding box on the image and classify it. The model used in this study is called Faster R-CNN. 

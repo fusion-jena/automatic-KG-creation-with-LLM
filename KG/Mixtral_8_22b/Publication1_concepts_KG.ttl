@@ -1,0 +1,28 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Audio a dlprov:DataFormat .
+
+dlprov:Audio_and_Image_data a dlprov:RawData .
+
+dlprov:CNNs a dlprov:DeepLearningModel .
+
+dlprov:Classification_of_dozens_of_species_signals_and_event_types_across_ongoing_projects a dlprov:ModelPurpose .
+
+dlprov:Contrast_enhancement a dlprov:PreprocessingStep .
+
+dlprov:DNNs a dlprov:DeepLearningModel .
+
+dlprov:Deep_Convolutional_Neural_Networks a dlprov:DeepLearningModel .
+
+dlprov:Deep_Feed_Forward_Neural_Networks a dlprov:DeepLearningModel .
+
+dlprov:Deep_Learning_Pipeline a dlprov:Method .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:Labeled_data_produced_by_analysts_using_the_UI a dlprov:DataAnnotationTechnique .
+
+dlprov:Large_amounts_of_labeled_data_produced_by_analysts_using_the_UI a dlprov:Dataset .
+
+dlprov:consecutive_frame_differences a dlprov:PreprocessingStep .
+

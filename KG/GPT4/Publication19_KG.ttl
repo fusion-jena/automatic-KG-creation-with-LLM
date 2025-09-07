@@ -1,0 +1,75 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:0.001_for_DenseNet-121 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:0.005_for_ResNet-18 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:0.01_for_MobileNet-V2 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:100_for_DenseNet-121 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:100_for_MobileNet-V2 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:150_for_ResNet-18 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:16_for_DenseNet-121 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:224x224x3_for_MobileNet-V2 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:32_for_MobileNet-V2 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:32_for_ResNet-18 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:984_images_of_6_animal_classes a dlprov:Dataset .
+
+dlprov:AUC a dlprov:PerformanceMetric .
+
+dlprov:Area_Under_the_ROC_Curve a dlprov:PerformanceMetric .
+
+dlprov:Batch_size%3A_48_for_Inception-V3 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:DenseNet-121 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:I_don%27t_know a dlprov:CodeRepositoryLink,
+        dlprov:DataAugmentationTechnique,
+        dlprov:HardwareResource,
+        dlprov:RegularizationMethod .
+
+dlprov:ImageNet_for_pre-initialization a dlprov:Dataset .
+
+dlprov:Input_image_size%3A_299x299x3_for_Inception-V3 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:Keras a dlprov:Framework .
+
+dlprov:Learning_rate%3A_0.05_for_Inception-V3 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:Number_of_epochs%3A_75_for_Inception-V3 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:ResNet-18 a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:SGD a dlprov:Hyperparameter%28Optimizer,
+        dlprov:OptimizationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:Hyperparameter%28Optimizer,
+        dlprov:OptimizationTechnique .
+
+dlprov:accuracy a dlprov:PerformanceMetric .
+
+dlprov:automatically_classify_images_retrieved_from_camera_traps_and_send_the_species_information_instantly_to_the_concerned_authorities a dlprov:ModelPurpose .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:custom_dataset_consisting_of_33 a dlprov:Dataset .
+
+dlprov:data_augmentation a dlprov:PreprocessingStep .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:macro-F1_averages a dlprov:PerformanceMetric .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+

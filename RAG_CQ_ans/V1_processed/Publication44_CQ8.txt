@@ -1,0 +1,1 @@
+The code repository of the deep learning pipeline is available on GitHub at <https://github. com/herbarium-botanic-gardens-university-of-malaya/herbarium-leaf-segmentation>. 

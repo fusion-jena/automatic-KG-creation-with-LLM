@@ -1,0 +1,4 @@
+ The data augmentation techniques applied in the deep learning pipeline are horizontal flip,
+rotation, scaling, and shearing. These techniques are applied using the python library imgaug (Jung
+et al. (2020)) for the data augmentation of images and videos. For Mask R-CNN and FGFA, the same
+augmentation technique with identical parameters is applied to each frame of the video.

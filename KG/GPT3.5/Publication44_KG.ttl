@@ -1,0 +1,98 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5BNot_specified%5D> a dlprov:HardwareResource,
+        dlprov:RegularizationMethod .
+
+dlprov:100 a dlprov:For_segmentation_model_%28DeepLabv3%2B,
+        dlprov:For_single-leaf_classifier_%28VGG16 .
+
+dlprov:1_%C3%97_10%5E-4 a dlprov:For_segmentation_model_%28DeepLabv3%2B,
+        dlprov:For_single-leaf_classifier_%28VGG16 .
+
+dlprov:3 a dlprov:For_segmentation_model_%28DeepLabv3%2B .
+
+dlprov:32 a dlprov:For_single-leaf_classifier_%28VGG16 .
+
+dlprov:512_%C3%97_512 a dlprov:For_segmentation_model_%28DeepLabv3%2B .
+
+dlprov:Adam a dlprov:For_segmentation_model_%28DeepLabv3%2B,
+        dlprov:For_single-leaf_classifier_%28VGG16,
+        dlprov:OptimizationTechnique .
+
+dlprov:Batch_size a dlprov:For_segmentation_model_%28DeepLabv3%2B,
+        dlprov:For_single-leaf_classifier_%28VGG16 .
+
+dlprov:Binary_cross-entropy a dlprov:For_segmentation_model_%28DeepLabv3%2B,
+        dlprov:For_single-leaf_classifier_%28VGG16 .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:DeepLabv3%2B a dlprov:DeepLearningModel .
+
+dlprov:Epochs a dlprov:For_segmentation_model_%28DeepLabv3%2B,
+        dlprov:For_single-leaf_classifier_%28VGG16 .
+
+dlprov:F1_score a dlprov:PerformanceMetric .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:Input_dimension a dlprov:For_segmentation_model_%28DeepLabv3%2B .
+
+dlprov:Keras_with_TensorFlow_backend a dlprov:Framework .
+
+dlprov:Learning_rate a dlprov:For_segmentation_model_%28DeepLabv3%2B,
+        dlprov:For_single-leaf_classifier_%28VGG16 .
+
+dlprov:Loss_function a dlprov:For_segmentation_model_%28DeepLabv3%2B,
+        dlprov:For_single-leaf_classifier_%28VGG16 .
+
+dlprov:MAE a dlprov:PerformanceMetric .
+
+dlprov:MSE a dlprov:PerformanceMetric .
+
+dlprov:Optimizer a dlprov:For_segmentation_model_%28DeepLabv3%2B,
+        dlprov:For_single-leaf_classifier_%28VGG16 .
+
+dlprov:RMSE a dlprov:PerformanceMetric .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:VGG16 a dlprov:DeepLearningModel .
+
+dlprov:accuracy a dlprov:PerformanceMetric .
+
+dlprov:brightness_adjustments a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:flipping a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:for_Faster_R-CNN a dlprov:OptimizationTechnique .
+
+dlprov:for_YOLOv5s_and_single-leaf_classifier a dlprov:OptimizationTechnique .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:mAP a dlprov:PerformanceMetric .
+
+dlprov:mean_absolute_error a dlprov:PerformanceMetric .
+
+dlprov:mean_average_precision a dlprov:PerformanceMetric .
+
+dlprov:mean_square_error a dlprov:PerformanceMetric .
+
+dlprov:pre-trained_for_DeepLabv3%2B_and_VGG16 a dlprov:Dataset .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:resizing_to_512_%C3%97_512_resolution a dlprov:PreprocessingStep .
+
+dlprov:root_mean_square_error a dlprov:PerformanceMetric .
+
+dlprov:rotation a dlprov:DataAugmentationTechnique,
+        dlprov:PreprocessingStep .
+
+dlprov:semantic_segmentation a dlprov:ModelPurpose .
+

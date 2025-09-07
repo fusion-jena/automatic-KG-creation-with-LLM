@@ -1,0 +1,7 @@
+Named Entities: 
+DataFormat(grey-coloured 1-channel images, audio spectrograms)
+DataAugmentationTechnique(random rotations, random displacements)
+DeepLearningModel(U-net deep autoencoder, CNN)
+Framework(Keras)
+HardwareResource(TITAN-X GPU)
+PerformanceMetric(mean Dice coefficient loss function)

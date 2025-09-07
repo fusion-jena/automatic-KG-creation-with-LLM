@@ -1,0 +1,49 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5BNot_specified%5D> a dlprov:CodeRepository,
+        dlprov:DataAnnotationTechnique,
+        dlprov:DataAugmentationTechnique,
+        dlprov:DataFormat,
+        dlprov:Dataset,
+        dlprov:Framework,
+        dlprov:HardwareResource,
+        dlprov:OptimizationTechnique .
+
+dlprov:3_%C3%97_3 a dlprov:Hyperparameter .
+
+dlprov:5_%C3%97_5 a dlprov:Hyperparameter .
+
+dlprov:7_%C3%97_7 a dlprov:Hyperparameter .
+
+dlprov:AUC a dlprov:PerformanceMetric .
+
+dlprov:Area_Under_ROC_Curve a dlprov:PerformanceMetric .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Cohen%27s_kappa a dlprov:PerformanceMetric .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:SDM_for_Rhododendron_arboreum a dlprov:ModelPurpose .
+
+dlprov:Species_Distribution_Modelling a dlprov:ModelPurpose .
+
+dlprov:TSS a dlprov:PerformanceMetric .
+
+dlprov:True_Skill_Statistic a dlprov:PerformanceMetric .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:mentioned_generally a dlprov:RegularizationMethod .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:size_of_kernels a dlprov:Hyperparameter .
+

@@ -1,0 +1,1 @@
+The hyperparameters of the model are optimized by checking different settings of momentum and weight decay, but no improvements are found. The learning rate is decreased every 10 epochs by multiplying it with 0. 1. The model is trained for 30 epochs. The parameters that gave the best results in the evaluations are used. 

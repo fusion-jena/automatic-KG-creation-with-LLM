@@ -1,0 +1,10 @@
+ The optimization technique applied in the deep learning pipeline is a stochastic gradient descent
+algorithm with a momentum of 0.9.  Reference(s): SNN, DNN and CNN models are ﬁtted with the package
+mxnet: All model parameters were initialized with a uniform distribution U (0.03, 0.03), then we
+applied a stochastic gradient descent algorithm with a momentum of 0.9, a batch-size of 50 (batch
+samples are randomly chosen at each iteration), and an initial learning rate of 10−. The choice of
+initial learning rate was critical for a good learning behavior. A too big learning rate can lead to
+training loss divergence, whereas when it is too small, learning can be very slow. We stopped when
+the average slope of the training mean loss had an absolute difference to 0 on the last 100 epochs.
+The learning took approximately 5 min for SNN, 10 min for DNN, and 5 h for CNN (independently of the
+version).

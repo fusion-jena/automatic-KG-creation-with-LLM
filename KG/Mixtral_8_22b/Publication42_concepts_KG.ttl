@@ -1,0 +1,48 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:80%25_for_training_and_20%25_for_validation a dlprov:DataSplitCriteria .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:Adaptive_Moment_Estimation a dlprov:OptimizationTechnique .
+
+dlprov:Bounding_Box a dlprov:DataAnnotationTechnique .
+
+dlprov:Convolutional_depth a dlprov:Hyperparameter .
+
+dlprov:Created_by_selecting_images_of_different_individual_insects_from_the_captured_sequences_of_images_in_the_period_of_observation a dlprov:Dataset .
+
+dlprov:Customized_CNN a dlprov:DeepLearningModel,
+        dlprov:Method .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:F1-score a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:Fully_connected_size a dlprov:Hyperparameter .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:Images a dlprov:RawData .
+
+dlprov:Kernel_size a dlprov:Hyperparameter .
+
+dlprov:Optimizer a dlprov:Hyperparameter .
+
+dlprov:Resizing_images_to_128_%C3%97_128_pixels_and_scaling_pixel_values_to_a_range_of_0_to_1 a dlprov:PreprocessingStep .
+
+dlprov:Rotating a dlprov:DataAugmentationTechnique .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:Shearing a dlprov:DataAugmentationTechnique .
+
+dlprov:Species_classification a dlprov:ModelPurpose .
+
+dlprov:Stochastic_Gradient_Decent a dlprov:OptimizationTechnique .
+

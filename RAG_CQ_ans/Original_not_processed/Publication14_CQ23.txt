@@ -1,0 +1,6 @@
+ The text does not provide explicit information on the measures taken to ensure the generalizability
+of the deep learning model. However, it does mention that the model was trained using a diverse
+dataset of 14,432 image crops containing hummingbirds and 14,432 crops containing background
+vegetation and sky. Additionally, the model was validated using 70 half-day videos that represented
+a range of challenging backgrounds and were not used in the model training. These steps suggest that
+efforts were made to ensure the model's generalizability.

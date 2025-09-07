@@ -1,0 +1,40 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:984_images_of_6_animal_classes a dlprov:Dataset .
+
+dlprov:AUC a dlprov:PerformanceMetric .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Area_Under_the_ROC_Curve a dlprov:PerformanceMetric .
+
+dlprov:Batch_size a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Input_image_size a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:Keras a dlprov:Framework .
+
+dlprov:Learning_rate a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:Number_of_epochs a dlprov:Hyperparameter%28Optimizer .
+
+dlprov:SGD a dlprov:Hyperparameter%28Optimizer,
+        dlprov:OptimizationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:Hyperparameter%28Optimizer,
+        dlprov:OptimizationTechnique .
+
+dlprov:classification_of_images_retrieved_from_camera_traps_and_instant_species_identification a dlprov:ModelPurpose .
+
+dlprov:custom_dataset_consisting_of_33 a dlprov:Dataset .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:macro-F1_score a dlprov:PerformanceMetric .
+
+dlprov:pretrained_with_ImageNet a dlprov:Dataset .
+

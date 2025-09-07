@@ -1,0 +1,36 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:33 a dlprov:Dataset .
+
+dlprov:984_images_of_6_animal_classes a dlprov:Dataset .
+
+dlprov:Batch_size a dlprov:Hyperparameter .
+
+dlprov:CNN_-_Inception-V3 a dlprov:DeepLearningModel .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:DenseNet-121 a dlprov:DeepLearningModel .
+
+dlprov:Input_image_size a dlprov:Hyperparameter .
+
+dlprov:Keras a dlprov:Framework .
+
+dlprov:Learning_rate a dlprov:Hyperparameter .
+
+dlprov:MobileNet-V2 a dlprov:DeepLearningModel .
+
+dlprov:Number_of_epochs a dlprov:Hyperparameter .
+
+dlprov:Optimizer a dlprov:Hyperparameter .
+
+dlprov:ResNet-18 a dlprov:DeepLearningModel .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:Hyperparameter .
+
+dlprov:custom_dataset a dlprov:Dataset .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:varies a dlprov:Hyperparameter .
+

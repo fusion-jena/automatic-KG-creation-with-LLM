@@ -1,0 +1,1 @@
+The data augmentation technique applied in the deep learning pipeline is flipping each thumbnail with respect to the vertical axis. This procedure homogenizes the proportion of left-oriented and right-oriented individuals in the database and is hypothesized to improve the average identification rate since fish individuals are seen in all positions. 

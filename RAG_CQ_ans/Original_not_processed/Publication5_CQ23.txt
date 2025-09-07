@@ -1,0 +1,4 @@
+ To ensure the generalizability of the deep learning model, the study used a diverse dataset and
+employed k-fold cross-validation with k = 5 for species with 50 or more occurrence records. The
+final suitability result for each species was averaged from the 5 results obtained from the k-fold
+cross-validation.

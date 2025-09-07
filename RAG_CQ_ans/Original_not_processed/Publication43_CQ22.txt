@@ -1,0 +1,4 @@
+ The performance of the deep learning model is evaluated using three metrics: precision (also called
+positive predictive value, i.e., how many detected Ziziphus are true), recall (also known as
+sensitivity, i.e., how many actual Ziziphus were detected), and F1 measure, which evaluates the
+balance between precision and recall.

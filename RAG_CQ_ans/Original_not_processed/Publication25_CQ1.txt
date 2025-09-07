@@ -1,0 +1,7 @@
+ The study used data from the National Ecological Observatory Network (NEON) site at the San Joaquin
+Experimental Range in California. The site contains an open woodland of live oak (Quercus
+agrifolia), blue oak (Quercus douglasii), and foothill pine (Pinus sabiniana) forest. The majority
+of the site is a single-story canopy with mixed understory of herbaceous vegetation. The data
+collection method is not explicitly mentioned in the provided context, but it can be inferred that
+the data was collected using remote sensing methods, such as Light Detection and Ranging (LIDAR) and
+RGB imagery.

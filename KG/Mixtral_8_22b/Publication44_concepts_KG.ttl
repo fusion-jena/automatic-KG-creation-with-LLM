@@ -1,0 +1,71 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#//github.com/herbarium-botanic-gardens-university-of-malaya/herbarium-leaf-segmentation%3E> a dlprov:CodeRepositoryLink%28%3Chttps .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:Brightness_adjustments a dlprov:PreprocessingStep .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:DeepLabv3%2B a dlprov:Method .
+
+dlprov:Epochs a dlprov:Hyperparameter .
+
+dlprov:F1_score a dlprov:PerformanceMetric .
+
+dlprov:Fliping a dlprov:DataAugmentationTechnique .
+
+dlprov:Flipping a dlprov:PreprocessingStep .
+
+dlprov:GitHub a dlprov:CodeRepository .
+
+dlprov:Image a dlprov:DataFormat,
+        dlprov:RawData .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:Learning_rate a dlprov:Hyperparameter .
+
+dlprov:Loss_function a dlprov:Hyperparameter .
+
+dlprov:MAE a dlprov:PerformanceMetric .
+
+dlprov:MSE a dlprov:PerformanceMetric .
+
+dlprov:Mask_post-processing a dlprov:PostprocessingStep .
+
+dlprov:Optimizer a dlprov:Hyperparameter .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:RMSE a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Resizing a dlprov:PreprocessingStep .
+
+dlprov:Roating a dlprov:DataAugmentationTechnique .
+
+dlprov:Rotation a dlprov:PreprocessingStep .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:Segmentation a dlprov:ModelPurpose .
+
+dlprov:VGG16 a dlprov:Method .
+
+dlprov:mAP a dlprov:PerformanceMetric .
+
+dlprov:mean_absolute_error a dlprov:PerformanceMetric .
+
+dlprov:mean_average_precision a dlprov:PerformanceMetric .
+
+dlprov:mean_square_error a dlprov:PerformanceMetric .
+
+dlprov:root_mean_square_error a dlprov:PerformanceMetric .
+

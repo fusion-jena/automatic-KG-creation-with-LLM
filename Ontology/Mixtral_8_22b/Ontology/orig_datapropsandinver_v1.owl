@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/dlprovenance#"
+     xml:base="https://w3id.org/dlprovenance"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology/>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Method">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Method</rdfs:label>
+        <rdfs:comment xml:lang="en">Method is a specific procedure or set of procedures used to perform a particular task.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#RawData">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">RawData</rdfs:label>
+        <rdfs:comment xml:lang="en">RawData is the unprocessed data collected from various sources.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataFormat">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">DataFormat</rdfs:label>
+        <rdfs:comment xml:lang="en">DataFormat is the structure or organization of data.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataAnnotationTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">DataAnnotationTechnique</rdfs:label>
+        <rdfs:comment xml:lang="en">DataAnnotationTechnique is a method used to add metadata to raw data.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataAugmentationTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">DataAugmentationTechnique</rdfs:label>
+        <rdfs:comment xml:lang="en">DataAugmentationTechnique is a method used to increase the amount of training data.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Dataset">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Dataset</rdfs:label>
+        <rdfs:comment xml:lang="en">Dataset is a collection of data.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PreprocessingStep">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">PreprocessingStep</rdfs:label>
+        <rdfs:comment xml:lang="en">PreprocessingStep is a step used to convert raw data into an understandable format.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataSplitCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">DataSplitCriteria</rdfs:label>
+        <rdfs:comment xml:lang="en">DataSplitCriteria is a method used to split the dataset into training and testing datasets.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#CodeRepository">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">CodeRepository</rdfs:label>
+        <rdfs:comment xml:lang="en">CodeRepository is a storage location for code.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataRepository">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">DataRepository</rdfs:label>
+        <rdfs:comment xml:lang="en">DataRepository is a storage location for data.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#CodeRepositoryLink">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">CodeRepositoryLink</rdfs:label>
+        <rdfs:comment xml:lang="en">CodeRepositoryLink is a link to a code repository.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataRepositoryLink">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">DataRepositoryLink</rdfs:label>
+        <rdfs:comment xml:lang="en">DataRepositoryLink is a link to a data repository.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DeepLearningModel">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">DeepLearningModel</rdfs:label>
+        <rdfs:comment xml:lang="en">DeepLearningModel is a machine learning model that uses deep learning.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Hyperparameter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Hyperparameter</rdfs:label>
+        <rdfs:comment xml:lang="en">Hyperparameter is a parameter whose value is set before the learning process begins.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#HyperparameterOptimization">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">HyperparameterOptimization</rdfs:label>
+        <rdfs:comment xml:lang="en">HyperparameterOptimization is the process of finding the best hyperparameters for a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#OptimizationTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">OptimizationTechnique</rdfs:label>
+        <rdfs:comment xml:lang="en">OptimizationTechnique is a method used to optimize a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#TrainingCompletionCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">TrainingCompletionCriteria</rdfs:label>
+        <rdfs:comment xml:lang="en">TrainingCompletionCriteria is a condition that must be met for the training process to be considered complete.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#RegularizationMethod">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">RegularizationMethod</rdfs:label>
+        <rdfs:comment xml:lang="en">RegularizationMethod is a method used to prevent overfitting in a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelPerformanceMonitoringStrategy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">ModelPerformanceMonitoringStrategy</rdfs:label>
+        <rdfs:comment xml:lang="en">ModelPerformanceMonitoringStrategy is a strategy used to monitor the performance of a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#Framework">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">Framework</rdfs:label>
+        <rdfs:comment xml:lang="en">Framework is a software framework used to develop machine learning models.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#HardwareResource">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">HardwareResource</rdfs:label>
+        <rdfs:comment xml:lang="en">HardwareResource is a hardware resource used to train a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PostprocessingStep">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">PostprocessingStep</rdfs:label>
+        <rdfs:comment xml:lang="en">PostprocessingStep is a step used to process the output of a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#PerformanceMetric">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">PerformanceMetric</rdfs:label>
+        <rdfs:comment xml:lang="en">PerformanceMetric is a metric used to evaluate the performance of a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#GeneralizabilityMeasure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">GeneralizabilityMeasure</rdfs:label>
+        <rdfs:comment xml:lang="en">GeneralizabilityMeasure is a measure used to evaluate the generalizability of a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#RandomnessStrategy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">RandomnessStrategy</rdfs:label>
+        <rdfs:comment xml:lang="en">RandomnessStrategy is a strategy used to introduce randomness into a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelPurpose">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">ModelPurpose</rdfs:label>
+        <rdfs:comment xml:lang="en">ModelPurpose is the purpose of a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DataBiasTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">DataBiasTechnique</rdfs:label>
+        <rdfs:comment xml:lang="en">DataBiasTechnique is a technique used to introduce bias into data.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#ModelDeploymentProcess">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">ModelDeploymentProcess</rdfs:label>
+        <rdfs:comment xml:lang="en">ModelDeploymentProcess is a process used to deploy a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/dlprovenance#DeploymentPlatform">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:label xml:lang="en">DeploymentPlatform</rdfs:label>
+        <rdfs:comment xml:lang="en">DeploymentPlatform is a platform used to deploy a machine learning model.</rdfs:comment>
+    </owl:Class>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasMethod">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Method"/>
+        <rdfs:label>hasMethod</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its method.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasRawData">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#RawData"/>
+        <rdfs:label>hasRawData</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its raw data.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataFormat">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataFormat"/>
+        <rdfs:label>hasDataFormat</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its data format.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataAnnotationTechnique">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataAnnotationTechnique"/>
+        <rdfs:label>hasDataAnnotationTechnique</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its data annotation technique.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataAugmentationTechnique">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataAugmentationTechnique"/>
+        <rdfs:label>hasDataAugmentationTechnique</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its data augmentation technique.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataset">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:label>hasDataset</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its dataset.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasPreprocessingStep">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PreprocessingStep"/>
+        <rdfs:label>hasPreprocessingStep</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its preprocessing step.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataSplitCriteria">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataSplitCriteria"/>
+        <rdfs:label>hasDataSplitCriteria</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its data split criteria.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasCodeRepository">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#CodeRepository"/>
+        <rdfs:label>hasCodeRepository</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its code repository.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataRepository">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataRepository"/>
+        <rdfs:label>hasDataRepository</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its data repository.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasCodeRepositoryLink">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#CodeRepositoryLink"/>
+        <rdfs:label>hasCodeRepositoryLink</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its code repository link.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataRepositoryLink">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataRepositoryLink"/>
+        <rdfs:label>hasDataRepositoryLink</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its data repository link.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDeepLearningModel">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>hasDeepLearningModel</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasHyperparameter">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Hyperparameter"/>
+        <rdfs:label>hasHyperparameter</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its hyperparameter.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasHyperparameterOptimization">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#HyperparameterOptimization"/>
+        <rdfs:label>hasHyperparameterOptimization</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its hyperparameter optimization.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasOptimizationTechnique">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#OptimizationTechnique"/>
+        <rdfs:label>hasOptimizationTechnique</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its optimization technique.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasTrainingCompletionCriteria">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#TrainingCompletionCriteria"/>
+        <rdfs:label>hasTrainingCompletionCriteria</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its training completion criteria.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasRegularizationMethod">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#RegularizationMethod"/>
+        <rdfs:label>hasRegularizationMethod</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its regularization method.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasModelPerformanceMonitoringStrategy">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#ModelPerformanceMonitoringStrategy"/>
+        <rdfs:label>hasModelPerformanceMonitoringStrategy</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its model performance monitoring strategy.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasFramework">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#Framework"/>
+        <rdfs:label>hasFramework</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its framework.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasHardwareResource">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#HardwareResource"/>
+        <rdfs:label>hasHardwareResource</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its hardware resource.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasPostprocessingStep">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PostprocessingStep"/>
+        <rdfs:label>hasPostprocessingStep</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its postprocessing step.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasPerformanceMetric">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#PerformanceMetric"/>
+        <rdfs:label>hasPerformanceMetric</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its performance metric.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasGeneralizabilityMeasure">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#GeneralizabilityMeasure"/>
+        <rdfs:label>hasGeneralizabilityMeasure</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its generalizability measure.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasRandomnessStrategy">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#RandomnessStrategy"/>
+        <rdfs:label>hasRandomnessStrategy</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its randomness strategy.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasModelPurpose">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#ModelPurpose"/>
+        <rdfs:label>hasModelPurpose</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its model purpose.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDataBiasTechnique">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DataBiasTechnique"/>
+        <rdfs:label>hasDataBiasTechnique</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its data bias technique.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasModelDeploymentProcess">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#ModelDeploymentProcess"/>
+        <rdfs:label>hasModelDeploymentProcess</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its model deployment process.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#hasDeploymentPlatform">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeploymentPlatform"/>
+        <rdfs:label>hasDeploymentPlatform</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its deployment platform.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#methodName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Method"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>methodName</rdfs:label>
+        <rdfs:comment>The name of the method.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataFormat">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataFormat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>dataFormat</rdfs:label>
+        <rdfs:comment>The format of the data.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataAnnotationTechniqueName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataAnnotationTechnique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>dataAnnotationTechniqueName</rdfs:label>
+        <rdfs:comment>The name of the data annotation technique.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataAugmentationTechniqueName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataAugmentationTechnique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>dataAugmentationTechniqueName</rdfs:label>
+        <rdfs:comment>The name of the data augmentation technique.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#datasetName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>datasetName</rdfs:label>
+        <rdfs:comment>The name of the dataset.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#preprocessingStepName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#PreprocessingStep"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>preprocessingStepName</rdfs:label>
+        <rdfs:comment>The name of the preprocessing step.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataSplitCriteriaName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataSplitCriteria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>dataSplitCriteriaName</rdfs:label>
+        <rdfs:comment>The name of the data split criteria.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#codeRepositoryName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#CodeRepository"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>codeRepositoryName</rdfs:label>
+        <rdfs:comment>The name of the code repository.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataRepositoryName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataRepository"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>dataRepositoryName</rdfs:label>
+        <rdfs:comment>The name of the data repository.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#codeRepositoryLink">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#CodeRepositoryLink"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>codeRepositoryLink</rdfs:label>
+        <rdfs:comment>The link to the code repository.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataRepositoryLink">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataRepositoryLink"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>dataRepositoryLink</rdfs:label>
+        <rdfs:comment>The link to the data repository.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#deepLearningModelName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>deepLearningModelName</rdfs:label>
+        <rdfs:comment>The name of the deep learning model.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#hyperparameterName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Hyperparameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>hyperparameterName</rdfs:label>
+        <rdfs:comment>The name of the hyperparameter.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#hyperparameterOptimizationName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#HyperparameterOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>hyperparameterOptimizationName</rdfs:label>
+        <rdfs:comment>The name of the hyperparameter optimization.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#optimizationTechniqueName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#OptimizationTechnique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>optimizationTechniqueName</rdfs:label>
+        <rdfs:comment>The name of the optimization technique.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#trainingCompletionCriteriaName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#TrainingCompletionCriteria"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>trainingCompletionCriteriaName</rdfs:label>
+        <rdfs:comment>The name of the training completion criteria.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#regularizationMethodName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#RegularizationMethod"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>regularizationMethodName</rdfs:label>
+        <rdfs:comment>The name of the regularization method.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#modelPerformanceMonitoringStrategyName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelPerformanceMonitoringStrategy"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>modelPerformanceMonitoringStrategyName</rdfs:label>
+        <rdfs:comment>The name of the model performance monitoring strategy.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#frameworkName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Framework"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>frameworkName</rdfs:label>
+        <rdfs:comment>The name of the framework.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#hardwareResourceName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#HardwareResource"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>hardwareResourceName</rdfs:label>
+        <rdfs:comment>The name of the hardware resource.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#postprocessingStepName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#PostprocessingStep"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>postprocessingStepName</rdfs:label>
+        <rdfs:comment>The name of the postprocessing step.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#performanceMetricName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#PerformanceMetric"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>performanceMetricName</rdfs:label>
+        <rdfs:comment>The name of the performance metric.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#generalizabilityMeasureName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#GeneralizabilityMeasure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>generalizabilityMeasureName</rdfs:label>
+        <rdfs:comment>The name of the generalizability measure.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#randomnessStrategyName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#RandomnessStrategy"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>randomnessStrategyName</rdfs:label>
+        <rdfs:comment>The name of the randomness strategy.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#modelPurposeName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelPurpose"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>modelPurposeName</rdfs:label>
+        <rdfs:comment>The name of the model purpose.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#dataBiasTechniqueName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataBiasTechnique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>dataBiasTechniqueName</rdfs:label>
+        <rdfs:comment>The name of the data bias technique.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#modelDeploymentProcessName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelDeploymentProcess"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>modelDeploymentProcessName</rdfs:label>
+        <rdfs:comment>The name of the model deployment process.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/dlprovenance#deploymentPlatformName">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeploymentPlatform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>deploymentPlatformName</rdfs:label>
+        <rdfs:comment>The name of the deployment platform.</rdfs:comment>
+    </owl:DatatypeProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isMethodOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Method"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isMethodOf</rdfs:label>
+        <rdfs:comment>A relation between a method and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isRawDataOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#RawData"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isRawDataOf</rdfs:label>
+        <rdfs:comment>A relation between raw data and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataFormatOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataFormat"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDataFormatOf</rdfs:label>
+        <rdfs:comment>A relation between a data format and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataAnnotationTechniqueOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataAnnotationTechnique"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDataAnnotationTechniqueOf</rdfs:label>
+        <rdfs:comment>A relation between a data annotation technique and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataAugmentationTechniqueOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataAugmentationTechnique"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDataAugmentationTechniqueOf</rdfs:label>
+        <rdfs:comment>A relation between a data augmentation technique and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDatasetOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Dataset"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDatasetOf</rdfs:label>
+        <rdfs:comment>A relation between a dataset and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isPreprocessingStepOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#PreprocessingStep"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isPreprocessingStepOf</rdfs:label>
+        <rdfs:comment>A relation between a preprocessing step and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataSplitCriteriaOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataSplitCriteria"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDataSplitCriteriaOf</rdfs:label>
+        <rdfs:comment>A relation between data split criteria and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isCodeRepositoryOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#CodeRepository"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isCodeRepositoryOf</rdfs:label>
+        <rdfs:comment>A relation between a code repository and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataRepositoryOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataRepository"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDataRepositoryOf</rdfs:label>
+        <rdfs:comment>A relation between a data repository and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isCodeRepositoryLinkOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#CodeRepositoryLink"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isCodeRepositoryLinkOf</rdfs:label>
+        <rdfs:comment>A relation between a code repository link and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataRepositoryLinkOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataRepositoryLink"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDataRepositoryLinkOf</rdfs:label>
+        <rdfs:comment>A relation between a data repository link and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDeepLearningModelOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDeepLearningModelOf</rdfs:label>
+        <rdfs:comment>A relation between a deep learning model and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isHyperparameterOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Hyperparameter"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isHyperparameterOf</rdfs:label>
+        <rdfs:comment>A relation between a hyperparameter and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isHyperparameterOptimizationOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#HyperparameterOptimization"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isHyperparameterOptimizationOf</rdfs:label>
+        <rdfs:comment>A relation between a hyperparameter optimization and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isOptimizationTechniqueOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#OptimizationTechnique"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isOptimizationTechniqueOf</rdfs:label>
+        <rdfs:comment>A relation between an optimization technique and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isTrainingCompletionCriteriaOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#TrainingCompletionCriteria"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isTrainingCompletionCriteriaOf</rdfs:label>
+        <rdfs:comment>A relation between training completion criteria and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isRegularizationMethodOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#RegularizationMethod"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isRegularizationMethodOf</rdfs:label>
+        <rdfs:comment>A relation between a regularization method and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isModelPerformanceMonitoringStrategyOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelPerformanceMonitoringStrategy"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isModelPerformanceMonitoringStrategyOf</rdfs:label>
+        <rdfs:comment>A relation between a model performance monitoring strategy and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isFrameworkOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#Framework"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isFrameworkOf</rdfs:label>
+        <rdfs:comment>A relation between a framework and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isHardwareResourceOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#HardwareResource"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isHardwareResourceOf</rdfs:label>
+        <rdfs:comment>A relation between a hardware resource and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isPostprocessingStepOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#PostprocessingStep"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isPostprocessingStepOf</rdfs:label>
+        <rdfs:comment>A relation between a postprocessing step and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isPerformanceMetricOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#PerformanceMetric"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isPerformanceMetricOf</rdfs:label>
+        <rdfs:comment>A relation between a performance metric and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isGeneralizabilityMeasureOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#GeneralizabilityMeasure"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isGeneralizabilityMeasureOf</rdfs:label>
+        <rdfs:comment>A relation between a generalizability measure and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isRandomnessStrategyOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#RandomnessStrategy"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isRandomnessStrategyOf</rdfs:label>
+        <rdfs:comment>A relation between a randomness strategy and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isModelPurposeOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelPurpose"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isModelPurposeOf</rdfs:label>
+        <rdfs:comment>A relation between a model purpose and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDataBiasTechniqueOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DataBiasTechnique"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDataBiasTechniqueOf</rdfs:label>
+        <rdfs:comment>A relation between a data bias technique and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isModelDeploymentProcessOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#ModelDeploymentProcess"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isModelDeploymentProcessOf</rdfs:label>
+        <rdfs:comment>A relation between a model deployment process and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/dlprovenance#isDeploymentPlatformOf">
+        <rdfs:domain rdf:resource="https://w3id.org/dlprovenance#DeploymentPlatform"/>
+        <rdfs:range rdf:resource="https://w3id.org/dlprovenance#DeepLearningModel"/>
+        <rdfs:label>isDeploymentPlatformOf</rdfs:label>
+        <rdfs:comment>A relation between a deployment platform and its deep learning model.</rdfs:comment>
+    </owl:ObjectProperty>
+</rdf:RDF>

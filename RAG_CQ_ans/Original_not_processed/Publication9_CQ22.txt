@@ -1,0 +1,2 @@
+ The metrics used to evaluate the performance of the deep learning model are frequency-weighted IoU,
+pixel accuracy, mean accuracy, and mean IoU.

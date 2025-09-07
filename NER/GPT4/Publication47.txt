@@ -1,0 +1,10 @@
+Named Entities:
+DataFormat(CSV)
+Dataset(orchid species occurrence records, Global Biodiversity Information Facility (GBIF), World Checklist of Selected Plant Families (WCSP), IUCN Red List categories and criteria version 3.1)
+DataSplitCriteria(training set (90% of the entries), test set (10%), validation set (20% of the training set))
+PreprocessingStep(normalization, scaling, cleaning)
+CodeRepositoryLink(https://github.com/azizka/IUCNN)
+DeepLearningModel(neural network (NN), IUC-NN)
+Framework(Python TensorFlow library)
+PerformanceMetric(accuracy, cross-entropy loss)
+ModelPurpose(predict the conservation status of unevaluated orchid species)

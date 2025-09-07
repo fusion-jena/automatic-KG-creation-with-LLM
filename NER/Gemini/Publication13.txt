@@ -1,0 +1,5 @@
+Named Entities:
+DataFormat(images)
+Dataset(Local High Quality (LH), Local Low Quality (LL), Global High Quality (GH))
+Hyperparameter(number of units in the first FC layer (512), number of units in the second FC layer (256), dropout rate)
+Framework(TensorFlow, Keras)

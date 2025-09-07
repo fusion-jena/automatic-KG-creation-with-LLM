@@ -1,0 +1,1 @@
+The purpose of the deep learning model is semantic segmentation. %Explanation Explanation: The context mentions that the model is used for semantic segmentation, specifically for segmenting leaves from the background in herbarium sheet images. %Query 

@@ -1,0 +1,9 @@
+ The raw data for the deep learning pipeline is collected using full-spectrum time-expanded (TE)
+ultrasonic acoustic data recorded between 2005–2011 along road-transects by citizen scientists as
+part of the Indicator Bats Programme (iBats). The acoustic devices used were set to record using a
+TE factor of 10, a sampling time of 320ms, and sensitivity set on maximum, giving a continuous
+sequence of ‘snapshots’, consisting of 320ms of silence (sensor listening) and 3.2s of TE audio
+(sensor playing back x 10). As sensitivity was set at maximum, and no minimum amplitude trigger
+mechanism was used on the recording devices, the recorded audio data contained many instances of low
+amplitude and faint bat calls, as well as other night-time ‘background’ noises such as other biotic,
+abiotic, and anthropogenic sounds.

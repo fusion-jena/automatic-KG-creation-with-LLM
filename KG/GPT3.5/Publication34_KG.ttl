@@ -1,0 +1,58 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:0.03 a dlprov:Hyperparameter .
+
+dlprov:0.9 a dlprov:Hyperparameter .
+
+dlprov:10%5E- a dlprov:Hyperparameter .
+
+dlprov:50 a dlprov:Hyperparameter .
+
+dlprov:A10%25DQ a dlprov:PerformanceMetric .
+
+dlprov:Accuracy_on_10%25_Densest_Quadrats a dlprov:PerformanceMetric .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:CSV a dlprov:DataFormat .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:DNN a dlprov:DeepLearningModel .
+
+dlprov:Deep_feedforward_network a dlprov:DeepLearningModel .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:Mean_Loss a dlprov:PerformanceMetric .
+
+dlprov:R_framework a dlprov:Framework .
+
+dlprov:Rmse a dlprov:PerformanceMetric .
+
+dlprov:Root_Mean_Square_Error a dlprov:PerformanceMetric .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Species_abundance_estimation a dlprov:ModelPurpose .
+
+dlprov:batch-size a dlprov:Hyperparameter .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:initial_learning_rate a dlprov:Hyperparameter .
+
+dlprov:momentum a dlprov:Hyperparameter .
+
+dlprov:mxnet_library a dlprov:Framework .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:stochastic_gradient_descent a dlprov:OptimizationTechnique .
+
+dlprov:uniform_distribution_U a dlprov:Hyperparameter .
+

@@ -1,0 +1,12 @@
+Named Entities:
+DataFormat(images)
+DataAugmentationTechnique(flipping 50% of images in left-right orientation)
+Dataset(328,000 image COCO dataset (Lin et al., 2014))
+CodeRepositoryLink(https://github.com/ShawnTylerSchwartz/sashimi)
+DeepLearningModel(Mask R-CNN)
+Hyperparameter(learning rates: 0.001 for stages 1 and 2, 0.0001 for stage 3, weight decay 0.0001, learning momentum 0.9, image augmentation by flipping 50% of images, trained for 160 epochs)
+OptimizationTechnique(stochastic gradient descent with backpropagation)
+Framework(TensorFlow)
+HardwareResource(GeForce RTX 2080 GPU)
+PerformanceMetric(frequency-weighted IoU, pixel accuracy, mean accuracy, mean IoU)
+ModelPurpose(automate image segmentation, detect pixel-level target regions of interest)

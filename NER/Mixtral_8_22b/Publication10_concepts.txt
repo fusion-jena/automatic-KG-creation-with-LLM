@@ -1,0 +1,9 @@
+ Named Entities:
+    DataFormat(grey-coloured 1-channel images, audio spectrograms),
+    Dataset(spectrogram figures of bird recordings, recordings void of any bird activity),
+    DataAugmentationTechnique(small random rotations between -5 and 5 degrees, random displacements at the maximum of the 10% of the image),
+    DeepLearningModel(U-net deep autoencoder),
+    Framework(Keras Deep learning library),
+    HardwareResource(single TITAN-X GPU),
+    ModelPurpose(segmentation),
+    PerformanceMetric(mean Dice coefficient loss function)

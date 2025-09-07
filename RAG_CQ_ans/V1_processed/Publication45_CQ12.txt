@@ -1,0 +1,1 @@
+The pipeline uses a convolutional neural network (CNN) with five convolution layers, followed by five fully connected layers and a final softmax layer for classification. 

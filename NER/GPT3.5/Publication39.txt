@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: video data formats, captured with 8 frames per second by camera traps using infrared cameras and infrared flash-lights
+DataAugmentationTechnique: horizontal flip, rotation, scaling, shearing (applied using imgaug library)
+Dataset: AnnotationsActions dataset (subset used for animal action recognition)
+PreprocessingStep: [Not explicitly mentioned]
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: SlowFast architecture (utilizes ResNets as backbones)
+Hyperparameter: SGD optimizer, initial learning rate 0.001, decreased every 10 epochs by multiplying with 0.1, momentum 0.9, weight decay 5e-5, trained for 40 epochs
+OptimizationTechnique: SGD optimizer, initial learning rate 0.0005, decreased every 10 epochs by multiplying with 0.1, warmup iterations with warmup factor 1/1000, momentum 0.9, weight decay 0.0005, trained for 30 epochs
+RegularizationMethod: Data augmentation (horizontal flip mentioned)
+Framework: [Not provided]
+HardwareResource: GeForce RTX 2080 Ti GPU (11 GB), Intel Core i7-6700K CPU (4.00 GHz), 16 GB RAM
+PerformanceMetric: Average Precision (AP), Average Recall (AR), ARmax=1, ARmax=10 (evaluated over IoU thresholds)
+ModelPurpose: detection of individual animals (bounding boxes, shapes) and recognition of animal actions in camera trap videos

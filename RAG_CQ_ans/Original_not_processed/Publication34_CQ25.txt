@@ -1,0 +1,18 @@
+ The purpose of the deep learning model is to learn a function that takes the environmental feature
+vector of a given location as input and outputs an estimate of the abundance of the species. The
+main underlying hypothesis is that the abundance function is related to the fundamental ecological
+niche of the species, in the sense of Hutchinson. That means that in theory, a given species is
+likely to live in a single privileged ecological niche, characterized by an unimodal distribution in
+the environmental space. However, in reality, the abundance function is expected to be more complex.
+Many phenomena can actually affect the distribution of the species relative to its so called abiotic
+preferences. For instance, environment perturbations, or geographical constraints, or interactions
+with other living organisms (including humans) might have encourage specimens of that species to
+live in a different environment. As a consequence, the realized ecological niche of a species can be
+much more diverse and complex than its hypothetical fundamental niche.  Reference(s): [1]
+Hutchinson, G. E. (1957). Concluding remarks. Cold Spring Harbor Symposia on Quantitative Biology,
+22, 415-427.  Answer: The purpose of the deep learning model is to learn a function that takes the
+environmental feature vector of a given location as input and outputs an estimate of the abundance
+of the species. The main underlying hypothesis is that the abundance function is related to the
+fundamental ecological niche of the species, in the sense of Hutchinson. However, in reality, the
+abundance function is expected to be more complex due to various phenomena that can affect the
+distribution of the species relative to its abiotic preferences.

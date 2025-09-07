@@ -1,0 +1,28 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#//github.com/weecology/DeepLidar> a dlprov:CodeRepositoryLink%28https .
+
+dlprov:GitHub a dlprov:CodeRepository .
+
+dlprov:LIDAR_data a dlprov:DataFormat .
+
+dlprov:RGB_data a dlprov:DataFormat .
+
+dlprov:Zenodo a dlprov:CodeRepository .
+
+dlprov:expanding_deep_learning_in_remote_sensing_applications_with_limited_labeled_data a dlprov:ModelPurpose .
+
+dlprov:image_data a dlprov:DataFormat .
+
+dlprov:point_cloud_data a dlprov:DataFormat .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall_for_crown_overlap a dlprov:PerformanceMetric .
+
+dlprov:self-supervised_RGB_deep_learning_model a dlprov:DeepLearningModel .
+
+dlprov:stem_recall a dlprov:PerformanceMetric .
+
+dlprov:tree_delineation_in_new_RGB_imagery a dlprov:ModelPurpose .
+

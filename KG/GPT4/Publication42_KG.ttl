@@ -1,0 +1,80 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:000_images a dlprov:Dataset .
+
+dlprov:10_classes a dlprov:Dataset .
+
+dlprov:20%25_validation a dlprov:Dataset .
+
+dlprov:512 a dlprov:Hyperparameter .
+
+dlprov:72 a dlprov:Dataset .
+
+dlprov:80%25_training a dlprov:Dataset .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Adam a dlprov:OptimizationTechnique .
+
+dlprov:Adam_or_SGD a dlprov:Hyperparameter .
+
+dlprov:F1-score a dlprov:PerformanceMetric .
+
+dlprov:Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Rotating a dlprov:DataAugmentationTechnique .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:Shearing a dlprov:DataAugmentationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:Vespula_vulgaris a dlprov:Dataset .
+
+dlprov:convolutional_depth a dlprov:Hyperparameter .
+
+dlprov:customized_CNN_model a dlprov:DeepLearningModel .
+
+dlprov:dataset_of_individual_insects a dlprov:Dataset .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:dropout_probability_0.3 a dlprov:RegularizationMethod .
+
+dlprov:first_layer_32 a dlprov:Hyperparameter .
+
+dlprov:first_layer_5_%C3%97_5 a dlprov:Hyperparameter .
+
+dlprov:fully_connected_size a dlprov:Hyperparameter .
+
+dlprov:images a dlprov:DataFormat .
+
+dlprov:including_wasps a dlprov:Dataset .
+
+dlprov:kernel_size a dlprov:Hyperparameter .
+
+dlprov:last_layer_3_%C3%97_3 a dlprov:Hyperparameter .
+
+dlprov:last_layer_64 a dlprov:Hyperparameter .
+
+dlprov:one_subtribe a dlprov:Dataset .
+
+dlprov:optimizer a dlprov:Hyperparameter .
+
+dlprov:removing_images_with_no_insects a dlprov:PreprocessingStep .
+
+dlprov:resizing_images_to_128_%C3%97_128_pixels a dlprov:PreprocessingStep .
+
+dlprov:scaling_pixel_values_to_a_range_of_0_to_1 a dlprov:PreprocessingStep .
+
+dlprov:seven_different_moth_species a dlprov:Dataset .
+
+dlprov:species_classification a dlprov:ModelPurpose .
+

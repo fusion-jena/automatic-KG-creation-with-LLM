@@ -1,0 +1,2 @@
+ The purpose of the deep learning model is to classify objects from images, specifically to identify
+fish species.

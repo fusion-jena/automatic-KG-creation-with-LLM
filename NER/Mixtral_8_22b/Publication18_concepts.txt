@@ -1,0 +1,31 @@
+ Named Entities:
+    For each provided Concept:
+    Method: Convolutional Neural Networks (CNNs)
+    RawData: Images
+    DataFormat: Image
+    DataAnnotationTechnique: Not provided
+    DataAugmentationTechnique: Scaling, rotations, translations, different illumination conditions, cropping parts of the image
+    Dataset: Not provided
+    PreprocessingStep: Normalization, scaling, cleaning, data augmentation, transfer learning
+    DataSplitCriteria: Not provided
+    CodeRepository: TensorFlow
+    DataRepository: Not provided
+    CodeRepositoryLink: Not provided
+    DataRepositoryLink: Not provided
+    DeepLearningModel: Convolutional Neural Network (CNN)
+    Hyperparameter: Not provided
+    HyperparameterOptimization: Not provided
+    OptimizationTechnique: Not provided
+    TrainingCompletionCriteria: Not provided
+    RegularizationMethod: Dropout, L2 regularization
+    ModelPerformanceMonitoringStrategy: F1-measure (F1-score)
+    Framework: TensorFlow
+    HardwareResource: GPUs, TPUs
+    PostprocessingStep: Not provided
+    PerformanceMetric: F1-measure (F1-score)
+    GeneralizabilityMeasure: Not provided
+    RandomnessStrategy: Not provided
+    ModelPurpose: Detection of whale presence in marine mammal hotspots for whale watching
+    DataBiasTechnique: Not provided
+    ModelDeploymentProcess: Not provided
+    DeploymentPlatform: Not provided

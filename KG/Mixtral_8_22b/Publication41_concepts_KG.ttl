@@ -1,0 +1,49 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:15_epochs a dlprov:Hyperparameter,
+        dlprov:TrainingCompletionCriteria .
+
+dlprov:40479_images_for_training_and_40669_images_for_testing a dlprov:DataSplitCriteria .
+
+dlprov:Accuracy a dlprov:PerformanceMetric .
+
+dlprov:Adam_optimizer a dlprov:Hyperparameter .
+
+dlprov:Categorical_Cross_Entropy a dlprov:PerformanceMetric .
+
+dlprov:Chip a dlprov:DataFormat .
+
+dlprov:Classification a dlprov:ModelPurpose .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:F-Beta_Score a dlprov:PerformanceMetric .
+
+dlprov:Flipping a dlprov:DataAugmentationTechnique .
+
+dlprov:Image_Data_Format a dlprov:DataFormat .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:NVIDIA_Tesla_K80_GPU a dlprov:HardwareResource .
+
+dlprov:Planets_full-frame_analytic_scene_products a dlprov:Dataset .
+
+dlprov:Precision a dlprov:PerformanceMetric .
+
+dlprov:Recall a dlprov:PerformanceMetric .
+
+dlprov:Resizing_images_to_a_standard_size_of_128x128_pixels a dlprov:PreprocessingStep .
+
+dlprov:Rotation a dlprov:DataAugmentationTechnique .
+
+dlprov:Scaling a dlprov:DataAugmentationTechnique .
+
+dlprov:TensorFlow a dlprov:Framework .
+
+dlprov:VGG16 a dlprov:DeepLearningModel .
+
+dlprov:batch_size_of_128 a dlprov:Hyperparameter .
+
+dlprov:learning_rate_of_10%5E4 a dlprov:Hyperparameter .
+

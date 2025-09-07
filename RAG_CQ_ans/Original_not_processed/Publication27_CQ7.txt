@@ -1,0 +1,15 @@
+ The criteria used to split the data for deep learning model training are typically based on the
+size of the dataset and the complexity of the model. Common splits include:  * Train set: This is
+the largest portion of the data, typically around 60-80% of the total dataset. It is used to train
+the model, i.e., to adjust the model's parameters to minimize the error between the predicted and
+actual outputs. * Validation set: This is a smaller portion of the data, typically around 10-20% of
+the total dataset. It is used to fine-tune the model's hyperparameters, such as learning rate,
+number of layers, etc. The validation set is used to evaluate the model's performance during
+training and to prevent overfitting. * Test set: This is the smallest portion of the data, typically
+around 10-20% of the total dataset. It is used to evaluate the final performance of the model after
+training and hyperparameter tuning. The test set should be completely separate from the train and
+validation sets to ensure that the model's performance is not biased by the data it was trained on.
+The exact split ratios can vary depending on the specific application and the size of the dataset.
+For example, if the dataset is very large, a smaller validation and test set may be sufficient.
+Conversely, if the dataset is small, a larger validation and test set may be necessary to ensure
+that the model's performance is accurately evaluated.

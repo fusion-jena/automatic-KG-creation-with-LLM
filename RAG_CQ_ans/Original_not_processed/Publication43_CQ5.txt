@@ -1,0 +1,4 @@
+ The datasets used in the deep learning pipeline are not explicitly mentioned in the provided
+context. However, it is mentioned that the GoogLeNet classifier was initialized with the pre-trained
+weights of ImageNet, which suggests that ImageNet was used as a dataset in the deep learning
+pipeline.

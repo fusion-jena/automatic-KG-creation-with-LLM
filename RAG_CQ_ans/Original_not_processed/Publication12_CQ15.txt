@@ -1,0 +1,6 @@
+ The deep learning pipeline uses a new network specifically for tropical bats, called BatNet, which
+is incorporated into the software Waveman. BatNet has 22 convolutional layers for extracting useful
+acoustic features and eight shortcut connections between layers to avoid the problem of information
+loss as layer number increases. The key parameter settings of BatNet include a batch size equal to
+64 and learning rate equal to 0.001. However, the context does not provide information on the
+specific optimization techniques applied in the deep learning pipeline, such as SGD or Adam.

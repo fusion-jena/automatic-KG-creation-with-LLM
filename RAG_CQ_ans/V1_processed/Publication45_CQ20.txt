@@ -1,0 +1,1 @@
+The context does not provide information on the specific hardware resources used for training the deep learning model. It only mentions that a steep increase in available computing power has contributed to the development of deep learning. 

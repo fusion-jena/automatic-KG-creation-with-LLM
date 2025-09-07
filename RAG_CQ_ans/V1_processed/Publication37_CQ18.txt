@@ -1,0 +1,1 @@
+The strategy implemented to monitor the model performance during training is to use a validation set to identify the parameter setting (epoch) achieving the highest classification accuracy. The model is trained for 100 epochs and is checkpointed after each epoch. 

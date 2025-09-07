@@ -1,0 +1,11 @@
+Named Entities:
+DataFormat(image data, herbarium scans)
+Dataset(ImageNet, annotated herbarium scan dataset)
+PreprocessingStep(rescaled from original size of ca. 5100 by 3500 pixels to 1200 by 800 pixels)
+DeepLearningModel(Convolutional Neural Network (CNN), Faster R-CNN based on ResNet-50 architecture)
+Hyperparameter(learning rate of 0.0025, momentum of 0.9, anchor generator scales [32, 64, 128, 256, 512, 1024], aspect ratios [1:2, 1:1, 2:1], NMS thresholds 0.6 for training and 0.25 for testing)
+OptimizationTechnique(Stochastic Gradient Descent (SGD))
+Framework(PyTorch, Detectron2 library)
+HardwareResource(TITAN Xp GPUs, minibatch size of four images per GPU)
+PerformanceMetric(COCO evaluation metric, average precision (AP), Intersection over Union (IoU))
+ModelPurpose(object detection and localization on herbarium scans)

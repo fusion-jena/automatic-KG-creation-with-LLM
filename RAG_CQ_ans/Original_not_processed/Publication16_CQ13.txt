@@ -1,0 +1,4 @@
+ The MLP is configured with a filter size of 2 and is used with Backpropagation as the learning
+algorithm and Adam as the optimiser. A dropout value of 50% has been used in the first three layers
+to improve generalisation and reduce overfitting. The first three layers are composed of 256 nodes
+while the final layer is equal to the number of classes in our dataset.

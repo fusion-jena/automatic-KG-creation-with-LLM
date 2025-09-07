@@ -1,0 +1,4 @@
+ The context does not provide information on the specific datasets used in the deep learning
+pipeline.  %Explanation The context only discusses the use of a Convolutional Neural Network (CNN)
+for species distribution modeling (SDM) and its comparison with other SDMs like BIOCLIM. It does not
+mention any specific datasets used in the deep learning pipeline.

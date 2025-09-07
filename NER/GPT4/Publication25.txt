@@ -1,0 +1,7 @@
+Named Entities:
+DataFormat(RGB data (image data), LIDAR data (point cloud data))
+CodeRepository(GitHub, Zenodo)
+CodeRepositoryLink(https://github.com/weecology/DeepLidar)
+DeepLearningModel(self-supervised RGB deep learning model)
+PerformanceMetric(stem recall, precision, recall for crown overlap)
+ModelPurpose(tree delineation in new RGB imagery, expanding deep learning in remote sensing applications with limited labeled data)

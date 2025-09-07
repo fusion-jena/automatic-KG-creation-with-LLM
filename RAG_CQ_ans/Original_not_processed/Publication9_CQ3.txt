@@ -1,0 +1,8 @@
+ The data annotation techniques used in the deep learning pipeline include bounding box annotation
+and instance segmentation. Bounding box annotation involves drawing a box around the object of
+interest in an image, while instance segmentation involves drawing a precise boundary around the
+object of interest. The Sashimi toolkit uses the Mask R- CNN architecture, which is an extension of
+the Faster R- CNN algorithm, to perform instance segmentation. This allows the model to not only
+detect the presence or absence of a target in an image but also to isolate the specific pixels
+encapsulating that target. The model is trained using transfer learning against the 328,000 image
+COCO dataset.

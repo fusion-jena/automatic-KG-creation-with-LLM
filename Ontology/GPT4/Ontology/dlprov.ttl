@@ -1,0 +1,418 @@
+@prefix : <https://w3id.org/dlprovenance#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/dlprovenance#> .
+
+<https://w3id.org/dlprovenance> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/dlprovenance#appliesAugmentationTechnique
+:appliesAugmentationTechnique rdf:type owl:ObjectProperty ;
+                              rdfs:domain :Dataset ;
+                              rdfs:range :DataAugmentationTechnique ;
+                              rdfs:comment "Relation between a dataset and its augmentation technique." ;
+                              rdfs:label "appliesAugmentationTechnique" .
+
+
+###  https://w3id.org/dlprovenance#appliesOptimizationTechnique
+:appliesOptimizationTechnique rdf:type owl:ObjectProperty ;
+                              rdfs:domain :Model ;
+                              rdfs:range :OptimizationTechnique ;
+                              rdfs:comment "Relation between a model and its optimization technique." ;
+                              rdfs:label "appliesOptimizationTechnique" .
+
+
+###  https://w3id.org/dlprovenance#appliesPostprocessingStep
+:appliesPostprocessingStep rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Model ;
+                           rdfs:range :PostprocessingStep ;
+                           rdfs:comment "Relation between a model and its postprocessing step." ;
+                           rdfs:label "appliesPostprocessingStep" .
+
+
+###  https://w3id.org/dlprovenance#availableInCodeRepository
+:availableInCodeRepository rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Model ;
+                           rdfs:range :Repository ;
+                           rdfs:comment "Relation between a model and its code repository." ;
+                           rdfs:label "availableInCodeRepository" .
+
+
+###  https://w3id.org/dlprovenance#availableInDataRepository
+:availableInDataRepository rdf:type owl:ObjectProperty ;
+                           rdfs:domain :Dataset ;
+                           rdfs:range :Repository ;
+                           rdfs:comment "Relation between a dataset and its data repository." ;
+                           rdfs:label "availableInDataRepository" .
+
+
+###  https://w3id.org/dlprovenance#builtWithFramework
+:builtWithFramework rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Model ;
+                    rdfs:range :Framework ;
+                    rdfs:comment "Relation between a model and the framework used to build it." ;
+                    rdfs:label "builtWithFramework" .
+
+
+###  https://w3id.org/dlprovenance#deployedOn
+:deployedOn rdf:type owl:ObjectProperty ;
+            rdfs:domain :Model ;
+            rdfs:range :DeploymentPlatform ;
+            rdfs:comment "Relation between a model and its deployment platform." ;
+            rdfs:label "deployedOn" .
+
+
+###  https://w3id.org/dlprovenance#deployedUsing
+:deployedUsing rdf:type owl:ObjectProperty ;
+               rdfs:domain :Model ;
+               rdfs:range :DeploymentProcess ;
+               rdfs:comment "Relation between a model and its deployment process." ;
+               rdfs:label "deployedUsing" .
+
+
+###  https://w3id.org/dlprovenance#ensuresGeneralizabilityWith
+:ensuresGeneralizabilityWith rdf:type owl:ObjectProperty ;
+                             rdfs:domain :Model ;
+                             rdfs:range :GeneralizabilityMeasure ;
+                             rdfs:comment "Relation between a model and its generalizability measure." ;
+                             rdfs:label "ensuresGeneralizabilityWith" .
+
+
+###  https://w3id.org/dlprovenance#evaluatedBy
+:evaluatedBy rdf:type owl:ObjectProperty ;
+             rdfs:domain :Model ;
+             rdfs:range :PerformanceMetric ;
+             rdfs:comment "Relation between a model and its performance metric." ;
+             rdfs:label "evaluatedBy" .
+
+
+###  https://w3id.org/dlprovenance#handlesBiasWith
+:handlesBiasWith rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Dataset ;
+                 rdfs:range :DataBiasHandlingTechnique ;
+                 rdfs:comment "Relation between a dataset and its data bias handling technique." ;
+                 rdfs:label "handlesBiasWith" .
+
+
+###  https://w3id.org/dlprovenance#handlesRandomnessWith
+:handlesRandomnessWith rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Model ;
+                       rdfs:range :RandomnessHandlingStrategy ;
+                       rdfs:comment "Relation between a model and its randomness handling strategy." ;
+                       rdfs:label "handlesRandomnessWith" .
+
+
+###  https://w3id.org/dlprovenance#hasCodeRepositoryLink
+:hasCodeRepositoryLink rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Repository ;
+                       rdfs:range <xsd:anyURI> .
+
+
+###  https://w3id.org/dlprovenance#hasDataRepositoryLink
+:hasDataRepositoryLink rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Repository ;
+                       rdfs:range <xsd:anyURI> .
+
+
+###  https://w3id.org/dlprovenance#hasModelType
+:hasModelType rdf:type owl:ObjectProperty ;
+              rdfs:domain :Model ;
+              rdfs:range :ModelType ;
+              rdfs:comment "Relation between a model and its type." ;
+              rdfs:label "hasModelType" .
+
+
+###  https://w3id.org/dlprovenance#hasPurpose
+:hasPurpose rdf:type owl:ObjectProperty ;
+            rdfs:domain :Model ;
+            rdfs:range :ModelPurpose ;
+            rdfs:comment "Relation between a model and its purpose." ;
+            rdfs:label "hasPurpose" .
+
+
+###  https://w3id.org/dlprovenance#monitoredBy
+:monitoredBy rdf:type owl:ObjectProperty ;
+             rdfs:domain :Model ;
+             rdfs:range :ModelMonitoringStrategy ;
+             rdfs:comment "Relation between a model and its monitoring strategy." ;
+             rdfs:label "monitoredBy" .
+
+
+###  https://w3id.org/dlprovenance#optimizedBy
+:optimizedBy rdf:type owl:ObjectProperty ;
+             rdfs:domain :Model ;
+             rdfs:range :HyperparameterOptimizationMethod ;
+             rdfs:comment "Relation between a model and its hyperparameter optimization method." ;
+             rdfs:label "optimizedBy" .
+
+
+###  https://w3id.org/dlprovenance#trainedOnHardware
+:trainedOnHardware rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Model ;
+                   rdfs:range :HardwareResource ;
+                   rdfs:comment "Relation between a model and the hardware resource used for training." ;
+                   rdfs:label "trainedOnHardware" .
+
+
+###  https://w3id.org/dlprovenance#usesAnnotationTechnique
+:usesAnnotationTechnique rdf:type owl:ObjectProperty ;
+                         rdfs:domain :Dataset ;
+                         rdfs:range :DataAnnotationTechnique ;
+                         rdfs:comment "Relation between a dataset and its annotation technique." ;
+                         rdfs:label "usesAnnotationTechnique" .
+
+
+###  https://w3id.org/dlprovenance#usesCompletionCriteria
+:usesCompletionCriteria rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Model ;
+                        rdfs:range :TrainingCompletionCriteria ;
+                        rdfs:comment "Relation between a model and its training completion criteria." ;
+                        rdfs:label "usesCompletionCriteria" .
+
+
+###  https://w3id.org/dlprovenance#usesDataCollectionMethod
+:usesDataCollectionMethod rdf:type owl:ObjectProperty ;
+                          rdfs:domain :Dataset ;
+                          rdfs:range :DataCollectionMethod ;
+                          rdfs:comment "Relation between a dataset and its data collection method." ;
+                          rdfs:label "usesDataCollectionMethod" .
+
+
+###  https://w3id.org/dlprovenance#usesDataFormat
+:usesDataFormat rdf:type owl:ObjectProperty ;
+                rdfs:domain :Dataset ;
+                rdfs:range :DataFormat ;
+                rdfs:comment "Relation between a dataset and its data format." ;
+                rdfs:label "usesDataFormat" .
+
+
+###  https://w3id.org/dlprovenance#usesDataSplitCriteria
+:usesDataSplitCriteria rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Dataset ;
+                       rdfs:range :DataSplitCriteria ;
+                       rdfs:comment "Relation between a dataset and its data split criteria." ;
+                       rdfs:label "usesDataSplitCriteria" .
+
+
+###  https://w3id.org/dlprovenance#usesHyperparameter
+:usesHyperparameter rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Model ;
+                    rdfs:range :Hyperparameter ;
+                    rdfs:comment "Relation between a model and its hyperparameter." ;
+                    rdfs:label "usesHyperparameter" .
+
+
+###  https://w3id.org/dlprovenance#usesPreprocessingStep
+:usesPreprocessingStep rdf:type owl:ObjectProperty ;
+                       rdfs:domain :Dataset ;
+                       rdfs:range :PreprocessingStep ;
+                       rdfs:comment "Relation between a dataset and its preprocessing step." ;
+                       rdfs:label "usesPreprocessingStep" .
+
+
+###  https://w3id.org/dlprovenance#usesRegularizationMethod
+:usesRegularizationMethod rdf:type owl:ObjectProperty ;
+                          rdfs:domain :Model ;
+                          rdfs:range :RegularizationMethod ;
+                          rdfs:comment "Relation between a model and its regularization method." ;
+                          rdfs:label "usesRegularizationMethod" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/dlprovenance#hasCodeRepositoryLink
+:hasCodeRepositoryLink rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/dlprovenance#hasDataRepositoryLink
+:hasDataRepositoryLink rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/ns/prov#Entity
+prov:Entity rdf:type owl:Class .
+
+
+###  https://w3id.org/dlprovenance#DataAnnotationTechnique
+:DataAnnotationTechnique rdf:type owl:Class ;
+                         rdfs:subClassOf prov:Entity ;
+                         rdfs:label "Data Annotation Technique"@en .
+
+
+###  https://w3id.org/dlprovenance#DataAugmentationTechnique
+:DataAugmentationTechnique rdf:type owl:Class ;
+                           rdfs:subClassOf prov:Entity ;
+                           rdfs:label "Data Augmentation Technique"@en .
+
+
+###  https://w3id.org/dlprovenance#DataBiasHandlingTechnique
+:DataBiasHandlingTechnique rdf:type owl:Class ;
+                           rdfs:subClassOf prov:Entity ;
+                           rdfs:label "Data Bias Handling Technique"@en .
+
+
+###  https://w3id.org/dlprovenance#DataCollectionMethod
+:DataCollectionMethod rdf:type owl:Class ;
+                      rdfs:subClassOf prov:Entity ;
+                      rdfs:label "Data Collection Method"@en .
+
+
+###  https://w3id.org/dlprovenance#DataFormat
+:DataFormat rdf:type owl:Class ;
+            rdfs:subClassOf prov:Entity ;
+            rdfs:label "Data Format"@en .
+
+
+###  https://w3id.org/dlprovenance#DataSplitCriteria
+:DataSplitCriteria rdf:type owl:Class ;
+                   rdfs:subClassOf prov:Entity ;
+                   rdfs:label "Data Split Criteria"@en .
+
+
+###  https://w3id.org/dlprovenance#Dataset
+:Dataset rdf:type owl:Class ;
+         rdfs:subClassOf prov:Entity ;
+         rdfs:label "Dataset"@en .
+
+
+###  https://w3id.org/dlprovenance#DeploymentPlatform
+:DeploymentPlatform rdf:type owl:Class ;
+                    rdfs:subClassOf prov:Entity ;
+                    rdfs:label "Deployment Platform"@en .
+
+
+###  https://w3id.org/dlprovenance#DeploymentProcess
+:DeploymentProcess rdf:type owl:Class ;
+                   rdfs:subClassOf prov:Entity ;
+                   rdfs:label "Deployment Process"@en .
+
+
+###  https://w3id.org/dlprovenance#Framework
+:Framework rdf:type owl:Class ;
+           rdfs:subClassOf prov:Entity ;
+           rdfs:label "Framework"@en .
+
+
+###  https://w3id.org/dlprovenance#GeneralizabilityMeasure
+:GeneralizabilityMeasure rdf:type owl:Class ;
+                         rdfs:subClassOf prov:Entity ;
+                         rdfs:label "Generalizability Measure"@en .
+
+
+###  https://w3id.org/dlprovenance#HardwareResource
+:HardwareResource rdf:type owl:Class ;
+                  rdfs:subClassOf prov:Entity ;
+                  rdfs:label "Hardware Resource"@en .
+
+
+###  https://w3id.org/dlprovenance#Hyperparameter
+:Hyperparameter rdf:type owl:Class ;
+                rdfs:subClassOf prov:Entity ;
+                rdfs:label "Hyperparameter"@en .
+
+
+###  https://w3id.org/dlprovenance#HyperparameterOptimizationMethod
+:HyperparameterOptimizationMethod rdf:type owl:Class ;
+                                  rdfs:subClassOf prov:Entity ;
+                                  rdfs:label "Hyperparameter Optimization Method"@en .
+
+
+###  https://w3id.org/dlprovenance#Model
+:Model rdf:type owl:Class .
+
+
+###  https://w3id.org/dlprovenance#ModelMonitoringStrategy
+:ModelMonitoringStrategy rdf:type owl:Class ;
+                         rdfs:subClassOf prov:Entity ;
+                         rdfs:label "Model Monitoring Strategy"@en .
+
+
+###  https://w3id.org/dlprovenance#ModelPurpose
+:ModelPurpose rdf:type owl:Class ;
+              rdfs:subClassOf prov:Entity ;
+              rdfs:label "Model Purpose"@en .
+
+
+###  https://w3id.org/dlprovenance#ModelType
+:ModelType rdf:type owl:Class ;
+           rdfs:subClassOf prov:Entity ;
+           rdfs:label "Model Type"@en .
+
+
+###  https://w3id.org/dlprovenance#OptimizationTechnique
+:OptimizationTechnique rdf:type owl:Class ;
+                       rdfs:subClassOf prov:Entity ;
+                       rdfs:label "Optimization Technique"@en .
+
+
+###  https://w3id.org/dlprovenance#PerformanceMetric
+:PerformanceMetric rdf:type owl:Class ;
+                   rdfs:subClassOf prov:Entity ;
+                   rdfs:label "Performance Metric"@en .
+
+
+###  https://w3id.org/dlprovenance#PostprocessingStep
+:PostprocessingStep rdf:type owl:Class ;
+                    rdfs:subClassOf prov:Entity ;
+                    rdfs:label "Postprocessing Step"@en .
+
+
+###  https://w3id.org/dlprovenance#PreprocessingStep
+:PreprocessingStep rdf:type owl:Class ;
+                   rdfs:subClassOf prov:Entity ;
+                   rdfs:label "Preprocessing Step"@en .
+
+
+###  https://w3id.org/dlprovenance#RandomnessHandlingStrategy
+:RandomnessHandlingStrategy rdf:type owl:Class ;
+                            rdfs:subClassOf prov:Entity ;
+                            rdfs:label "Randomness Handling Strategy"@en .
+
+
+###  https://w3id.org/dlprovenance#RegularizationMethod
+:RegularizationMethod rdf:type owl:Class ;
+                      rdfs:subClassOf prov:Entity ;
+                      rdfs:label "Regularization Method"@en .
+
+
+###  https://w3id.org/dlprovenance#Repository
+:Repository rdf:type owl:Class ;
+            rdfs:subClassOf prov:Entity ;
+            rdfs:label "Repository"@en .
+
+
+###  https://w3id.org/dlprovenance#TrainingCompletionCriteria
+:TrainingCompletionCriteria rdf:type owl:Class ;
+                            rdfs:subClassOf prov:Entity ;
+                            rdfs:label "Training Completion Criteria"@en .
+
+
+###  xsd:anyURI
+<xsd:anyURI> rdf:type owl:Class .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:hasCodeRepositoryLink rdfs:comment "Relation between a repository and its code repository link." ;
+                       rdfs:label "hasCodeRepositoryLink" .
+
+
+:hasDataRepositoryLink rdfs:comment "Relation between a repository and its data repository link." ;
+                       rdfs:label "hasDataRepositoryLink" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

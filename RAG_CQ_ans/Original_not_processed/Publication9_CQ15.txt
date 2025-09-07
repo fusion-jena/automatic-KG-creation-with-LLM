@@ -1,0 +1,9 @@
+ The deep learning pipeline applies optimization techniques such as stochastic gradient descent with
+backpropagation to iteratively minimize the error between model output and expected output by
+optimally adjusting model weights and reaching model convergence.  %Explanation Explanation: The
+context mentions that the deep learning pipeline applies optimization techniques such as stochastic
+gradient descent with backpropagation to iteratively minimize the error between model output and
+expected output by optimally adjusting model weights and reaching model convergence.  %Final Answer
+Final Answer: The deep learning pipeline applies optimization techniques such as stochastic gradient
+descent with backpropagation to iteratively minimize the error between model output and expected
+output by optimally adjusting model weights and reaching model convergence.

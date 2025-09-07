@@ -1,0 +1,1 @@
+The purpose of the deep learning model is to combine (1) the detection of individual animals yielding bounding boxes as well as precise shapes of appearances with (2) the recognition of the actions of the observed animals. The resulting end-to-end pipeline is applicable in camera traps for tracing of animal populations and analysing their abundance and behaviour. %Query 

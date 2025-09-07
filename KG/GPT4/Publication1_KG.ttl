@@ -1,0 +1,30 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:DNN a dlprov:DeepLearningModel .
+
+dlprov:UI a dlprov:DataFormat .
+
+dlprov:audio a dlprov:DataFormat .
+
+dlprov:audio_data_related_to_biodiversity_monitoring a dlprov:Dataset .
+
+dlprov:classification a dlprov:ModelPurpose .
+
+dlprov:classify_sounds_of_birds_colliding_with_energy_infrastructure a dlprov:ModelPurpose .
+
+dlprov:classify_the_presence_or_absence_and_activity_rates_of_endangered_species a dlprov:ModelPurpose .
+
+dlprov:consecutive_frame_differencesDataAnnotationTechnique a dlprov:DataFormat .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:image_crops a dlprov:DataFormat .
+
+dlprov:image_data_related_to_biodiversity_monitoring a dlprov:Dataset .
+
+dlprov:labeled_data_produced_by_analysts a dlprov:Dataset .
+
+dlprov:spectrograms a dlprov:DataFormat .
+

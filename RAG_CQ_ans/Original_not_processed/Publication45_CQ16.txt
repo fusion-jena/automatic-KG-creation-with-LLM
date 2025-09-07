@@ -1,0 +1,2 @@
+ The training of the individual candidate networks was stopped when the accuracy of the network on
+the test dataset did not increase further.

@@ -1,0 +1,5 @@
+Named Entities:
+DataFormat(images)
+Dataset(T0, T1, T2)
+PreprocessingStep(resizing)
+DataAugmentationTechnique(increasing contrast, decreasing contrast, horizontal flipping)

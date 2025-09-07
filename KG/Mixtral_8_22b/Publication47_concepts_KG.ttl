@@ -1,0 +1,44 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#//github.com/azizka/IUCNN> a dlprov:CodeRepositoryLink%28https .
+
+dlprov:10%25_for_testing a dlprov:DataSplitCriteria .
+
+dlprov:20%25_of_the_training_set_for_validation a dlprov:DataSplitCriteria .
+
+dlprov:90%25_of_the_entries_for_training a dlprov:DataSplitCriteria .
+
+dlprov:GBIF a dlprov:DataRepository,
+        dlprov:Dataset .
+
+dlprov:GitHub a dlprov:CodeRepository .
+
+dlprov:Global_Biodiversity_Information_Facility a dlprov:DataRepository,
+        dlprov:Dataset .
+
+dlprov:IUC-NN a dlprov:DeepLearningModel .
+
+dlprov:Python_TensorFlow_library a dlprov:Framework .
+
+dlprov:WCSP a dlprov:DataRepository,
+        dlprov:Dataset .
+
+dlprov:World_Checklist_of_Selected_Plant_Families a dlprov:DataRepository,
+        dlprov:Dataset .
+
+dlprov:accuracy a dlprov:PerformanceMetric .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:cross-entropy_loss a dlprov:PerformanceMetric .
+
+dlprov:digitally_available_occurrence_records a dlprov:DataFormat .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:orchid_species_occurrence_records a dlprov:Dataset .
+
+dlprov:predict_the_conservation_status_of_unevaluated_orchid_species a dlprov:ModelPurpose .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+

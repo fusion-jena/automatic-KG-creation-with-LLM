@@ -1,0 +1,2 @@
+ The pipeline uses a Convolutional Neural Network (CNN) model, specifically Inception v3,
+implemented in TensorFlow.

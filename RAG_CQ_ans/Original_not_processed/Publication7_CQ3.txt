@@ -1,0 +1,4 @@
+ The paper does not explicitly mention the data annotation techniques used in the deep learning
+pipeline. However, it is mentioned that each training image has 50 pixels marked with corresponding
+ground truth labels. This suggests that the annotation technique used is pixel-level annotation or
+semantic segmentation.

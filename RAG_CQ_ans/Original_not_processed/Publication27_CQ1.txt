@@ -1,0 +1,3 @@
+ The methods utilized for collecting raw data in the deep learning pipeline include surveys,
+sensors, and public datasets.  Final Answer: The methods utilized for collecting raw data in the
+deep learning pipeline include surveys, sensors, and public datasets.

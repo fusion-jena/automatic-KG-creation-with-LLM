@@ -1,0 +1,5 @@
+ The context does not provide specific information on the preprocessing steps involved before
+training a deep learning model. However, it does mention that the model uses batch normalization to
+standardize the parameters with batch images, which greatly alleviates the impact of high image
+variability including distortions or overlaps. This suggests that preprocessing steps such as
+normalization and cleaning may be involved, but the specifics are not mentioned.

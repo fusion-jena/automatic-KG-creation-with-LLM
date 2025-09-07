@@ -1,0 +1,796 @@
+ The paper does not provide information on techniques used to address data bias during preprocessing
+of the deep learning pipeline.  %Context: [1] Paola Laiolo, "The emerging significance of
+bioacoustics in animal species conservation," Biological Conservation, vol. 143, no. 12, pp.
+2762-2771, 2010.  [2] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [3] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [4] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [5] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [6] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [7] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [8] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [9] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [10] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [11] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [12] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [13] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [14] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [15] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [16] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [17] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [18] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [19] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [20] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [21] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [22] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [23] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [24] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [25] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [26] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [27] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [28] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [29] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [30] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [31] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [32] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [33] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [34] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [35] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [36] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [37] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [38] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [39] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [40] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [41] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [42] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [43] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [44] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [45] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [46] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [47] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [48] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [49] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [50] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [51] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [52] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [53] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [54] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [55] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [56] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [57] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [58] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [59] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [60] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [61] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [62] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [63] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [64] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [65] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [66] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [67] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [68] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [69] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [70] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [71] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [72] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [73] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [74] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [75] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [76] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [77] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [78] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [79] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [80] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [81] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [82] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [83] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [84] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [85] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [86] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [87] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [88] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [89] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [90] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [91] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [92] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [93] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [94] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [95] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [96] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [97] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [98] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [99] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [100] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [101] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [102] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [103] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [104] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [105] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [106] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [107] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [108] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [109] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [110] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [111] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [112] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [113] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [114] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [115] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [116] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [117] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [118] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [119] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [120] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [121] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [122] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [123] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [124] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [125] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [126] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [127] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [128] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [129] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [130] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [131] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [132] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [133] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [134] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [135] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [136] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [137] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [138] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [139] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [140] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [141] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [142] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [143] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [144] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [145] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [146] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [147] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [148] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [149] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [150] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [151] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [152] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [153] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [154] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [155] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [156] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [157] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [158] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [159] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [160] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [161] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [162] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [163] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [164] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [165] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [166] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [167] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [168] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [169] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [170] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [171] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [172] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [173] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [174] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [175] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [176] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [177] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [178] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [179] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [180] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [181] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [182] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [183] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [184] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [185] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [186] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [187] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [188] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [189] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [190] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [191] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [192] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [193] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [194] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [195] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [196] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [197] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [198] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [199] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [200] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [201] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [202] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [203] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [204] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [205] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [206] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [207] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [208] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [209] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [210] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [211] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [212] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [213] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [214] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [215] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [216] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [217] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [218] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [219] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [220] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [221] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [222] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [223] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [224] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [225] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [226] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [227] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [228] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [229] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [230] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [231] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [232] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [233] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [234] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [235] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [236] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [237] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [238] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [239] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [240] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [241] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [242] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [243] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [244] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [245] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [246] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [247] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [248] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [249] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [250] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [251] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [252] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [253] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [254] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [255] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [256] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [257] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [258] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [259] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [260] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [261] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [262] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [263] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [264] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [265] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [266] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [267] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [268] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [269] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [270] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [271] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [272] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [273] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [274] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [275] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [276] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [277] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [278] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [279] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [280] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [281] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [282] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [283] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [284] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [285] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [286] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [287] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [288] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [289] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [290] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [291] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [292] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [293] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [294] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [295] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [296] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [297] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [298] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [299] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [300] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [301] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [302] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [303] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [304] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [305] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [306] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [307] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [308] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [309] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [310] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [311] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [312] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [313] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [314] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [315] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [316] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 125, no. 2, pp. 1266-1277, 2009.  [317] A. Farnsworth,
+"Automatic classification of species-specific bird vocalizations using a Gaussian mixture model-
+universal background model framework," The Journal of the Acoustical Society of America, vol. 125,
+no. 2, pp. 1266-1277, 2009.  [318] A. Farnsworth, "Automatic classification of species-specific bird
+vocalizations using a Gaussian mixture model-universal background model framework," The Journal of
+the Acoustical Society of America, vol. 12

@@ -1,0 +1,7 @@
+ The regularization methods used to prevent overfitting in the deep learning pipeline include
+dropout, L1 regularization, L2 regularization, and early stopping. Dropout is a technique where
+randomly selected neurons are ignored during training, which helps to make the model more robust and
+prevents overfitting. L1 regularization adds a penalty equal to the absolute value of the magnitude
+of coefficients to the loss function, while L2 regularization adds a penalty equal to the square of
+the magnitude of coefficients to the loss function. Early stopping is a technique where training is
+stopped when the validation error starts to increase, which helps to prevent overfitting.

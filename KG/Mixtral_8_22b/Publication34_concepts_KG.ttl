@@ -1,0 +1,40 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:0._03 a dlprov:Hyperparameter .
+
+dlprov:A10%25DQ a dlprov:PerformanceMetric .
+
+dlprov:Accuracy_on_10%25_Densest_Quadrats a dlprov:PerformanceMetric .
+
+dlprov:Batch-size_of_50 a dlprov:Hyperparameter .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:CSV a dlprov:DataFormat .
+
+dlprov:DNN a dlprov:DeepLearningModel .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:Initial_learning_rate_of_10%E2%88%92 a dlprov:Hyperparameter .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:Learning_a_function_that_takes_the_environmental_feature_vector_of_a_given_location_as_input_and_outputs_an_estimate_of_the_abundance_of_the_species a dlprov:ModelPurpose .
+
+dlprov:Mean_Loss a dlprov:PerformanceMetric .
+
+dlprov:R_framework a dlprov:Framework .
+
+dlprov:Rmse a dlprov:PerformanceMetric .
+
+dlprov:Root_Mean_Square_Error a dlprov:PerformanceMetric .
+
+dlprov:Stochastic_gradient_descent_algorithm_with_a_momentum_of_0._9 a dlprov:Hyperparameter .
+
+dlprov:Uniform_distribution_U a dlprov:Hyperparameter .
+
+dlprov:mxnet a dlprov:Framework .
+
+dlprov:version_3._3._2 a dlprov:Framework .
+

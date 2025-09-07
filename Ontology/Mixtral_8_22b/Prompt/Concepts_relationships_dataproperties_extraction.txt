@@ -1,0 +1,30 @@
+%INSTRUCTIONS:
+Analyze the following competency questions and identify all the concepts, relationships, data properties, and inverse properties between concepts mentioned in the text. These elements will be used to build ontology for describing the provenance of a DL Pipeline. If you don't know the answer, just say that you don't know, don't try to make up an answer. Don't provide anything other than the results in a comma separated list.
+
+Do not reply using a complete sentence, and only give the answer in the following format.
+
+Below are the examples and follow the same format to answer all the questions:
+CQ1: What hyperparameters are used in the model?
+CQ2: What data formats are used in the deep learning pipeline?
+CQ3: What are the sources of input data for the deep learning pipeline?
+CQ4: Who are the authors of the deep learning model?
+CQ5: When was the model trained?
+CQ6: What is the accuracy of the model?
+
+Concepts: Hyperparameter, Model, Data, DataFormat, DeepLearningPipeline, Source, InputData, Author, TrainingDate, Accuracy
+Relationships: hasHyperparameter, hasModel, hasData, hasDataFormat, hasSource, hasInputData, hasAuthor, hasTrainingDate, hasAccuracy
+DataProperties: authorName, trainingDate, modelAccuracy
+InverseProperties: isHyperparameterOf, isModelOf, isDataOf, isDataFormatOf, isSourceOf, isInputDataOf, isAuthorOf, isTrainingDateOf, isAccuracyOf
+
+%QUERY:
+query : {CQs}
+
+Provide your answer as follows:
+
+Answer:::
+Concepts: (concepts in comma separated list)
+Relationships: (relationships in comma separated list)
+DataProperties: (data properties in comma separated list)
+InverseProperties: (inverse properties in comma separated list)
+
+Answer:::

@@ -1,0 +1,2 @@
+ The training is stopped when the average slope of the training mean loss has an absolute difference
+to 0 on the last 100 epochs.

@@ -1,0 +1,30 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:AP a dlprov:PerformanceMetric .
+
+dlprov:AP%400.5 a dlprov:PerformanceMetric .
+
+dlprov:AP%400.75 a dlprov:PerformanceMetric .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:COCO_mAP a dlprov:PerformanceMetric .
+
+dlprov:Detectron2 a dlprov:Framework .
+
+dlprov:Faster_R-CNN a dlprov:DeepLearningModel .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:IoU a dlprov:PerformanceMetric .
+
+dlprov:PyTorch a dlprov:Framework .
+
+dlprov:ResNet-50 a dlprov:DeepLearningModel .
+
+dlprov:TITAN_Xp_GPUs a dlprov:HardwareResource .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:rescaling a dlprov:PreprocessingStep .
+

@@ -1,0 +1,6 @@
+Named Entities:
+DataFormat(image data, activation vectors of the first fully connected layer of a pre-trained VGGnet)
+Dataset(ImageNet, Benthoz15)
+DeepLearningModel(Convolutional Neural Network (CNN))
+PerformanceMetric(classification accuracy greater than 90%)
+ModelPurpose(coral reef classification, automatic annotation of unlabelled coral images and mosaics from the Abrolhos Islands in Western Australia)

@@ -1,0 +1,9 @@
+ The performance of the deep learning model is evaluated using the mean identification success rate,
+correct identification rate, confusion between fish species, and success rate. The mean
+identification success rate is close to 87%, and the success rate ranges from 85.2 to 100% with only
+3 species being correctly identified in < 90% of cases and 9 species being correctly identified in >
+95% of cases, including 3 with a correct identification rate > 99%. Confusions between 2 fish
+species were lower than 4%, and applying decision rule r1 decreased this error rate to < 4%. The
+best model had a lower performance than humans but both were higher than 97%. The mean time needed
+to identify a fish by humans was 5 s, with the fastest answer given in 2 s and the longest in 9 s.
+On average, each classification by the final model took 0.06 s with hardware detailed above.

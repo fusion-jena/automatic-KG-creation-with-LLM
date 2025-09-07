@@ -1,0 +1,79 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:Adam_Solver_type a dlprov:Hyperparameter,
+        dlprov:OptimizationTechnique .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:Ca%EF%AC%80e a dlprov:Framework .
+
+dlprov:Classification a dlprov:ModelPurpose .
+
+dlprov:Computer_with_64GB_of_RAM a dlprov:HardwareResource .
+
+dlprov:Confusion_between_fish_species a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Convolutional_Neural_Network a dlprov:DeepLearningModel .
+
+dlprov:Correct_identification_rate a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Deep_Learning_Pipeline a dlprov:Method .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:Dropout_of_50%25 a dlprov:Hyperparameter .
+
+dlprov:Environment a dlprov:RawData .
+
+dlprov:Fish_thumbnails a dlprov:RawData .
+
+dlprov:Flipping_each_thumbnail_with_respect_to_the_vertical_axis a dlprov:DataAnnotationTechnique .
+
+dlprov:Image a dlprov:DataFormat .
+
+dlprov:Learning_decay_with_a_Gamma_of_0._95 a dlprov:Hyperparameter,
+        dlprov:RegularizationMethod .
+
+dlprov:Learning_rate_of_10 a dlprov:Hyperparameter .
+
+dlprov:Mean_identification_success_rate a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:Not_explicitly_mentioned a dlprov:CodeRepository,
+        dlprov:CodeRepositoryLink,
+        dlprov:DataBiasTechnique,
+        dlprov:DataRepository,
+        dlprov:DataRepositoryLink,
+        dlprov:DataSplitCriteria,
+        dlprov:GeneralizabilityMeasure,
+        dlprov:HyperparameterOptimization,
+        dlprov:ModelDeploymentProcess,
+        dlprov:PostprocessingStep,
+        dlprov:PreprocessingStep,
+        dlprov:TrainingCompletionCriteria .
+
+<https://w3id.org/dlprov#Not_explicitly_mentioned.> a dlprov:DeploymentPlatform .
+
+dlprov:Part_of_fish_species a dlprov:RawData .
+
+dlprov:Random_Gaussian_initialization a dlprov:RandomnessStrategy .
+
+dlprov:Success_rate a dlprov:ModelPerformanceMonitoringStrategy,
+        dlprov:PerformanceMetric .
+
+dlprov:T1 a dlprov:Dataset .
+
+dlprov:T2 a dlprov:Dataset .
+
+dlprov:T3 a dlprov:Dataset .
+
+dlprov:T4 a dlprov:Dataset .
+
+dlprov:Titan_X_GPU_card a dlprov:HardwareResource .
+
+dlprov:Whole_fish a dlprov:RawData .
+
+dlprov:i7_3._50GHz_CPU a dlprov:HardwareResource .
+

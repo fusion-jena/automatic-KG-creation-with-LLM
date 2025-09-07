@@ -1,0 +1,52 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#%5BNot_specified%5D> a dlprov:CodeRepository,
+        dlprov:DataAnnotationTechnique,
+        dlprov:DataAugmentationTechnique,
+        dlprov:Dataset,
+        dlprov:Framework,
+        dlprov:HardwareResource,
+        dlprov:Hyperparameter .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:F1_score a dlprov:PerformanceMetric .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:SGD a dlprov:OptimizationTechnique .
+
+dlprov:Stochastic_Gradient_Descent a dlprov:OptimizationTechnique .
+
+dlprov:accuracy a dlprov:PerformanceMetric .
+
+dlprov:cleaning a dlprov:PreprocessingStep .
+
+dlprov:conditional_kappa a dlprov:PerformanceMetric .
+
+dlprov:dropout a dlprov:RegularizationMethod .
+
+dlprov:five_convolution_layers a dlprov:DeepLearningModel .
+
+dlprov:five_fully_connected_layers a dlprov:DeepLearningModel .
+
+dlprov:image a dlprov:DataFormat .
+
+dlprov:normalization a dlprov:PreprocessingStep .
+
+dlprov:not_explicitly_mentioned_but_common_in_CNNs a dlprov:RegularizationMethod .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:prediction a dlprov:ModelPurpose .
+
+dlprov:recall a dlprov:PerformanceMetric .
+
+dlprov:scaling a dlprov:PreprocessingStep .
+
+dlprov:softmax_layer a dlprov:DeepLearningModel .
+
+dlprov:specifically_predicting_bark_beetle_outbreaks a dlprov:ModelPurpose .
+
+dlprov:true_skill_statistic a dlprov:PerformanceMetric .
+

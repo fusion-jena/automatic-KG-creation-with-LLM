@@ -1,0 +1,882 @@
+ The raw data in the deep learning pipeline is collected using video clips taken by camera traps
+positioned at an "animals' bridge" (wildlife crossing) that is crossing the federal motorway 7 near
+the city Oberthulba. The camera traps are equipped with infrared camera and infrared flash lights.
+%INSTRUCTIONS: Use the provided pieces of context to answer the query. If you don't know the answer,
+just say that you don't know, don't try to make up an answer.  %Query Query: "What are the
+specifications of the raw data collected (e.g., resolution, frame rate, duration)? "  Helpful
+Answer: The raw data collected consists of video clips, each about 10 s with 8 fps (frames per
+second) and a resolution of 1280 × 720 pixel.  %INSTRUCTIONS: Use the provided pieces of context to
+answer the query. If you don't know the answer, just say that you don't know, don't try to make up
+an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "  Helpful Answer: The annotated data consists of 528 clips showing
+deer, boars, foxes, and hares with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use
+the provided pieces of context to answer the query. If you don't know the answer, just say that you
+don't know, don't try to make up an answer.  %Query Query: "What are the specifications of the
+annotated data (e.g., number of instances, classes, attributes)? "  Helpful Answer: The annotated
+data consists of 528 clips showing deer, boars, foxes, and hares with occurrence frequencies
+depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context to answer the query. If you
+don't know the answer, just say that you don't know, don't try to make up an answer.  %Query Query:
+"What are the specifications of the annotated data (e.g., number of instances, classes, attributes)?
+"  Helpful Answer: The annotated data consists of 528 clips showing deer, boars, foxes, and hares
+with occurrence frequencies depicted in Table 1.  %INSTRUCTIONS: Use the provided pieces of context
+to answer the query. If you don't know the answer, just say that you don't know, don't try to make
+up an answer.  %Query Query: "What are the specifications of the annotated data (e.g., number of
+instances, classes, attributes)? "

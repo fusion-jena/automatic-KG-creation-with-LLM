@@ -1,0 +1,8 @@
+ The deep learning pipeline uses a combination of unsupervised and supervised approaches for data
+annotation. Initially, a LIDAR-based unsupervised algorithm generates initial tree predictions, and
+the bounding box for each tree is extracted. This is followed by a self-supervised model trained on
+the RGB crops of the extracted bounding boxes. The model is then retrained using a small number of
+hand-annotations to correct errors from the unsupervised detection. The LIDAR data is only used to
+initialize the training of the network and is not used for the final prediction step. The result is
+a deep learning neural network that combines unsupervised and supervised approaches to perform tree
+delineation in new RGB imagery without the need for co-registered LIDAR data.

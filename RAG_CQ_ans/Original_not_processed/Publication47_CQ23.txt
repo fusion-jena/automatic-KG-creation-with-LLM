@@ -1,0 +1,9 @@
+ To ensure the generalizability of the deep learning model, several measures were taken. The model
+was trained on a diverse dataset that included all species with an IUCN Red List assessment and
+available occurrence records. The data set was then randomly split into a training set (90% of the
+entries) and a test set (10%). Additionally, 20% of the training set was used for validation. To
+further improve the model's generalizability, cross-validation was performed by shifting the
+validation set 5 times to quantify the average validation cross-entropy loss and accuracy. The
+neural network with the lowest cross-entropy loss across a range of models with different numbers of
+hidden layers and subsets of features was then used to predict the conservation status of all orchid
+species.

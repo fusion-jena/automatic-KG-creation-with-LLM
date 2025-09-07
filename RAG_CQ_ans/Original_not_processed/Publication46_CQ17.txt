@@ -1,0 +1,7 @@
+ The provided context does not mention any specific regularization methods used to prevent
+overfitting in the deep learning pipeline. However, some common regularization methods used in deep
+learning include dropout and L2 regularization. Dropout is a technique where randomly selected
+neurons are ignored during training, which helps to prevent overfitting by reducing the model's
+reliance on any single neuron. L2 regularization, also known as weight decay, adds a penalty term to
+the loss function that discourages large weights, which can help to prevent overfitting by reducing
+the model's complexity.

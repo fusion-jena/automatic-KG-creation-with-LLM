@@ -1,0 +1,2 @@
+ The criteria used to split the data for deep learning model training are as follows: 80 images for
+training and 20 images for validating the obtained CNNs classifiers. This is summarized in Table 1.

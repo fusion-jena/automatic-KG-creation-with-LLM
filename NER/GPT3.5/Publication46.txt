@@ -1,0 +1,15 @@
+Named Entities:
+DataFormat: [Not specified]
+DataAnnotationTechnique: [Not specified]
+DataAugmentationTechnique: [Not specified]
+Dataset: [Not specified]
+PreprocessingStep: normalization, scaling, cleaning
+CodeRepository: [Not specified]
+DeepLearningModel: CNN (Convolutional Neural Network)
+Hyperparameter: size of kernels (3 × 3, 5 × 5, 7 × 7)
+OptimizationTechnique: [Not specified]
+RegularizationMethod: dropout, L2 regularization (mentioned generally)
+Framework: [Not specified]
+HardwareResource: [Not specified]
+PerformanceMetric: AUC (Area Under ROC Curve), Cohen's kappa, True Skill Statistic (TSS)
+ModelPurpose: Species Distribution Modelling (SDM) for Rhododendron arboreum

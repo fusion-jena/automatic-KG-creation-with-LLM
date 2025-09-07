@@ -1,0 +1,1 @@
+The data was split into training and testing sets, with 40479 images used for training and 40669 images used for testing. The model was trained for 15 epochs, and 20% of the training data was used for validation after training. The training loss had converged by this time. The model was trained using an NVIDIA Tesla K80 GPU, which took around one hour to train. 

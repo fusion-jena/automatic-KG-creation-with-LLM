@@ -1,0 +1,1 @@
+The helpful answer is that the optimization technique applied in the deep learning pipeline is not explicitly mentioned in the provided context. Therefore, it is not possible to determine which optimization technique was used. %Query 

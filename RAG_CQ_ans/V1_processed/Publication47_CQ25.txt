@@ -1,0 +1,1 @@
+The purpose of the deep learning model, IUC-NN, is to predict the conservation status of unevaluated orchid species. It is based on 4 groups of features derived from digitally available occurrence records: geographic, climatic, biome, and phylogenetic. The model was implemented as an R package and is based on the Python TensorFlow library. 

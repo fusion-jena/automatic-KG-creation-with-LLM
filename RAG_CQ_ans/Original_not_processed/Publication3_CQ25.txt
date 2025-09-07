@@ -1,0 +1,2 @@
+ The purpose of the deep learning model is to classify species of Philippine forest frogs based on
+their frequency distributions of individual call notes.

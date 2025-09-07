@@ -1,0 +1,5 @@
+ Data augmentation techniques applied in the deep learning pipeline include scaling, rotations,
+translations, different illumination conditions, and cropping parts of the image. These
+transformations simulate the deformations that data could suffer in real world. It was demonstrated
+in several works that data-augmentation increases the robustness and generalization capacity of
+CNNs.

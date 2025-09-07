@@ -1,0 +1,40 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+dlprov:A10%25DQ a dlprov:PerformanceMetric .
+
+dlprov:Accuracy_on_10%25_Densest_Quadrats a dlprov:PerformanceMetric .
+
+dlprov:Batch_size a dlprov:Hyperparameter .
+
+dlprov:CIFAR a dlprov:Dataset .
+
+dlprov:CNN a dlprov:DeepLearningModel .
+
+dlprov:CSV a dlprov:DataFormat .
+
+dlprov:DNN a dlprov:DeepLearningModel .
+
+dlprov:Dropout a dlprov:RegularizationMethod .
+
+dlprov:ImageNet a dlprov:Dataset .
+
+dlprov:L2_regularization a dlprov:RegularizationMethod .
+
+dlprov:Learning_rate a dlprov:Hyperparameter .
+
+dlprov:Mean_Loss a dlprov:PerformanceMetric .
+
+dlprov:Momentum a dlprov:Hyperparameter .
+
+dlprov:R a dlprov:Framework .
+
+dlprov:RMSE a dlprov:PerformanceMetric .
+
+dlprov:Root_Mean_Square_Error a dlprov:PerformanceMetric .
+
+dlprov:Stochastic_gradient_descent_algorithm a dlprov:OptimizationTechnique .
+
+dlprov:uses_mxnet_which_supports_MNIST a dlprov:Dataset .
+
+dlprov:version_3.3.2 a dlprov:Framework .
+

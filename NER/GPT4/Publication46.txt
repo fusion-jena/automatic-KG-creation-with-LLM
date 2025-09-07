@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: image (suggested)
+DataAugmentationTechnique: [Not provided]
+Dataset: [Not provided]
+PreprocessingStep: normalization, scaling, cleaning
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: Convolutional Neural Network (CNN)
+Hyperparameter: size and number of kernels
+OptimizationTechnique: gradient descent, backpropagation
+RegularizationMethod: [Not provided]
+Framework: [Not provided]
+HardwareResource: [Not provided]
+PerformanceMetric: Area Under ROC Curve (AUC), Cohen's kappa, True Skill Statistic (TSS)
+ModelPurpose: Species Distribution Modelling (SDM)

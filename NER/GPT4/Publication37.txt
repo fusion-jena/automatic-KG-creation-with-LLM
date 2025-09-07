@@ -1,0 +1,14 @@
+Named Entities:
+DataFormat: audio
+DataAugmentationTechnique: adding background noise, dynamic range compression, pitch shifting, time stretching
+Dataset: CLO-43SD
+PreprocessingStep: normalization, scaling, cleaning (common steps mentioned but not specific to this context)
+CodeRepositoryLink: [Not provided]
+DeepLearningModel: deep convolutional neural network (CNN)
+Hyperparameter: constant learning rate of 0.01, dropout probability 0.5, L2-regularization penalty factor 0.001, trained for 100 epochs, cross-entropy loss, mini-batch stochastic gradient descent
+OptimizationTechnique: mini-batch stochastic gradient descent (SGD)
+RegularizationMethod: dropout, L2 regularization
+Framework: Lasagne, Theano
+HardwareResource: [Not provided]
+PerformanceMetric: classification accuracy, 5-fold cross validation, mean accuracies
+ModelPurpose: classification of migrating birds' flight calls into different species

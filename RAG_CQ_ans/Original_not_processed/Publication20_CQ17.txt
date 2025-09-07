@@ -1,0 +1,2 @@
+ The regularization methods used to prevent overfitting in the deep learning pipeline are dropout
+and learning decay with a Gamma of 0.95. The dropout rate used is 50%.

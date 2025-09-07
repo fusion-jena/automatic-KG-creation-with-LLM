@@ -1,0 +1,28 @@
+@prefix dlprov: <https://w3id.org/dlprov#> .
+
+<https://w3id.org/dlprov#//github.com/weecology/DeepLidar> a dlprov:CodeRepositoryLink%28https .
+
+dlprov:LIDAR_data a dlprov:DataFormat .
+
+dlprov:RGB_data a dlprov:DataFormat .
+
+dlprov:RGB_deep_learning_model a dlprov:DeepLearningModel .
+
+dlprov:blue a dlprov:DeepLearningModel .
+
+dlprov:green a dlprov:DeepLearningModel .
+
+dlprov:inferred_to_be_related_to_remote_sensing_and_tree_detection a dlprov:Dataset .
+
+dlprov:no_specific_dataset_mentioned a dlprov:Dataset .
+
+dlprov:precision a dlprov:PerformanceMetric .
+
+dlprov:recall_for_crown_overlap a dlprov:PerformanceMetric .
+
+dlprov:self-supervised_red a dlprov:DeepLearningModel .
+
+dlprov:stem_recall a dlprov:PerformanceMetric .
+
+dlprov:tree_delineation_in_RGB_imagery_without_co-registered_LIDAR_data a dlprov:ModelPurpose .
+

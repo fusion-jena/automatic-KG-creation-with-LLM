@@ -1,0 +1,5 @@
+ The process followed to deploy the trained deep learning model involved model serialization and
+platform selection. The model was serialized using the pickle library in Python, which allowed it to
+be saved and loaded as a binary file. The platform selected for deployment was AWS SageMaker, which
+provided a scalable and secure environment for hosting the model. The model was then deployed using
+the AWS SageMaker Python SDK, which allowed for easy integration with other AWS services.

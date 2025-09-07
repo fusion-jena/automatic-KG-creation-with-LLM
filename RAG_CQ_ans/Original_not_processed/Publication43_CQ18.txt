@@ -1,0 +1,4 @@
+ The strategy implemented to monitor the model performance during training is to use ﬁne-tuning by
+initializing the model with the pre-trained weights of ImageNet, and applying data augmentation
+techniques to increase the size of the dataset from 100 to 6000 images. The obtained classiﬁer
+converges within the ﬁrst 100 training iterations as shown in Figure 5.

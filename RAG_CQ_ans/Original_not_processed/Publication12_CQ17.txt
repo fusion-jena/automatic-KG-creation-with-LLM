@@ -1,0 +1,5 @@
+ The pipeline uses Batch Normalization (BNorm) layers to prevent overfitting. BNorm layers
+standardize the parameters with batch images, which greatly alleviates the impact of high image
+variability, including distortions or overlaps that can occur in recording and lead to errors
+without proper processing. Thus, the model after batch normalized could be used to identify data
+from wider regions.

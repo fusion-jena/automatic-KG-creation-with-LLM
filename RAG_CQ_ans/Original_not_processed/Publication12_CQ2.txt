@@ -1,0 +1,4 @@
+ The data formats used in the deep learning pipeline are images. The images were manually assigned
+into the four categories and then converted to 64*64 pixels to save training time and reduce high
+memory graphics use. The size-reduced images were packaged into two datasets: training dataset with
+85% of images and validation dataset with 15% using a Python script Making\_dataset.py in Waveman.

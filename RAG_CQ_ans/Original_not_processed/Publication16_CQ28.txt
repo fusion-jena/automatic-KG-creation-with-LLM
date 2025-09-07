@@ -1,0 +1,3 @@
+ The trained model is hosted using TensorFlow 2.2 and served through a public facing website
+developed by the authors. The platform used to deploy the deep learning model is not explicitly
+mentioned in the provided context.

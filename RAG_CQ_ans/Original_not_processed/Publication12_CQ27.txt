@@ -1,0 +1,6 @@
+ The process followed to deploy the trained deep learning model is not explicitly mentioned in the
+provided context. However, it is mentioned that the models were trained in the GPU for the four
+networks (BatNet, CNNFULL, VggNet, and ResNet_v2). It is also mentioned that the package sklearn was
+used to calculate and plot the performance metrics of the models. Therefore, it can be inferred that
+the trained deep learning models were deployed using the GPU and the sklearn package in Python.
+However, the specific process of model serialization or platform selection is not mentioned.

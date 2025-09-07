@@ -1,0 +1,1 @@
+The hyperparameters used in the deep learning model are a learning rate of 10, a learning decay with a Gamma of 0. 95, a dropout of 50%, and an Adam Solver type as learning parameters. The weight initialization is a random Gaussian initialization. 
